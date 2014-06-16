@@ -313,8 +313,8 @@ include("../../../lib/require.php");
 									<td class="menuprice" ></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="optionText">ペア(ポップコーンL×1＋ドリンクM×2)</p></td>
-									<td class="menuprice" ><p>1090円</p></td>
+									<td class="menuName"><p class="optionText">ペアセット(ポップコーンL×1＋ドリンクM×2)</p></td>
+									<td class="menuprice" ><p>1,090円</p></td>
 								</tr>
 								<tr>
 									<td class="menuName"><p class="optionText">LLセット(ポップコーンＬ＋ドリンクL)</p></td>
