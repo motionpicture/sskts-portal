@@ -1,16 +1,16 @@
 <?php
 class DB{
 	function DB() {
-		//$dbHost = 'cinemasunshine.co.jp';
-		$dbHost = 'localhost';
+		$dbHost = 'cinemasunshine.co.jp';
+		//$dbHost = 'localhost';
 
 		//local用
 		/*$dbUser = 'root';
 		$dbPass = 'yun1210';
 		$dbName = 'cinema_cms';*/
 		//remote用
-		$dbUser = 'root';
-		$dbPass = 'osashimi';
+		$dbUser = 'cinesun_cms';
+		$dbPass = 'cine_sun_px';
 		$dbName = 'cinema_cms';
 		$this->db = mysql_connect("{$dbHost}", "{$dbUser}", "{$dbPass}");
 		//if(!$this->db) exit("Could not connect!");
