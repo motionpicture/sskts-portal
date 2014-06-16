@@ -89,14 +89,14 @@ include("../../../lib/require.php");
 										<td class="bottomColumn" valign="middle"><p>デジタル6ch</p></td>
 										<td class="rightColumn bottomColumn" valign="middle"><p>W7.65m×4.27m</p></td>
 									</tr>
-
-									<p class="noteList" style="margin:20px 0;color:#e50307;">
-									   ※CINEMA6はDOLBY ATMOS搭載シアター（中国地方初）。<br />
-                                        ※全スクリーンデジタル対応。<br />
-                                        ※3Dデジタル（XpanD） 8スクリーン対応。移動可。
-									</p>
-
 								</table>
+
+								<p class="noteList" style="margin:0 0 20px;color:#e50307;">
+								   ※CINEMA6はDOLBY ATMOS搭載シアター（中国地方初）。<br />
+                                    ※全スクリーンデジタル対応。<br />
+                                    ※3Dデジタル（XpanD） 8スクリーン対応。移動可。
+								</p>
+
 								<p class="title">3D上映</p>
 								<div class="floorBox clearfix">
 									<div class="left"><a href="../../../3d/xpand.html"><img src="../../../images/common/fig_xpand.gif"  alt="XPAND" ></a></div>

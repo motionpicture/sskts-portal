@@ -104,6 +104,13 @@ include("../../../../lib/require.php");
 					</tr>
 				</tbody>
 			</table>
+
+			<p class="noteList" style="margin:20px 0 0;color:#e50307;">
+			   ※CINEMA6はDOLBY ATMOS搭載シアター（中国地方初）。<br />
+                ※全スクリーンデジタル対応。<br />
+                ※3Dデジタル（XpanD） 8スクリーン対応。移動可。
+			</p>
+
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
 					<tr>
