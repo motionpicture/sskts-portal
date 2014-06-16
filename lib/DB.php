@@ -9,9 +9,9 @@ class DB{
 		$dbPass = 'yun1210';
 		$dbName = 'cinema_cms';*/
 		//remote用
-		$dbUser = 'cinesun_cms';
-		$dbPass = 'cine_sun_px';
-		$dbName = 'cinema_cms';
+		$dbUser = 'root';
+		$dbPass = 'hN35G2QlK9sg0YqE';
+		$dbName = 'sasaki';
 		$this->db = mysql_connect("{$dbHost}", "{$dbUser}", "{$dbPass}");
 		//if(!$this->db) exit("Could not connect!");
 		mysql_select_db($dbName, $this->db);
