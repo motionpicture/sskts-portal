@@ -73,7 +73,7 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
 function getDates2($theater,$preTicket=false,$preIsExist=false) {
     	$schedules;
 	$result;
-
+//
 	$theaterUrls;
 
 	if ($preTicket){
