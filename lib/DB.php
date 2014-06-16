@@ -1,8 +1,8 @@
 <?php
 class DB{
 	function DB() {
-		$dbHost = 'cinemasunshine.co.jp';
-		//$dbHost = 'localhost';
+		//$dbHost = 'cinemasunshine.co.jp';
+		$dbHost = 'localhost';
 
 		//local用
 		/*$dbUser = 'root';
