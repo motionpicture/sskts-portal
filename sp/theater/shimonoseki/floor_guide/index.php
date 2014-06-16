@@ -195,7 +195,7 @@ include("../../../../lib/require.php");
 					<tr>
 						<td colspan="2" height="10"></td>
 					</tr>
-x				</tbody>
+				</tbody>
 			</table>
 		</div>
 		<!-- table end -->
