@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* 劇場一覧
+-----------------------------------------------------------------------------------------------------------*/
+.theatre_list_top{
+	padding:15px 10px 0 10px;
+	font-size:15px;
+	}
+.theatre_list{
+	padding:10px 10px 0 10px;
+	font-size:15px;
+	}
+.theatre_category{
+	background-color:#0096dc;
+	color:#FFF;
+	padding:7px 0 7px 10px;
+	}
+.theatre_area a{
+		color: #323232 /*{b-bup-color}*/;
+		text-decoration:none;
+         width:100%;
+		display:block;
+	}
+.theatre_area{
+	/*position:relative;*/
+	padding:7px 0 7px 10px;
+		text-decoration: none;
+	font-size: 16px;
+	padding: 7px 15px;
+	margin:0 0 1px 0;
+	display: block;
+	border-bottom: 1px solid #cccccc;
+	background: #EEE /*{b-bup-background-color}*/;
+	font-weight: bold;
+	box-shadow:0 1px #aaaaaa;
+	-moz-box-shadow: 0 1px 0 #aaaaaa;　/* Firefox用 */
+    -webkit-box-shadow: 0 1px 0 #aaaaaa;　/* Safari,Google Chrome用 */
+	background-image: -webkit-gradient(linear, left top, left bottom, from( white /*{b-bup-background-start}*/), to( #f4f4f4 /*{b-bup-background-end}*/));
+	background-image: -webkit-linear-gradient( white /*{b-bup-background-start}*/, #f4f4f4 /*{b-bup-background-end}*/);
+	background-image: -moz-linear-gradient( white /*{b-bup-background-start}*/, #f4f4f4 /*{b-bup-background-end}*/);
+	background-image: -ms-linear-gradient( white /*{b-bup-background-start}*/, #f4f4f4 /*{b-bup-background-end}*/);
+　　background-image: -o-linear-gradient( white /*{b-bup-background-start}*/, #f4f4f4 /*{b-bup-background-end}*/);
+	background-image: linear-gradient( white /*{b-bup-background-start}*/, #f4f4f4 /*{b-bup-background-end}*/);
+	}
+.area_icon{
+	display:block;
+	float:right;
+	}
+
+
+
+/* スライダー
+-----------------------------------------------------------------------------------------------------------*/
+.basebox_lineblue{
+	margin-top:10px;
+	}
+
+.dayListBox {
+  background: none repeat scroll 0 0 #323232;
+  border: 2px solid #323232;
+  padding: 0 12px;
+  position: relative;
+  width: 268px;
+  margin:0 10px;
+}
+.dayListBox ul li.notAvailable {
+	background: none repeat scroll 0 0 #CCCCCC;
+}
+#cal_left {
+  left: 1px;
+  position: absolute;
+  top: 0;
+}
+#cal_right {
+  position: absolute;
+  right: 1px;
+  top: 0;
+}
+.dayListBox ul li {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-bottom: 1px solid #BDBDBD;
+  border-left: 1px solid #E3E3E3;
+  border-right: 1px solid #E3E3E3;
+  float: left;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  margin-right:2px;
+  width: 62px;
+}
+.dayListBox ul li p.corner,
+.dayListBox ul li p.cornerWhite{
+  bottom: 1px;
+  position: absolute;
+  right: 1px;
+}
+.dayListBox ul li {
+  text-align: center;
+}
+.icon{
+	font-size:8px;
+	text-align:center;
+}
+
+.bx-wrapper ul li p.corner{
+	display:block;
+} 
+
+.bx-wrapper ul li p.cornerWhite{
+	display:none;
+} 
+
+.bx-wrapper ul li.notAvailable p.corner{
+	display:none;
+} 
+
+.bx-wrapper ul li.notAvailable p.cornerWhite{
+	display:block;
+} 
+
+/* 上映スケジュール
+-----------------------------------------------------------------------------------------------------------*/
+.table_line_02{
+	border-bottom:1px dashed #918B8A;
+}
+.table_line_02_p{
+	padding:5px 0 5px 0;
+}
+.theatre_name{
+		font-size:15px;
+	color:#e60000;
+	margin-top:10px;
+	padding:0 0 0 10px;
+	clear:both;
+	}
+
+.category_bar_area{
+	background-color:#0096dc;
+	color: #ffffff;
+	font-size:15px;
+	padding:5px 10px;
+
+	}
+
+
+
+.schedulebox{
+	 border-left:solid 1px #c8c8c8;
+	 border-right:solid 1px #c8c8c8;
+	 border-bottom:solid 1px #c8c8c8;
+	/* padding:0 10px 0 10px;*/
+	 width:300px;
+	 margin:0 auto;
+	}
+.movie_schedule{
+	margin:10px 10px;
+	}
+.movie_schedule tr{
+
+}
+.title_bar{
+	background-color:#f0f0f0;
+	padding:5px 0 5px 10px;
+	}
+
+
+ .state01{
+	 width:175px;
+	 float:left;
+	}
+ .state02{
+	 float:right;
+	}
+ .state03{
+	 text-align:right;
+	}
+.txt_bold{
+	font-weight:bold;
+	font-size:15px;
+	}
+.time_bold{
+	font-size:20px;
+	}
+.screen_time{
+	text-align:right;
+	}
+.notice{
+    font-size: 10px;
+    line-height: 13px;
+	padding:10px
+}
+
+
+/* notice!
+-----------------------------------------------------------------------------------------------------------*/
+.topNotes{
+	padding:0 10px;
+}
+
+#sche_btn{
+	padding:0 10px;
+	margin:10px 0;
+}
+.section p.date{
+	padding:0 10px;
+}
+
+/* pickup
+-----------------------------------------------------------------------------------------------------------*/
+.section .pickup{
+	padding:5px 0 5px 0;
+	margin-left:35px;
+	}
+.section .pickup2{
+	padding:5px 0 5px 0;
+	margin-left:55px;
+	}
+.section .pickup3{
+	padding:5px 0 5px 0;
+	margin-left:10px;
+	}

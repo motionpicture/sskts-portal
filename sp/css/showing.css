@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+/* 上映スケジュール
+-----------------------------------------------------------------------------------------------------------*/	
+.category_bar_area{
+	background-color:#0096dc;
+	color: #ffffff;
+	font-size:15px;
+	padding:5px 10px;
+
+	}
+
+.date{
+	font-size:15px;
+	color:#e60000;
+	margin-top:10px;
+	padding:0 0 0 10px;
+	}
+
+.schedulebox_lineblue{
+	background-color:#0096dc;
+	height:5px;
+	width:300px;
+	margin:10px  auto 0  auto;
+	padding:0 1px 0 1px;
+	}
+	
+.schedulebox{
+	 border-left:solid 1px #c8c8c8;
+	 border-right:solid 1px #c8c8c8;
+	 border-bottom:solid 1px #c8c8c8;
+	 width:300px;
+	 margin:0 auto 0;
+	}
+.title_bar{
+	background-color:#f0f0f0;
+	padding:5px 0 5px 10px;
+	}
+	
+.schedule_last{
+	margin:0 10px;
+	padding:5px 0 5px 0;
+	}
+		
+ .state01{
+	 width:175px;
+	 float:left;
+	}		
+ .state02{
+	 float:right;
+	}	
+ .state03{
+	 text-align:right;
+	}	
+.txt_bold{
+	font-weight:bold;
+	font-size:15px;
+	}
+.copyright{
+	line-height:12px;
+	font-size:10px;
+	padding:0 0 5px;
+	}	
+
+
+.theater_list{
+	padding:10px 0 10px 10px;
+	height:50px;
+	}	
+.theater_list li{
+	float:left;
+	}		
+.schedule select {
+	margin:0 0 0 10px;
+    width: 190px;
+}
+.schedule .submit{
+	margin:5px 0 0 3px;
+	vertical-align: bottom;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------*/	

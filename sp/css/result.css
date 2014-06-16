@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+/* スケジュール	
+-----------------------------------------------------------------------------------------------------------*/	
+.schedule select {
+  width: 260px;
+  font-size:12px;
+  height:18px;
+}		
+.top_schedule{
+	padding:0 0 5px 0;
+	}
+.btn_submit{
+	text-align:center;
+	padding:16px 0 18px 0;
+	width:280px;
+	}		
+.schedule_txt{
+	padding:0 0 8px 15px;
+	}	
+		
+
+
+/* 上映スケジュール
+-----------------------------------------------------------------------------------------------------------*/	
+.table_line_02{
+	border-bottom:1px dashed #918B8A;
+}
+.table_line_02_p{
+	padding:5px 0 5px 0;
+}
+.theatre_name{
+		font-size:15px;
+	color:#e60000;
+	margin-top:10px;
+	padding:0 0 0 10px;
+	}
+
+.category_bar_area{
+	background-color:#0096dc;
+	color: #ffffff;
+	font-size:15px;
+	padding:5px 10px;
+
+	}
+
+
+
+.schedulebox{
+	 border-left:solid 1px #c8c8c8;
+	 border-right:solid 1px #c8c8c8;
+	 border-bottom:solid 1px #c8c8c8;
+	/* padding:0 10px 0 10px;*/
+	 width:300px;
+	 margin:0 auto;
+	}
+.movie_schedule{
+	margin:10px 10px;
+	}	
+.movie_schedule tr{
+
+}	
+.title_bar{
+	background-color:#f0f0f0;
+	padding:5px 0 5px 10px;
+	}
+	
+
+ .state01{
+	 width:175px;
+	 float:left;
+	}		
+ .state02{
+	 float:right;
+	}	
+ .state03{
+	 text-align:right;
+	}	
+.txt_bold{
+	font-weight:bold;
+	font-size:15px;
+	}
+.time_bold{
+	font-size:20px;
+	}	
+.screen_time{
+	text-align:right;
+	}	
+.notice{
+    font-size: 10px;
+    line-height: 13px;
+	padding:10px
+}

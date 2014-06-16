@@ -1,0 +1,1204 @@
+﻿body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, hr {
+	margin:0;
+	padding:0;
+}
+body {
+	background:url(../images/3d/3d_head_bg.gif) repeat-x; 
+	margin:0; 
+	padding:0;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:100%;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	background-color:#0b1433;
+}
+ol, ul {
+	list-style:none outside none;
+}
+
+.clearfix {
+	width:100%;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+ }
+
+#container  {
+	width:1300px; 
+	margin:0 auto 0 auto; 
+}
+#header  {
+	width:1300px; 
+	height:535px; 
+}
+#logo  {
+}
+#subNavigation  {
+	margin-top:37px; 
+	list-style-type:none;  
+	float:right;
+}
+#subNavigation li  {
+	float:left;
+}
+
+#publicMain  {
+	width:800px;
+	margin:15px auto;
+}
+
+#threedMenu {
+	padding:0 0 0 0;
+	margin:0;
+}
+
+#threedMenu ul {
+	overfollow:hidden;
+}
+
+#threedMenu ul li {
+	float:left;
+}
+#threedMenu ul li a:hover{
+	opacity:0.5;
+}
+#mainBanner  {
+	width:680px; 
+	height:300px; 
+}
+
+
+#main {
+	width680px; 
+	margin-top:10px;
+}
+
+#mainLeftNavi {
+	width:161px; 
+	float:left;
+}
+#ranking {
+	width:161px; 
+	border:2px solid #818181; 
+}
+
+#mainLeftNaviBottom {
+	list-style-type:none; 
+	padding:0; 
+	margin:0;
+}
+#mainLeftNaviBottom li {
+	margin-top:8px;
+}
+#mainNews {
+	width:513px; 
+	float:right;
+}
+#newsImage  {
+	width:513px;
+	height:92px;
+}
+#newsTopic  {
+	width:513px; 
+	margin-top:5px;
+	margin-bottom:40px;
+	border:1px solid #c9caca;
+	padding-bottom:5px;
+	
+}
+#publicNavi {
+	float:right; 
+	width:254px; 
+	height:900px;
+}
+#theaterMenu  {
+	width:252px; 
+	border:1px solid #dadada;
+}
+#theaterMenu ul {
+	list-style-type:none; 
+	padding:0; 
+	margin:0;
+}
+#theaterMenu ul li  {
+	float:left;
+}
+#theaterMenuLiMargin  {
+	margin-right:2px;
+}
+#theaterMenuLiVisible  {
+	visibility:hidden;
+}
+#theaterMenuLiBottom  {
+	visibility:hidden;
+	margin-bottom:2px;
+}
+#trailor  {
+	margin-top:10px; 
+	width:252px; 
+	border:1px solid #b5b5b5;
+}
+#trailFlv  {
+	padding:4px;
+}
+#campaign  {
+	width:254px;
+}
+
+#footer  {
+	clear:both;
+}
+#footerTopWaku  {
+	width:1300px;
+	margin:0 auto;
+}
+#footerBottom  {
+	background-color:#0b1433;
+}
+#footerBottomWaku  {
+	width:800px;
+	margin:0 auto;
+	height:100%;
+}
+#footerBottomWaku a:hover {
+	opacity:0.5;
+}
+#toTheTop  {
+	margin-left:846px;
+}
+
+img {
+	border:0px;
+	padding:0px;
+	vertical-align:bottom;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+/* discount start */
+
+#discountLogo {
+	width:110px; 
+	height:30px; 
+	margin-top:8px; 
+	background-image:url(../images/3d/topimg.gif); 
+	background-repeat:no-repeat; 
+	padding-top:270px; 
+	padding-left:570px;
+}
+#discountTicket {
+	width:680px; 
+	height:255px; 
+	margin-top:9px;
+}
+#printImage {
+	width:614px; 
+	height:37px; 
+	margin-top:17px; 
+	padding-left:66px;
+}
+#printText {
+	width:680px; 
+	height:15px; 
+	text-align:center; 
+	margin-top:15px;
+	font-size:12px;
+}
+
+/* discount end*/
+
+/* showing start */
+#attentions {
+color:#FFFFFF;
+font-size:11px;
+margin:0 0 0 20px;
+padding:0;
+width:640px;
+list-style-type:none;
+}
+
+.movieList {
+margin:0;
+padding:10px 0 20px 0;
+width:800px;
+clear:both;
+}
+.movieList2 {
+margin:0;
+padding:10px 0 20px 0;
+width:800px;
+clear:both;
+min-height:300px;
+}
+#tleft {
+	width:388px;
+	height:300px;
+	border-right:1px solid #4e5367;
+	float:left;
+	padding: 0 0 0 10px;
+	
+}
+#tleft ul li a {
+	color:#cfba9f;
+	text-decoration:underline;
+}
+#tright ul li a {
+	color:#cfba9f;
+	text-decoration:underline;
+}
+#tright {
+	width:378px;
+	float:right;
+	padding: 0 10px 0 0;
+}
+.tileft {
+	float:left;
+	padding:10px 0 0 10px;
+}
+.ttsiro {
+	color:#ffffff;
+	font-size:90%;
+}
+.ttright {
+	float:left;
+	width:165px;
+	padding:10px 0 0 10px;
+	color:#cfba9b;
+	font-size:70%;
+}
+.ttright ul {
+	padding:5px 0 0 0;
+}
+.ttbtn {
+	width:330px;
+	height:38px;
+	margin:0 auto 0 auto;
+	padding:20px 0 20px 0;
+	clear:both;
+}
+.ttbtn a:hover {
+	opacity:0.5;
+
+}
+
+.movie {
+margin:0;
+padding:10px 0 0 20px;
+width:780px;
+}
+.movie .topBottom {
+clear:right;
+margin:0;
+padding:0;
+width:549px;
+}
+.movie .topBottom img {
+margin:0;
+padding:0;
+}
+.movieImageBlock {
+border:1px solid #FFFFFF;
+float:left;
+height:98px;
+margin:0;
+padding:0;
+width:131px;
+}
+.movieInformation {
+	float:right;
+	margin:0 0 0 5px;
+	width:623px;
+	_display:inline;
+	padding:0 0 10px 0;
+}
+.movieDetailed {
+border:medium none;
+margin:0 0 5px;
+padding:0;
+width:610px;
+}
+.movieDetailed a {
+text-decoration:none;
+}
+.movieDetailed a:link {
+color:#FFF;
+text-decoration:underline;
+}
+.movieDetailed a:visited {
+color:#FFF;;
+text-decoration:underline;
+}
+.movieDetailed a:hover {
+color:#FFF;;
+}
+.movieDetailed a:active {
+color:#FFF;;
+}
+.detailedBody {
+background-color:#262626;
+border:0 none;
+margin:0;
+padding:5px;
+}
+.restriction {
+display:inline;
+float:right;
+margin:0 10px 0 0;
+padding:0;
+}
+.detailedBody h2 span {
+color:#FFF;
+font-size:12px;
+}
+.detailedBody h2 {
+color:#FFF;
+font-size:14px;
+margin:0;
+padding:0 0 0 10px;
+width:403px;
+}
+.movieCopy {
+color:#FFF;
+font-size:12px;
+margin:0;
+padding:0 0 0 10px;
+width:453px;
+}
+.mark {
+color:#FFF;
+font-size:12px;
+margin:5px 0 0 0;
+padding:0 0 0 10px;
+width:453px;
+}
+.ename{
+color:#FFF;
+font-size:12px;
+margin:0;
+padding:0 0 0 10px;
+width:453px;
+}
+.showingTheaters {
+border:0 none;
+margin:0;
+padding:0;
+}
+.showingTheaters a {
+text-decoration:underline;
+}
+.showingTheaters a:link {
+color:#cfba9f;
+}
+.showingTheaters a:visited {
+color:#cfba9f;
+}
+.showingTheaters a:hover {
+color:#cfba9f;
+}
+.showingTheaters a:active {
+color:#cfba9f;
+}
+.theatersBody {
+background-color:#192146;
+border:0 none;
+margin:0;
+width:600px;
+padding: 5px;
+}
+.theatersBody p.tuika{
+color:#E50307;
+font-size:12px;
+margin:0 0 5px;
+padding:0 0 0 10px;
+}
+.theatersBody h3 {
+color:#FFF;
+display:inline;
+float:left;
+font-size:12px;
+margin:0;
+padding:0 0 0 10px;
+}
+.theatersBody ul {
+color:#000000;
+display:inline;
+font-size:12px;
+margin:0;
+padding:0;
+width:530px;
+}
+.theatersBody li {
+color:#000000;
+display:inline;
+font-size:12px;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0 5px 0 0;
+padding:0;
+}
+
+#showingList {
+	clear:both;
+	background-color:#141936;
+	width:798px;
+	border-bottom:1px solid #c2c5cc;
+	border-left:1px solid #c2c5cc;
+	border-right:1px solid #c2c5cc;	
+	margin:0 0 10px 0;
+}
+#showingList hr {
+background-color:#FFFFFF;
+border:1px solid;
+clear:both;
+color:#838a94;
+height:1px;
+padding:0;
+width:769px;
+}
+#showingList h1 {
+background-image:url(../images/3d/theaters_showingList_head.gif);
+background-repeat:no-repeat;
+color:#FFFFFF;
+font-size:18px;
+height:29px;
+margin:0;
+padding:5px 0 0 45px;
+width:750px;
+}
+#showingList h1 span {
+font-size:12px;
+margin-left:3px;
+}
+
+.officialBlock {
+padding:0;
+background-color:#192146;
+width:610px;
+text-align:right;
+margin-top:5px;
+}
+
+/* showing end */
+
+#theatersNavigation {
+	line-height:75%;
+	margin:0 auto 15px auto;
+	padding:0;
+	width:940px;
+}
+#theatersNavigation li {
+	color:#4D4D4D;
+	display:inline;
+	font-size:10px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	white-space:nowrap;
+	text-align:left;	
+}
+#theatersNavigation a:visited {
+	color:#4D4D4D;
+}
+#theatersNavigation a:link {
+	color:#4D4D4D;
+}
+
+#theatersNavigation a {
+	text-decoration:none;
+}
+#footerNavigation {
+	font-size:10px;
+	width:450px;
+	margin-top: 15;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#footerNavigation  ul {
+	padding:10px 0 10px 0;
+	margin:0 auto 0 auto;
+}
+
+#footerNavigation li {
+	color: #FFF;
+	float:left;
+	font-size:10px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	padding:1px;
+	margin:0;
+}
+#footerNavigation a:link {
+	color:#FFFFFF;
+}
+#footerNavigation a:visited {
+	color:#9ba0a4;
+}
+#footerNavigation a {
+	text-decoration:none;
+}
+
+#footermail {
+	font-size:10px;
+	color:#9ba0a4;
+	margin:0;
+}
+#credit{
+	width:800px;
+	font-size:10px;
+	color:#FFF;
+	text-align:center;
+	padding-bottom:25px;
+	clear:both;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 15px;
+}
+ .indexAirticle {
+    font-size: 10px;
+    margin: 0;
+    padding: 0 10px;
+    width: 475px;
+} .indexAirticle h3{
+    color: #111337;
+    font-weight: bold;
+	font-size:11px;
+	margin:4px 0 8px 0 ;
+	padding:0;
+}.indexAirticle a {
+    color: #000099;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+} .indexAirticle p {
+    color: #000;
+    margin: 0;
+    padding: 0;
+	line-height:120%;
+} .indexAirticle hr {
+	margin: 10px 0 0;
+	padding: 0;
+	background-color:#dddddd;
+	height: 1px; /* 線の太さ */
+	border: 0; /* 枠の太さ */
+	border-style: none; /* 枠の種類 */
+	
+} .indexAirticle a {
+    text-decoration: none;
+} .indexAirticle a:link {
+    color: #000099;
+} .indexAirticle a:visited {
+    color: #000099;
+} .indexAirticle a:hover {
+    color: #000099;
+} .indexAirticle a:active {
+    color: #000099;
+} 
+#campaign ul {
+	margin:5px 0 0;
+	padding:0;
+	width:252px;
+}
+#campaign li {
+	color:#FFFFFF;
+	height:71px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	padding:0;
+	width:252px;
+}
+.text_red{
+	color:#cc0000;
+	padding: 0px;
+}
+.text_red{
+	color:#cc0000;
+	padding: 0px;
+}
+
+
+/*特定商法CSSここから*/
+#privacyMain {
+	margin:0;
+	padding:0 0 20px;
+	width:680px;
+}
+#privacyMain h2 {
+background-image:url(../images/3d/public_tokutei_head.gif);
+background-repeat:no-repeat;
+color:#000000;
+font-size:18px;
+height:25px;
+margin:0;
+padding:1px 0 0 10px;
+width:680px;
+}
+#privacyMain h2 span {
+font-size:10px;
+margin-left:3px;
+}
+#privacyMenu {
+margin:0;
+padding:0;
+}
+.privacyAirticle {
+	margin:10px 0;
+	padding:0;
+	width:680px;
+}
+.privacyAirticle h3 {
+	background-repeat:no-repeat;
+	border:medium none;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	height:20px;
+	line-height:20px;
+	margin:0;
+	width:668px;
+	background-color: #434343;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+}
+#privacyBlock {
+margin:0;
+padding:0;
+width:680px;
+}
+.privacyAirticle ol {
+	color:#CC0000;
+	font-size:12px;
+	line-height:150%;
+	list-style-type: none;
+	padding: 0px;
+}
+.privacyAirticle ul {
+color:#666666;
+font-size:12px;
+line-height:150%;
+}
+.privacyAirticle li {
+	color:#000000;
+	font-size:12px;
+	line-height:150%;
+}
+.privacyAirticle p {
+	color:#000000;
+	font-size:12px;
+	line-height:150%;
+	width:640px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 0;
+	padding-left: 20px;
+}
+.privacyAirticle h4 {
+color:#666666;
+font-size:12px;
+line-height:200%;
+margin:0;
+padding:0;
+}
+#privacyBody {
+	margin:0;
+	width:680px;
+	padding-top: 8px;
+	padding-right: 0;
+	padding-bottom: 8px;
+	padding-left: 0;
+}
+#privacyBlock {
+	margin:0;
+	width:678px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+	border:1px solid #c9caca;
+}
+#privacyBlock li{
+	margin-left: 20px;
+	width: 640px;
+	padding: 0px;
+	list-style-type: none;
+	margin-top:10px;
+}
+#privacyBlock li ul{
+	width: auto;
+	padding: 0;
+}
+#privacyBlock li ul li{
+	width: auto;
+	padding: 0px;
+	list-style-type: none;
+	margin-top:0px;
+}
+.text_red{
+	color:#cc0000;
+	padding: 0px;
+	}
+.text_10px{	font-size:10px;
+}
+.sidebnr_img{
+	width:640px;
+	margin-left:20px;
+	margin-top:10px;
+}	
+
+/*特定商法CSSここまで*/
+
+
+/*サイトポリシーCSSここから*/
+#sitePolicyMain {
+margin:0;
+padding:0 0 20px;
+width:770px;
+}
+#sitePolicyMain h2 {
+background-image:url(../images/3d/public_tokutei_head.gif);
+background-repeat:no-repeat;
+color:#000000;
+font-size:18px;
+height:25px;
+margin:0;
+padding:1px 0 0 10px;
+width:770px;
+}
+#sitePolicyMain h2 span {
+font-size:10px;
+margin-left:3px;
+}
+#sitePolicyBody {
+margin:0;
+padding:8px 0;
+width:770px;
+}
+#sitePolicyBlock {
+margin:0;
+	width:678px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+	border:1px solid #EFEFEF;
+}
+.sitePolicyAirticle {
+	line-height:150%;
+	margin:0;
+	width:680px;
+}
+.sitePolicyAirticle h3 {
+background-repeat:no-repeat;
+	border:medium none;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	height:20px;
+	line-height:20px;
+	margin:0;
+	width:668px;
+	background-color: #434343;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+}
+.sitePolicyAirticle p {
+color:#000000;
+	font-size:12px;
+	line-height:150%;
+	width:640px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 0;
+	padding-left: 20px;
+}
+.sitePolicyAirticle ol {
+	color:#000000;
+	font-size:12px;
+	list-style-type: none;
+	width: 640px;
+	padding: 0px;
+	margin:0;
+}
+.sitePolicyAirticle li {
+	margin-left: 20px;
+	width: 640px;
+	padding: 0px;
+}
+.sitePolicyAirticle h4 {
+color:#666666;
+font-size:12px;
+line-height:200%;
+margin:0;
+padding:0;
+}
+/*サイトポリシーCSSここまで*/
+/*サイトマップCSSここから*/
+#sitemapMain {
+display:inline;
+float:left;
+margin:0;
+padding:0 0 20px;
+width:770px;
+}
+#sitemapMain h2 {
+background-image:url(../images/public_tokutei_head.gif);
+background-repeat:no-repeat;
+color:#111337;
+font-size:16px;
+height:25px;
+margin:0;
+padding:4px 0 0 10px;
+width:760px;
+}
+#sitemapBody {
+	margin:0;
+	padding:10px 0;
+	width:680px;
+}
+#sitemapBlock {
+margin:8px 0;
+	width:678px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+	border:1px solid #c9caca;
+}
+.youso ol {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	padding:0;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 10;
+	margin-left: 10px;
+}
+.youso ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	padding:0;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 10;
+	margin-left: 10px;
+}
+.sitemapAirticle {
+	margin:0;
+	padding:0;
+	width:680px;
+}
+.sitemapAirticle h3 {
+	background-image:url(../images/faq_head.gif);
+	background-repeat:no-repeat;
+	border:medium none;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+	margin:20px 0 0;
+	padding:2px 10px;
+	width:356px;
+}
+.youso {
+	font-size:12px;
+	height:auto;
+	margin:0;
+	padding:0;
+	width:324px;
+}
+.youso p {
+	font-size:12px;
+	height:auto;
+	padding:0;
+	width:324px;
+	margin-top: 10px;
+	margin-right: 0;
+	margin-bottom: 10;
+	margin-left: 10px;
+}
+.youso h4 {
+	background-image:none;
+	background-repeat:no-repeat;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	height:22px;
+	line-height:22px;
+	margin:0;
+	width:325px;
+	background-color: #434343;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 10px;
+}
+#leftContents {
+	display:inline;
+	float:left;
+	margin:0;
+	padding:0;
+}
+#rightContents {
+	margin:0 0 0 340px;
+	padding:0;
+	width:324px;
+}
+/*サイトマップCSSここまで*/
+/*会社概要CSSここから*/
+#companyMain {
+	margin:0;
+	padding:0 0 20px;
+	width:680px;
+}
+#companyMain h2 {
+	background-image:url(../images/campaign_head.gif.gif);
+	background-repeat:no-repeat;
+	color:#111337;
+	font-size:18px;
+	height:25px;
+	margin:0;
+	padding:1px 0 0 10px;
+	width:760px;
+}
+#companyMain h2 span {
+	font-size:10px;
+	margin-left:3px;
+}
+#companyBody {
+	margin:0;
+	padding:8px 0;
+	width:680px;
+}
+#companyBlock {
+	margin:0;
+	width:678px;
+	padding-top: 0;
+	padding-right: 0px;
+	padding-bottom:1px;
+	padding-top:0px;
+	padding-left: 0px;
+	background-color: #FFFFFF;
+	border:1px solid #c9caca;
+}
+#companyTable {
+	font-size:12px;
+	line-height:250%;
+	margin:0;
+	padding:0;
+	width:680px;
+}
+#companyTable tr {
+	color:#666666;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EFEFEF;
+}
+#companyTable th {
+	color:#111337;
+	font-weight:bold;
+	margin:0;
+	padding:0 0 0 10px;
+	width:80px;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+#companyTable td {
+	color:#000000;
+	margin:0;
+	padding:0 0 0 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EFEFEF;
+}
+#companyTableBottom th {
+	border-bottom:0 none;
+}
+#companyTableBottom td {
+	border-bottom:0 none;
+}
+#companyTable table {
+	border:0 none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#companyTable table td {
+	border:0 none;
+	margin:0;
+	padding:0;
+}
+.officeName {
+	width:100px;
+}
+.name {
+	width:100px;
+}
+.postName {
+	width:300px;
+}
+/*会社概要CSSここまで*/
+
+
+/* theater list */
+
+#theaterListTable {
+background:#FFF;
+color:#666666;
+font-size:12px;
+margin:8px 0;
+padding:0 25px;
+width:628px;
+border:1px solid #E8E8E8;
+}
+#theaterListTable p {
+margin:0;
+padding:10px;
+}
+.theaterList td.line {
+height:1px;
+margin:0;
+padding:0;
+}
+.theaterList {
+border:1px solid #111337;
+color:#111337;
+font-size:12px;
+margin:0 auto 10px;
+padding:0;
+width:600px;
+}
+.theaterList th {
+background-color:#141936;
+border:medium none;
+color:#111337;
+height:21px;
+margin:0;
+padding:0;
+vertical-align:middle;
+}
+.theaterList h3 {
+color:#FFFFFF;
+font-size:12px;
+font-weight:normal;
+margin:0;
+padding:0 0 0 5px;
+width:100%;
+}
+.theaterList td {
+margin:0;
+padding:3px 5px;
+}
+.theaterList .priceCate {
+font-size:12px;
+font-weight:bold;
+text-align:right;
+}
+.theaterList .eBox {
+font-size:12px;
+text-align:right;
+width:145px;
+}
+.theaterList .eBox img {
+font-size:12px;
+margin:0;
+padding:0;
+text-align:right;
+}
+.theaterList .category {
+background-image:url(../images/public_theatre_list_button.gif);
+background-position:left center;
+background-repeat:no-repeat;
+font-size:12px;
+font-weight:bold;
+text-align:left;
+text-indent:8px;
+}
+.theaterList .category span {
+color:#111337;
+font-size:12px;
+font-weight:normal;
+}
+.theaterList .priceCate {
+width:20%;
+}
+.theaterListe .eBox {
+width:20%;
+}
+.theaterList .category {
+width:60%;
+}
+.theaterList a {
+text-decoration:none;
+}
+.theaterList a:link {
+color:#111337;
+}
+.theaterList a:visited {
+color:#111337;
+}
+.theaterList a:hover {
+color:#4D4D4D;
+}
+.theaterList a:active {
+color:#111337;
+}
+
+/* theater list */
+
+
+
+/* 3d start */
+
+#threeattentions {
+color:#FFFFFF;
+background-color:#192146;
+font-size:15px;
+list-style-type:none;
+margin:0 0 0 20px;
+padding:10px;
+width:616px;
+font-weight:bold;
+border-bottom:1px solid #999999;
+}
+#threeshowingList {
+background-image:url(../images/nowMovieTitle.jpg) no-repeat;
+background-color:#141936;
+margin:10px 0 10px;
+padding-top:15px;
+width:800px;
+}
+/* 3d end */

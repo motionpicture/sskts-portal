@@ -1,0 +1,100 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, hr {
+	margin:0;
+	padding:0;
+}
+img {
+	border:0;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	background-color:#0b1433;
+	color:#FFFFFF;
+}
+ol, ul {
+	list-style:none outside none;
+}
+#right ul li  a {
+	color:#CFBA9F;
+	text-decoration:underline;
+	background:url("../images/3d_ten.gif") no-repeat scroll 0 7px transparent;
+	display:block;
+	padding:0 0 0 7px;
+}
+a:hover{
+	opacity:0.5;
+}
+#wraper {
+	width:579px;
+	margin:0 auto 0 auto;
+}
+
+#head {
+	padding:20px 0 0 0;
+}
+#bodys {
+	padding:20px 0 0 0;
+}
+#body_text {
+	margin:20px 0 0 0;
+	padding:3px 0 0 15px;
+	background:url("../images/3d_i_m.gif") no-repeat scroll 0 0 transparent;
+	display:block;
+	width:565px;
+	height:23px;
+	background-color:#091a50;
+	font-size:14px;
+}
+#contents {
+	padding:20px 0 0 0;
+}
+#left {
+	float:left;
+	margin:0 15px 0 0;
+}
+#right {
+	float:left;
+}
+#r_text {
+	width:345px;
+}
+#right_text {
+	background:url("../images/3d_i_m.gif") no-repeat scroll 0 0 transparent;
+	display:block;
+	margin:20px 0 20px 0;
+	padding:3px 0 0 15px;
+	width:340px;
+	height:23px;
+	background-color:#091a50;
+	font-size:14px;
+}
+#l_up {
+	padding:0 0 20px 0;
+}
+#right ul {
+	overflow:hidden;
+	width:355px;
+}
+#right ul li {
+	color:#c0c0c0;
+	margin:0 10px 0 0;
+}
+#footer {
+	margin:30px auto 20px 50px;
+	width:440px;
+	clear:both;
+	font-siZe:60%;
+	float:left;
+}
+#close {
+	margin:15px auto 20px 0;
+	float:right;
+	
+}

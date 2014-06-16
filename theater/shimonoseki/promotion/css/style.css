@@ -1,0 +1,89 @@
+@charset "UTF-8";
+body{
+	background-color:#ffffff;
+}
+article,section{
+	margin:0;
+	padding:0;
+}
+ #wrapper{
+	 width:980px;
+	 margin:0 auto;
+ }
+ .title{
+	 width:239px;
+	 height:51px;
+	 margin:0 auto;
+	 padding:20px 0;
+ }
+ .mv{
+	 width:980px;
+	 margin:0 auto;
+ }
+ .intro{
+	 width:902px;
+	 margin:40px auto; 
+	 height:178px;
+	  }
+.float_L{
+	width:440px;
+	float:left;
+	font-size:12px;
+	line-height:2.0;
+}
+.float_R{
+	float:right;
+	}
+.inner{
+	width:376px;
+	background-color:#f7f7f7;
+	padding:20px;
+}
+.dol_logo{
+	width:158px;
+	height:17px;
+	margin-bottom:15px;
+}
+.sub_txt{
+	font-size:10px;
+	line-height:1.8;
+}
+.img{
+	margin:0 auto;
+}
+.open_info{
+	width:902px;
+	margin:30px auto;
+}
+.recruit_tit{
+	text-align:center;
+	color:#ffffff;
+	font-weight:bold;
+	padding:10px;
+	font-size:15px;
+}
+.recruit_tit_area{
+	background-color:#3d7cc9;
+	width:100%;
+}
+.recruit_txt{
+	text-align:center;
+	line-height:1.8;
+	margin:40px;
+	font-size:12px;
+}
+.fw_b{
+	font-weight:bold;
+	font-size:14px !important;
+}
+.footer_area{
+	background-color:#20316e;
+	font-size:10px;
+	color:#FFFFFF;
+	width:100%;
+}
+.footer_area p{
+	padding:10px;
+	text-align:center;
+}/* CSS Document */
+

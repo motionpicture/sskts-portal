@@ -1,0 +1,78 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<title>シネマサンシャイン</title>
+	<body>
+		<?php
+
+		// ユーザエージェントの取得
+		$agent = $_SERVER['HTTP_USER_AGENT'];
+
+		if (preg_match('/^J-PHONE/', $agent) or
+		    preg_match('/^Vodafone/', $agent) or
+		    preg_match('/^SoftBank/', $agent) or
+		    preg_match('/^MOT-/', $agent) or
+		    preg_match('/^DoCoMo/', $agent) or
+		    preg_match('/UP.Browser/', $agent) or
+		    preg_match('/^KDDI/', $agent)) {
+		?>
+		
+		<div style="width:240px;margin:auto;">
+			<p><img src="./maintenance_mb.gif"></p>
+			<p>
+				上映スケジュールページはご覧いただけますので、<br />
+				チケット購入を希望されるお客様は以下のページをご覧頂きますようお願い致します。
+			</p>
+			<p>劇場上映スケジュールページ</p>
+			<ul>
+				<li>シネマサンシャイン池袋のスケジュールページは<a href="http://www2.cinemasunshine.jp/ikebukuro/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン平和島のスケジュールページは<a href="http://www1.cinemasunshine.jp/heiwajima/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン土浦のスケジュールページは<a href="http://www1.cinemasunshine.jp/tsuchiura/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャインかほくのスケジュールページは<a href="http://www1.cinemasunshine.jp/kahoku/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン沼津のスケジュールページは<a href="http://www1.cinemasunshine.jp/numazu/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン大和郡山のスケジュールページは<a href="http://www1.cinemasunshine.jp/yamatokoriyama/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン大街道のスケジュールページは<a href="http://www1.cinemasunshine.jp/okaido/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン衣山のスケジュールページは<a href="http://www1.cinemasunshine.jp/kinuyama/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン重信のスケジュールページは<a href="http://www1.cinemasunshine.jp/shigenobu/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン大洲のスケジュールページは<a href="http://www1.cinemasunshine.jp/ozu/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン今治のスケジュールページは<a href="http://www1.cinemasunshine.jp/imabari/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャインエミフルMASAKIのスケジュールページは<a href="http://www1.cinemasunshine.jp/masaki/schedule/mobile/calendar.php" />こちら</a></li>
+				<li>シネマサンシャイン北島のスケジュールページは<a href="http://www1.cinemasunshine.jp/kitajima/schedule/mobile/calendar.php" />こちら</a></li>
+			</ul>
+
+			<p>ご不便ご迷惑をおかけ致しますが、何卒ご了承下さい。</p>
+		</div>
+		
+		<?php }else{ ?>
+		<div style="width:680px;margin:auto;">
+			<p><img src="./maintenance2.jpg"></p>
+			<p>
+				上映スケジュールページはご覧いただけますので、<br />
+				チケット購入を希望されるお客様は以下のページをご覧頂きますようお願い致します。
+			</p>
+			<p>劇場上映スケジュールページ</p>
+			<ul>
+				<li>シネマサンシャイン池袋のスケジュールページは<a href="http://www2.cinemasunshine.jp/ikebukuro/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン平和島のスケジュールページは<a href="http://www1.cinemasunshine.jp/heiwajima/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン土浦のスケジュールページは<a href="http://www1.cinemasunshine.jp/tsuchiura/schedule/" />こちら</a></li>
+				<li>シネマサンシャインかほくのスケジュールページは<a href="http://www1.cinemasunshine.jp/kahoku/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン沼津のスケジュールページは<a href="http://www1.cinemasunshine.jp/numazu/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン大和郡山のスケジュールページは<a href="http://www1.cinemasunshine.jp/yamatokoriyama/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン大街道のスケジュールページは<a href="http://www1.cinemasunshine.jp/okaido/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン衣山のスケジュールページは<a href="http://www1.cinemasunshine.jp/kinuyama/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン重信のスケジュールページは<a href="http://www1.cinemasunshine.jp/shigenobu/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン大洲のスケジュールページは<a href="http://www1.cinemasunshine.jp/ozu/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン今治のスケジュールページは<a href="http://www1.cinemasunshine.jp/imabari/schedule/" />こちら</a></li>
+				<li>シネマサンシャインエミフルMASAKIのスケジュールページは<a href="http://www1.cinemasunshine.jp/masaki/schedule/" />こちら</a></li>
+				<li>シネマサンシャイン北島のスケジュールページは<a href="http://www1.cinemasunshine.jp/kitajima/schedule/" />こちら</a></li>
+			</ul>
+
+			<p>ご不便ご迷惑をおかけ致しますが、何卒ご了承下さい。</p>
+		</div>
+		<?php } ?>
+	</body>
+</html>

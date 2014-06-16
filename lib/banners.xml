@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+■pick upバナーの仕様について備考
+num:バナーの識別ID。
+image:画像名。画像の格納フォルダは"/images/pickBnr/"。
+name:画像のaltになる。
+target:1 -> target="_blank"をつける,2 -> target="_blank"をつけない
+url:バナーのurl。null(無記入)だとリンクは貼られない。
+-->
+<banners>
+	<banner num="1" image="imax_p.jpg" name="IMAX" target="2" url="http://www.cinemasunshine.co.jp/imax/" />
+	<banner num="2" image="imm_p.jpg" name="imm sound" target="2" url="http://www.cinemasunshine.co.jp/imm/" />
+	<banner num="3" image="p_bnr_dhface_N.jpg" name="ダイ・ハードfacebookキャンペーン" target="1" url="http://www.cinemasunshine.co.jp/ref.php" />
+	<banner num="4" image="fb_2.jpg" name="池袋facebook" target="1" url="http://www.facebook.com/sunshineikebukuro" />
+	<banner num="5" image="tw_2.jpg" name="池袋twitter" target="1" url="http://twitter.com/cs_ikebukuro" />
+	<banner num="6" image="fb_3.jpg" name="平和島facebook" target="1" url="http://www.facebook.com/sunshineheiwajima" />
+	<banner num="7" image="tw_3.jpg" name="平和島twitter" target="1" url="http://twitter.com/#!/sunshine_imm" />
+	<banner num="8" image="fb_1.jpg" name="土浦facebook" target="1" url="http://www.facebook.com/pages/%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E5%9C%9F%E6%B5%A6/340536766033858" />
+	<banner num="9" image="tw_1.jpg" name="土浦twitter" target="1" url="http://twitter.com/cs_tsuchiura" />
+	<banner num="10" image="fb_2.jpg" name="かほくfacebook" target="1" url="http://www.facebook.com/pages/%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E3%81%8B%E3%81%BB%E3%81%8F/333275446766491" />
+	<banner num="11" image="tw_2.jpg" name="かほくtwitter" target="1" url="http://twitter.com/cs_kahoku" />
+	<banner num="12" image="fb_2.jpg" name="沼津facebook" target="1" url="http://www.facebook.com/pages/%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E6%B2%BC%E6%B4%A5/488698254476149" />
+	<banner num="13" image="tw_2.jpg" name="沼津twitter" target="1" url="http://twitter.com/cs_numazu" />
+	<banner num="14" image="fb_1.jpg" name="大和郡山facebook" target="1" url="http://www.facebook.com/sunshineyamatokoriyama" />
+	<banner num="15" image="tw_1.jpg" name="大和郡山twitter" target="1" url="http://twitter.com/sunshine_imax" />
+	<banner num="16" image="fb_2.jpg" name="愛媛facebook" target="1" url="http://www.facebook.com/sunshineehime" />
+	<banner num="17" image="tw_2.jpg" name="愛媛twitter" target="1" url="http://twitter.com/cs_ehime" />
+	<banner num="18" image="fb_2.jpg" name="北島facebook" target="1" url="http://www.facebook.com/sunshinekitajima" />
+	<banner num="19" image="tw_2.jpg" name="北島twitter" target="1" url="https://twitter.com/cs_kitajima" />
+	<!--<banner num="20" image="highschool.jpg" name="高校生1000円" target="1" url="http://campaign.cinemasunshine.co.jp/highschool-student/" />-->
+	<banner num="21" image="oz_p_01.jpg" name="オズ プレゼントキャンペーン" target="1" url="http://campaign.cinemasunshine.co.jp/oz/" />
+	<banner num="9999" image="mail_p.jpg" name="メルマガ会員募集" target="1" url="http://www.cinemasunshine.co.jp/magazine/magazine.html" />
+	<banner num="22" image="C_bnr_waribiki.jpg" name="メルマガクーポン" target="1" url="http://www.cinemasunshine.co.jp/magazine/magazine.html" />
+	<banner num="23" image="p_bnr_dhc_N.jpg" name="ダイ・ハードimm soundキャンペーン" target="1" url="http://www.cinemasunshine.co.jp/imm/campaign/diehard_CP/" />
+	<banner num="24" image="C_bnr_flight_ca.jpg" name="フライト キャンペーン" target="1" url="http://campaign.cinemasunshine.co.jp/flight/" />
+	<banner num="25" image="C_bnr_information.jpg" name="メルマガ キャンペーン" target="1" url="http://www.cinemasunshine.co.jp/magazine/magazine.html" />
+	<banner num="26" image="C_bnr_Ironman3_Fb_1.jpg" name="アイアンマン キャンペーン" target="1" url="http://cinemasunshine.co.jp/ref.php" />
+	<banner num="27" image="ho_pic.jpg" name="エイプリルフールキャンペーン" target="1" url="http://campaign.cinemasunshine.co.jp/ikebukuro_horror/" />
+	<banner num="28" image="pic_bnr_IKB_.jpg" name="IKBキャンペーン" target="1" url="http://campaign.cinemasunshine.co.jp/ikebukuro_horror/" />
+	<banner num="29" image="c_imax_2ticket.jpg" name="IMAX2チケットキャンペーン" target="1" url="http://campaign.cinemasunshine.co.jp/imax_2ticket_cp/" />
+	<banner num="30" image="pic_bnr_IKB_2t.jpg" name="IKB2チケットキャンペーン" target="1" url="http://campaign.cinemasunshine.co.jp/ikebukuro_horror/index.html#ticket" />
+	<banner num="31" image="banner_cp.jpg" name="グランド・マスターキャンペーン" target="1" url="http://grandmaster.gaga.ne.jp/campaign-hongkong" />
+	<banner num="32" image="gozen_mae.jpg" name="午前10時の映画祭" target="1" url="http://asa10.eiga.com/2013/" />
+	<banner num="33" image="gatsmen500x130.jpg" name="ギャツメン" target="1" url="http://gatsmen.jp/" />
+	<banner num="34" image="impossible_c_bnr.jpg" name="インポッシブル" target="1" url="http://gacchi.jp/movies/impossible/imm/" />
+	<banner num="35" image="C_bnr_loneranger_1.jpg" name="ローン・レンジャー" target="1" url="http://campaign.cinemasunshine.co.jp/loneranger_cp/" />
+	<banner num="37" image="world_c.jpg" name="ワールド・ウォーZ" target="1" url="http://www.worldwarz.jp/zday/" />
+	<banner num="38" image="C_bnr_yamawake.jpg" name="100万円山分けキャンペーン" target="1" url="http://campaign.cinemasunshine.co.jp/yamawake_cp/" />
+	<banner num="39" image="C_bnr_soshitechichininaru.jpg" name="そして父になる" target="1" url="http://campaign.cinemasunshine.co.jp/soshitechichininaru_cp/" />
+	<banner num="40" image="C_bnr_STERTRAK_EVENT.jpg" name="スター・トレック イベントレポート" target="1" url="http://campaign.cinemasunshine.co.jp/startrak_event_cp/" />
+	<banner num="41" image="C_bnr_CHRONICLE.jpg" name="クロニクルTwitterキャンペーン" target="1" url="http://campaign.cinemasunshine.co.jp/chronicle_cp/" />
+	<banner num="42" image="C_bnr_wv_samurai.jpg" name="ウルヴァリン" target="1" url="http://campaign.cinemasunshine.co.jp/wv_samurai_cp/" />
+	<banner num="43" image="C_bnr_jinrui_shikin2.jpg" name="人類資金" target="1" url="http://www.jinrui-shikin.jp/" />
+	<banner num="44" image="C_bnr_imaxcarnival_a.jpg" name="IMAXカーニバル" target="1" url="http://campaign.cinemasunshine.co.jp/imaxcarnival_cp/" />
+	<banner num="45" image="C_bnr_grandillusion.jpg" name="グランド・イリュージョン" target="1" url="http://campaign.cinemasunshine.co.jp/grandillusion_cp/" />
+	<banner num="46" image="C_bnr_akunohousoku.jpg" name="悪の法則" target="1" url="http://campaign.cinemasunshine.co.jp/akunohousoku_cp/" />
+	<banner num="47" image="C_bnr_matuyama.jpg" name="松山映画祭" target="1" url="http://eigasai.eat.jp/" />
+	<banner num="48" image="C_bnr_waribiki_n.jpg" name="メルマガクーポン1122" target="1" url="http://www.cinemasunshine.co.jp/magazine/magazine.html" />
+	<banner num="49" image="c_bnr_mighy_imax.jpg" name="マイティーソー" target="1" url="http://campaign.cinemasunshine.co.jp/thor_imax_cp/" />
+	<banner num="50" image="C_bnr_escape.jpg" name="大脱出" target="1" url="http://campaign.cinemasunshine.co.jp/dassyutsu/" />
+	<banner num="51" image="C_bnr_agentryan.jpg" name="エージェント：ライアン" target="1" url="http://campaign.cinemasunshine.co.jp/agentryan/" />
+	<banner num="52" image="c_bnr_life.jpg" name="LIFE!" target="1" url="http://campaign.cinemasunshine.co.jp/life/" />
+	<banner num="53" image="C_bnr_Mighty Thor.jpg" name="マイティ・ソー（クイズ）" target="1" url="http://campaign.cinemasunshine.co.jp/mightythor/" />
+	<banner num="54" image="C_bnr_2ticket.jpg" name="IMAX 2TICKET CAMPAIGN" target="1" url="http://campaign.cinemasunshine.co.jp/2ticket/" />
+	<banner num="55" image="c_bnr_life_0.jpg" name="LIFE! CAMPAIGN" target="1" url="http://campaign.cinemasunshine.co.jp/life/" />
+	<banner num="56" image="bnr_500x130.jpg" name="アメイジング・スパイダーマン2キャンペーン" target="1" url="http://amesupa2.jp/" />
+	<banner num="57" image="C_bnr_Captain America_1.jpg" name="キャプテンアメリカCP" target="1" url="http://campaign.cinemasunshine.co.jp/captain-america2/" />
+    <banner num="58" image="ast_D_bnr.jpg" name="アメイジング・サウンドシアター" target="2" url="http://www.cinemasunshine.co.jp/ast/" />
+    <banner num="59" image="D_bnr_4dx.jpg" name="4DX" target="2" url="http://www.cinemasunshine.co.jp/4dx/" />
+    <banner num="60" image="C_bnr_ame.gif" name="アメージングスパイダーマン半券キャンペーン" target="2" url="http://www.cinemasunshine.co.jp/4dx/cp/" />
+
+	</banners>

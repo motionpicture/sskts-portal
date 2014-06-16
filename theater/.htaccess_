@@ -1,0 +1,6 @@
+order deny,allow
+allow from 220.111.136.54
+allow from 203.135.197.224
+allow from 116.80.217.207
+deny from all
+ErrorDocument 403 http://campaign.cinemasunshine.co.jp/redirect/

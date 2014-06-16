@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.newsbox_title{    
+    background-color: #F0F0F0;
+    font-size: 15px;
+    padding: 5px 0 5px 10px;
+	}
+	
+/* pickup
+-----------------------------------------------------------------------------------------------------------*/	
+.section .pickup{
+	padding:5px 0 5px 0;
+	margin-left:35px;
+	}
+.section .pickup2{
+	padding:5px 0 5px 0;
+	margin-left:55px;
+	}	
+.section .pickup3{
+	padding:5px 0 5px 0;
+	margin-left:10px;
+	}	
+/* ページ内リンク	
+-----------------------------------------------------------------------------------------------------------*/	
+.newsbar {
+text-decoration: none;
+font-size: 16px;
+padding: 7px 15px;
+display: block;
+border: 1px solid #C8C8C8;
+background: #EEE /*{b-bup-background-color}*/;
+font-weight: bold;
+text-shadow: 0 /*{b-bup-shadow-x}*/ 1px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/ white /*{b-bup-shadow-color}*/;
+background-image: -webkit-gradient(linear, left top, left bottom, from( white /*{b-bup-background-start}*/), to( #F4F4F4 /*{b-bup-background-end}*/));
+background-image: -webkit-linear-gradient( white /*{b-bup-background-start}*/, #F4F4F4 /*{b-bup-background-end}*/);
+background-image: -moz-linear-gradient( white /*{b-bup-background-start}*/, #F4F4F4 /*{b-bup-background-end}*/);
+background-image: -ms-linear-gradient( white /*{b-bup-background-start}*/, #F4F4F4 /*{b-bup-background-end}*/);
+background-image: -o-linear-gradient( white /*{b-bup-background-start}*/, #F4F4F4 /*{b-bup-background-end}*/);
+background-image: linear-gradient( white /*{b-bup-background-start}*/, #F4F4F4 /*{b-bup-background-end}*/);
+}
+.newsbar a{
+	text-decoration: none;
+	color: #323232 /*{b-bup-color}*/;
+	display:block;
+	width:100%;
+	}
+.newsbar img{
+	margin:0 5px 2px 0;
+	}
+/* ニュース詳細	
+-----------------------------------------------------------------------------------------------------------*/	
+.news_list{
+	}	
+.news_list li{
+	padding:5px 5px 5px 5px;
+float:left;
+
+	}
+.news_return{
+	float:left;
+	padding:0 10px 0 10px;
+	}
+.news_next{
+	float:right;
+	padding:0 10px 0 0;
+	}	
+.newsbox{
+	 border-left:solid 1px #c8c8c8;
+	 border-right:solid 1px #c8c8c8;
+	 border-bottom:solid 1px #c8c8c8;
+	 width:300px;
+	 margin:0 auto;
+	}	
+
+.newsbox_title{    
+    background-color: #F0F0F0;
+	font-weight:bold;
+    font-size: 15px;
+    padding: 5px 0 5px 10px;
+	}
+.movie_copyright{
+	font-size:10px;
+	padding:5px 10px 10px 10px;
+	}	
+/* 調整
+-----------------------------------------------------------------------------------------------------------*/	
+.txt_bold{
+	font-size:15px;
+	}	
+.news_bar_mt{
+	margin-top:10px;
+	}	
+	
+.campaignArea{
+	text-align:center;
+}
+	
+.campaignArea li{
+	margin:0 0 10px;
+}

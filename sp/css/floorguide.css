@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 劇場設備
+-----------------------------------------------------------------------------------------------------------*/	
+h3{
+	font-size:15px;
+	padding:5px 0 5px 10px;
+	background-color:#f0f0f0;
+	margin-bottom:5px;
+}
+span.bread{
+	font-size:12px;
+}
+span.notice{
+	font-size:10px;
+	line-height:11px;
+}
+.table_wrapper{
+	padding:0 10px 15px 10px;
+	border-bottom: 1px solid #C8C8C8;
+    border-left: 1px solid #C8C8C8;
+    border-right: 1px solid #C8C8C8;
+}
+table.theater_t{
+	border-left: 1px solid #C8C8C8;
+    border-right: 1px solid #C8C8C8;
+	width:100%;
+}
+table.theater_u{
+	width:100%;
+	/*border: 1px solid #C8C8C8;*/
+}
+th.table_line_01{
+	font-size:1px;
+	background-color: #0096DC;
+    height: 5px;
+}
+td.table_line_02{
+	font-size:1px;
+	border-bottom:1px dashed #918B8A;
+}
+td.table_top_01{
+	background-color: #F0F0F0;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding: 5px 0 5px 10px;
+	font-weight:bold;
+}
+td.admission_tc{
+	width:20%;
+	text-align:center;
+	vertical-align:middle;
+	padding:5px;
+	border: 1px solid #C8C8C8;
+}
+
+td.admission_tc_gray1{
+	width:15%;
+	text-align:center;
+	vertical-align:middle;
+	padding:5px;
+	border: 1px solid #C8C8C8;
+	background-color:#eeefef;
+	font-weight:bold;
+}
+
+td.admission_tc_gray2{
+	width:15%;
+	text-align:center;
+	vertical-align:middle;
+	padding:5px;
+	border: 1px solid #C8C8C8;
+	background-color:#dcdddd;
+}
+td.admission_tc_gray3{
+	text-align:center;
+	vertical-align:middle;
+	padding:5px;
+	border: 1px solid #C8C8C8;
+	background-color:#dcdddd;
+}
+td.admission_tr{
+	vertical-align:middle;
+	text-align:right;
+	padding:5px;
+	/*width:112px;*/
+}
+td.admission_tl_name{
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top;
+	padding:0 5px 0 5px;
+}
+td.admission_tl{
+	text-align:left;
+	vertical-align:top;
+	padding:0 0 0 5px;
+}
+.admission_icon{
+	width:50px;
+	vertical-align:top;
+	}
+.admission{
+}
+.table_top_02{
+	font-weight:bold;
+	font-size:15px;
+	padding:15px 0 0 0;
+	}
+.sub02{
+	color:#dc0000;
+	padding:0 0 6px 0;
+}
+.tex01{
+	padding:0 0 6px 0;
+}
+.tex02{
+	padding:0 0 9px 0;
+}
+.top{
+	padding:0 0 0 0;
+}
+.end{
+	margin-bottom:5px;
+}
+.border_n{
+	border:none;
+}
+/* pickup
+-----------------------------------------------------------------------------------------------------------*/	
+.section .pickup{
+	padding:5px 0 5px 0;
+	margin-left:35px;
+	}
+.section .pickup2{
+	padding:5px 0 5px 0;
+	margin-left:55px;
+	}	
+.section .pickup3{
+	padding:5px 0 5px 0;
+	margin-left:10px;
+	}		
+
+/* 調整
+-----------------------------------------------------------------------------------------------------------*/	
+.regulation01 {
+	padding:0 0 0 0 !important;
+}
+.regulation02 {
+	margin-bottom:18px;
+	padding-top:15px;
+}
+.regulation03 {
+	padding-top:0 !important;
+}
+.regulation04 {
+	padding-bottom:0 !important;
+}
