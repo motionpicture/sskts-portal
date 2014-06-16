@@ -36,14 +36,14 @@ function getTheaterList(){
 		if($theater["ename"] == "kahoku") $arr[3] = $theater;
 		if($theater["ename"] == "numazu") $arr[4] = $theater;
 		if($theater["ename"] == "yamatokoriyama") $arr[5] = $theater;
-		if($theater["ename"] == "okaido") $arr[6] = $theater;
-		if($theater["ename"] == "kinuyama") $arr[7] = $theater;
-		if($theater["ename"] == "shigenobu") $arr[8] = $theater;
-		if($theater["ename"] == "masaki") $arr[9] = $theater;
-		if($theater["ename"] == "ozu") $arr[10] = $theater;
-		if($theater["ename"] == "imabari") $arr[11] = $theater;
+		if($theater["ename"] == "shimonoseki") $arr[6] = $theater;
+		if($theater["ename"] == "okaido") $arr[7] = $theater;
+		if($theater["ename"] == "kinuyama") $arr[8] = $theater;
+		if($theater["ename"] == "shigenobu") $arr[9] = $theater;
+		if($theater["ename"] == "masaki") $arr[10] = $theater;
+		if($theater["ename"] == "ozu") $arr[11] = $theater;
+		if($theater["ename"] == "imabari") $arr[12] = $theater;
 		if($theater["ename"] == "kitajima") $arr[13] = $theater;
-		if($theater["ename"] == "shimonoseki") $arr[12] = $theater;
 	}
 
 	ksort($arr,SORT_NUMERIC);
