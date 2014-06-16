@@ -42,7 +42,7 @@ function getTheaterList(){
 		if($theater["ename"] == "masaki") $arr[9] = $theater;
 		if($theater["ename"] == "ozu") $arr[10] = $theater;
 		if($theater["ename"] == "imabari") $arr[11] = $theater;
-		if($theater["kitajima"] == "kitajima") $arr[13] = $theater;
+		if($theater["ename"] == "kitajima") $arr[13] = $theater;
 		if($theater["ename"] == "shimonoseki") $arr[12] = $theater;
 	}
 
