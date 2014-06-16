@@ -43,9 +43,9 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="accessLeft" valign="top"><p>電話番号</p></td>
 											<td class="accessRight">
-											 	<p>24時間上映時間案内</p>
 											 	<p><span>083-235-7777</span></p>
-											 	<p><span>083-235-3001</span></p>
+											 	<p>24時間上映時間案内</p>
+											 	<p><span>083-235-3001(7/5開通)</span></p>
 											 	<p class="notes">※電話番号のお掛け間違いにご注意下さい</p>
 											</td>
 										</tr>
