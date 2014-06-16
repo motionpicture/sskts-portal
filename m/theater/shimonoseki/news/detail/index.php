@@ -20,6 +20,7 @@ $newsViews = explode(",",$newsViews['view']);
 
 $BASE = dirname(dirname(dirname(dirname(dirname(__FILE__)))));
 $resourcePath = $BASE . '/resource/theater/' . $arr["ename"] . '/news/' . basename(dirname(__FILE__)) . '/';
+
 ob_start();
 include $BASE . '/lib/resource.php';
 $template = ob_get_contents();
