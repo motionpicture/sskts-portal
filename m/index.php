@@ -74,7 +74,7 @@ a:visited {color:#000000;}
 
 ?>
 
-<div style="margin-top:6px;"><img src="images/campaign/waribiki_a_bnr_n.gif" alt=" " height="70"/></div>
+<!--<div style="margin-top:6px;"><img src="images/campaign/waribiki_a_bnr_n.gif" alt=" " height="70"/></div>-->
 
 <hr size ="2" style="border-color:#e4e4e4"></hr>
 <div style="font-size:x-small;text-align:left;">
