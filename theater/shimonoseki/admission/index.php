@@ -36,15 +36,13 @@ include("../../../lib/require.php");
 									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 								</tr>
 								<tr>
-											<td class="priceSubject"><p>大学生</p></td>
-											<td class="priceNotes" >※要学生証</td>
-											<td class="priceAdd" >￥1,500</td>
-										</tr>
-								
-
-										<tr class="line">
-											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
+									<td class="priceSubject"><p>大学生</p></td>
+									<td class="priceNotes" >※要学生証</td>
+									<td class="priceAdd" >￥1,500</td>
+								</tr>
+								<tr class="line">
+									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+								</tr>
 								<tr>
 									<td class="priceSubject"><p>高校生・中学生・小学生</p></td>
 									<td class="priceNotes" >※高校生は要学生証</td>
@@ -79,6 +77,42 @@ include("../../../lib/require.php");
 									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 								</tr>
 							</table>
+
+
+							<h3 class="lightBlueTitle">ドルビーアトモス料金</h3>
+							<table class="priceTable">
+								<tr class="line">
+									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+								</tr>
+
+								<tr>
+									<td class="priceSubject"><p>ドルビーアトモス料金</p></td>
+									<td class="priceNotes" >
+    									<p>
+	           								<span style="color:#e50307;">※8/31（日）まで追加料金無し。<br /><br /></span>
+										</p>
+	           						    <p>
+	           							    通常（2D）作品の場合<br />
+											(例)〈一般1,800円〉+〈ドルビーアトモス料金100円〉＝1,900円<br /><br />
+										</p>
+										<p>
+											3D作品の場合<br />
+											(例)〈一般1,800円〉+〈3D鑑賞料金400円〉+〈ドルビーアトモス料金100円〉＝2,300円<br /><br />
+										</p>
+										<p>
+											レイトショーの場合<br />
+											(例)〈レイトショー1,300円〉+〈ドルビーアトモス料金100円〉＝1,400円<br /><br />
+										</p>
+									</td>
+									<td class="priceAdd">通常料金+200円</td>
+								</tr>
+
+								<tr class="line">
+									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+								</tr>
+							</table>
+
+
 							<h3 class="lightBlueTitle">割引料金</h3>
 							<table class="priceTable">
 								<tr class="line">
@@ -110,6 +144,16 @@ include("../../../lib/require.php");
 									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 								</tr>
 								<tr>
+									<td class="priceSubject"><p>夫婦50割引</p></td>
+									<td class="priceNotes" ><p>※夫婦どちらかが50歳以上で同一の作品の同一時間の回をご覧になる場合に限ります。</p>
+										<p>※要年齢証明書</p>
+										<p>※どちらか一方の方が無料鑑賞の場合、同伴のお客様は通常料金となります。</p></td>
+									<td class="priceAdd" >お二人で&nbsp;&nbsp;￥2,200</td>
+								</tr>
+								<tr class="line">
+									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+								</tr>
+								<tr>
 									<td class="priceSubject"><p>レイトショー</p></td>
 									<td class="priceNotes" ><p>※連日20時以降に上映する回</p>
 										<p>※上映終了が23時を過ぎる回は、18歳未満の方はご入場頂けません。</p>
@@ -120,41 +164,10 @@ include("../../../lib/require.php");
 									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 								</tr>
 								<tr>
-									<td class="priceSubject"><p>夫婦50割引</p></td>
-									<td class="priceNotes" ><p>※夫婦どちらかが50歳以上で同一の作品の同一時間の回をご覧になる場合に限ります。</p>
-										<p>※要年齢証明書</p>
-										<p>※どちらか一方の方が無料鑑賞の場合、同伴のお客様は通常料金となります。</p></td>
-									<td class="priceAdd" >お二人で&nbsp;&nbsp;￥2,200</td>
-								</tr>
-								<tr class="line">
-									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-								</tr>
-								<!--<tr>
-											<td class="priceSubject"><p>高校生友情プライス</p></td>
-											<td class="priceNotes" >
-												<p>※高校生3人以上。要学生証。</p>
-											</td>
-											<td class="priceAdd" >お一人様&nbsp;&nbsp;￥1,000</td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>-->
-                                        
-								<tr>
 									<td class="priceSubject"><p>メンバーズカード </p></td>
 									<td class="priceNotes" ><p>※カード提示で本人を含む4名様まで。</p></td>
 									<td class="priceAdd" ><p> 一般&nbsp;&nbsp;￥300引<br>
 											学生・幼児&nbsp;&nbsp;￥200引 </p></td>
-								</tr>
-								<tr class="line">
-									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-								</tr>
-								<tr>
-									<td class="priceSubject"><p>エフカ割引</p></td>
-									<td class="priceNotes" ><p>※カード提示で本人を含む2名様まで。</p></td>
-									<td class="priceAdd" ><p> 一般&nbsp;&nbsp;￥200引<br>
-											学生・幼児&nbsp;&nbsp;￥100引 </p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>

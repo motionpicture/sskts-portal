@@ -89,6 +89,50 @@ include("../../../../lib/require.php");
 		<table cellpadding="0" cellspacing="0" class="theater_t">
 			<tbody>
 				<tr class="first-child">
+					<td colspan="2" class="table_top_01">ドルビーアトモス料金</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="table_wrapper regulation02">
+			<table cellpadding="0" cellspacing="0" class="theater_u">
+				<tbody>
+					<tr>
+						<td class="admission_tl">ドルビーアトモス料金：通常料金+100円</td>
+
+					</tr>
+
+					<tr>
+						<td class="admission_tl">
+                            <span style="color:#e50307;font-size:10px;">※8/31（日）まで追加料金無し。<br /><br /></span>
+    						<span class="notice">
+                                通常（2D）作品の場合<br />
+                                (例)〈一般1,800円〉+〈ドルビーアトモス料金100円〉＝1,900円<br /><br />
+                                3D作品の場合<br />
+                                (例)〈一般1,800円〉+〈3D鑑賞料金400円〉+〈ドルビーアトモス料金100円〉＝2,300円<br /><br />
+                                レイトショーの場合<br />
+                                (例)〈レイトショー1,300円〉+〈ドルビーアトモス料金100円〉＝1,400円<br /><br /><br />
+                            </span>
+                        </td>
+					</tr>
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+				<tr>
+					<th colspan="2" class="table_line_01"></th>
+				</tr>
+			</thead>
+		</table>
+
+		<table cellpadding="0" cellspacing="0" class="theater_t">
+			<tbody>
+				<tr class="first-child">
 					<td colspan="2" class="table_top_01">割引料金</td>
 				</tr>
 			</tbody>
@@ -108,31 +152,12 @@ include("../../../../lib/require.php");
 						<td class="admission_tl">レディースデイ<br /><span class="notice">※毎週水曜日</span></td>
 						<td class="admission_tr">女性 1,100円</td>
 					</tr>
-                    
-
-		<tr>
-
+            		<tr>
 						<td colspan="2" class="table_line_02"></td>
-
 					</tr>
-
                     <tr>
-
 						<td class="admission_tl">シネマサンシャインデイ<br /><span class="notice">※毎月15日</span></td>
-
 						<td class="admission_tr"> 1,100円</td>
-
-					</tr>
-
-
-
-
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-					<tr>
-						<td class="admission_tl">レイトショー<br /><span class="notice">※連日20時以降に上映する回<br />※上映終了が23時を過ぎる回は、18歳未満の方はご入場頂けません<br />※特別興行には適用されません</span></td>
-						<td class="admission_tr">1,300円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -145,23 +170,16 @@ include("../../../../lib/require.php");
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
-					<!--<tr>
-						<td class="admission_tl">高校生友情プライス<br /><span class="notice">※高校生３人以上<br />※要学生証</span></td>
-						<td class="admission_tr">お一人様 1,000円</td>
+					<tr>
+						<td class="admission_tl">レイトショー<br /><span class="notice">※連日20時以降に上映する回<br />※上映終了が23時を過ぎる回は、18歳未満の方はご入場頂けません<br />※特別興行には適用されません</span></td>
+						<td class="admission_tr">1,300円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
-					</tr>-->
+					</tr>
 					<tr>
 						<td class="admission_tl">メンバーズカード<br /><span class="notice">※カード提示で本人を含む4名様まで</span></td>
 						<td class="admission_tr">一般 300円引<br />学生・幼児 200円引</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-					<tr>
-						<td class="admission_tl">エフカ割引<br /><span class="notice">※カード提示で本人を含む2名様まで。</span></td>
-						<td class="admission_tr">一般 200円引<br />学生・幼児 100円引</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>

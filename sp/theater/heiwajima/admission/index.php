@@ -98,7 +98,7 @@ include("../../../../lib/require.php");
 				<tbody>
 					<tr>
 						<td class="admission_tl">アメイジング・サウンドシアタープレミアム料金：通常料金+200円</td>
-					
+
 					</tr>
 					<tr>
 						<td class="admission_tl"><span class="notice">2D作品の場合<br />
@@ -108,7 +108,7 @@ include("../../../../lib/require.php");
 レイトショーの場合<br />
 (例)〈レイトショー1,300円〉+〈アメイジング・サウンドシアタープレミアム料金200円〉＝1,500円<br />
 <br /><br /></span></td>
-						
+
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -116,6 +116,14 @@ include("../../../../lib/require.php");
 				</tbody>
 			</table>
 		</div>
+
+		<table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+				<tr>
+					<th colspan="2" class="table_line_01"></th>
+				</tr>
+			</thead>
+		</table>
 
 		<table cellpadding="0" cellspacing="0" class="theater_t">
 			<tbody>
@@ -130,7 +138,7 @@ include("../../../../lib/require.php");
 				<tbody>
 					<tr>
 						<td class="admission_tl">4DX<sup>&reg;</sup>鑑賞料金：通常料金+1,000円</td>
-					
+
 					</tr>
 					<tr>
 						<td class="admission_tl"><span class="notice">2D作品の場合<br />
@@ -141,7 +149,7 @@ include("../../../../lib/require.php");
 〈サービスデー料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br />
 <br /><br />
 ※ムビチケは、窓口でのご利用に限られます。（窓口で差額をお支払いいただきます。）<br />※身長100cm未満の方、妊娠中の方、ご高齢の方、心臓・背中・腰・首などに障害のある方、特別な疾病のある方、乗り物酔いしやすい方、その他体調に不安のある方などは、４DX®をご利用いただけません。また、10歳以下のお子様は保護者の方と一緒にご鑑賞ください。</span></td>
-						
+
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -212,7 +220,7 @@ include("../../../../lib/require.php");
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
-					
+
                     <!--<tr>
 						<td class="admission_tl">高校生友情プライス<br /><span class="notice">※高校生３人以上<br />※要学生証</span></td>
 						<td class="admission_tr">お一人様 1,000円</td>
@@ -260,8 +268,8 @@ include("../../../../lib/require.php");
 					<tr>
 						<td class="admission_to">
 							・通常の鑑賞料金プラス400円で3Ｄ作品をご鑑賞頂けます。<br />
-							
-							
+
+
 							<span class="notice">
 							※3Dメガネ費100円含む。
 								※前売券、シネマサンシャインCINEMA TICKET（特別鑑賞券）、シネマサンシャインINVITATION TICKET（招待券）、メンバーズカードのポイントによる無料鑑賞、各種割引券もプラス400円でご利用頂けます<br />
