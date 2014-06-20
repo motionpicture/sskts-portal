@@ -403,6 +403,9 @@ function getSmartFooter(){
 	}elseif(preg_match("!/kitajima/!",$Url)){
 		$facebook[$arr["ename"]] = "http://www.facebook.com/sunshinekitajima";
 		$twitter[$arr["ename"]] = "https://twitter.com/cs_kitajima";
+	}elseif(preg_match("!/shimonoseki/!",$Url)){
+		$facebook[$arr["ename"]] = "";
+		$twitter[$arr["ename"]] = "";
 	}
 
 	if($arr["ename2"]){
@@ -410,8 +413,12 @@ function getSmartFooter(){
 			$social = "";
 			$social .= "<div class='section ptb10'>";
 			$social .= "<p class=''>";
-			$social .= "<a href='" . $facebook[$arr["ename"]] . "'><img class='pickup2' src='$define[Images_SP_URL]bnr/btn_facebook.gif' width='100' alt='CHINEMA SUNSHINE facebook'></a>";
-			$social .= "<a href='" . $twitter[$arr["ename"]] . "'><img class='pickup3' src='$define[Images_SP_URL]bnr/btn_twitter.gif' width='100' alt='CHINEMA SUNSHINE ｔwitter'></a></p>";
+			if($facebook[$arr["ename"]]){
+			    $social .= "<a href='" . $facebook[$arr["ename"]] . "'><img class='pickup2' src='$define[Images_SP_URL]bnr/btn_facebook.gif' width='100' alt='CHINEMA SUNSHINE facebook'></a>";
+			}
+			if($twitter[$arr["ename"]]){
+			     $social .= "<a href='" . $twitter[$arr["ename"]] . "'><img class='pickup3' src='$define[Images_SP_URL]bnr/btn_twitter.gif' width='100' alt='CHINEMA SUNSHINE ｔwitter'></a></p>";
+			}
 			$social .= "</div>";
 		}
 
