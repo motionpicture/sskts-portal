@@ -134,6 +134,20 @@ include("../../../../lib/require.php");
 <br />通常の鑑賞料金プラス400円で3D作品をご鑑賞頂けます。</td>
 
 					</tr>
+					<tr>
+						<td colspan="2" class="table_top_02"></td>
+					</tr>
+					<tr>
+						<td class="admission_icon2" rowspan="2"><img src="../../../images/theater/icon_dolby.gif" width="50" alt="DOLBY ATMOS"></td>
+						<td class="admission_tl_name">DOLBY ATMOS</td>
+
+					</tr>
+					<tr>
+						<td class="admission_tl">ドルビー社の最新音響システム“ドルビーアトモス”は、自然でリアルな音場を実現し、より感覚を刺激する映画体験を可能にします。スクリーン前までサイド・サラウンド・スピーカーを設置することで客席を360°取り囲み、音の移動がスムーズに感じられます。<br />
+											さらに天井にもサラウンド・スピーカーを設置することで、これまでにないシネマサウンドをご体験いただけます。</td>
+
+					</tr>
+
 				</tbody>
 			</table>
 		</div>

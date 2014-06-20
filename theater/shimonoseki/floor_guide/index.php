@@ -114,6 +114,15 @@ include("../../../lib/require.php");
 											通常の鑑賞料金プラス400円で3D作品をご鑑賞頂けます。 </p>
 									</div>
 								</div>
+
+								<div class="floorBox clearfix">
+									<div class="left"><img src="../../../images/common/fig_dolby.jpg"  alt="DOLBY ATMOS" ></div>
+									<div class="right">
+										<p class="subTitle" >DOLBY ATMOS</p>
+										<p class="txt" >ドルビー社の最新音響システム“ドルビーアトモス”は、自然でリアルな音場を実現し、より感覚を刺激する映画体験を可能にします。スクリーン前までサイド・サラウンド・スピーカーを設置することで客席を360°取り囲み、音の移動がスムーズに感じられます。<br />
+											さらに天井にもサラウンド・スピーカーを設置することで、これまでにないシネマサウンドをご体験いただけます。</p>
+									</div>
+								</div>
 							</div>
 							<h3 class="lightBlueTitle bottomLine">シネマサンシャイン下関の劇場サービス</h3>
 							<div class="floorArea end">
