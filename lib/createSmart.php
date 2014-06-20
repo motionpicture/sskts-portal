@@ -380,8 +380,8 @@ function getSmartFooter(){
 		$facebook[$arr["ename"]] = "http://www.facebook.com/sunshineyamatokoriyama";
 		$twitter[$arr["ename"]] = "https://twitter.com/sunshine_imax";
 	}elseif(preg_match("!/shimonoseki/!",$Url)){
-	    $facebook[$arr["ename"]] = "http://www.facebook.com/sunshineehime";
-	    $twitter[$arr["ename"]] = "http://twitter.com/cs_ehime";
+		$facebook[$arr["ename"]] = "";
+		$twitter[$arr["ename"]] = "";
 	}elseif(preg_match("!/okaido/!",$Url)){
 		$facebook[$arr["ename"]] = "http://www.facebook.com/sunshineehime";
 		$twitter[$arr["ename"]] = "http://twitter.com/cs_ehime";
@@ -403,9 +403,6 @@ function getSmartFooter(){
 	}elseif(preg_match("!/kitajima/!",$Url)){
 		$facebook[$arr["ename"]] = "http://www.facebook.com/sunshinekitajima";
 		$twitter[$arr["ename"]] = "https://twitter.com/cs_kitajima";
-	}elseif(preg_match("!/shimonoseki/!",$Url)){
-		$facebook[$arr["ename"]] = "";
-		$twitter[$arr["ename"]] = "";
 	}
 
 	if($arr["ename2"]){
