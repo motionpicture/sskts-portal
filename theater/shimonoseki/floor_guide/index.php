@@ -34,56 +34,64 @@ include("../../../lib/require.php");
 										<th class="rightColumn" valign="middle" bgcolor="#f0f0f0">スクリーンサイズ</th>
 									</tr>
 									<tr>
-										<td valign="middle"  bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig1.gif" data-fancybox-group="gallery" title="シネマ1" rel="theater" >シネマ1</a></p></td>
+										<td valign="middle"  bgcolor="#f0f0f0"><p>シネマ1</p></td>
+										<!--<td valign="middle"  bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig1.gif" data-fancybox-group="gallery" title="シネマ1" rel="theater" >シネマ1</a></p></td>-->
 										<td valign="middle"><p>104</p></td>
 										<td valign="middle"><p>2</p></td>
 										<td valign="middle"><p>デジタル6ch</p></td>
 										<td class="rightColumn" valign="middle"><p>W7.55m×4.22m</p></td>
 									</tr>
 									<tr>
-										<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig2.gif" data-fancybox-group="gallery" title="シネマ2" rel="theater">シネマ2</a></p></td>
-										<td valign="middle"><p>104</p></td>
+										<td valign="middle" bgcolor="#f0f0f0"><p>シネマ2</p></td>
+    									<!--<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig2.gif" data-fancybox-group="gallery" title="シネマ2" rel="theater">シネマ2</a></p></td>-->
+    									<td valign="middle"><p>104</p></td>
 										<td valign="middle"><p>2</p></td>
 										<td valign="middle"><p>デジタル6ch</p></td>
 										<td class="rightColumn" valign="middle"><p>W7.7m×4.3m</p></td>
 									</tr>
 									<tr>
-										<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig3.gif" data-fancybox-group="gallery" title="シネマ3" rel="theater">シネマ3</a></p></td>
+										<td valign="middle" bgcolor="#f0f0f0"><p>シネマ3</p></td>
+										<!--<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig3.gif" data-fancybox-group="gallery" title="シネマ3" rel="theater">シネマ3</a></p></td>-->
 										<td valign="middle"><p>95</p></td>
 										<td valign="middle"><p>1</p></td>
 										<td valign="middle"><p>デジタル6ch</p></td>
 										<td class="rightColumn" valign="middle"><p>W7.1m×3.98m</p></td>
 									</tr>
 									<tr>
-										<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig4.gif" data-fancybox-group="gallery" title="シネマ4" rel="theater">シネマ4</a></p></td>
+										<td valign="middle" bgcolor="#f0f0f0"><p>シネマ4</p></td>
+										<!--<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig4.gif" data-fancybox-group="gallery" title="シネマ4" rel="theater">シネマ4</a></p></td>-->
 										<td valign="middle"><p>50</p></td>
-										<td valign="middle"><p>1</p></td>
+                						<td valign="middle"><p>1</p></td>
 										<td valign="middle"><p>デジタル6ch</p></td>
 										<td class="rightColumn" valign="middle"><p>W5.5m×3.11m</p></td>
 									</tr>
 									<tr>
-										<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig5.gif" data-fancybox-group="gallery" title="シネマ5" rel="theater">シネマ5</a></p></td>
+										<td valign="middle" bgcolor="#f0f0f0"><p>シネマ5</p></td>
+										<!--<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig5.gif" data-fancybox-group="gallery" title="シネマ5" rel="theater">シネマ5</a></p></td>-->
 										<td valign="middle"><p>201</p></td>
 										<td valign="middle"><p>2</p></td>
 										<td valign="middle"><p>デジタル6ch</p></td>
 										<td class="rightColumn" valign="middle"><p>W11.7m×6.46m</p></td>
 									</tr>
 									<tr>
-										<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig6.gif" data-fancybox-group="gallery" title="シネマ6" rel="theater">シネマ6</a></p></td>
+										<td class="middle" valign="middle" bgcolor="#f0f0f0"><p>シネマ6</p></td>
+										<!--<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig6.gif" data-fancybox-group="gallery" title="シネマ6" rel="theater">シネマ6</a></p></td>-->
 										<td class="middle" valign="middle"><p>302</p></td>
 										<td class="middle" valign="middle"><p>2</p></td>
 										<td class="middle" valign="middle"><p>デジタル6ch（DOLBY ATMOS）</p></td>
 										<td class="rightColumn" valign="middle"><p>W13.6m×7.41m</p></td>
 									</tr>
 									<tr>
-										<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig7.gif" data-fancybox-group="gallery" title="シネマ7" rel="theater">シネマ7</a></p></td>
+										<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p>シネマ7</p></td>
+										<!--<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig7.gif" data-fancybox-group="gallery" title="シネマ7" rel="theater">シネマ7</a></p></td>-->
 										<td class="bottomColumn" valign="middle"><p>141</p></td>
 										<td class="bottomColumn" valign="middle"><p>2</p></td>
 										<td class="bottomColumn" valign="middle"><p>デジタル6ch</p></td>
 										<td class="rightColumn bottomColumn" valign="middle"><p>W8.1m×4.52m</p></td>
 									</tr>
 									<tr>
-										<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig7.gif" data-fancybox-group="gallery" title="シネマ8" rel="theater">シネマ8</a></p></td>
+										<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p>シネマ8</p></td>
+										<!--<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/shimonoseki/fig7.gif" data-fancybox-group="gallery" title="シネマ8" rel="theater">シネマ8</a></p></td>-->
 										<td class="bottomColumn" valign="middle"><p>106</p></td>
 										<td class="bottomColumn" valign="middle"><p>2</p></td>
 										<td class="bottomColumn" valign="middle"><p>デジタル6ch</p></td>

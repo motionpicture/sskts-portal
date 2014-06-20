@@ -39,15 +39,17 @@ include("../../../../lib/require.php");
 						<td class="admission_tc_gray3">スクリーンサイズ</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=1">シネマ1</a></td>
-						<td class="admission_tc">104</td>
+						<!-- <td class="admission_tc_gray1"><a href="./detail.php?p=1">シネマ1</a></td> -->
+						<td class="admission_tc_gray1">シネマ1</td>
+				 	    <td class="admission_tc">104</td>
 						<td class="admission_tc">2</td>
 						<td class="admission_tc">デジタル6ch</td>
 						<td class="admission_tc">W7.55m<br>
 						H4.22m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=2">シネマ2</a></td>
+						<!--<td class="admission_tc_gray1"><a href="./detail.php?p=2">シネマ2</a></td> -->
+						<td class="admission_tc_gray1">シネマ2</td>
 						<td class="admission_tc">104</td>
 						<td class="admission_tc">2</td>
 						<td class="admission_tc">デジタル6ch</td>
@@ -55,7 +57,8 @@ include("../../../../lib/require.php");
 						H4.3m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=3">シネマ3</a></td>
+						<!--<td class="admission_tc_gray1"><a href="./detail.php?p=3">シネマ3</a></td> -->
+						<td class="admission_tc_gray1">シネマ3</td>
 						<td class="admission_tc">95</td>
 						<td class="admission_tc">1</td>
 						<td class="admission_tc">デジタル6ch</td>
@@ -63,7 +66,8 @@ include("../../../../lib/require.php");
 						H3.98m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=4">シネマ4</a></td>
+						<!--<td class="admission_tc_gray1"><a href="./detail.php?p=4">シネマ4</a></td> -->
+						<td class="admission_tc_gray1">シネマ4</td>
 						<td class="admission_tc">50</td>
 						<td class="admission_tc">1</td>
 						<td class="admission_tc">デジタル6ch</td>
@@ -71,7 +75,8 @@ include("../../../../lib/require.php");
 						H3.11m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=5">シネマ5</a></td>
+						<!--<td class="admission_tc_gray1"><a href="./detail.php?p=5">シネマ5</a></td> -->
+						<td class="admission_tc_gray1">シネマ5</td>
 						<td class="admission_tc">201</td>
 						<td class="admission_tc">2</td>
 						<td class="admission_tc">デジタル6ch</td>
@@ -79,7 +84,8 @@ include("../../../../lib/require.php");
 						H6.46m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=6">シネマ6</a></td>
+						<!--<td class="admission_tc_gray1"><a href="./detail.php?p=6">シネマ6</a></td> -->
+						<td class="admission_tc_gray1">シネマ6</td>
 						<td class="admission_tc">302</td>
 						<td class="admission_tc">2</td>
 						<td class="admission_tc">デジタル6ch（DOLBY ATMOS）</td>
@@ -87,7 +93,8 @@ include("../../../../lib/require.php");
 						H7.41m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=7">シネマ7</a></td>
+						<!--<td class="admission_tc_gray1"><a href="./detail.php?p=7">シネマ7</a></td> -->
+						<td class="admission_tc_gray1">シネマ7</td>
 						<td class="admission_tc">141</td>
 						<td class="admission_tc">2</td>
 						<td class="admission_tc">デジタル6ch</td>
@@ -95,7 +102,8 @@ include("../../../../lib/require.php");
 						H4.52m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=8">シネマ8</a></td>
+						<!--<td class="admission_tc_gray1"><a href="./detail.php?p=8">シネマ8</a></td> -->
+						<td class="admission_tc_gray1">シネマ8</td>
 						<td class="admission_tc">106</td>
 						<td class="admission_tc">2</td>
 						<td class="admission_tc">デジタル6ch</td>
