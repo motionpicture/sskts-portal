@@ -56,7 +56,7 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="access_tl">駐車場</td>
-						<td class="access_tr">無料駐車場　台</td>
+						<td class="access_tr">約1,800台の大型立体駐車場完備<br />（映画をご鑑賞いただいた方は5時間無料）</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
