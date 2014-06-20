@@ -416,7 +416,7 @@ function getSmartFooter(){
 			if($twitter[$arr["ename"]]){
 			     $social .= "<a href='" . $twitter[$arr["ename"]] . "'><img class='pickup3' src='$define[Images_SP_URL]bnr/btn_twitter.gif' width='100' alt='CHINEMA SUNSHINE ｔwitter'></a></p>";
 			}
-			if($facebook[$arr["ename"]] && $twitter[$arr["ename"]]){
+			if(!$facebook[$arr["ename"]] && !$twitter[$arr["ename"]]){
 			    echo "<div style='margin:0 0 20px;'></div>";
 			}
 			$social .= "</div>";
