@@ -31,7 +31,7 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="accessLeft" valign="top"><p>住所</p></td>
 											<td class="accessRight">
-											 	<p class="top">山口県下関市竹崎町4-1-37 &nbsp;&nbsp;シーモール下関2F</p>
+											 	<p class="top">山口県下関市竹崎町4-1-37 &nbsp;&nbsp;シーモール下関&nbsp;&nbsp;シネマ棟2階</p>
 											 	<p class="bottom"></p>
 											</td>
 										</tr>
@@ -43,9 +43,8 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="accessLeft" valign="top"><p>電話番号</p></td>
 											<td class="accessRight">
-											 	<p><span>083-235-7777</span></p>
 											 	<p>24時間上映時間案内</p>
-											 	<p><span>083-235-3001(7/5開通)</span></p>
+											 	<p><span>083-235-3001</span></p>
 											 	<p class="notes">※電話番号のお掛け間違いにご注意下さい</p>
 											</td>
 										</tr>
@@ -56,7 +55,10 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="accessLeft" valign="top"><p>駐車場</p></td>
-											<td class="accessRight"><p>無料駐車場 台</p></td>
+											<td class="accessRight">
+											     <p>無料駐車場約1,800台の大型立体駐車場完備</p>
+											     <p>（映画をご鑑賞いただいた方は5時間無料）</p>
+											</td>
 										</tr>
 
 										<tr class="line">

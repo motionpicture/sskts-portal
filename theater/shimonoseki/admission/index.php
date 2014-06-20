@@ -104,7 +104,7 @@ include("../../../lib/require.php");
 											(例)〈レイトショー1,300円〉+〈ドルビーアトモス料金100円〉＝1,400円<br /><br />
 										</p>
 									</td>
-									<td class="priceAdd">通常料金+200円</td>
+									<td class="priceAdd">通常料金+100円</td>
 								</tr>
 
 								<tr class="line">
