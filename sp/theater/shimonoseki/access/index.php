@@ -39,7 +39,7 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="access_tl">住所</td>
-						<td class="access_tr">山口県下関市竹崎町4-1-37 シーモール下関2F</td>
+						<td class="access_tr">山口県下関市竹崎町4-1-37 シーモール下関 シネマ棟2階</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
