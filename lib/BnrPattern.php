@@ -40,7 +40,7 @@ if($page == "top"){
 }elseif($page == "numazu"){$target=array(12,13);
 }elseif($page == "kahoku"){$target=array(10,11);
 }elseif($page == "yamatokoriyama"){$target=array(14,15,1);
-}elseif($page == "shimonoseki"){$target=array(32);
+}elseif($page == "shimonoseki"){$target=array();
 }elseif($page == "okaido"){$target=array(32);
 }elseif($page == "kinuyama"){$target=array(16,17,1);
 }elseif($page == "shigenobu"){$target=array(16,17);

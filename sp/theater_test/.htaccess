@@ -1,5 +1,0 @@
-AuthUserFile /var/www/vhosts/cinemasunshine.co.jp/httpdocs/sp/theater_test/.htpasswd
-AuthGroupFile /dev/null
-AuthName "Password"
-AuthType Basic
-require valid-user

@@ -171,6 +171,9 @@ if($val != $data){
 											//theater一覧取得
 											$theaters = getTheaterList();
 											foreach ($theaters as $theater) {
+												if($theater["name"] == "下関"){
+													continue;
+												}
 
 												//もし劇場が選択されている場合
 												if (!empty($_GET['theater']) && $theater['ename'] == $_GET['theater']) {

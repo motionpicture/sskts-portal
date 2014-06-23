@@ -831,6 +831,52 @@ $arr = getNowPage();
 $html =  BnrPattern($arr["ename"]);
 $today = getdate();
 
+$Url = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
+
+if(preg_match("!/shimonoseki/!",$Url)){
+echo <<<EOL
+	<!-- #footer start -->
+	<div id="footer" style="margin:0;">
+		<div id="footerMain">
+			<div class="top">
+				<div class="topMain clearfix">
+					<ul class="ftrListTop">
+						<li><a href="{$define['Company_URL']}">会社概要</a></li>
+						<li>|</li>
+						<li><a href="{$define['SiteMap_URL']}">サイトマップ</a></li>
+						<li>|</li>
+						<li><a href="{$define['Low_URL']}">特定商取引法に基づく表記</a></li>
+						<li>|</li>
+						<li><a href="{$define['Policy_URL']}">利用規約</a></li>
+						<li>|</li>
+						<li class="end"><a href="{$define['Privacy_URL']}">プライバシーポリシー</a></li>
+					</ul>
+
+					<ul class="ftrListBottom">
+						<li>ご意見・ご感想 （ご利用劇場をお知らせください） </li>
+						<li><a href="mailto:cin-sun_mail@cinemasunshine.co.jp?Subject=%e3%81%94%e6%84%8f%e8%a6%8b%e3%83%bb%e3%81%94%e6%84%9f%e6%83%b3"><img src="{$define['Images_URL']}common/btn_mail.gif"></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="bottom">
+				<div class="bottomMain">
+					<p>Copyright (C) 2001-{$today['year']} Cinema Sunshine Co., Ltd. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- #footer end -->
+
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+		$(function(){
+		});
+	</script>
+EOL;
+}else{
 echo <<<EOL
 	<!-- #footer start -->
 	<div id="footer">
@@ -890,6 +936,9 @@ echo <<<EOL
 		});
 	</script>
 EOL;
+}
+
+
 
 //アフィリエイトタグの出し分け
 //必要なページの見はられるよ
