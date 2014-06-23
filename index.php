@@ -241,7 +241,7 @@ if($val != $data){
 									</div>
 
 									<div class="Box clearfix">
-										<div class="kind"><p><img src="./images/common/theater_shikoku.gif" alt="中国・四国"></p></div>
+										<div class="kind"><p><img src="./images/common/theater_chugoku_shikoku.gif" alt="中国・四国"></p></div>
 										<ul>
 											<li><a href="./theater/shimonoseki/">シネマサンシャイン下関</a></li>
 											<li><a href="./theater/okaido/">シネマサンシャイン大街道</a></li>
