@@ -661,7 +661,7 @@ if($arr["side_flag"] == 0){
 	$html .= "</ul>";
 	$html .= "</div>";
 	$html .= "<div class='Box clearfix'>";
-	$html .= "<div class='kind'><p><img src='$define[Images_URL]common/theater_shikoku.gif' alt='中国・四国'></p></div>";
+	$html .= "<div class='kind'><p><img src='$define[Images_URL]common/theater_chugoku_shikoku.gif' alt='中国・四国'></p></div>";
 	$html .= "<ul>";
 	$html .= "<li><a href='$define[Theater_URL]shimonoseki/'>下関</a></li>";
 	$html .= "<li><a href='$define[Theater_URL]okaido/'>大街道</a></li>";
