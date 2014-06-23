@@ -92,18 +92,18 @@ include("../lib/require.php");
 										<li class="clearfix">
 											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./shimonoseki" >シネマサンシャイン下関</a></p>
 											<p class="theaterPracce">山口県</p>
-											<p class="theaterService">
+											<!--<p class="theaterService">
 												<a class="link" href="http://www.facebook.com/sunshineehime" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
 												<a href="http://twitter.com/cs_ehime" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
-											</p>
+											</p>-->
 										</li>
 										<li class="clearfix">
 											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./okaido" >シネマサンシャイン大街道</a></p>
 											<p class="theaterPracce">愛媛県</p>
-											<!--<p class="theaterService">
+											<p class="theaterService">
 												<a class="link" href="http://www.facebook.com/sunshineehime" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
 												<a href="http://twitter.com/cs_ehime" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
-											</p> -->
+											</p>
 										</li>
 										<li class="clearfix">
 											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./kinuyama" >シネマサンシャイン衣山</a></p>
