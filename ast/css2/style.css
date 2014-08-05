@@ -1,0 +1,261 @@
+@charset "Shift_JIS";
+
+
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+
+
+fieldset,img {
+
+	border: 0;
+	behavior: url("iepngfix.htc") 
+
+}
+
+
+
+ol,ul {
+
+	list-style: none;
+
+}
+
+li {
+	float:left;
+}
+
+
+
+h1,h2,h3{
+
+	font-size: 100%;
+
+	font-weight: normal;
+
+}
+
+
+
+
+/* body
+
+---------------------------------------------------------------------------- */
+
+html {
+
+	overflow-y: scroll;
+	font-size:12px;
+	
+
+}
+
+body {
+
+	text-align: center;
+	background:#000;
+	font:"ÇlÇr ÇoÉSÉVÉbÉN", "ÉqÉâÉMÉmäpÉS Pro W3", "Osaka", verdana, arial, sans-serif;
+	
+	
+	 
+
+}  
+	
+
+
+
+
+
+/* ÉäÉìÉNêF
+
+---------------------------------------------------------------------------- */
+
+
+a:hover img {
+	opacity: 0.50;
+	-moz-opacity: 0.50; /* Firefox */
+	filter: alpha(opacity=50); /* IE6/7 */
+	-ms-filter: "alpha(opacity=50)"; /* IE8 */
+
+}
+
+
+
+/* ã§í 
+
+---------------------------------------------------------------------------- */
+
+.clearB {
+
+	clear: both;
+
+}
+
+
+
+/* wrapper
+
+---------------------------------------------------------------------------- */
+
+#wrapper {
+
+	clear: both;
+
+	width:930px;
+
+	text-align: center;
+
+	margin: 0 auto;
+	
+	padding:0;
+	
+	background:url(../img/xmen_bg2.png) repeat-y;
+	
+
+	
+
+}
+
+#conteiner {
+
+	clear: both;
+
+	width: 880px;
+
+	text-align: center;
+
+	margin: 0 auto;
+	
+	padding:0;
+	
+	color:#FFF;
+	
+
+}
+
+
+/* kabegami
+
+---------------------------------------------------------------------------- */
+
+#title {
+	float:left;
+	width:470px;
+	margin:0 auto;
+}
+
+
+#title img {
+	margin-bottom:12px;
+}
+
+#txt_area {
+	text-align:left;
+	background:url(../img/xmen_bg3.gif);
+	padding:10px;
+	width:435px;
+	height:151px;
+}
+
+#big_txt {
+	font-style:italic;
+	font-size:16px;
+	color:#16cdd9;
+	line-height:150%;
+}
+
+#s_txt {
+	font-size:12px;
+	margin-top:10px;
+	line-height:180%;
+}
+
+
+
+
+#main_img {
+	float:right;
+}
+
+#story {
+	clear:both;
+	margin-top:10px;
+	background:url(../img/xmen_bg4.gif) no-repeat;
+	width:860px;
+	height:290px;
+	padding:10px;
+}
+
+#official {
+	float:left;
+}
+
+
+#trailer {
+	width:400px;
+	height:222px
+}
+
+#story_txt {
+	width:438px;
+	float:right;
+	text-align:left;
+	height: 290px;
+}
+	
+#listbox {
+	width:918px;
+	height:245px;
+	clear:both;
+	margin:0 auto;
+}
+
+
+
+
+
+
+/* footer
+
+---------------------------------------------------------------------------- */
+
+#footer {
+
+	clear: both;
+	width: 900px;
+	height:100px;
+	color: #999;
+	font-size:11px;
+	line-height:120%;
+	margin:0 auto;
+	padding:10px 10px 0 10px;
+
+}
+
+
+#footer .attention {
+
+	float: left;
+	width:600px;
+	text-align:left;
+
+
+}
+
+
+
+#footer .footerLink {
+	margin-top:10px;
+	width:300px;
+	height:53px;
+	float: right;
+
+
+}

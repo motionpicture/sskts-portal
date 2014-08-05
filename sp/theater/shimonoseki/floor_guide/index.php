@@ -209,7 +209,7 @@ include("../../../../lib/require.php");
 						<td class="admission_tl_name">ムビチケ</td>
 					</tr>
 					<tr>
-						<td class="admission_tl">オンラインで購入して座席予約できる電子前売券<br /><span style="font-size:10px;">※当劇場は全席自由席です。ご予約時に席の指定はできません。開場後、お好きな席にお座りください。</span></td>
+						<td class="admission_tl">オンラインで購入して座席予約できる電子前売券</td>
 					</tr>
 					<tr>
 						<td colspan="2" height="10"></td>

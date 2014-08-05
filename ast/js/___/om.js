@@ -1,0 +1,1 @@
+function img_change(obj0,gfnam0){ obj0.src = gfnam0; } 

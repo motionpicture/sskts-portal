@@ -10,4 +10,5 @@ require_once($include_dir."/BnrPattern.php");
 require_once($include_dir."/create.php");
 require_once($include_dir."/createSmart.php");
 require_once($include_dir."/getJsonSp.php");
+require_once($include_dir."/getSpecialSite.php");
 ?>

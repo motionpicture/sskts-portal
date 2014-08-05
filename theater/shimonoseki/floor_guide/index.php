@@ -154,7 +154,7 @@ include("../../../lib/require.php");
 									<div class="left"><a href="http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3005179&pid=881385431&vc_url=http%3A%2F%2Fwww" target="_blank"><img src="../../../images/common/fig_ticket.gif"  alt="ムビチケ" ></a></div>
 									<div class="right">
 										<p class="subTitle" >ムビチケ</p>
-										<p class="txt" > オンラインで購入して座席予約できる電子前売券<br /><span style="font-size:10px;">※当劇場は全席自由席です。ご予約時に席の指定はできません。開場後、お好きな席にお座りください。</span></p>
+										<p class="txt" > オンラインで購入して座席予約できる電子前売券</p>
 									</div>
 								</div>
 								<div class="floorBox clearfix">

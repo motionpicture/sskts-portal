@@ -130,19 +130,16 @@ $define = get_defined_constants() ;
 		foreach($slide as $key => $val){
 			unset($theater);
 			unset($blank);
-			$theater = explode(",",$val['theater_ids']);
 			if($val["url_flg"] == 1){
 				$target = 'target="_blank"';
 			}else{
 				$target = '';
 			}
 
-			if(in_array($theaterId,$theater)){
-				if($val["url"]){
-					$bnrHtml .= "<li><div class='pickup_slide'><a href='$val[url]'><img src='$define[GROBAL_TOP_URL]theaters_image/topimage/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></a></div>";
-				}else{
-					$bnrHtml .= "<li><div class='pickup_slide'><img src='$define[GROBAL_TOP_URL]theaters_image/topimage/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></div>";
-				}
+			if($val["url"]){
+				$bnrHtml .= "<li><div class='pickup_slide'><a href='$val[url]'><img src='/theaters_image/topslider/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></a></div>";
+			}else{
+				$bnrHtml .= "<li><div class='pickup_slide'><img src='/theaters_image/topslider/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></div>";
 			}
 		}
 

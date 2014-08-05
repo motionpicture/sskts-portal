@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ul.acc {
+
+}
+
+ul.acc li div ul {
+	height: 100px;
+}
+
+ul.acc, ul.acc li ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.acc a{
+	color: #feffff;
+	display: block;
+	height:21px;
+	margin:0 0 8px;
+	font-size:12px;
+    text-decoration: none;
+	outline: none;
+	text-align:center;
+}
+
+.menu{
+	color: #feffff;
+	display: block;
+	height:21px;
+	margin:0 0 8px;
+	font-size:12px;
+    text-decoration: none;
+	outline: none;
+	text-align:center;
+}
+
+ul.acc li a {
+
+}
+
+ul.acc li div ul li a { 
+  background: none;
+   height: 16px;
+}
+
+ul.acc li div ul li a:hover { 
+  background-color: #2a2a2a;
+  color:#00b2ff;
+  
+}
+
+ul.acc li div ul,
+ul.acc li div div.notlast {
+	background-color: #000000;
+	opacity: 0.85;
+	width:100px;
+}
+
+ul.acc li div div {
+	height: 10px;
+}
+
+ul.acc li div div.last {
+
+}
+.tittle{
+	float:left;
+	z-index:9999;
+	position:relative;
+}
+ul.acc li .open{
+ border-top: 1px dotted #555555;
+}

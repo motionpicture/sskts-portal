@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>シネマサンシャイン&nbsp;アメイジング・サウンドシアター | 作品紹介</title>
+<meta name="keywords" content="アメイジング・サウンドシアター,3D,imm,DOLBY,DOLBY ATMOS,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島" />
+<meta name="description" content="日本初、DOLBY ATMOSとimm soundを備えた最新音響シアター、“アメイジング・サウンドシアター”が誕生。客席を取り囲んで配置されたスピーカーによって体験したことのないような迫力で体感できるDOLBY ATMOS。
+前後左右、スクリーンや天井にもスピーカーを設置し、観客を包み込むような音響で、まるでその場にいるような臨場感のある音響体験ができるimm sound。その二つの音響システムを兼ね備えた“アメイジング・サウンドシアター”がついに誕生です。" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script src="../js/fullscreen.js" type="text/javascript"></script>
+<script src="../js/jquery-1.7.min.js" type="text/javascript"></script>
+<script src="../js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+<script src="../js/jquery.coda-slider-2.0.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="all" />
+<link href="../css/fullscreen.css" rel="stylesheet">
+<style>
+.movieSet{
+	font-size:12px;
+	padding:20px;
+}
+
+.leftArea{
+	width:355px;
+	float:left;
+}
+
+.rightArea{
+	width:370px;
+	float:right;
+}
+
+.leftArea .area01,
+.leftArea .area02{
+	margin:0 0 5px 0;
+}
+
+.leftArea .area03{
+	margin:0 0 5px 0;
+	line-height:1.8;
+}
+
+.leftArea .area04{
+	font-size:8px;
+}
+
+.rightArea .area06{
+    color: #0076D1;
+    font-size: 14px;
+    margin: 10px 0 0;
+}
+
+.rightArea .area07{
+    margin: 10px 0 0;
+}
+
+.rightArea .area08{
+    margin: 10px 0 0;
+}
+
+.rightArea .area09{
+    margin: 10px 0 0;
+    text-align: right;
+}
+.rightArea .area10{
+    margin: 10px 0 0;
+	color:red;
+}
+.area10 a{
+	color:red;
+	text-decoration:underline;
+}
+.area10 a:hover{
+	text-decoration:none;
+}
+.rightArea .area02,
+.rightArea .area03{
+    margin: 10px 0 0;
+}
+
+.blue_border {
+    margin: 20px 0 0 20px;
+}
+
+P {
+    font-family: "ＭＳ ゴシック","MS Gothic","Osaka－等幅",Osaka-mono,monospace;
+    letter-spacing: 0.1em;
+    line-height: 160%;
+}
+
+.movieSet .rightArea .area06{
+	font-size:16px;
+	font-weight:bold;
+}
+.ast_icon{
+	height:22px;
+	margin:5px 0;
+}
+.ast_icon ul li{
+	width:70px;
+	height:22px;
+	margin-right:10px;
+}
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8383230-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="wrapper">
+<img src="../img/main_bg.jpg" width="100%" height="100%" id="bg"  />
+<div id="contents">
+<div id="navi" class="transparent">
+    <ul>
+      <li class="nav_logo"><a href="../"><img class="transparent" src="../img/ast_logo.png"></a></li>
+      <li><a href="../news/"><img class="" src="../img/btn03.png"></a></li>
+      <li><a href="../about/ast.html"><img class="" src="../img/btn06.png"></a></li>
+      <li><a href="../about/dolbyatmos.html"><img class="" src="../img/btn07.png"></a></li>
+      <li><a href="../about/"><img class="" src="../img/btn01.png"></a></li>
+      <li><a href="../movie/index.html"><img class="transparent" src="../img/btn02.png"></a></li>
+      <li><a href="http://www.facebook.com/sunshineheiwajima" target="_blank"><img class="" src="../img/btn04.png"></a></li>
+      <li><a href="https://twitter.com/sunshine_imm" target="_blank"><img class="" src="../img/btn05.png"></a></li>
+    </ul>
+  </div>
+
+<div id="mainContents">
+	<div class="section01" style="margin:0 0 25px;">
+		<h1 class="area01" style="margin:20px 0 0 0; "><img src="../img/movie_info_tittle.png" alt="作品情報" width="123" height="31" ></h1>
+		<div class="clear"></div>
+	</div>
+	<div class="headline">
+		<h2 class="area01"><img src="../img/movie_info_bar2.gif" alt="上映中作品" width="790" height="41" ></h2>
+	</div>
+
+	<!-- Movie Set -->
+	<div id="movies">
+		<div class="movieSet">
+			<div class="leftArea">
+				<p class="area01"><img src="../img/movie/movie_img_42.jpg" alt="アメイジングスパイダーマン2" width="355" height="190" ></p>
+				<p class="area04">Spider-Man and related characters and elements: TM &amp; (C)2014 Marvel.</p>
+			</div>
+
+			<div class="rightArea">
+				<p class="area05"><span style="font-weight:bold;">公開中</span></p>
+				<div>
+					<p class="area06">『アメイジング・スパイダーマン2』</p>
+				</div>
+				<div class="ast_icon">
+					<ul>
+						<li><img src="../img/movie/dol_icon.gif" alt="DOLBY"/></li>
+					</ul>
+				</div>
+
+				<div>
+					<p class="area10">世界はスパイダーマンを失うのか？<br />スパイダーマンを抹消すべく次々に現れる３強敵！<br />史上最大の戦いが始まる！</p>
+				</div>
+				<p class="area07"><img src="../img/movie_info_story.png" width="70" height="15" alt="ストーリー" ></p>
+				<p class="area08">ピーター・パーカーはスパイダーマンとしてＮＹの人々を守り、1人の男性として恋人グウェンを愛する人生を満喫していた。しかし旧友であるハリー・オズボーンがＮＹに戻り、少しずつその生活に変化が・・・。オズコープ社の電気技師マックス・ディランが事故で変貌した、高圧電流で全てを破滅する電撃魔人エレクトロを始め、強力なサイ型アーマーで全てを粉砕する怪力鉄人ライノ、そして高速グライダーで全てを切り裂く空中怪人グリーン・ゴブリンが、“スパイダーマンのいない世界”を創ろうと、次々と彼の前に立ちはだかる。そしてついに、世界の終わりが近づこうとしていた・・・。</p>
+				<p class="area03"> 監督：マーク・ウェブ<br />出演：アンドリュー・ガーフィールド、エマ・ストーン、ジェイミー・フォックス、デイン・デハーン、サリー・フィールドほか<br /></p>
+
+				<div class="area09" style="float:right;">
+					<div style="float:left;margin:0 10px 0 0;"><a href="http://www.amazing-spiderman.jp/site/" target="_blank"><img src="../img/movie_info_link_btn.gif" width="119" height="33" alt="公式サイトへ" ></a></div>
+					<div style="float:left;"><a href="http://www.cinemasunshine.co.jp/theater/heiwajima/" target="_blank"><img src="../img/buy_link_btn.gif" width="119" height="33" alt="チケット購入" ></a></div> 
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="news_blue_border"> <img src="../img/movie_info_section.gif"> </div
+		</div>
+	</div>
+	<!-- Movie Set -->  
+                 
+
+
+	<div class="headline">
+		<h2 class="area01"><img src="../img/movie_info_bar.gif" alt="上映予定作品" width="790" height="41" ></h2>
+	</div>                             
+    <!-- Movie Set -->
+	<div id="movies">
+		<div class="movieSet">
+			<div class="leftArea">
+				<p class="area01"><img src="../img/movie/movie_img_43.jpg" alt="トランセンデンス" width="355" height="190" ></p>
+				<p class="area04">© 2014 Alcon Entertainment, LLC. All Rights Reserved.</p>
+			</div>
+
+			<div class="rightArea">
+				<p class="area05"><span style="font-weight:bold;">6月28日公開</span></p>
+				<div>
+					<p class="area06">『トランセンデンス』</p>
+				</div>
+				<div class="ast_icon">
+					<ul>
+						<li><img src="../img/movie/dol_icon.gif" alt="DOLBY"/></li>
+					</ul>
+				</div>
+
+				<div>
+					<p class="area10">進化するのは、人類だけなのか<br />トランセンデンス、それはすべてを超越する。<br />圧倒的映像世界でアカデミー賞４部門を授賞した『インセプション』、映画史に金字塔を打ち立てた『ダークナイト』シリーズのキャスト、スタッフが再集結！</p>
+				</div>
+				<p class="area07"><img src="../img/movie_info_story.png" width="70" height="15" alt="ストーリー" ></p>
+				<p class="area08">死すべき運命だった科学者ウィル。しかしその意識は、死の間際に妻エヴリンによってスーパーコンピュータへとインストールされた。意識だけの存在となったウィルは、オンラインに繋がると軍事機密、金融、政治から個人情報まで、世界中のあらゆる情報を手に入れ、究極的な進化を遂げる。そしてナノテクノロジーを駆使し、現実の世界にまで及んだ彼の力は、遂に生命までもコントロールし始めた。常人を遥かに超える力で増殖し、拡散し、支配するウィルに「彼は私の愛した人なの？」と信じる心が揺らぎ始めるエヴリン。まるで神のごとき力を手にし、変わり果てた男に世界は恐怖を感じ、密かに抹殺計画が進行し始める。そしてエヴリンにも選択の時が…。</p>
+				<p class="area03"> 監督：ウォーリー・フィスター<br />出演：ジョニー・デップ、モーガン・フリーマン、ポール・ベタニー、レベッカ・ホール、キリアン・マーフィ、ケイト・マーラ<br /></p>
+
+				<div class="area09" style="float:right;">
+					<div style="float:left;margin:0 10px 0 0;"><a href="http://transcendence.jp/" target="_blank"><img src="../img/movie_info_link_btn.gif" width="119" height="33" alt="公式サイトへ" ></a></div>
+					<!--<div style="float:left;"><a href="http://www.cinemasunshine.co.jp/theater/heiwajima/" target="_blank"><img src="../img/buy_link_btn.gif" width="119" height="33" alt="チケット購入" ></a></div>--> 
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="news_blue_border"> <img src="../img/movie_info_section.gif"> </div
+		</div>
+	</div>
+	<!-- Movie Set -->
+	<!-- Movie Set -->
+	<div id="movies">
+		<div class="movieSet">
+			<div class="leftArea">
+				<p class="area01"><img src="../img/movie/movie_img_44.jpg" alt="オール・ユー・ニード・イズ・キル" width="355" height="190" ></p>
+				<p class="area04">(C)2014 VILLAGE ROADSHOW FILMS(BMI)LIMITED</p>
+			</div>
+
+			<div class="rightArea">
+				<p class="area05"><span style="font-weight:bold;">7月4日公開</span></p>
+				<div>
+					<p class="area06">『オール・ユー・ニード・イズ・キル』</p>
+				</div>
+				<div class="ast_icon">
+					<ul>
+						<li><img src="../img/movie/dol_icon.gif" alt="DOLBY"/></li>
+					</ul>
+				</div>
+
+				<div>
+					<p class="area10">あらゆる軍事力を持ってしても対抗することのできない侵略者により熾烈な襲撃を受けている近未来の地球を舞台に繰り広げられるアクション超大作。</p>
+				</div>
+				<p class="area07"><img src="../img/movie_info_story.png" width="70" height="15" alt="ストーリー" ></p>
+				<p class="area08">突然、決死の任務に就くことになったウィリアム・ケイジ少佐（クルーズ）は本格的な戦闘を前にあっけなく命を落としてしまう。ところが意識を取り戻したケイジは自分が不可解なタイムループの世界にいて、何度も戦闘と戦死を繰り返しながら……同じ戦いを生き抜かねばならないことに気づくのだった。しかし、特殊部隊の軍人であるリタ・ヴラタスキ（ブラント）と共に敵との戦いを繰り返していく間にケイジの戦闘技術は次第に磨き上げられていく。やがて戦いを続けていくうちに、ふたりは少しずつ敵を倒す糸口を掴んでいくことになる。</p>
+				<p class="area03"> 監督：ダグ・ライマン<br />出演：トム・クルーズ、エミリー・ブラント、ビル・パクストン、キック・ガリー、ドラゴミール・ムルジッチ、シャーロット・ライリー、ジョナス・アームストロング、フランツ・ドラメー<br /></p>
+
+				<div class="area09" style="float:right;">
+					<div style="float:left;margin:0 10px 0 0;"><a href="http://wwws.warnerbros.co.jp/edgeoftomorrow/" target="_blank"><img src="../img/movie_info_link_btn.gif" width="119" height="33" alt="公式サイトへ" ></a></div>
+					<!--<div style="float:left;"><a href="http://www.cinemasunshine.co.jp/theater/heiwajima/" target="_blank"><img src="../img/buy_link_btn.gif" width="119" height="33" alt="チケット購入" ></a></div>--> 
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="news_blue_border"> <img src="../img/movie_info_section.gif"> </div
+		</div>
+	</div>
+	<!-- Movie Set -->  
+
+	<!-- Movie Set -->
+	<div id="movies">
+		<div class="movieSet">
+			<div class="leftArea">
+				<p class="area01"><img src="../img/movie/movie_img_45.jpg" alt="マレフィセント" width="355" height="190" ></p>
+				<p class="area04">(C)2014 Disney Enterprises, Inc. All rights reserved.</p>
+			</div>
+
+			<div class="rightArea">
+				<p class="area05"><span style="font-weight:bold;">7月5日公開</span></p>
+				<div>
+					<p class="area06">『マレフィセント』</p>
+				</div>
+				<div class="ast_icon">
+					<ul>
+						<li><img src="../img/movie/dol_icon.gif" alt="DOLBY"/></li>
+					</ul>
+				</div>
+
+				<div>
+					<p class="area10">〜ウォルト・ディズニー創立90周年記念作品〜「眠れる森の美女」の悪役マレフィセントの視点で描かれる、“禁断の呪い”が生んだ究極の愛の物語</p>
+				</div>
+				<p class="area07"><img src="../img/movie_info_story.png" width="70" height="15" alt="ストーリー" ></p>
+				<p class="area08">ある王国で、念願のロイヤル・ベビー、オーロラ姫の誕生を祝うパーティーが開かれている。招待客たちが次々に祝福に訪れ、城は幸福感で満ちていた。“招かれざる客”である邪悪な妖精マレフィセントが現れるまでは…。そして、彼女はオーロラ姫に恐ろしい呪いをかける─「16歳の誕生日の日没までに、姫は永遠の眠りにつくだろう」─なぜマレフィセントはそのような恐ろしい呪いをかけねばならなかったのか？謎を解く鍵は、人間界と妖精界とのあまりに悲しい戦いの歴史と、マレフィセント自身の封印された過去にあった。マレフィセントの呪いは成就してしまうのか？ そして、呪いがマレフィセントとオーロラ姫にもたらす、驚くべき運命とは…？</p>
+				<p class="area03"> 監督：ロバート・ストロンバーグ<br />出演：アンジェリーナ・ジョリー、エル・ファニング<br /></p>
+
+				<div class="area09" style="float:right;">
+					<div style="float:left;margin:0 10px 0 0;"><a href="http://ugc.disney.co.jp/blog/movie/category/maleficent/" target="_blank"><img src="../img/movie_info_link_btn.gif" width="119" height="33" alt="公式サイトへ" ></a></div>
+					<!--<div style="float:left;"><a href="http://www.cinemasunshine.co.jp/theater/heiwajima/" target="_blank"><img src="../img/buy_link_btn.gif" width="119" height="33" alt="チケット購入" ></a></div>--> 
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="news_blue_border"> <img src="../img/movie_info_section.gif"> </div
+		</div>
+	</div>
+	<!-- Movie Set -->  
+
+	<!-- Movie Set -->
+	<div id="movies">
+		<div class="movieSet">
+			<div class="leftArea">
+				<p class="area01"><img src="../img/movie/movie_img_46.jpg" alt="ゴジラ" width="355" height="190" ></p>
+				<p class="area04"> (C) 2014 WARNER BROS. ENTERTAINMENT INC. ＆ LEGENDARY PICTURES PRODUCTIONS LLC</p>
+			</div>
+
+			<div class="rightArea">
+				<p class="area05"><span style="font-weight:bold;">7月25日公開</span></p>
+				<div>
+					<p class="area06">『マレフィセント』</p>
+				</div>
+				<div class="ast_icon">
+					<ul>
+						<li><img src="../img/movie/dol_icon.gif" alt="DOLBY"/></li>
+					</ul>
+				</div>
+
+				<div>
+					<p class="area10">最高の恐怖　極限の絶望　ゴジラ復活</p>
+				</div>
+				<p class="area07"><img src="../img/movie_info_story.png" width="70" height="15" alt="ストーリー" ></p>
+				<p class="area08">
+
+
+全世界待望のハリウッドゴジラ
+この作品は、日本が誇る世界で最も著名なキャラクター「ゴジラ」をハリウッドの超一流スタッフ・キャストによって映画化される超大作である。1954年の「ゴジラ」誕生から60年。想像を絶するスケールのゴジラがハリウッドの手によって生まれ変わる。テーマは「リアル」。ストーリーは「極秘」。
+今、人智をはるかに超えるゴジラが現れたら、我々は何を感じ、何をなすのか？何を大切にし、何を犠牲にするのか？日本から始まる物語は、徹底的にシミュレーションを重ね、アクション映画の枠を超えた繊細なドラマに練り上げられている。もちろんゴジラ自体の造形、動きもリアルにこだわった。ゴジラ本来の存在感を持ちつつ、これまでの映像技術では表現できなかった微妙な動きが加味され、全く新しいこれまでで最大のゴジラ像をフルＣＧで作り上げた。
+</p>
+				<p class="area03">監督：ギャレス・エドワーズ<br />出演：アーロン・テイラー＝ジョンソン、渡辺 謙、エリザベス・オルセン、ジュリエット・ビノシュ、サリー・ホーキンズ、デヴィッド・ストラザーン、ブライアン・クランストン<br /></p>
+
+				<div class="area09" style="float:right;">
+					<div style="float:left;margin:0 10px 0 0;"><a href="http://www.godzilla-movie.jp/" target="_blank"><img src="../img/movie_info_link_btn.gif" width="119" height="33" alt="公式サイトへ" ></a></div>
+					<!--<div style="float:left;"><a href="http://www.cinemasunshine.co.jp/theater/heiwajima/" target="_blank"><img src="../img/buy_link_btn.gif" width="119" height="33" alt="チケット購入" ></a></div>--> 
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="news_blue_border"> <img src="../img/movie_info_section.gif"> </div
+		</div>
+	</div>
+	<!-- Movie Set -->  
+
+  </div>
+</div>
+<div class="footerArea" style="_width:100%;">
+  <p class="copyright">(C) 2001-2014, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
+  <p class="link_top"><a href="http://www.cinemasunshine.co.jp/" target="_blank";>シネマサンシャインTOPへ</a></p>
+</div>
+</body>
+</html>
+

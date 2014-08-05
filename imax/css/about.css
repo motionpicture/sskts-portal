@@ -1,0 +1,114 @@
+#about_image {
+	 background:url(../images/about/whatimax_img1.png) no-repeat scroll 50% 0 transparent;
+	width:960px;	 
+	height:340px;
+	position: absolute;
+}
+
+#about_text{
+	float:right;
+	width:465px;
+	margin-top:210px;
+	padding-right:10px;
+	line-height: 1.5;
+}
+
+#about_text p{
+	font-size:12px;
+}
+
+#text_area {
+	width:978px;
+	min-height:300px;
+	float:left;
+	border:#026e96 1px solid;
+	text-align:left;
+	padding-top:10px;
+	background-color:#00070E;	
+}
+
+#text_area p{
+	font-size:13px;
+}
+
+.about_box1{
+	background-image:url(../images/about/whats_txt1.gif);
+	background-repeat:no-repeat;
+	height:200px;
+	padding-top:100px;
+}
+
+.about_box2{
+	background-image:url(../images/about/whats_txt2.gif);
+	background-repeat:no-repeat;
+	height:200px;
+	padding-top:100px;
+}
+
+.about_box3{
+	background-image:url(../images/about/whats_txt3.gif);
+	background-repeat:no-repeat;
+	height:200px;
+	padding-top:100px;
+}
+
+.about_box4{
+	background-image:url(../images/about/whats_txt4.gif);
+	background-repeat:no-repeat;
+	height:200px;
+	padding-top:100px;
+}
+
+.about_box5{
+	background-image:url(../images/about/whats_txt5.gif);
+	background-repeat:no-repeat;
+	height:80px;
+	padding-top:100px;
+}
+
+
+.about_box_text_left{
+	width:480px;
+	float:left;
+	margin-left:40px;
+	_margin-left:20px;	
+}
+
+.about_box_photo_right{
+	float:right;
+	margin-top:-60px;
+	padding-right:40px;
+}
+
+.about_box_text_right{
+	width:480px;
+	float:left;
+	margin-left:10px;
+}
+
+.about_box_photo_left{
+	float:left;
+	margin-top:-60px;
+	margin-left:40px;
+	_margin-left:20px;
+	padding-right:20px;
+}
+
+.about_box_button_right{
+	float:left;
+	margin-left:50px;
+}
+
+.about_box_button_text_left{
+	width:645px;
+	float:left;
+	margin-left:40px;
+}
+
+#slider-wrapper-about {
+    background: url(../images/about/about_bg_img.png) no-repeat scroll 0 0 transparent;
+    height: 361px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 980px;
+}

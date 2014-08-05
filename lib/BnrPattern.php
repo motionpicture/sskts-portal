@@ -1,89 +1,71 @@
 <?php
 
 function BnrPattern($page){
-$define = get_defined_constants() ;
+	global $db;
+	$loop = 0;
+	$define = get_defined_constants();
 
-$dir = dirname(__FILE__);
-$banners = simplexml_load_file(realpath($dir.'/banners.xml'));
-
-if($page == "top"){
-	$target=array(1,59,58);
-}elseif($page == "showing"){
-	$target=array(1,59,58);
-}elseif($page == "next_showing"){
-	$target=array(1,59,58);
-}elseif($page == "company"){
-	$target=array(1,59,58);
-}elseif($page == "sitemap"){
-	$target=array(1,59,58);
-}elseif($page == "law"){
-	$target=array(1,59,58);
-}elseif($page == "sitepolicy"){
-	$target=array(1,59,58);
-}elseif($page == "privacy"){
-	$target=array(1,59,58);
-}elseif($page == "theater"){
-	$target=array(1,59,58);
-}elseif($page == "members_card"){
-	$target=array(1,59,58);
-}elseif($page == "3d"){
-	$target=array(1,59,58);
-}elseif($page == "special_ticket"){
-	$target=array(1,59,58);
-}elseif($page == "question"){
-	$target=array(1,59,58);
-
-//‚±‚±‚©‚çŒ€ê
-}elseif($page == "ikebukuro"){$target=array(4,5,59);
-}elseif($page == "heiwajima"){$target=array(59,58,7,60);
-}elseif($page == "tsuchiura"){$target=array(8,9,1);
-}elseif($page == "numazu"){$target=array(12,13);
-}elseif($page == "kahoku"){$target=array(10,11);
-}elseif($page == "yamatokoriyama"){$target=array(14,15,1);
-}elseif($page == "shimonoseki"){$target=array();
-}elseif($page == "okaido"){$target=array(32);
-}elseif($page == "kinuyama"){$target=array(16,17,1);
-}elseif($page == "shigenobu"){$target=array(16,17);
-}elseif($page == "masaki"){$target=array(16,17);
-}elseif($page == "ozu"){$target=array(16,17);
-}elseif($page == "kitajima"){$target=array(18,19);
-}else{
-	//Œ»ó‚Å‚Íresult.php—p
-	$target=array(1,59,58);
-}
-
-foreach($banners->banner as $bnr){
-	if(!in_array($bnr["num"],$target)){
-		continue;
-	}
-	
-	//target="_blank"‚Ìˆ—
-	unset($blank);
-	if($bnr['target'] == 1){
-		$blank = 'target="_blank"';
+	$theaterId = getTheaterId($page);
+	if(!$theaterId){
+		$theaterId = 1000;
+		$sql ="
+			select view
+			from
+			pick_views
+			where theater_id = '{$theaterId}'";
 	}else{
-		$blank = '';
+		$sql ="
+			select view
+			from
+			pick_views
+			where theater_id = '{$theaterId['id']}'";
 	}
-	
-	//g—p‚·‚é‘O‚É‰Šú‰»
-	$num = "";
-	$num = (int)$bnr["num"];
 
-	if($bnr['url'] && $bnr['url'] != ""){
-		$cord[$num] = "<li><a href='$bnr[url]' $blank ><img width ='226' src='$define[Images_URL]pickBnr/$bnr[image]' alt='" . htmlspecialchars($bnr["name"], ENT_QUOTES) . "' /></a></li>";
-	}else{
-		$cord[$num] = "<li><img width ='226' src='$define[Images_URL]pickBnr/$bnr[image]' alt='" . htmlspecialchars($bnr["name"], ENT_QUOTES) . "' /></li>";
-	}	
-}
+	$pickId= $db->select($sql);
+	$pickId= explode(",",$pickId[0]["view"]);
 
-$i = 0;
-foreach($target as $val){
-	if($i > 3){
-		break;
+	foreach($pickId as $key => $val){
+		if($loop > 3) break;
+		else $loop++;
+		$banners .= $val . ",";
 	}
-	$html .= $cord[$val];
-	$i++;
-}
 
-return $html;
+	$banners = preg_replace("/\,$/","",$banners);
+
+	$sql ="
+		select *
+		from
+		picks
+		where id IN({$banners})";
+	$bnr = $db->select($sql);
+
+	foreach($bnr as $key => $val){
+	    $bnrInfo[$val['id']] = $val;
+	}
+
+	foreach($pickId as $key => $val){
+	    if(count($bnrReturn) > 3)break;
+	    if(is_array($bnrInfo[$val])){
+	        $bnrReturn[] = $bnrInfo[$val];
+	    }
+	}
+
+	foreach($bnrReturn as $val){
+		//target="_blank"ï¿½Ìï¿½ï¿½ï¿½
+		unset($blank);
+
+		if($val['url_flg'] == 1){
+			$blank = 'target="_blank"';
+		}else{
+			$blank = '';
+		}
+
+		if($val['url'] && $val['url'] != ""){
+			$html .= "<li><a href='$val[url]' $blank ><img width ='226' height='58' src='/theaters_image/pick/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "' /></a></li>";
+		}else{
+			$html .= "<li><img width ='226' height='58' src='/theaters_image/pick/theater_img/pickBnr/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "' /></li>";
+		}
+	}
+
+	return $html;
 }

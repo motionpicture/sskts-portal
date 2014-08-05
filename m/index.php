@@ -56,14 +56,6 @@ a:visited {color:#000000;}
 	$rand_top_img = array_rand($top_imgs,1);
 	$top_imgs = $top_imgs[$rand_top_img];
 
-	/*$blank="";
-	if($top_imgs["url_flg"] == "1"){
-		$blank = 'target="_blank"';
-	}else{
-		$blank = '';
-	}*/
-
-
 	if ($top_imgs['m_url'] != null) {
 		echo "<a href='$top_imgs[m_url]'><img src='../image_crop.php?image=$define[GROBAL_TOP_URL]theaters_image/topimage/$top_imgs[pic_path]&wsize=240&hsize=97' alt='" . htmlspecialchars(mb_convert_encoding($top_imgs["name"],"SJIS","UTF-8"), ENT_QUOTES) . "' /></a><br />";
 	} else {

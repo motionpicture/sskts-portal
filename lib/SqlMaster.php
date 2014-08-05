@@ -150,15 +150,39 @@ function getTopImage($theaterId){
 	global $db;
 
 	$sql= "
- 	select *
-  	from topimages
-  	where FIND_IN_SET('$theaterId',theater_ids)".plusDelFlg();
+	select *
+	from topslider_views
+	where
+	theater_id=$theaterId
+	".plusDelFlg();
+	$num = $db->select($sql);
 
-  	$sql.= " ORDER BY orders DESC";
+	$sliderId = explode(",",$num[0]["view"]);
 
+	foreach($sliderId as $key => $val){
+	    $banners .= $val . ",";
+	}
 
-	$slide= $db->select($sql);
-	return $slide;
+	$banners = preg_replace("/\,$/","",$banners);
+
+	$sql ="
+	select *
+	from
+	topsliders
+	where id IN({$banners})";
+	$bnr = $db->select($sql);
+
+	foreach($bnr as $key => $val){
+	    $bnrInfo[$val['id']] = $val;
+	}
+
+	foreach($sliderId as $key => $val){
+	    if(is_array($bnrInfo[$val])){
+	        $bnrReturn[] = $bnrInfo[$val];
+	    }
+	}
+
+	return $bnrReturn;
 }
 
 //上映中取得

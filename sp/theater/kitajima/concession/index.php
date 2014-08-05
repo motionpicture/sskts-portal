@@ -396,6 +396,15 @@ include("../../../../lib/require.php");
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
 
+                 <tr>
+				<td class="admission_tl">金沢かれいぱん</td>
+				<td class="admission_tr">360円</td>
+			    </tr>
+
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+
 			</tbody>
 		</table>
 	</div>

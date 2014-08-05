@@ -1,0 +1,287 @@
+#campaign_title{
+	background-image:url(../images/campaign/campaign_head.jpg);
+	background-repeat:no-repeat;
+	width:981px;
+	min-height:665px;
+	text-align: center;
+}
+
+#campaign_pagetop{
+	background-image:url(../images/campaign/campaign_pagetop.jpg);
+	width:981px;
+	height:126px;
+	margin-top:650px
+}
+
+.bg1_top{
+	background-image:url(../images/campaign/bg1_top.jpg);
+	background-repeat:no-repeat;
+	width:935px;
+	height:7px;
+	margin:auto;
+	
+}
+
+.bg1_middle{
+	background-image:url(../images/campaign/bg1_middle.jpg);
+	background-repeat:repeat-y;
+	width:935px;
+	height:640px;
+	margin:auto;
+}
+
+.bg1_bottom{
+	background-image:url(../images/campaign/bg1_bottom.jpg);
+	width:935px;
+	height:4px;
+	margin:auto;
+	margin-bottom:30px;
+	background-repeat: no-repeat;
+
+}
+
+.top_column{
+	text-align:center;
+	margin: auto;
+	margin-left: 50px;
+}
+
+.bg2_top{
+	background-image:url(../images/campaign/bg2_top.jpg);
+	width:340px;
+	height:5px;
+}
+
+.bg2_middle{
+	background-image:url(../images/campaign/bg2_middle.jpg);
+	background-repeat:repeat-y;
+	width:340px;
+	height:600px;
+
+}
+
+.bg2_bottom{
+	background-image:url(../images/campaign/bg2_bottom.jpg);
+	width:340px;
+	height:4px;
+
+}
+
+.bg3_top{
+	background-image:url(../images/campaign/bg3_top.jpg);
+	width:509px;
+	height:4px;
+}
+
+.bg3_middle{
+	background-image:url(../images/campaign/bg3_middle.jpg);
+	background-repeat:repeat-y;
+	width:509px;
+	height:600px;
+	float: left;
+
+}
+
+.bg3_bottom{
+	background-image:url(../images/campaign/bg3_bottom.jpg);
+	width:509px;
+	height:4px;
+	float: left;
+
+}
+
+.bg1_area{
+	background-color:#fff;
+	width:820px;
+	height:165px;
+	margin: 0 30px;
+	margin-bottom:40px;
+	float: left;
+
+}
+
+
+.campaign_headline{
+	color:#fff;
+	font-size:30px!important;
+	font-weight:normal;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.step1{
+
+float:left;
+margin:10px 0 0 10px;
+}
+
+.campaign_text1{
+	color:#000;
+	font-size: 22px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 20px;
+	font-weight:bold;
+	margin-bottom: 15px;
+	line-height: 1.2;
+}
+
+.campaign_text1_small{
+	color:#000;
+	font-size: 14px;
+	text-align: left;
+	float:left;
+}
+
+
+.waterblue{
+	color:#026e96;
+	font-size: 25px;
+	font-weight:bold;
+}
+
+.twitter_follow_imax{
+	margin-left:180px;
+	margin-top:20px;
+
+}
+
+.pc_mobile{
+	float:right;
+	margin: 0 20px 0 0;
+
+
+}
+
+.bg1_area2{
+	background-color:#fff;
+	width:820px;
+	height:230px;
+	margin: 0 30px;
+	margin-bottom:40px;
+	float: left;
+}
+
+.bg1_area3{
+	background-color:#fff;
+	width:800px;
+	height:70px;
+	margin: 0 30px;
+	margin-bottom:40px;
+	float: left;
+	padding: 0 10px;
+}
+
+
+.tweet_chinema{
+	float:right;
+	margin-top:-15px;
+}
+
+.step2{
+	margin:5px 0 0 5px;
+	float:left;
+
+}
+
+.step3{
+	margin:5px 0 0 5px;
+	float:left;
+
+}
+
+.margin_top{
+	margin-top:20px;
+}
+
+.bg3_area2{
+	background-color:#fff;
+	width:440px;
+	height:505px;
+	margin: auto;
+	padding: 5px;
+}
+
+.bg3_area p{
+	font-size:12px;
+	text-align:left;
+
+}
+
+.campaign_detail_headline{
+	color:#00B2FF;
+}
+
+.campaign_detail{
+	color:#000;
+	margin-bottom:14px;
+}
+
+.campaign_text1_small a{
+	color:#00B2FF;
+	text-decoration:none;
+
+}
+
+
+.campaign_text1_small a:hover{
+	color:#00B2FF;
+	text-decoration:underline;
+}
+
+.campaign_text1_small a:visited{
+	color:#00B2FF;
+	text-decoration:none;
+}
+
+.margin_left{
+	margin-left:50px;
+}
+
+.margin_left2{
+	margin-left:30px;
+	float:left;
+	margin-top: -605px;
+}
+
+.step2_box1{
+	width:380px;
+	float:left;
+	margin:0 15px;
+}
+
+.step2_box2{
+	width:380px;
+	float:left;
+	margin:0 10px;
+}
+
+.theme{
+	background-color:#00B2FF;
+	color:#fff;
+	padding:5px 10px;
+	width: 120px;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+.question{
+	color:#000;
+	font-size: 20px;
+	font-weight: bold;		
+}
+
+.period{
+	color:#666666;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.imax_headline{
+	color:#fff;
+	background-color:#66ff66;
+	font-size:16px;
+	font-weight:bold;
+}
+

@@ -385,6 +385,11 @@ include("../../../lib/require.php");
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
                                         </tr>
 
+										<tr>
+											<td class="menuName"><p>金沢かれいぱん</p></td>
+											<td class="menuprice" ><p>360円</p></td>
+										</tr>
+
 									</table>
 
 									<h3 class="lightBlueTitle">セット</h3>
