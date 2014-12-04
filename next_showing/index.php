@@ -48,10 +48,6 @@ include("../lib/require.php");
 													//theater一覧取得
 													$theaters = getTheaterList();
 													foreach ($theaters as $theater) {
-														if($theater["name"] == "下関"){
-															continue;
-														}
-
 														//もし劇場が選択されている場合
 														if (!empty($_GET['theaterSelect']) && $theater['id'] == $_GET['theaterSelect']) {
 																$option_tag = sprintf('<option value="%s" selected>%s</option>'."\r\n",$theater['id'],$theater['name']);
@@ -134,7 +130,7 @@ include("../lib/require.php");
 												}
 											?>
 											<p class="tuika"><?php echo preg_replace("/;/","<br />",$showing['tuika']); ?></p>
-											
+
 											<ul class="clearfix">
 
 												<?php

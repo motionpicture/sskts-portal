@@ -958,6 +958,27 @@ echo <<<EOL
 EOL;
 }
 
+//平和島TOPのみのタグ
+if($arr["ename"] == "heiwajima" && $arr["ename2"] == "schedule"){
+echo <<<EOL
+<!-- Google Code for &#12522;&#12510;&#12540;&#12465;&#12486;&#12451;&#12531;&#12464; &#12479;&#12464; -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup --> <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 993895592;
+var google_conversion_label = "pEYJCNittQQQqMn22QM"; var google_custom_params = window.google_tag_params; var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/993895592/?value=1.00&amp;label=pEYJCNittQQQqMn22QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+EOL;
+}
+
+
 if($arr["ename"] == "tsuchiura" || $arr["ename"] == "kinuyama" || $arr["ename"] == "yamatokoriyama"){
     if($arr["ename2"] == "schedule"){
 echo <<<EOL

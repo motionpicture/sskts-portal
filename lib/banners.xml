@@ -27,6 +27,7 @@ url:バナーのurl。null(無記入)だとリンクは貼られない。
 	<banner num="17" image="tw_2.jpg" name="愛媛twitter" target="1" url="http://twitter.com/cs_ehime" />
 	<banner num="18" image="fb_2.jpg" name="北島facebook" target="1" url="http://www.facebook.com/sunshinekitajima" />
 	<banner num="19" image="tw_2.jpg" name="北島twitter" target="1" url="https://twitter.com/cs_kitajima" />
+	<banner num="20" image="tw_2.jpg" name="下関twitter" target="1" url="https://twitter.com/cs_shimonoseki" />
 	<!--<banner num="20" image="highschool.jpg" name="高校生1000円" target="1" url="http://campaign.cinemasunshine.co.jp/highschool-student/" />-->
 	<banner num="21" image="oz_p_01.jpg" name="オズ プレゼントキャンペーン" target="1" url="http://campaign.cinemasunshine.co.jp/oz/" />
 	<banner num="9999" image="mail_p.jpg" name="メルマガ会員募集" target="1" url="http://www.cinemasunshine.co.jp/magazine/magazine.html" />

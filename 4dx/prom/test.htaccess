@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Input your ID and Password."
-AuthUserFile /var/www/vhosts/cinemasunshine.co.jp/httpdocs/4dx/.htpasswd
-require valid-user

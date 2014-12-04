@@ -2,20 +2,24 @@
 	<!-- キャンペーン情報 -->
 	<h2 style="margin:0 0 10px;">キャンペーン情報</h2>
 	<?php
-
 		foreach($campaign as $key => $val){
 			if($val['Campaign']['del_flg'] == 0 && $val['Campaign']['theater_ids'] && $val['Campaign']['start_date'] <= date("Y-m-d") && $val['Campaign']['end_date'] >= date("Y-m-d")){
 				$cam = explode(",",$val['Campaign']['theater_ids']);
 				foreach($cam as $key2 => $val2){
 					if($theaters[$val2]){
-						$camTheater[$theaters[$val2]][] = $val['Campaign']['midasi'];
+						$sortArr[$theaters[$val2]][] = $val['Campaign']['midasi'];
+						$camTheater[$theaters[$val2]][] = array(
+											'midasi' => $val['Campaign']['midasi'],
+											'pic_path' => $val['Campaign']['pic_path'],
+											'url' => $val['Campaign']['url'],
+										);
 					}
 				}
 			}
 		}
 
 		foreach($camTheater as $key => $val){
-			asort($camTheater[$key]);
+			array_multisort($camTheater[$key],SORT_ASC,$sortArr[$key]);
 		}
 
 		foreach($order as $key => $val){
@@ -30,7 +34,9 @@
 				echo "<tr>";
 				echo "<th style='border:1px solid #000;'>$key</th>";
 				foreach($val as $key2 => $val2){
-					echo "<td style='border:1px solid #000;'>$val2</td>";
+					echo "<td style='border:1px solid #000;'>" . $val2['midasi'] . "<br />";
+					echo "<a href=\"" . $val2['url'] . "\" target=\"_blank\"><img src=\"/theaters_image/campaign/" . $val2['pic_path'] . "\" width=\"112\" height=\"29\"></a>";
+					echo "</td>";
 				}
 				
 				echo "</tr>";
@@ -42,6 +48,8 @@
 	<!-- 各劇場TOPバナー -->
 	<h2 style="margin:0 0 10px;">各劇場TOPバナー</h2>
 	<?php
+
+		//バナーの並びを配列に入れなおす
 		foreach($sliderView as $key => $val){
 			if($val['TopsliderView']['del_flg'] == 0){
 				if($theaters[$val['TopsliderView']['theater_id']]){
@@ -52,13 +60,18 @@
 
 		}
 
+		//全てのスライダー登録を配列に入れなおす
 		foreach($slider as $key => $val){
-			$sliderInfo[$val['Topslider']['id']] = $val['Topslider']['name'];
+			$sliderInfo[$val['Topslider']['id']] = array(
+									'name' => $val['Topslider']['name'],
+									'pic_path' => $val['Topslider']['pic_path'],
+									'url' => $val['Topslider']['url'],
+							);
 		}
 
 		foreach($bnr as $key => $val){
 			foreach($val as $key2 => $val2){
-				if($sliderInfo[$val2])
+				if($sliderInfo[$val2]['name'])
 				$bnrInfo[$key][] = $sliderInfo[$val2];
 			}
 		}
@@ -75,7 +88,9 @@
 				echo "<tr>";
 				echo "<th style='border:1px solid #000;'>$key</th>";
 				foreach($val as $key2 => $val2){
-					echo "<td style='border:1px solid #000;'>$val2</td>";
+					echo "<td style='border:1px solid #000;'>" . $val2['name'] . "<br />";
+					echo "<a href=\"" . $val2['url'] . "\" target=\"_blank\"><img src=\"/theaters_image/topslider/" . $val2['pic_path'] . "\" width=\"101\" height=\"42\"></a>";
+					echo "</td>";
 				}
 				
 				echo "</tr>";
@@ -91,7 +106,12 @@
 			if($val['Trailer']['del_flg'] == 0 && $val['Trailer']['theater_ids']){
 				$flv = explode(",",$val['Trailer']['theater_ids']);
 				foreach($flv as $key2 => $val2){
-					$flvTheater[$theaters[$val2]][] = $val['Trailer']['name'];
+					$flvTheater[$theaters[$val2]][] = array(
+										'name' => $val['Trailer']['name'],
+										'pic_path' => $val['Trailer']['pic_path'],
+										'url' => $val['Trailer']['url'],
+								);
+
 				}
 			}
 		}
@@ -107,7 +127,9 @@
 				echo "<tr>";
 				echo "<th style='border:1px solid #000;'>$key</th>";
 				foreach($val as $key2 => $val2){
-					echo "<td style='border:1px solid #000;'>$val2</td>";
+					echo "<td style='border:1px solid #000;'>" . $val2['name'] . "<br />";
+					echo "<a href=\"" . $val2['url'] . "\" target=\"_blank\"><img src=\"/theaters_image/flvimage/" . $val2['pic_path'] . "\" width=\"258\" height=\"64\"></a>";
+					echo "</td>";
 				}
 				
 				echo "</tr>";
@@ -130,12 +152,16 @@
 		}
 
 		foreach($pick as $key => $val){
-			$pickInfo[$val['Pick']['id']] = $val['Pick']['name'];
+			$pickInfo[$val['Pick']['id']] = array(
+								'name' => $val['Pick']['name'],
+								'pic_path' => $val['Pick']['pic_path'],
+								'url' => $val['Pick']['url'],
+							);
 		}
 
 		foreach($pickBnr as $key => $val){
 			foreach($val as $key2 => $val2){
-				if($pickInfo[$val2]){
+				if($pickInfo[$val2]['name']){
 					$pickBnrInfo[$key][] = $pickInfo[$val2];
 				}
 			}
@@ -153,7 +179,9 @@
 				echo "<tr>";
 				echo "<th style='border:1px solid #000;'>$key</th>";
 				foreach($val as $key2 => $val2){
-					echo "<td style='border:1px solid #000;'>$val2</td>";
+					echo "<td style='border:1px solid #000;'>" . $val2['name'] . "<br />";
+					echo "<a href=\"" . $val2['url'] . "\" target=\"_blank\"><img src=\"/theaters_image/pick/" . $val2['pic_path'] . "\" width=\"226\" height=\"58\"></a>";
+					echo "</td>";
 				}
 				
 				echo "</tr>";
@@ -176,7 +204,13 @@
 		}
 
 		foreach($mainBanner as $key => $val){
-			$mainBannerInfo[$val['SpecialMainBanner']['id']] = $val['SpecialMainBanner']['name'];
+			$mainBannerInfo[$val['SpecialMainBanner']['id']] = array(
+										'name' => $val['SpecialMainBanner']['name'],
+										'pic_path' => $val['SpecialMainBanner']['pic_path'],
+										'pic_path2' => $val['SpecialMainBanner']['pic_path2'],
+										'pic_path3' => $val['SpecialMainBanner']['pic_path3'],
+										'url' => $val['SpecialMainBanner']['url']
+									);
 		}
 
 		foreach($mainBnr as $key => $val){
@@ -190,10 +224,21 @@
 	<table style="margin:0 0 20px;">
 		<?php
 			foreach($mainBnrInfo as $key => $val){
+				$dir = "";
+				if($key == "IMAX 特設サイト表示用"){
+					$dir = "pic_path";
+				}elseif($key == "4DX 特設サイト表示用"){
+					$dir = "pic_path2";
+				}elseif($key == "DOLBY 特設サイト表示用"){
+					$dir = "pic_path3";
+				}
+
 				echo "<tr>";
 				echo "<th style='border:1px solid #000;'>$key</th>";
 				foreach($val as $key2 => $val2){
-					echo "<td style='border:1px solid #000;'>$val2</td>";
+					echo "<td style='border:1px solid #000;'>" . $val2['name'] . "<br />";
+					echo "<a href=\"" . $val2['url'] . "\" target=\"_blank\"><img src=\"/theaters_image/special_main_banner/" . $val2[$dir] . "\" width=\"101\" height=\"42\"></a>";
+					echo "</td>";
 				}
 				
 				echo "</tr>";
@@ -217,7 +262,11 @@
 
 
 		foreach($sideBanner as $key => $val){
-			$sideBannerInfo[$val['SpecialSideBanner']['id']] = $val['SpecialSideBanner']['name'];
+			$sideBannerInfo[$val['SpecialSideBanner']['id']] = array(
+										'name' => $val['SpecialSideBanner']['name'],
+										'pic_path' => $val['SpecialSideBanner']['pic_path'],
+										'url' => $val['SpecialSideBanner']['url']
+									);
 		}
 
 		foreach($sideBnr as $key => $val){
@@ -234,7 +283,9 @@
 				echo "<tr>";
 				echo "<th style='border:1px solid #000;'>$key</th>";
 				foreach($val as $key2 => $val2){
-					echo "<td style='border:1px solid #000;'>$val2</td>";
+					echo "<td style='border:1px solid #000;'>" . $val2['name'] . "<br />";
+					echo "<a href=\"" . $val2['url'] . "\" target=\"_blank\"><img src=\"/theaters_image/special_side_banner/" . $val2['pic_path'] . "\" width=\"233\" height=\"49\"></a>";
+					echo "</td>";
 				}
 				
 				echo "</tr>";

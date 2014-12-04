@@ -1,4 +1,4 @@
-x<?php
+<?php
 
 include("../../../lib/require.php");
 ?>

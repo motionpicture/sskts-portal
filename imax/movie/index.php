@@ -146,12 +146,12 @@
     </div>
           <div class="clear"></div>
 
-          <div id="current_area" style="background-color:#000;padding:10px 20px;width:938px;">
           <?php
           $bnr = getSpecialImaxMovie();
           if(count($bnr[0]) > 0){
+            echo "<div id=\"current_area\" style=\"background-color:#000;padding:10px 20px;width:938px;\">";
             echo "<p class=\"area_title\">上映中作品</p>";
-        	echo "<div class=\"line\">";
+            echo "<div class=\"line\">";
 			echo "<img src=\"../images/movie/movie_line_b.gif\">";
 			echo "</div>";
           }
@@ -167,10 +167,14 @@
             echo "<div class=\"movietext\">";
             echo "<div class=\"movietitle\" style=\"font-size:16px;\">";
             echo "<span class=\"moviedate\" style=\"color:#CCC; font-size:14px; width:476px;\">公開中</span><br />";
-            echo "『$val[name]』</div>";
-            if($val['statu1'] == 1){
+            echo "『$val[name]』";
+            if(strstr($val['statu1'], '4')){
+                echo "  <span style=\"color:red;\">IMAXカーニバル上映作品</span>";
+            }
+            echo "</div>";
+            if(strstr($val['statu1'], '1')){
             	echo "<div class=\"imaximg\" style=\"width:475px;height:33px; position:relative;\"><img src=\"../images/movie/imax.gif\" width=\"133\" height=\"33\" style=\"float:left;\">";
-            }elseif($val['statu1'] == 2){
+            }elseif(strstr($val['statu1'], '2')){
                 echo "<div class=\"imax3dimg\" style=\"width:475px;height:33px; position:relative;\"><img src=\"../images/movie/imax3d.gif\" width=\"140\" height=\"33\" style=\"float:left;\">";
             }else{
                 echo "<div class=\"imaximg\" style=\"width:475px;height:33px; position:relative;\"><img src=\"../images/movie/imax.gif\" width=\"133\" height=\"33\" style=\"float:left;\">";
@@ -215,14 +219,15 @@
             echo "</div>";
             echo "<!--movieset▲-->";
           }
+
+          if(count($bnr[0]) > 0){
+            echo "</div>";
+          }
           ?>
-          </div>
-
-
-          <div id="future_area" style="background-color:#000;padding:10px 20px;width:938px;">
 
           <?php
           if(count($bnr[1]) > 0){
+            echo "<div id=\"future_area\" style=\"background-color:#000;padding:10px 20px;width:938px;\">";
             echo "<div><p class=\"area_title\" style=\"float:left;\">上映予定作品</p><p style=\"float:right; margin-top:8px;\"></p></div>";
             echo "<div class=\"line\">";
             echo "<img src=\"../images/movie/movie_line_b.gif\">";
@@ -240,10 +245,15 @@
             echo "<div class=\"movietext\">";
             echo "<div class=\"movietitle\" style=\"font-size:16px;\">";
             echo "<span class=\"moviedate\" style=\"color:#CCC; font-size:14px; width:476px;\">" . date("Y年n月j日公開",strtotime($val['start_date1'])) ."</span><br />";
-            echo "『$val[name]』</div>";
-            if($val['statu1'] == 1){
+            echo "『$val[name]』";
+            if(strstr($val['statu1'], '4')){
+                echo "  <span style=\"color:red;\">IMAXカーニバル上映作品</span>";
+            }
+            echo "</div>";
+
+            if(strstr($val['statu1'], '1')){
             echo "<div class=\"imaximg\" style=\"width:475px;height:33px; position:relative;\"><img src=\"../images/movie/imax.gif\" width=\"133\" height=\"33\" style=\"float:left;\">";
-            }elseif($val['statu1'] == 2){
+            }elseif(strstr($val['statu1'], '2')){
                 echo "<div class=\"imax3dimg\" style=\"width:475px;height:33px; position:relative;\"><img src=\"../images/movie/imax3d.gif\" width=\"140\" height=\"33\" style=\"float:left;\">";
             }else{
                 echo "<div class=\"imaximg\" style=\"width:475px;height:33px; position:relative;\"><img src=\"../images/movie/imax.gif\" width=\"133\" height=\"33\" style=\"float:left;\">";
@@ -289,10 +299,11 @@
             echo "<!--movieset▲-->";
           }
 
+          if(count($bnr[1]) > 0){
+            echo "</div>";
+          }
+
           ?>
-          </div>
-
-
 
          </div>
 

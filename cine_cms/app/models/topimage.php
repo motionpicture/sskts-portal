@@ -2,10 +2,11 @@
 class Topimage extends AppModel {
 	var $name = 'Topimage';
 	var $validate = array(
+
 		'orders' => array(
 					'notempty' => array(
 						'rule' => array('notempty'),
-							'message' => '画像順番が入力されていません。',
+						'message' => '画像順番が入力されていません。',
 	),
 					'numeric' => array(
 						'rule' => array('numeric'),

@@ -36,6 +36,8 @@ class IntroductionsController extends AppController {
 
 	    $statu1['1'] = "IMAX";
 	    $statu1['2'] = "IMAX3D";
+	    $statu1['3'] = "バナー表示なし";
+	    $statu1['4'] = "IMAXカーニバル";
 	    $statu2['1'] = "4DX";
 	    $statu2['2'] = "4DX3D";
 	    $statu3['1'] = "DOLBY ATMOS";

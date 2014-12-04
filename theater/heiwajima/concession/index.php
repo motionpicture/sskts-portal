@@ -269,7 +269,7 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="Name">量り売りお菓子</p>
 											</td>
-											<td class="menuprice" ><p>100g&nbsp;360円 </p></td>
+											<td class="menuprice" ><p>100g&nbsp;420円 </p></td>
 										</tr>
 
 										<tr class="line">

@@ -1,0 +1,562 @@
+/* ------ common
+-----------------------------------------------*/
+a{
+  vertical-align:bottom;
+  border:none;
+  background:transparent;
+}
+
+body{
+	background-color:#25a5dc;
+}
+
+h1,h2,h3,h4,h5,h6,h7,
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style:none;
+}
+
+
+
+.left{
+	float:left;
+}
+
+a:hover{
+	opacity:0.5;
+}
+
+.right{
+	float:right;
+}
+
+.copy{
+	color:#fff;
+	font-size:10px;
+}
+
+/* ------ contents
+-----------------------------------------------*/
+.image{
+	clear:both;
+	margin:0 15px 0 0;
+}
+
+.copy{
+	clear:both;
+}
+
+#contents{
+	background: url(../images/bg_top.jpg) no-repeat;
+	width:1249px;
+	height:647px;
+	margin:auto;
+//	position:relative;
+}
+
+#contents ul li{
+	float:left;
+}
+
+#contents #section01{
+//    position:absolute;
+	bottom:0;
+    text-align:center;
+    margin:auto;
+    width:445px;
+    
+}
+
+#contents #section01 #inner{
+	padding:390px 0 0 0;
+}
+
+#contents #section01 #inner ul{
+	height:152px;
+}
+
+#inner-item{
+	position:relative;
+	background: url(../images/fancy_image01.jpg) no-repeat;
+	width: 700px;
+	height: 550px;
+}
+
+#inner-item ul{
+	position:absolute;
+	bottom:0;
+	text-align:center;
+    bottom: 60px;
+    left:120px;
+}
+
+#inner-item ul li.list1{
+	float:left;
+	margin:0 75px 0 0;
+}
+
+#inner-item ul li.list2{
+	float:left;
+}
+
+/* ------ contentsheader
+-----------------------------------------------*/
+
+#contentsheader {
+	overflow: auto;
+	background: url(../images/common/bg_header.gif) repeat-x;
+	width: 980px;
+}
+
+		#contentsheader .left ul{
+			margin:0 0 0 10px
+		}
+			
+			#contentsheader .left ul li{
+				float:left;
+			}
+
+			#contentsheader .left ul li.list2{
+				margin:5px 0 0 0;
+			}
+
+			#contentsheader .left ul.nolist li{
+				margin:0 0 0 0;			
+			}
+
+			#contentsheader .left ul.nolist li a{
+			}
+
+		#contentsheader .right ul{
+			margin:7px 5px 0 0;
+		}
+
+			#contentsheader .right ul li{
+				float:right;
+			}
+
+
+
+/* ------ contentsheader2
+-----------------------------------------------*/
+
+#contentsheader2 {
+	overflow: auto;
+	background: url(../images/common/bg_header.gif) repeat-x;
+	width: 980px;
+}
+
+		#contentsheader2 .left ul{
+			margin:0 0 0 10px
+		}
+			
+			#contentsheader2 .left ul li{
+				float:left;
+			}
+
+			#contentsheader2 .left ul li.list2{
+				margin:5px 0 0 0;
+			}
+
+			#contentsheader2 .left ul.nolist li{
+				margin:0 0 0 0;			
+			}
+
+			#contentsheader2 .left ul.nolist li a{
+			}
+
+		#contentsheader2 .right ul{
+			margin:7px 5px 0 0;
+		}
+
+			#contentsheader2 .right ul li{
+				float:right;
+			}
+
+
+/* ------ contentsmiddle
+-----------------------------------------------*/
+#contentsmiddle{
+	width:980px;
+	z-index:20;
+}
+
+	#contentsmiddle .wrapper{
+		margin:10px 0;
+		width: 640px;
+	}
+
+		#contentsmiddle p.reset{
+			margin:0;
+			padding:0;
+		}
+
+			#contentsmiddle .right .right li{
+				float:left;
+			}
+
+				#contentsmiddle .wrapper .right ul li{
+					margin:0 5px 0 0;
+				}
+
+/* ------ contentsmiddle2
+-----------------------------------------------*/
+#contentsmiddle2{
+	width:980px;
+	z-index:20;
+}
+
+	#contentsmiddle2 .wrapper{
+		margin:10px 0;
+		width: 640px;
+	}
+
+		#contentsmiddle2 p.reset{
+			margin:0;
+			padding:0;
+		}
+
+			#contentsmiddle2 .right .right li{
+				float:left;
+			}
+
+				#contentsmiddle2 .wrapper .right ul li{
+					margin:0 5px 0 0;
+				}
+
+
+/* ------ contentsbottom
+-----------------------------------------------*/
+p{
+	_margin:0;
+}
+
+#contentsbottom {
+	background: url(../images/common/bg_search.gif) repeat-x;
+	width: 980px;
+	height: 97px;
+	clear:both;
+	z-index:10;
+	position:relative;
+}			
+
+	#contentsbottom .left{
+	}
+	
+	#contentsbottom .left ul li{
+		margin:0;
+	}
+		#contentsbottom .left .selecterBtns{
+			width:520px;
+		}
+
+			#contentsbottom .left ul li{
+				width:129px;
+				_width:128px;
+				height:21px;
+				margin:0 0 2px 0;
+				_margin:0 0 1px 0;
+			}
+		
+	#contentsbottom .right{
+		width:430px;
+		_width:460px;
+	}
+
+		#contentsbottom ul.FooterListsArea{
+		}				
+
+			#contentsbottom ul li.FooterList{
+				width:215px;
+				_width:225px;
+				height:21px;
+				_height:23px;
+				float:left;
+				margin:0 0 3px 0;				
+				_margin:0 0 1px 0;
+			}				
+
+					#contentsbottom ul.FooterListsArea li ul.nolist li{
+						margin:0;
+					}
+
+				#contentsbottom .right ul li p{
+			        display: inline;
+					float:left;
+					margin:0 3px 0 0;
+					_margin:0 1px 0 0;
+				}		
+
+					#contentsbottom ul li.FooterList ul.light{
+				        display: inline;
+						float:left;
+						margin:0 3px 0 0;
+						_margin:0 1px 0 0;
+					}
+
+.bottom{
+	margin:0 0 0 0;
+}
+
+/* ------ contentsbottom2
+-----------------------------------------------*/
+#contentsbottom2 {
+	background: url(../images/common/bg_search.gif) repeat-x;
+	width: 980px;
+	height: 97px;
+	clear:both;
+	z-index:10;
+	position:relative;
+}			
+
+	#contentsbottom2 .left{
+	}
+	
+	#contentsbottom2 .left ul li{
+		margin:0;
+	}
+		#contentsbottom2 .left .selecterBtns{
+			width:520px;
+		}
+
+			#contentsbottom2 .left ul li{
+				width:129px;
+				_width:128px;
+				height:21px;
+				margin:0 0 2px 0;
+				_margin:0 0 1px 0;
+			}
+		
+	#contentsbottom2 .right{
+		width:430px;
+		_width:460px;
+	}
+
+		#contentsbottom2 ul.FooterListsArea{
+		}				
+
+			#contentsbottom2 ul li.FooterList{
+				width:215px;
+				_width:215px;
+				height:21px;
+				float:left;
+				margin:0 0 3px 0;				
+				_margin:0 0 1px 0;
+			}				
+
+					#contentsbottom2 ul.FooterListsArea li ul.nolist li{
+						margin:0;
+					}
+
+				#contentsbottom2 .right ul li p{
+			        display: inline;
+					float:left;
+					margin:0 3px 0 0;
+					_margin:0 1px 0 0;
+				}		
+
+					#contentsbottom2 ul li.FooterList ul.light{
+				        display: inline;
+						float:left;
+						margin:0 3px 0 0;
+						_margin:0 1px 0 0;
+					}
+
+
+
+/* ------ lightbox
+-----------------------------------------------*/
+#bottom1,
+#bottom2,
+#bottom3,
+#bottom4,
+#bottom5
+{
+	background:#000;
+	width:846px;
+	height:382px;
+	overflow:auto;
+	text-align:center;
+}
+
+#newcar{
+	background:#000;
+	width:702px;
+	height:490px;
+	overflow:auto;
+}
+
+#newcar ul.threeBuys{
+	margin:0 auto;
+	width:244px;
+}
+
+#newcar ul.threeBuys li{
+	float:left;
+	margin:0 5px 0 0;
+}
+
+#cars .box{
+	width:680px;
+	height:360px;
+	overflow:auto;
+	background:#000;
+}
+
+.picture{
+	margin:0 0 5px 0;^
+}
+
+.button{
+	text-align:center;^
+}
+
+
+/* ------ scroll
+-----------------------------------------------*/
+
+div#box {
+	    padding:10px;
+	    width:645px;
+	    height:360px;
+	    float: right;
+	}
+	 
+div#box2 {
+	    width:660px;
+	    height:360px;
+	    float: right;
+		overflow:auto;
+	}
+
+	 
+	/* 本体 */
+	.jspContainer {
+	     
+	}
+	 
+	/* 縦スクロールバー本体 */
+	.jspVerticalBar {
+	     
+	}
+	 
+	/* 横スクロールバー本体 */
+	.jspHorizontalBar {
+	     
+	}
+	 
+	/* 縦スクロールバーの背景 */
+	.jspVerticalBar .jspTrack {
+	     
+	}
+	 
+	/* 横スクロールバーの背景 */
+	.jspHorizontalBar .jspTrack {
+	     
+	}
+	 
+	/* 全ての矢印ボタン */
+	.jspArrow {
+	     
+	}
+	 
+	/* 上矢印ボタン */
+	.jspArrowUp {
+	     
+	}
+	 
+	/* 下矢印ボタン */
+	.jspArrowDown {
+	     
+	}
+	 
+	/* 左矢印ボタン */
+	.jspArrowLeft {
+	     
+	}
+	 
+	/* 右矢印ボタン */
+	.jspArrowRight {
+	     
+	}
+	 
+	/* 縦スクロールバー 先端または終端時の矢印ボタン */
+	.jspVerticalBar .jspDisabled {
+	     
+	}
+	 
+	/* 横スクロールバー 先端または終端時の矢印ボタン */
+	.jspHorizontalBar .jspDisabled {
+	     
+	}
+	 
+	/* 右下角 */
+	.jspCorner {
+	     
+	}
+	
+	.jspPane{
+		padding:0!important;
+		width:645px!important;
+	}
+
+/* ------ fancybox
+-----------------------------------------------*/	
+#fancybox-content{
+	border:10px solid #25a5dc!important;
+	background:#25a5dc!important;
+}
+
+/* ------ other
+-----------------------------------------------*/	
+#footContainer{
+	margin-top:0!important;
+}
+
+.box3 {
+	border:10px solid #000;
+	background-color:#000;
+	width: 647px;
+	height: auto;
+	overflow: auto;
+	position: relative;
+}
+
+#deisy2{
+	border:10px solid #000;
+	background-color:#000;
+	width: 647px;
+	height: auto;
+	overflow: auto;
+	position: relative;
+}
+
+#deisyBox{
+	width:310px;
+	margin:auto;
+	text-align:center;
+	/margin:0;
+	/margin-left:180px;
+	/width:310px;
+}
+
+#deisyBox .button{
+	float:left;
+	margin:0 10px 0 0;
+}
+
+#deisyBox .button2{
+	float:left;
+	margin:0 0 0 0;
+
+}
+
+#ct_bg{
+	background-image:none!important;
+	padding-left: 0!important;
+    padding-top: 0!important;
+}

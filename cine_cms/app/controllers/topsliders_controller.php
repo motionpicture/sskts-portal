@@ -33,12 +33,15 @@ class TopslidersController extends AppController {
 			);
 
 		$theaters =  $this->Theater->find('list',array('conditions' => $conditions));
+		$theaters2 =  $this->Theater->find('list',array('conditions' => $conditions,'fields'=>'ename'));
+
 		//先頭に追加
 		$theaters = array_reverse($theaters, true);
 		$theaters['1000'] = "シネマサンシャイントップ";
+		$theaters2['1000'] = "top";
 		$theaters = array_reverse($theaters, true);
 		$this->set('theaters',$theaters);
-
+		$this->set('theaters2',$theaters2);
 
 		parent::beforeFilter();
 	}

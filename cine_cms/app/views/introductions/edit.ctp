@@ -194,7 +194,7 @@
 				 	echo "<td>";
 					echo $v;
 					if ($this->data['Introduction']['statu2'] != "") {
-						$st2 = explode(",", $this->data['Introduction']['statu1']);
+						$st2 = explode(",", $this->data['Introduction']['statu2']);
 						$check_judge=false;
 						//入力と一致するか検索
 						foreach ($st2 as $s_v) {
@@ -258,7 +258,7 @@
 				 foreach ($statu3 as $k => $v) {
 				 	echo "<td>";
 					echo $v;
-					if ($this->data['Introduction']['statu1'] != "") {
+					if ($this->data['Introduction']['statu3'] != "") {
 						$st3 = explode(",", $this->data['Introduction']['statu3']);
 						$check_judge=false;
 						//入力と一致するか検索

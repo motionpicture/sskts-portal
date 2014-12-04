@@ -225,13 +225,14 @@ include("../lib/require.php");
           <div class="movie_infoarea" style="margin:10px 0 10px 15px;">
           <?php
           $bnr = getSpecialImaxMovie();
-
           if(count($bnr[0]) > 0){
             echo "<p class=\"date\">上映中作品</p>";
           }
           foreach($bnr[0] as $key => $val){
-               echo "<div class=\"movie_info\" style=\"background:url(/theaters_image/special/$val[pic_bnr]);\"><p id=\"movie_btn2\" style=\" width:123px; position:absolute; top:81px; left:223px;\">";
-               echo "<a href=\"./movie#$val[url]\"><img src=\"images/common/movie_btn.gif\" width=\"123\" height=\"30\" alt=\"詳細を見る\" border=\"0\" onmouseover=\"img_change(this,'images/common/movie_btn_om.gif');\" onmouseout=\"img_change(this,'images/common/movie_btn.gif');\" /></a></p></div>";
+               if(!strstr($val['statu1'], '3')){
+                   echo "<div class=\"movie_info\" style=\"background:url(/theaters_image/special/$val[pic_bnr]);\"><p id=\"movie_btn2\" style=\" width:123px; position:absolute; top:81px; left:223px;\">";
+                   echo "<a href=\"./movie#$val[url]\"><img src=\"images/common/movie_btn.gif\" width=\"123\" height=\"30\" alt=\"詳細を見る\" border=\"0\" onmouseover=\"img_change(this,'images/common/movie_btn_om.gif');\" onmouseout=\"img_change(this,'images/common/movie_btn.gif');\" /></a></p></div>";
+               }
           }
 
           if(count($bnr[1]) > 0){
@@ -240,8 +241,10 @@ include("../lib/require.php");
           }
 
           foreach($bnr[1] as $key => $val){
-              echo "<div class=\"movie_info\" style=\"background:url(/theaters_image/special/$val[pic_bnr]);\"><p id=\"movie_btn2\" style=\" width:123px; position:absolute; top:81px; left:223px;\">";
-              echo "<a href=\"./movie#$val[url]\"><img src=\"images/common/movie_btn.gif\" width=\"123\" height=\"30\" alt=\"詳細を見る\" border=\"0\" onmouseover=\"img_change(this,'images/common/movie_btn_om.gif');\" onmouseout=\"img_change(this,'images/common/movie_btn.gif');\" /></a></p></div>";
+              if(!strstr($val['statu1'], '3')){
+                  echo "<div class=\"movie_info\" style=\"background:url(/theaters_image/special/$val[pic_bnr]);\"><p id=\"movie_btn2\" style=\" width:123px; position:absolute; top:81px; left:223px;\">";
+                  echo "<a href=\"./movie#$val[url]\"><img src=\"images/common/movie_btn.gif\" width=\"123\" height=\"30\" alt=\"詳細を見る\" border=\"0\" onmouseover=\"img_change(this,'images/common/movie_btn_om.gif');\" onmouseout=\"img_change(this,'images/common/movie_btn.gif');\" /></a></p></div>";
+               }
           }
 
           ?>

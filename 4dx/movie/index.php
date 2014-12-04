@@ -160,7 +160,7 @@ P {
             echo "<p class=\"area05\"><span style=\"font-weight:bold;\">上映中</span></p>";
             echo "<p class=\"area06\">『$val[name]』";
             if($val['statu2'] == 1){
-            	echo "4DX";
+            	echo "4DX版";
             }elseif($val['statu2'] == 2){
                 echo "4DX3D版";
             }
@@ -205,7 +205,7 @@ P {
             echo "<p class=\"area05\"><span style=\"font-weight:bold;\">" . date("Y年n月j日公開",strtotime($val['start_date2'])) . "</span></p>";
             echo "<p class=\"area06\">『$val[name]』";
             if($val['statu2'] == 1){
-            	echo "4DX";
+            	echo "4DX版";
             }elseif($val['statu2'] == 2){
                 echo "4DX3D版";
             }

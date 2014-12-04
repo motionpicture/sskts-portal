@@ -36,20 +36,16 @@ define('movie_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_i
 define('news_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/news');
 
 //作品紹介
-//define('special_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/special');
-define('special_picture','C:\Users\takanashi\WorkSpace\sunshine_shimonoseki\theaters_image\special');
+define('special_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/special');
 
 //特設サイトのメインバナー
-//define('special_main_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/special_main_banner');
-define('special_main_picture','C:\Users\takanashi\WorkSpace\sunshine_shimonoseki\theaters_image\special_main_banner');
+define('special_main_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/special_main_banner');
 
 //特設サイトのサイドバナー
-//define('special_side_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/special_side_banner');
-define('special_side_picture','C:\Users\takanashi\WorkSpace\sunshine_shimonoseki\theaters_image\special_side_banner');
+define('special_side_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/special_side_banner');
 
 //ピックアップ
-//define('pick_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/pick');
-define('pick_picture','C:\Users\takanashi\WorkSpace\sunshine_shimonoseki\theaters_image\pick');
+define('pick_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/pick');
 
 //campaignのピクチャー
 define('campaign_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/campaign');
@@ -58,8 +54,7 @@ define('campaign_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theater
 define('topimage_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/topimage');
 
 //Top slider
-//define('topimage_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/topslider');
-define('topslider_picture','C:\Users\takanashi\WorkSpace\sunshine_shimonoseki\theaters_image\topslider');
+define('topslider_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/topslider');
 
 //flv
 define('flv_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/flv');

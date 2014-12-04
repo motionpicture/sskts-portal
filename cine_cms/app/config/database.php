@@ -5,8 +5,8 @@ class DATABASE_CONFIG {
 		'driver' => 'mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'osashimi',
+		'login' => 'cinesun_cms',
+		'password' => 'cine_sun_px',
 		'database' => 'cinema_cms',
 		'encoding' => 'utf8'
 	);

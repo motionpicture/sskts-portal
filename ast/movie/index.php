@@ -235,6 +235,13 @@ P {
                 echo "</ul>";
                 echo "</div>";
             }
+            if($val['statu3'] == 2){
+                echo "<div class=\"ast_icon\">";
+                echo "<ul>";
+                echo "<li><img src=\"../img/movie/imm_icon.gif\" alt=\"imm\"/></li>";
+                echo "</ul>";
+                echo "</div>";
+            }
             echo "</p>";
             echo "</div>";
             echo "<div>";

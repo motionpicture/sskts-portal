@@ -298,13 +298,7 @@ include("../../../lib/require.php");
 										</tr> -->
 
                                         <tr>
-											<td class="menuName"><p>チキン</p></td>
-											<td class="menuprice" ></td>
-										</tr>
-											<tr>
-											<td class="menuName">
-												<p class="optionText">スパイシーチキン・スナックピザ・スパイシーチキン＆ピザ</p>
-											</td>
+											<td class="menuName"><p>スパイシーチキン</p></td>
 											<td class="menuprice" ><p>360円</p></td>
 										</tr>
 										<tr class="line">
@@ -327,7 +321,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="menuName"><p>量り売りお菓子</p></td>
-											<td class="menuprice" ><p>100g&nbsp;&nbsp;360円</p></td>
+											<td class="menuprice" ><p>100g&nbsp;&nbsp;420円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -389,6 +383,20 @@ include("../../../lib/require.php");
 											<td class="menuName"><p>金沢かれいぱん</p></td>
 											<td class="menuprice" ><p>360円</p></td>
 										</tr>
+
+
+                                        <tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+                                        </tr>
+
+										<tr>
+											<td class="menuName"><p>ソフトプレッツェルドッグ</p></td>
+											<td class="menuprice" ><p>300円</p></td>
+										</tr>
+
+                                        <tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+                                        </tr>
 
 									</table>
 

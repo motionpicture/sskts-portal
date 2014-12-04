@@ -1,7 +1,7 @@
-#AuthType Basic
-#AuthName "Input your ID and Password."
-#AuthUserFile /var/www/vhosts/cinemasunshine.co.jp/httpdocs/cine_cms/.htpasswd
-#require valid-user
+AuthType Basic
+AuthName "Input your ID and Password."
+AuthUserFile /var/www/vhosts/cinemasunshine.co.jp/httpdocs/cine_cms/.htpasswd
+require valid-user
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /cine_cms/app/webroot

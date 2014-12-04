@@ -399,6 +399,7 @@ class NewsController extends AppController {
 					//まず検索
 					$newsViewResult = $this->NewsView->findByTheaterIdAndDelFlg($theaterId,0);
 
+
 					//存在すれば使う
 					if($newsViewResult) {
 						//半角スペースを取り除く

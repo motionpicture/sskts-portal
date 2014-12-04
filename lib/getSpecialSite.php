@@ -4,8 +4,8 @@ $define = get_defined_constants() ;
 
 $db = new DB();
 
-//IMAXTOPサイドバナーの判定
-function getSpecialImaxMovie(){
+//IMAX作品紹介
+function getSpecialImaxMovie($type = true){
     global $db;
     $today = date("Y-m-d");
     //上映中
@@ -15,10 +15,13 @@ function getSpecialImaxMovie(){
     introductions
     where
     start_date1 <= '$today' and
-    end_date1 > '$today' and
-    FIND_IN_SET('1001',theater_ids)
+    end_date1 >= '$today' and ";
+    if($type == true){
+	    $sql .=" reflection = 1 and ";
+    }
+    $sql .=" FIND_IN_SET('1001',theater_ids)
     ".plusDelFlg()
-    ."ORDER BY start_date1 ASC";
+    ."ORDER BY start_date1 DESC";
 
     $bnr[] = $db->select($sql);
 
@@ -29,8 +32,11 @@ function getSpecialImaxMovie(){
     introductions
     where
     start_date1 > '$today' and
-    end_date1 > '$today' and
-    FIND_IN_SET('1001',theater_ids)
+    end_date1 > '$today' and ";
+    if($type == true){
+	    $sql .=" reflection = 1 and ";
+    }
+    $sql .=" FIND_IN_SET('1001',theater_ids)
     ".plusDelFlg()
     ."ORDER BY start_date1 ASC";
 
@@ -40,7 +46,7 @@ function getSpecialImaxMovie(){
 }
 
 //4DX作品紹介
-function getSpecial4dxMovie(){
+function getSpecial4dxMovie($type = true){
     global $db;
     $today = date("Y-m-d");
     //上映中
@@ -50,10 +56,13 @@ function getSpecial4dxMovie(){
     introductions
     where
     start_date2 <= '$today' and
-    end_date2 > '$today' and
-    FIND_IN_SET('1003',theater_ids)
+    end_date2 >= '$today' and ";
+    if($type == true){
+	    $sql .=" reflection = 1 and ";
+    }
+    $sql .=" FIND_IN_SET('1003',theater_ids)
     ".plusDelFlg()
-    ."ORDER BY start_date2 ASC";
+    ."ORDER BY start_date2 DESC";
 
     $bnr[] = $db->select($sql);
 
@@ -64,8 +73,11 @@ function getSpecial4dxMovie(){
     introductions
     where
     start_date2 > '$today' and
-    end_date2 > '$today' and
-    FIND_IN_SET('1003',theater_ids)
+    end_date2 > '$today' and ";
+    if($type == true){
+	    $sql .=" reflection = 1 and ";
+    }
+    $sql .=" FIND_IN_SET('1003',theater_ids)
     ".plusDelFlg()
     ."ORDER BY start_date2 ASC";
 
@@ -75,7 +87,7 @@ function getSpecial4dxMovie(){
 }
 
 //AST作品紹介
-function getSpecialastMovie(){
+function getSpecialastMovie($type = true){
     global $db;
     $today = date("Y-m-d");
     //上映中
@@ -85,10 +97,13 @@ function getSpecialastMovie(){
     introductions
     where
     start_date3 <= '$today' and
-    end_date3 > '$today' and
-    FIND_IN_SET('1004',theater_ids)
+    end_date3 >= '$today' and ";
+    if($type == true){
+	    $sql .=" reflection = 1 and ";
+    }
+    $sql .=" FIND_IN_SET('1004',theater_ids)
     ".plusDelFlg()
-    ."ORDER BY start_date3 ASC";
+    ."ORDER BY start_date3 DESC";
 
     $bnr[] = $db->select($sql);
 
@@ -99,8 +114,11 @@ function getSpecialastMovie(){
     introductions
     where
     start_date3 > '$today' and
-    end_date3 > '$today' and
-    FIND_IN_SET('1004',theater_ids)
+    end_date3 > '$today' and ";
+    if($type == true){
+	    $sql .=" reflection = 1 and ";
+    }
+    $sql .=" FIND_IN_SET('1004',theater_ids)
     ".plusDelFlg()
     ."ORDER BY start_date3 ASC";
 

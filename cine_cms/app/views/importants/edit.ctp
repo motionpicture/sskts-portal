@@ -28,7 +28,7 @@
 					</TH>
 					<TD CLASS="tableElement">
 					<?php echo $this->Form->textarea('open_txt',array('label' => false, 'error'=>false,  'div'=>false, 'error'=>false, 'cols'=>'72','rows'=>'3'));?>
-						<BR> <SPAN CLASS="t10red">1000文字</SPAN></TD>
+						<BR> <SPAN CLASS="t10red">5000文字</SPAN></TD>
 				</TR>
 				<TR>
 					<TH CLASS="tableHeader" WIDTH="150" ALIGN="RIGHT" NOWRAP><SPAN CLASS="t10red">(*)</SPAN><FONT CLASS="tableStr">予約日時</FONT></TH>

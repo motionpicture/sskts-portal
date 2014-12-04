@@ -15,6 +15,8 @@
 		echo $this->Html->css('cine.css');
 		echo $scripts_for_layout;
 	?>
+<script src="/cine_cms/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="/cine_cms/js/script.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 <!--
