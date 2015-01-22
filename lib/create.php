@@ -289,8 +289,7 @@ function getHeadInclude(){
 $define = get_defined_constants() ;
 
 $arr = getNowPage();
-var_dump($arr);
-if($arr['name'] == "TOP" || ($arr['ename'] != 'ikebukuro' && $arr['ename'] != 'okaido' && ($arr['ename2'] == "schedule" || $arr['ename2'] == "schedule" || $arr['ename2'] == "schedule" || $arr['ename2'] == "schedule" || $arr['ename2'] == "schedule"))){
+if($arr['name'] == "TOP" || ($arr['ename'] != 'ikebukuro' && $arr['ename'] != 'okaido' && ($arr['ename2'] == "schedule" || $arr['ename2'] == "news" || $arr['ename2'] == "admission" || $arr['ename2'] == "advance_ticket" || $arr['ename2'] == "concession" || $arr['ename2'] == "floor_guide" || $arr['ename2'] == "access"))){
 	$jack= "<link type=\"text/css\" rel=\"stylesheet\" href=\"{$define['Css_URL']}base_jack.css\" />";	
 }
 
