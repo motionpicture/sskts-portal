@@ -294,10 +294,6 @@ if($arr['name'] == "TOP" || ($arr['ename'] != 'ikebukuro' && $arr['ename'] != 'o
 	$jack= "<link type=\"text/css\" rel=\"stylesheet\" href=\"{$define['Css_URL']}base_jack.css\" />";	
 }
 
-var_dump($jack);
-
-var_dump($arr);
-
 //meta情報取得
 $meta = getMeta($arr);
 
