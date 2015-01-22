@@ -8,9 +8,15 @@ class DB{
 		$dbPass = 'yun1210';
 		$dbName = 'cinema_cms';*/
 		//remote用
-		$dbUser = 'cinesun_cms';
+		/*$dbUser = 'cinesun_cms';
 		$dbPass = 'cine_sun_px';
-		$dbName = 'cinema_cms';
+		$dbName = 'cinema_cms';*/
+
+		//azure用
+		$dbUser = 'sasaki';
+		$dbPass = 'w2BAC5D7K4';
+		$dbName = 'sasaki';
+
 		$this->db = mysql_connect("{$dbHost}", "{$dbUser}", "{$dbPass}");
 		if(!$this->db) exit("Could not connect!");
 		mysql_select_db($dbName, $this->db);
