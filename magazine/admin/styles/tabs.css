@@ -1,0 +1,68 @@
+BODY {
+	PADDING-RIGHT: 0px;
+ PADDING-LEFT: 0px;
+ PADDING-BOTTOM: 0px;
+ MARGIN: 0px;
+ FONT: small/1.5em arial,sansSerif;
+ COLOR: #000;
+ PADDING-TOP: 0px;
+display: block;
+ voice-family: inherit
+}
+
+UNKNOWN {
+	FONT-SIZE: small
+}
+.faderight {
+
+ background-repeat: no-repeat;
+ FLOAT: right;
+ WIDTH: 50%;
+
+}
+#webblertabs {
+	FONT-SIZE: 75%;
+
+ FLOAT: left;
+ WIDTH: 95%;
+ LINE-HEIGHT: normal;
+ 
+}
+#webblertabs UL {
+	PADDING-RIGHT: 10px;
+ PADDING-LEFT: 0px;
+ PADDING-BOTTOM: 0px;
+ MARGIN: 0px;
+ PADDING-TOP: 10px;
+ LIST-STYLE-TYPE: none;
+ width:100%;
+}
+
+#webblertabs LI {
+	PADDING-RIGHT: 0px;
+ PADDING-LEFT: 9px;
+ FLOAT: left;
+ PADDING-BOTTOM: 0px;
+ MARGIN: 0px;
+ PADDING-TOP: 0px;
+ background-color:#1D2088;
+ 
+}
+#webblertabs A {
+	PADDING-RIGHT: 9px;
+ DISPLAY: block;
+ PADDING-LEFT: 1px;
+ FONT-WEIGHT: bold;
+  PADDING-BOTTOM: 4px;
+ PADDING-TOP: 3px;
+ TEXT-DECORATION: none;
+ color:#ffffff;
+}
+#webblertabs A {
+	FLOAT: none
+}
+#webblertabs A:hover {
+	color:#b0c4de;
+}
+
+
