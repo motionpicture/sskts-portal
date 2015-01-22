@@ -13,9 +13,9 @@ class DB{
 		$dbName = 'cinema_cms';*/
 
 		//azure用
-		$dbUser = 'root';
-		$dbPass = 'osashimi';
-		$dbName = 'cinema_cms';
+		$dbUser = 'sasaki';
+		$dbPass = 'w2BAC5D7K4';
+		$dbName = 'sasaki';
 
 		$this->db = mysql_connect("{$dbHost}", "{$dbUser}", "{$dbPass}");
 		if(!$this->db) exit("Could not connect!");
