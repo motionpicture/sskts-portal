@@ -288,7 +288,9 @@ function getMeta($arr){
 function getHeadInclude(){
 $define = get_defined_constants() ;
 
-$arr = getNowPage();
+if($arr['name'] == "TOP" || ($arr['ename'] != 'ikebukuro' && $arr['ename'] != 'okaido' && $arr['ename2'] == "schedule")){
+	$jack= "<link type=\"text/css\" rel=\"stylesheet\" href=\"{$define['Css_URL']}base_jack.css\" />";	
+}
 
 //meta情報取得
 $meta = getMeta($arr);
@@ -319,6 +321,7 @@ echo <<<EOL
 	<![endif]-->
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}reset.css" />
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}base.css" />
+        {$jack}
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-core.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-demos.css" media="screen, projection" />
