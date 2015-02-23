@@ -154,16 +154,12 @@ include("../../../lib/require.php");
 
 									</table>
 
-                                    <h3 class="lightBlueTitle">限定ドリンク</h3>
+                                    <!--<h3 class="lightBlueTitle">限定ドリンク</h3>
 									<table class="menuTable">
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
 
-                                         <tr>
-											<td class="menuName"><p>まぜまぜスムージー</p></td>
-											<td class="menuprice" ></td>
-										</tr>
 											<tr>
 											<td class="menuName">
 												<p class="optionText">赤(キャロット味)・紫(グレープ味)</p>
@@ -174,7 +170,7 @@ include("../../../lib/require.php");
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
-									</table>
+									</table>-->
 
 									<h3 class="lightBlueTitle">ポップコーン</h3>
 									<table class="menuTable">
@@ -347,23 +343,6 @@ include("../../../lib/require.php");
 
                                         <tr>
 											<td class="menuName">
-												<p class="Name">カツドッグ</p>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="optionText">ソースカツドッグ・えびカツドッグ</p>
-											</td>
-											<td class="menuprice" >440円</td>
-										</tr>
-
-                                        <tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
-
-                                        <tr>
-											<td class="menuName">
 												<p class="Name">プレッツェル</p>
 											</td>
 										</tr>
@@ -392,6 +371,15 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="menuName"><p>ソフトプレッツェルドッグ</p></td>
 											<td class="menuprice" ><p>300円</p></td>
+										</tr>
+
+                                        <tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+                                        </tr>
+
+										<tr>
+											<td class="menuName"><p>アンデスポテト</p></td>
+											<td class="menuprice" ><p>310円</p></td>
 										</tr>
 
                                         <tr class="line">

@@ -289,10 +289,10 @@ function getHeadInclude(){
 $define = get_defined_constants() ;
 
 $arr = getNowPage();
-if($arr['name'] == "TOP" || ($arr['ename'] != 'ikebukuro' && $arr['ename'] != 'okaido' && ($arr['ename2'] == "schedule" || $arr['ename2'] == "news" || $arr['ename2'] == "admission" || $arr['ename2'] == "advance_ticket" || $arr['ename2'] == "concession" || $arr['ename2'] == "floor_guide" || $arr['ename2'] == "access"))){
+/*if($arr['name'] == "TOP" || ($arr['ename'] != 'ikebukuro' && $arr['ename'] != 'okaido' && ($arr['ename2'] == "schedule" || $arr['ename2'] == "news" || $arr['ename2'] == "admission" || $arr['ename2'] == "advance_ticket" || $arr['ename2'] == "concession" || $arr['ename2'] == "floor_guide" || $arr['ename2'] == "access"))){
 	$jack= "<link type=\"text/css\" rel=\"stylesheet\" href=\"{$define['Css_URL']}base_jack.css\" />";	
 	$jack .= "<script type=\"text/javascript\" src=\"{$define['SCRIPT_URL']}pagejack.js\"></script>";	
-}
+}*/
 
 //meta情報取得
 $meta = getMeta($arr);

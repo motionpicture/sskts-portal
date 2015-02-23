@@ -180,7 +180,7 @@ include("../../../../lib/require.php");
 			</tr>
 		</thead>
 	</table>
-	<table cellpadding="0" cellspacing="0" class="theater_t">
+	<!--<table cellpadding="0" cellspacing="0" class="theater_t">
 		<tbody>
 			<tr class="first-child">
 				<td colspan="2" class="table_top_01">限定ドリンク</td>
@@ -201,7 +201,7 @@ include("../../../../lib/require.php");
 				</tr>
 			</tbody>
 		</table>
-	</div>
+	</div>-->
 	<!-- table end -->
 	<!-- table -->
 	<table cellpadding="0" cellspacing="0" class="theater_u">
@@ -326,8 +326,7 @@ include("../../../../lib/require.php");
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
 				<tr>
-					<td class="admission_tl">チキン<br />
-						<span class="notice">スパイシーチキン・スナックピザ・スパイシーチキン＆ピザ</span></td>
+					<td class="admission_tl">スパイシーチキン</td>
 					<td class="admission_tr">360円</td>
 				</tr>
 				<tr>
@@ -343,7 +342,7 @@ include("../../../../lib/require.php");
 				</tr>
                 <tr>
 					<td class="admission_tl">量り売りお菓子</td>
-					<td class="admission_tr">100g 360円</td>
+					<td class="admission_tr">100g 420円</td>
 				</tr>
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
@@ -378,15 +377,6 @@ include("../../../../lib/require.php");
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
 
-                <tr>
-						<td class="admission_tl">カツドッグ<br />
-						<span class="notice">ソースカツドッグ・えびカツドッグ</span></td>
-						<td class="admission_tr">440円</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="table_line_02"></td>
-				</tr>
-
 				<tr>
 						<td class="admission_tl">プレッツェル<br />
 						<span class="notice">スウィートクリームチーズ</span></td>
@@ -399,6 +389,24 @@ include("../../../../lib/require.php");
                  <tr>
 				<td class="admission_tl">金沢かれいぱん</td>
 				<td class="admission_tr">360円</td>
+			    </tr>
+
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+
+                 <tr>
+				<td class="admission_tl">ソフトプレッツェルドッグ</td>
+				<td class="admission_tr">300円</td>
+			    </tr>
+
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+
+                 <tr>
+				<td class="admission_tl">アンデスポテト</td>
+				<td class="admission_tr">310円</td>
 			    </tr>
 
 				<tr>
