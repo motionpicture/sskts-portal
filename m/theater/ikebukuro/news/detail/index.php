@@ -38,6 +38,7 @@ if($_GET["i"] == "time"){
 
 }else{
 	$arries = getNewsDetail($_GET["i"]);
+
 	$template = str_replace('{$newsTime}',date('Y/m/d',strtotime($arries['start_date'])), $template);
 	$template = str_replace('{$newsTitle}',mb_convert_encoding($arries['midasi'],"SJIS","utf-8"), $template);
 	$template = str_replace('{$newsOutline}',mb_convert_encoding($arries['midasi'],"SJIS","utf-8"), $template);

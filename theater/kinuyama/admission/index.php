@@ -285,6 +285,9 @@ include("../../../lib/require.php");
 										<tr class="top">
 											<td valign="middle">
 												<p>通常の鑑賞料金プラス400円で3Ｄ作品をご鑑賞頂けます。</p>
+												<p>
+													IMAX3D版は対象外です。<br />IMAX3D版料金は上記の「IMAX鑑賞料金」をご確認ください。
+												</p>
 											</td>
 										</tr>
 

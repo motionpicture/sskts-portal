@@ -104,7 +104,6 @@ include("../../../../lib/require.php");
 
 					<tr>
 						<td class="admission_tl">
-                            <span style="color:#e50307;font-size:10px;">※8/31（日）まで追加料金無し。<br /><br /></span>
     						<span class="notice">
                                 通常（2D）作品の場合<br />
                                 (例)〈一般1,800円〉+〈ドルビーアトモス料金100円〉＝1,900円<br /><br />

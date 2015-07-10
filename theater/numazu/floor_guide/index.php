@@ -44,9 +44,9 @@ include("../../../lib/require.php");
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/numazu/fig2.gif" data-fancybox-group="gallery" title="シネマ2" rel="theater">シネマ2</a></p></td>
-												<td valign="middle"><p>257</p></td>
-												<td valign="middle"><p>2</p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/numazu/fig2.gif" data-fancybox-group="gallery" title="4DX®シアター" rel="theater">4DX<sup>&reg;</sup>シアター</a></p></td>
+												<td valign="middle"><p>120</p></td>
+												<td valign="middle"><p>-</p></td>
 												<td valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W11.3m×4.9m</p></td>
 											</tr>
@@ -98,6 +98,15 @@ include("../../../lib/require.php");
 												<td class="rightColumn bottomColumn" valign="middle"><p>W6.6m×3.7m</p></td>
 											</tr>
 										</table>
+
+										<p class="title">4DX<sup>&reg;</sup>シアター</p>
+										<div class="floorBox clearfix">
+											<div class="left"><a href="../../../4dx/"><img src="../../../images/common/fig_4dx.jpg"  alt="4DX&reg;" ></a></div>
+											<div class="right">
+												<p class="subTitle" >4DX<sup>&reg;</sup>シアター</p>
+												<p class="txt" >3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの11個の機能により、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</p>
+											</div>
+										</div>
 
 										<p class="title">3D上映</p>
 										<div class="floorBox clearfix">
@@ -194,5 +203,19 @@ include("../../../lib/require.php");
 			<?php getFooter(); ?>
 		</div>
 		<!-- #wrapper end -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 993895592;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/993895592/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 	</body>
 </html>

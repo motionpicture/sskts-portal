@@ -88,9 +88,6 @@ include("../../../lib/require.php");
 								<tr>
 									<td class="priceSubject"><p>ドルビーアトモス料金</p></td>
 									<td class="priceNotes" >
-    									<p>
-	           								<span style="color:#e50307;">※8/31（日）まで追加料金無し。<br /><br /></span>
-										</p>
 	           						    <p>
 	           							    通常（2D）作品の場合<br />
 											(例)〈一般1,800円〉+〈ドルビーアトモス料金100円〉＝1,900円<br /><br />

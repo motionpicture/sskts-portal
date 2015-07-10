@@ -274,5 +274,21 @@ if (count($dates) <7) {
 	<?php getFooter(); ?>
 </div>
 <!-- #wrapper end -->
+<!-- IMAXリマーケティング タグの Google コード_150625 -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 949131841;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/949131841/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- /IMAXリマーケティング タグの Google コード_150625 -->
 </body>
 </html>

@@ -11,6 +11,14 @@ include("../../../../lib/require.php");
 	<?php getSmartHeader(); ?>
 	<?php getSmartPankuzu(); ?>
 	<div class="basebox2_ptrl">
+		<table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+				<tr>
+					<th colspan="2" class="table_line_01"></th>
+				</tr>
+			</thead>
+		</table>
+		
 			<table cellpadding="0" cellspacing="0" class="theater_t">
 			<tbody>
 				<tr class="first-child">
@@ -68,7 +76,7 @@ include("../../../../lib/require.php");
 				</tbody>
 			</table>
 		</div>
-        
+
         <table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
@@ -76,6 +84,38 @@ include("../../../../lib/require.php");
 				</tr>
 			</thead>
 		</table>
+        <table cellpadding="0" cellspacing="0" class="theater_t">
+			<tbody>
+				<tr class="first-child">
+					<td colspan="2" class="table_top_01">4DX<sup>&reg;</sup>鑑賞料金</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="table_wrapper regulation02">
+			<table cellpadding="0" cellspacing="0" class="theater_u">
+				<tbody>
+					<tr>
+						<td class="admission_tl">4DX<sup>&reg;</sup>鑑賞料金：通常料金+1,000円</td>
+					
+					</tr>
+					<tr>
+						<td class="admission_tl"><span class="notice">2D作品の場合<br />
+〈通常料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+3D作品の場合<br />
+〈通常料金〉+〈3D鑑賞料金400円〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+サービスデーの場合<br />
+〈サービスデー料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br />
+<br /><br />
+※ムビチケは、窓口でのご利用に限られます。（窓口で差額をお支払いいただきます。）<br />※身長100cm未満の方、妊娠中の方、ご高齢の方、心臓・背中・腰・首などに障害のある方、特別な疾病のある方、乗り物酔いしやすい方、その他体調に不安のある方などは、４DX®をご利用いただけません。また、身長120cm未満のお子様は保護者の方と一緒にご鑑賞ください。</span></td>
+						
+					</tr>
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 
 
 		<table cellpadding="0" cellspacing="0" class="theater_u">
@@ -196,5 +236,19 @@ include("../../../../lib/require.php");
 	<!-- / .basebox2_ptrl --></div>
 
 	<?php getSmartFooter(); ?>
+	<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 993895592;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/993895592/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 </body>
 </html>

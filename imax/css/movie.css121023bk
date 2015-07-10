@@ -1,0 +1,111 @@
+/* CSS Document */
+
+#future_area {
+	width:980px;
+	min-height:300px;
+	float:left;
+	border:#026e96 1px solid;
+	text-align:left;
+	padding-top:10px;
+	margin-top:20px;
+	background-color:#00070E;	
+}
+
+#current_area {
+	width:980px;
+	min-height:300px;
+	float:left;
+	border:#026e96 1px solid;
+	text-align:left;
+	padding-top:10px;
+	margin-top:20px;
+	background-color:#00070E;	
+}
+
+.movie{
+	border:#fff 3px solid;
+	height:320px;
+	_min-height:290px;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding:15px;
+}
+
+.movie2{
+	border:#fff 3px solid;
+	height:385px;
+	_min-height:350px;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding:15px;
+}
+
+
+.movietitle{
+	color:#00B2FF;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.movieimage{
+	width:410px;
+	float:left;
+}
+
+.copyright{
+	font-size:8px;	
+}
+
+.movietext{
+	float:right;
+	width:475px;
+}
+	
+.area_title{
+	font-size:20px;
+	color:#00B2FF;
+}
+
+.line{
+	margin-bottom:5px;
+	clear: both;
+	}
+
+.outline {
+	margin-bottom:5px;
+}
+
+.movie_explanation{
+	margin-bottom:10px;
+		
+}
+
+.official_page_button{
+	float:right;
+}
+	
+.movie_actor{
+	margin-bottom:15px;		
+}
+
+.ctxt{
+	color:#F00;
+}
+
+.add_text{
+	margin:10px 0 0 0;
+	clear:both;
+	float:right;
+}
+
+.add_text .text{
+	margin:0 0 10px 0;
+	float:right;
+	color:#ff6600;
+	font-size:14px;
+}
+
+.add_text .photo{
+	clear:both;
+	float:right;
+}

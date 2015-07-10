@@ -1,0 +1,32 @@
+@charset "Shift_JIS";
+
+#mainContents{
+	width: 788px;
+	background-color: #fff;
+	padding: 0;
+
+}
+
+.cpbg01{
+ background: url("../images/img_4dx06.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+ height: 230px;
+ width: 788px;
+}
+
+
+.cpbg01 img{
+width: 327px;
+padding: 30px 0 0;
+margin: 0 auto;
+text-align: center;
+display: block;
+}									
+
+
+.cpbg01 img:hover{
+	opacity: 0.50;
+	-moz-opacity: 0.50; /* Firefox */
+	filter: alpha(opacity=50); /* IE6/7 */
+	-ms-filter: "alpha(opacity=50)"; /* IE8 */
+
+}

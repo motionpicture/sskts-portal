@@ -47,9 +47,9 @@ include("../../../../lib/require.php");
 						H4.9m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=2">シネマ2</a></td>
-						<td class="admission_tc">257</td>
-						<td class="admission_tc">2</td>
+						<td class="admission_tc_gray1"><a href="./detail.php?p=2">4DX<sup>&reg;</sup>シアター</a></td>
+						<td class="admission_tc">120</td>
+						<td class="admission_tc">-</td>
 						<td class="admission_tc">デジタル6ch</td>
 						<td class="admission_tc">W11.3m<br>
 						H4.9m</td>
@@ -106,6 +106,18 @@ include("../../../../lib/require.php");
 			</table>
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
+					<tr>
+						<td colspan="2" height="10"></td>
+					</tr>
+					<tr>
+						<td class="admission_icon2" rowspan="2"><a href="/4dx/"><img src="../../../images/theater/icon_4dx.gif" width="50" alt="4DX"></a></td>
+						<td class="admission_tl_name">4DX<sup>&reg;</sup>シアター</td>
+
+					</tr>
+					<tr>
+						<td class="admission_tl">3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの11個の機能により、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</td>
+
+					</tr>
 					<tr>
 						<td colspan="2" class="table_top_02">3D情報</td>
 					</tr>
@@ -219,5 +231,19 @@ include("../../../../lib/require.php");
 	<!--/サービス-->
 
 	<?php getSmartFooter(); ?>
+	<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 993895592;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/993895592/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 </body>
 </html>

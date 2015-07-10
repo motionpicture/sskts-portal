@@ -60,6 +60,7 @@ include("../lib/require.php");
 											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./numazu" >シネマサンシャイン沼津</a></p>
 											<p class="theaterPracce">静岡県</p>
 											<p class="theaterService">
+												<a class="link" href="../4dx" rel="4dx" alt="4dx" ><img src="../images/common/btn_4dx.gif"></a>
 												<a class="link" href="http://www.facebook.com/pages/%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E6%B2%BC%E6%B4%A5/488698254476149" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
 												<a href="https://twitter.com/cs_numazu" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
 											</p>
@@ -126,6 +127,7 @@ include("../lib/require.php");
 											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./masaki" >シネマサンシャインエミフルMASAKI</a></p>
 											<p class="theaterPracce">愛媛県</p>
 											<p class="theaterService">
+                                                   <a class="link" href="../4dx" rel="4dx" alt="4dx" ><img src="../images/common/btn_4dx.gif"></a>
 												<a class="link" href="http://www.facebook.com/sunshineehime" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
 												<a href="http://twitter.com/cs_ehime" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
 											</p>

@@ -12,7 +12,13 @@ include("../../../../lib/require.php");
 	<?php getSmartPankuzu(); ?>
 	<div class="basebox2_ptrl">
 
-
+		<table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+				<tr>
+					<th colspan="2" class="table_line_01"></th>
+				</tr>
+			</thead>
+		</table>
 
 		<table cellpadding="0" cellspacing="0" class="theater_t">
 			<tbody>
@@ -135,16 +141,6 @@ include("../../../../lib/require.php");
 				</tbody>
 			</table>
 		</div>
-        
-        <table cellpadding="0" cellspacing="0" class="theater_u">
-			<thead>
-				<tr>
-					<th colspan="2" class="table_line_01"></th>
-				</tr>
-			</thead>
-		</table>
-
-
 
 		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
@@ -278,6 +274,7 @@ include("../../../../lib/require.php");
 					<tr>
 						<td class="admission_to">
 							・通常の鑑賞料金プラス400円で3Ｄ作品をご鑑賞頂けます。<br />
+							・IMAX3D版は対象外です。IMAX3D版料金は上記の「IMAX鑑賞料金」をご確認ください。<br />
 							<span class="notice">
 								※3Dメガネ費100円含む。<br />
                                 ※前売券、シネマサンシャインCINEMA TICKET(特別鑑賞券)、シネマサンシャインINVITATION TICKET（招待券）、メンバーズカードのポイントによる無料鑑賞、各種割引券もプラス400円でご利用頂けます。<br />

@@ -59,12 +59,6 @@ ob_end_clean();
 				  <span style=\"font-size:x-small;color:#3E3A39;\">&lt;ˆßŽR‚Ì—¿‹àˆÄ“àˆê——‚É–ß‚é</span></a><br />";
 		$template = str_replace('{$theater_back}', $html, $template);
 	}
-
-	else if ($_GET['place'] == shimonoseki) {
-		$html .= "<a href=\"../theater/shimonoseki/?p=price\">
-				  <span style=\"font-size:x-small;color:#3E3A39;\">&lt;‰ºŠÖ‚Ì—¿‹àˆÄ“àˆê——‚É–ß‚é</span></a><br />";
-		$template = str_replace('{$theater_back}', $html, $template);
-	}
 	
 	else if ($_GET['place'] == ozu) {
 		$html .= "<a href=\"../theater/ozu/?p=price\">

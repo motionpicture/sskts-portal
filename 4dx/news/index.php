@@ -9,8 +9,8 @@ include("../../lib/require.php");
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <title>最新情報 | シネマサンシャイン&nbsp;cinema&nbsp;sunshine×4DX</title>
-<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島" />
-<meta name="description" content="最先端の体感型シアターがシネマサンシャイン平和島に上陸" />
+<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,沼津" />
+<meta name="description" content="シネマサンシャイン4DX®シアターに関する最新情報をご紹介。" />
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script src="../js/fullscreen.js" type="text/javascript"></script>
 <script src="../js/jquery-1.7.min.js" type="text/javascript"></script>
@@ -112,12 +112,11 @@ P {
   <div id="navi" class="transparent">
      <ul>
       <li><a href="../"><img class="transparent" src="../img/logo.png"></a></li>
-      <li><a href="../movie"><img class="" src="../img/btn03.png"></a></li>
+      <li><a href="../movie/"><img class="" src="../img/btn03.png"></a></li>
       <li><a href="#"><img class="" src="../img/btn01.png"></a></li>
       <li><a href="../about/"><img class="transparent" src="../img/btn02.png"></a></li>
-      <li><a href="http://www.facebook.com/sunshineheiwajima" target="_blank"><img class="" src="../img/btn04.png"></a></li>
-      <li><a href="https://twitter.com/sunshine_imm" target="_blank"><img class="" src="../img/btn05.png"></a></li>
-    </ul>
+      <li><a href="../theater/"><img class="" src="../img/btn06.png"></a></li>
+     </ul>
   </div>
   <div id="mainContents">
     <div class="section01" style="margin:0 0 25px;">

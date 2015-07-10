@@ -24,7 +24,7 @@ include("../../lib/require.php");
 	</ul>
 	<ul class="theatre_list">
 		<li class="theatre_category"><h3>中部地区</h3></li>
-		<li class="theatre_area"><a href="./numazu">沼津</a></li>
+		<li class="theatre_area"><a href="./numazu">沼津<span class="area_icon"><img src="../images/theater/icon_4dx.png" width="65" alt="4dx"></span></a></li>
 		<li class="theatre_area"><a href="./kahoku">かほく</a></li>
 	</ul>
 	<ul class="theatre_list">
@@ -37,7 +37,7 @@ include("../../lib/require.php");
 		<li class="theatre_area"><a href="./okaido">大街道</a></li>
 		<li class="theatre_area"><a href="./kinuyama">衣山<span class="area_icon"><img src="../images/theater/icon_imax.png" width="48" alt="IMAX"></span></a></li>
 		<li class="theatre_area"><a href="./shigenobu">重信</a></li>
-		<li class="theatre_area"><a href="./masaki">エミフルMASAKI</a></li>
+		<li class="theatre_area"><a href="./masaki">エミフルMASAKI<span class="area_icon"><img src="../images/theater/icon_4dx.png" width="65" alt="4dx"></span></a></li>
 		<li class="theatre_area"><a href="./ozu">大洲</a></li>
 		<li class="theatre_area"><a href="./kitajima">北島</a></li>
 	</ul>

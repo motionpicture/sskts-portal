@@ -333,6 +333,15 @@ include("../../../lib/require.php");
 										</tr>
 
 										<tr>
+											<td class="menuName"><p>手包みカルツォーネ</p></td>
+											<td class="menuprice" ><p>400円</p></td>
+										</tr>
+										
+										<tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+										</tr>
+
+										<tr>
 											<td class="menuName"><p>アメリカンドッグ</p></td>
 											<td class="menuprice" ><p>310円</p></td>
 										</tr>

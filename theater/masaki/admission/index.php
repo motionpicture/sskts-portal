@@ -92,6 +92,36 @@ include("../../../lib/require.php");
 										</tr>
 									</table>
 
+									<h3 class="lightBlueTitle">4DX<sup>&reg;</sup>鑑賞料金</h3>
+									<table class="priceTable">
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+
+										<tr>
+											<td class="priceSubject"><p>4DX<sup>&reg;</sup>鑑賞料金</p></td>
+											<td class="priceNotes" >
+												<p>
+													2D作品の場合<br />
+													〈通常料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+												</p>
+												<p>
+													3D作品の場合<br />
+													〈通常料金〉+〈3D鑑賞料金400円〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+													サービスデーの場合<br /></p>
+													<p>〈サービスデー料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+												</p>
+												<p>※ムビチケは、窓口でのご利用に限られます。（窓口で差額をお支払いいただきます。）</p>
+												<p>※身長100cm未満の方、妊娠中の方、ご高齢の方、心臓・背中・腰・首などに障害のある方、特別な疾病のある方、乗り物酔いしやすい方、その他体調に不安のある方などは、４DX®をご利用いただけません。また、身長120cm未満のお子様は保護者の方と一緒にご鑑賞ください。</p>
+											</td>
+											<td class="priceAdd" >通常料金+1,000円</td>
+										</tr>
+
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+									</table>
+
 									<h3 class="lightBlueTitle">割引料金</h3>
 									<table class="priceTable">
 										<tr class="line">
@@ -113,7 +143,7 @@ include("../../../lib/require.php");
 											<td class="priceNotes" >※毎週水曜日</td>
 											<td class="priceAdd" >女性&nbsp;&nbsp;￥1,100</td>
 										</tr>
-<tr class="line">
+										<tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 

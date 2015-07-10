@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+<meta name="description" content="昨年大変好評いただいた、特集上映“IMAX®カーニバル”を今年も10/11より開催します！！「IMAX®の名作をもう一度観たい！」というお客様からのリクエストにお応えして、IMAX®の過去の名作を一挙に上映いたします。通常よりもお得な鑑賞料金でお楽しみ頂けますので、ぜひこの機会をお見逃しなく！">
+<meta name="keywords" content="IMAX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間">
+<title>IMAXカーニバル | シネマサンシャイン CHINEMA SUNSHINE×IMAX</title>
+<link rel="stylesheet" href="/imax/css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/imax/css/style2.css" type="text/css" media="screen" />    
+<link rel="stylesheet" href="/imax/css/common2.css" type="text/css" />  
+<link rel="stylesheet" href="/imax/css/ac_gl_nav.css" type="text/css" />  
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8383230-50']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+<script type='text/javascript' src='/imax/scripts/jquery-1.4.3.min.js'></script>
+<link rel="shortcut icon" href="favicon.ico" > 
+<style>
+	.clearfix {width:100%;}
+	.clearfix:after {
+	  content: ""; 
+	  display: block; 
+	  clear: both;
+	 }
+
+	body{
+		background:#000;
+	}
+
+	body .center{
+		width:920px;
+		margin:auto;
+	}
+
+	.btn{
+		margin:0 auto 40px;
+		width:820px;
+	}
+
+	.btn .left{
+		float:left;
+	}
+
+	.btn .right{
+		float:right;
+	}
+
+	.btn a img:hover{
+		opacity:0.7;
+	}
+
+	.copyright{
+		text-align:center;
+		margin:0 0 80px;
+		font-size:12px;
+		font-weight:bold;
+	}
+
+</style>
+</head>
+<body class="png_bg">
+	<div id="wrapper">
+		<div id="wrap">
+			<div class="center">
+				<img src="./img/img_carnival01.jpg" alt="IMAXカーニバル">
+				<img src="./img/img_carnival02.jpg" alt="上映作品">
+				<div class="btn clearfix">
+					<p class="left"><a href="/imax/"><img src="./img/img_carnival_btn01.jpg" alt="IMAX特設サイトへ"></a></p>
+					<p class="right"><a href="/"><img src="./img/img_carnival_btn02.jpg" alt="シネマサンシャイン公式サイトへ"></a></p>	
+				</div>
+				<div class="copyright">Copyright (C) 2001-2014, Cinema Sunshine Co., Ltd. All Right Reserved.</div>
+			</div>
+		</div>				
+	</div>
+</body>
+</html>

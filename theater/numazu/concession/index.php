@@ -192,7 +192,7 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="menuName">
 												ディッピングドッツアイス<br />
-												<p class="optionText">（レインボー・ストロベリー）</p>
+												<p class="optionText">（レインボー・ストロベリーチーズケーキ）</p>
 											</td>
 											<td class="menuprice" ><p>各360円</p></td>
 										</tr>
@@ -201,43 +201,7 @@ include("../../../lib/require.php");
 										</tr>
 										<tr>
 											<td class="menuName">
-												<p class="Name">えびカツドッグ</p>
-											</td>
-											<td class="menuprice" ><p>440円</p></td>
-										</tr>
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="Name">ソースカツドッグ</p>
-											</td>
-											<td class="menuprice" ><p>440円</p></td>
-										</tr>
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="Name">ポテオニ</p>
-											</td>
-											<td class="menuprice" ><p>360円</p></td>
-										</tr>
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
 												<p class="Name">プレッツェル</p>
-											</td>
-											<td class="menuprice" ><p>360円</p></td>
-										</tr>
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="Name">スナックピザ</p>
 											</td>
 											<td class="menuprice" ><p>360円</p></td>
 										</tr>
@@ -255,7 +219,7 @@ include("../../../lib/require.php");
 										</tr>
 										<tr>
 											<td class="menuName">
-												<p class="Name">チキンピザ（ミックス）</p>
+												<p class="Name">金沢かれいぱん</p>
 											</td>
 											<td class="menuprice" ><p>360円</p></td>
 										</tr>
@@ -266,7 +230,16 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="Name">アメリカンドッグ</p>
 											</td>
-											<td class="menuprice" ><p>360円</p></td>
+											<td class="menuprice" ><p>310円</p></td>
+										</tr>
+										<tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+										</tr>
+										<tr>
+											<td class="menuName">
+												<p class="Name">ソフトプレッツェルドッグ</p>
+											</td>
+											<td class="menuprice" ><p>300円</p></td>
 										</tr>
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -282,9 +255,27 @@ include("../../../lib/require.php");
 										</tr>
 										<tr>
 											<td class="menuName">
+												<p class="Name">ショコラクリスプ</p>
+											</td>
+											<td class="menuprice" ><p>520円</p></td>
+										</tr>
+										<tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+										</tr>
+										<tr>
+											<td class="menuName">
 												<p class="Name">シャカシャカポテト</p>
 											</td>
 											<td class="menuprice" ><p>340円</p></td>
+										</tr>
+										<tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+										</tr>
+										<tr>
+											<td class="menuName">
+												<p class="Name">アンデスポテト</p>
+											</td>
+											<td class="menuprice" ><p>310円</p></td>
 										</tr>
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -518,5 +509,19 @@ include("../../../lib/require.php");
 			<?php getFooter(); ?>
 		</div>
 		<!-- #wrapper end -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 993895592;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/993895592/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 	</body>
 </html>

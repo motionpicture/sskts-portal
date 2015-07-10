@@ -21,8 +21,7 @@ define('flvimage_picture','/theaters_image/flvimage');
 
 
 //TOPページURL
-//define ("GROBAL_TOP_URL", 'http://www.cinemasunshine.co.jp/');
-define ("GROBAL_TOP_URL", 'http://sasaki.src.master.hook.motionpicture.jp/');
+define ("GROBAL_TOP_URL", 'http://www.cinemasunshine.co.jp/');
 
 //スマートフォンのTOPページURL
 define ("GROBAL_SP_TOP_URL", GROBAL_TOP_URL . 'sp/');

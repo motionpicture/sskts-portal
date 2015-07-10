@@ -104,7 +104,11 @@ function au($text){
 <br><img src="images/spacer.gif" height="5"><br>
 <center><img src="images/tokusetsu7.gif" alt=""/></center>
 <br><img src="images/spacer.gif" height="5"><br>
-<center><a href="http://campaign.cinemasunshine.co.jp/magazine/?p=subscribe&id=2"><img src="images/tokusetsu_btn1.gif" alt=""/></a></center>
+<span style="color:red;">※割引券1枚で2名様まで有効。他の割引ｻｰﾋﾞｽとの併用はできません。<br>
+※特別興行、IMAXﾃﾞｼﾞﾀﾙｼｱﾀｰではご利用頂けません。<br>
+※ｲﾝﾀｰﾈｯﾄ購入（e-box、ﾑﾋﾞﾁｹ)ではご利用頂けません。 <br></span>
+<img src="images/spacer.gif" height="5">
+<center><a href="http://mm.cinemasunshine.co.jp/form_if.cgi?type=3&id=sunshine"><img src="images/tokusetsu_btn1.gif" alt=""/></a></center>
 <br><img src="images/spacer.gif" height="10"><br>
 </font>
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>メールマガジン感様限定サービス 会員限定割引クーポン</title>
+<link type="text/css" rel="stylesheet" href="waribiki.css" />
+<script src="rollover.js" type="text/javascript"></script>
+<!--アクセス解析-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8383230-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--アクセス解析ここまで-->
+</head>
+<body>
+<div id="wrap">
+	<div id="container">
+    	<div id="contents">
+            <div id="header">
+                <div id="logo"><a href="http://www.cinemasunshine.co.jp/"><img src="images/logo.gif" alt="シネマサンシャイン" /></a></div>
+            </div>
+            <h1><img src="images/waribiki_top_img.gif" alt="メールマガジン感様限定サービス 会員限定割引クーポン" /></h1>
+            <h2><img src="images/waribiki_img_1.gif" alt="大人、大学生、高校生 300円引き　小・中学生、幼児 200円引き" /></h2>
+            <div id="text1"><img src="images/waribiki_img_2.gif" alt="" /></div>
+            <div id="btn"><img src="images/waribiki_btn.gif" alt="クーポンを印刷する" onclick="print()" onmouseout="RollOver(this, 'images/waribiki_btn.gif');" onmouseover="RollOver(this, 'images/waribiki_btn_om.gif');" /></div>
+            <p>印刷が出来ない方は<a href="images/waribiki_img_1.gif" target="_blank">こちら</a>から画像を印刷して下さい。</p>
+            <div id="mobile"><img src="images/waribiki_img_3.gif" alt="" /></div>
+            <div id="footer">
+            	<p>Copyright (Co) 2001-2010, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
+            </div>    
+            
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	color:#333333;
+	font-family:"メイリオ","ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+}
+
+img{
+	border:0px;
+}
+
+#wrap{
+	background-image:url(images/waribiki_bg.gif);
+	background-repeat:repeat-x repeat-y;
+	height:auto;
+}
+
+#container{
+	background-image:url(images/waribiki_container_bg.gif);
+	background-repeat:repeat-y;
+	height:auto;
+	width:834px;
+	margin:auto;
+}
+
+#contents{
+	width:818px;
+	margin:auto;
+}
+
+#header{
+	background-color:#0b1532;
+	height:54px;
+}
+
+#logo{
+	padding:10px 0 0 10px;
+}
+
+#container h1{
+	margin:0;
+	padding:0;
+}
+
+#container h2{
+	margin:30px 0 0 0;
+	padding:0;
+}
+
+#text1{
+	width:689px;
+	margin:30px auto 0 auto;
+}
+
+#btn{
+	width:401px;	
+	margin:20px auto 0 auto;
+}
+
+#container p{
+	text-align:center;
+	margin:30px auto 0 auto;
+}
+
+#mobile{
+	width:701px;	
+	margin:50px auto 0 auto;
+}
+
+#footer{
+	margin:80px 0 0 0;
+	height:100px;
+	background-color:#0b1532;
+	}
+
+#container #footer p{
+	padding:15px 0 0 0;
+	text-align:center;
+	color:#FFF;
+}
+	

@@ -1,0 +1,47 @@
+<?php
+
+$ref = $_SERVER["HTTP_REFERER"];
+
+//•½˜a“‡
+if(preg_match("/heiwajima/",$ref)){
+	header('Location: http://www.facebook.com/sunshineheiwajima/app_390773837697032');
+
+//’r‘Ü
+}elseif(preg_match("/ikebukuro/",$ref)){
+	header('Location: http://www.facebook.com/sunshineikebukuro/app_390773837697032');
+
+//“y‰Y
+}elseif(preg_match("/tsuchiura/",$ref)){
+	header('Location: http://www.facebook.com/sunshinetsuchiura/app_390773837697032');
+
+//À’Ã
+}elseif(preg_match("/numazu/",$ref)){
+	header('Location: http://www.facebook.com/sunshinenumazu/app_390773837697032');
+
+//‚©‚Ù‚­
+}elseif(preg_match("/kahoku/",$ref)){
+	header('Location: http://www.facebook.com/sunshinekahoku/app_390773837697032');
+
+//‘å˜aŒSŽR
+}elseif(preg_match("/yamatokoriyama/",$ref)){
+	header('Location: http://www.facebook.com/sunshineyamatokoriyama/app_390773837697032');
+
+//‘åŠX“¹EˆßŽREdME‘åFE¡Ž¡E¼‘O(ˆ¤•Q”Å‚É”ò‚Î‚·)
+}elseif(preg_match("/okaido/",$ref) ||
+		preg_match("/kinuyama/",$ref) ||
+		preg_match("/shigenobu/",$ref) ||
+		preg_match("/ozu/",$ref) ||
+		preg_match("/imabari/",$ref) ||
+		preg_match("/masaki/",$ref)){
+	header('Location: http://www.facebook.com/sunshineehime/app_390773837697032');
+
+//–k“‡
+}elseif(preg_match("/kitajima/",$ref)){
+	header('Location: http://www.facebook.com/sunshinekitajima/app_390773837697032');
+
+//—áŠO
+}else{
+	header('Location: http://www.facebook.com/sunshineikebukuro/app_390773837697032');
+}
+
+?>

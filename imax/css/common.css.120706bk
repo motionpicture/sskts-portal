@@ -1,0 +1,431 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	letter-spacing:0.15em;
+	line-height:150%;
+	color:#333333;
+	font-family:"Arial","M+1cregular","メイリオ","ヒラギノ角ゴ Pro W3","Verdada",Osaka,sans-serif;
+	/*background-color:#D9E6E8;*/
+	background-color:ffffff;
+}
+
+a{
+	color:#909EA0;
+	text-decoration:underline;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+
+img{
+	border:none;
+}
+
+h3{
+	padding:0;
+	font-size:30px;
+	font-weight:normal;
+	clear:both;
+	color:#333333;
+	padding:60px 0 0 0;
+	margin:0;
+	font-family:"Courier New","M+1cregular","メイリオ","ヒラギノ角ゴ Pro W3","Verdada",Osaka,sans-serif;
+
+}
+
+#wrap{
+	z-index:1;
+}
+
+ul{
+	padding:0;
+}
+
+li{	
+	list-style-type:none;
+}
+
+#back_to_top{
+	float:right;
+	margin:40px 0 0 0;
+	
+}
+
+.dot_line{
+	margin:30px 0 0 0;
+}
+
+.dot_line2{
+	padding:40px 0 0 0;
+}
+
+.clear{
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+/*ナビゲーションホバー*/
+
+a:hover img {
+	opacity:0.30;
+	-moz-opacity: 0.30; /* Firefox */
+	filter: alpha(opacity=30); /* IE6/7 */
+	-ms-filter: "alpha(opacity=30)"; /* IE8 */	
+	}	
+
+.active {
+	opacity: 0.30;
+	-moz-opacity: 0.30; /* Firefox */
+	filter: alpha(opacity=30); /* IE6/7 */
+	-ms-filter: "alpha(opacity=30)"; /* IE8 */
+	}
+	
+.active a:hover img {
+	opacity:1;
+	-moz-opacity: 1; /* Firefox */
+	filter: alpha(opacity=1); /* IE6/7 */
+	-ms-filter: "alpha(opacity=1)"; /* IE8 */	
+	}	
+	
+.active2 {
+	opacity: 1;
+	-moz-opacity: 1; /* Firefox */
+	filter: alpha(opacity=1); /* IE6/7 */
+	-ms-filter: "alpha(opacity=1)"; /* IE8 */
+	}
+	
+.active2 a:hover img {
+	opacity:1;
+	-moz-opacity: 1; /* Firefox */
+	filter: alpha(opacity=1); /* IE6/7 */
+	-ms-filter: "alpha(opacity=1)"; /* IE8 */	
+	}		
+	
+/*ナビゲーションホバーここまで*/
+
+
+/*反転時の文字色・背景色 */
+::selection {
+background: #D1E6EA;　　/* 背景色*/
+color:#666666;　　/* 文字色*/
+}
+/* Firefox対応*/
+::-moz-selection {
+background: #D1E6EA;　　/* 背景色*/
+color:#666666; 　　/* 文字色*/
+}
+
+ 
+/*2012/01/16追記*/
+ .header {
+	 background:url(../images/common/header-shelf.jpg) no-repeat scroll 50% 0 transparent;
+	 width:100%;
+	 height:96px;
+
+ }
+ 
+ .copy {
+	 width:962px;
+	 height:48px; 
+	 position: relative; 
+	 z-index:2; 
+	 margin:0 auto; 
+	 padding:10px 10px 0 10px;
+	 
+ }
+ 
+ #content {
+	 background:url(../images/common/wrapper_bg.jpg) no-repeat scroll 50% 0 transparent;
+	 width:100%;
+ }
+  
+
+.mainNav{
+	 width:982px;
+	 height:38px;
+	 text-align:right;
+	 margin:0 auto;
+}
+
+#menu-main-nav {
+	float:right;
+	width:535px;
+	height:30px;
+	margin:8px 0 0 0;
+	list-style:none outside none;
+}
+
+#menu-main-nav li {
+	float: left;
+	height:30px;
+	margin:0;
+	position:relative;
+}
+
+#menu-main-nav img {
+	cursor:pointer;
+	display:block;
+	text-align:center;
+	height:18px
+
+}
+
+
+#menu-main-nav li:hover {
+	background:url(../images/common/main-nav-selected.gif) no-repeat scroll center bottom transparent;
+}
+
+#footerNavigation {
+	list-style:none outside none;
+	float:left;
+	width:600px;
+	height:30px;
+	
+}
+
+#footerNavigation li {
+	float:left;
+	position:relative;
+	margin-left:5px;
+	
+	
+}
+
+#footerNavigation a {
+	text-decoration:none;
+	
+	
+}
+
+
+#contentsMenu {
+	width:982px;
+	margin:20px auto;
+}
+
+#news {
+	width:580px;
+	height:100%;
+	float:left;
+	border:#026e96 1px solid;
+	text-align:left;
+	padding-top:10px;
+}
+.news_txtarea {
+	margin-left:10px;
+}
+
+.date {
+	color:#00b2ff;
+	margin-top:10px;
+}
+
+.newstxt {
+	margin-top:10px;
+	width:560px;
+}
+
+#movies {
+	width:386px;
+	height:100%;
+	border:#026e96 1px solid; 
+	text-align:left; 
+	padding-top:10px;
+}
+
+#movie_info1 {
+	background:url(../images/common/movie1.jpg); 
+	width:359px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+}
+
+#movie_info2 {
+	background: url(../images/common/movie2.jpg); 
+	width:360px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+}
+
+#movie_info3 {
+	background: url(../images/common/movie3.jpg); 
+	width:360px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+}
+
+#movie_info4 {
+	background: url(../images/common/movie4.jpg); 
+	width:360px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+}
+
+#movie_info5 {
+	background: url(../images/common/movie5.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info6 {
+	background: url(../images/common/movie6.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info7 {
+	background: url(../images/common/movie7.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info8 {
+	background: url(../images/common/movie8.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info9 {
+	background: url(../images/common/movie9.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info10 {
+	background: url(../images/common/movie10.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info11 {
+	background: url(../images/common/movie11.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info12 {
+	background: url(../images/common/movie12.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info13 {
+	background: url(../images/common/movie13.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info14 {
+	background: url(../images/common/movie14.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info15 {
+	background: url(../images/common/movie15.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info16 {
+	background: url(../images/common/movie16.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info17 {
+	background: url(../images/common/movie17.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info18 {
+	background: url(../images/common/movie18.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info19 {
+	background: url(../images/common/movie19.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#movie_info24 {
+	background: url(../images/common/movie24.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+#movie_info25 {
+	background: url(../images/common/movie25.jpg); 
+	width:358px;
+	height:121px; 
+	margin-top:10px;
+	position:relative;
+	border:1px solid;
+}
+
+#campaign {
+	width:386px;
+	height:100%;
+	border:#026e96 1px solid; 
+	text-align:left; 
+	padding-top:10px;
+	margin-bottom:20px;
+}

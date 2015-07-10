@@ -1,0 +1,5 @@
+$(document).ready(function(){
+    $('.accordion_head').click(function() {
+        $(this).closest('td').find('.sentence').slideToggle();
+    }).parents().find('.sentence').hide();
+});

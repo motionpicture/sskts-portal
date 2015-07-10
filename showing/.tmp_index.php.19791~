@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>上映中作品</title>
+<link type="text/css" rel="stylesheet" href="../css/global.css" />
+<link type="text/css" rel="stylesheet" href="../css/public.css" />
+<script type="text/javascript" src="../js/rollover.js"></script>
+</head>
+<body>
+<div id="container">
+  <div id="inBlock">
+    <!--▼　header　▼-->
+    <div id="header">
+      <p id="logo"><a href=".."><img border="0" src="../images/logo.gif" width="113" height="69" alt="シネマサンシャイン　ロゴ" /></a></p>
+      <h1 id="title"><a href="#">シネマサンシャイン-CINEMA SUNSHINE-</a></h1>
+      <ul id="subNavigation">
+        <li> <a href="../company">会社概要</a> | </li>
+        <li> <a href="../sitemap">サイトマップ</a> | </li>
+        <li> <a href="../law">特定商取引法に基づく表記</a> | </li>
+        <li> <a href="../sitepolicy">利用規約</a> | </li>
+        <li> <a href="../privacy">プライバシーポリシー</a></li>
+        <!--<li> <a href="../question">よくある質問</a> </li>-->
+      </ul>
+      <ul id="globalNavigation">
+        <li> <a href="../showing"><img border="0" src="../images/public_global_navi_showing.gif" width="191" height="62" alt="上映中作品" /></a> </li>
+        <li> <a href="../next_showing"><img border="0" src="../images/public_global_navi_next_showing.gif" width="191" height="62" alt="上映予定作品" /></a> </li>
+        <li> <a href="../discount"><img border="0" src="../images/public_global_navi_discount.gif" width="191" height="62" alt="全館共通特別割引券" /></a> </li>
+      </ul>
+      <div id="theaterConductor"> <a href="../theater"><img border="0" src="../images/public_global_navi_theaters_button.gif" width="80" height="21" alt="劇場一覧" /></a>
+        <select name="forTheaterConductor" onchange="menuLink(this.options[this.selectedIndex].value)">
+          <option selected="selected">選択してください</option>
+          <option value="../theater/ikebukuro">シネマサンシャイン池袋</option>
+          <option value="../theater/heiwajima">シネマサンシャイン平和島</option>
+          <option value="../theater/matsudo">シネマサンシャイン松戸</option>
+          <option value="../theater/mobara">シネマサンシャイン茂原</option>
+          <option value="../theater/iwai">シネマサンシャイン岩井</option>
+<option value="../theater/tsuchiura">シネマサンシャイン土浦</option>
+          <option value="../theater/numazu">シネマサンシャイン沼津</option>
+          <option value="../theater/okaido">シネマサンシャイン大街道</option>
+          <option value="../theater/kinuyama">シネマサンシャイン衣山</option>
+          <option value="../theater/shigenobu">シネマサンシャイン重信</option>
+          <option value="../theater/ozu">シネマサンシャイン大洲</option>
+          <option value="../theater/imabari">シネマサンシャイン今治</option>
+          <option value="../theater/kitajima">シネマサンシャイン北島</option>
+        </select>
+      </div>
+    </div>
+    <!--▲　header　▲-->
+    <!--▼　body　▼-->
+    <div id="publicMovieBody">
+      <div id="showingList">
+        <h1>上映中作品<span>Now Showing</span></h1>
+        <ul id="attentions">
+          <li> 劇場により上映作品が異なる場合がありますので、各作品欄に記載された上映劇場からスケジュールページをご確認下さい。 </li>
+          <li> 上映作品は予告なく変更になることがございます。 </li>
+        </ul>
+        <hr/>
+        <div class="movieList">
+        
+        
+        
+<?php 
+$crntFtr = 'current';
+
+$BASE = dirname(dirname(__FILE__));   
+$cinemaList = array();
+$lines = file("{$BASE}/data/{$crntFtr}.csv");
+//CODE	上映日	作品名	配給	制限	監督	主演	クレジット	URL_PC	URL_MOBILE	池袋	松戸	茂原	岩井	平和島	沼津	大街道	衣山	重信	今治	大洲	北島	土浦
+
+//"20090130000","2009/01/30","マンマ・ミーア","TOWA","","http://www.example.jp","http://www.example.jp","","1","","","1","1","1","1","1","1","1","1","1","1","1","",
+
+if (is_array($lines)) {
+	$lines = array_reverse($lines);
+	//表示数変更の場合下記
+	$count = 10000;
+	$size = sizeof($lines);
+	
+	// 上映中CSVをループ
+	for ($i = 0; ($i < $size) && ($i < $count -1) && empty($lines[$i][2]); $i++) {
+        $lines[$i] = str_replace('"', '', $lines[$i]);
+        $cinemaList[] = explode(',', mb_convert_encoding($lines[$i], "UTF-8", "SJIS-win"));
+	}
+	
+	
+}
+
+
+foreach ($cinemaList as $cinema) {
+	if (!empty($cinema[2])) { // $cinema[2]作品名
+
+        $cinema[7] = '(c) ' . str_replace(';', '・', $cinema[7]); // $cinema[7]クレジット
+
+		// オフィシャルサイト（URL）が存在するかどうか
+        if (!empty($cinema[8])) {// $cinema[8]オフィシャルサイト（URL）
+			$movieImageBlock = "<a href=\"{$cinema[8]}\" target=\"_blank\"><img border=\"0\" src=\"../images/movie/{$cinema[0]}.jpg\" width=\"131\" height=\"98\" alt=\"\" /></a>";
+			$mName = "<a href=\"{$cinema[8]}\" target=\"_blank\">{$cinema[2]}</a>";
+			$officialBlock = "<p class=\"officialBlock\"><a href=\"{$cinema[8]}\" target=\"_blank\"><img border=\"0\" src=\"../images/theaters_showingList_official.gif\" width=\"145\" height=\"19\" alt=\"\" /></a></p>";
+        } else {
+			$movieImageBlock = "<img border=\"0\" src=\"../images/movie/{$cinema[0]}.jpg\" width=\"131\" height=\"98\" alt=\"\" />";
+			$mName = $cinema[2];
+			$officialBlock = "";
+        }
+
+		// 上映劇場リスト生成
+        $first = true;
+        $theater = '';
+        $lines[$size-1] = str_replace('"', '', $lines[$size-1]);
+	    $koumoku = explode(',', mb_convert_encoding($lines[$size-1], "UTF-8", "SJIS-win"));
+		$koumokuCode = array(
+            '池袋' => 'ikebukuro',
+            '松戸' => 'matsudo',
+            '柏' => '',
+            '草加' => '',
+            '茂原' => 'mobara',
+            '岩井' => 'iwai',
+            '平和島' => 'heiwajima',
+            '沼津' => 'numazu',
+            '大街道' => 'okaido',
+            '衣山' => 'kinuyama',
+            '重信' => 'shigenobu',
+            '今治' => 'imabari',
+            '大洲' => 'ozu',
+            '北島' => 'kitajima',
+            '土浦' => 'tsuchiura',
+        );
+        for ($i = 10; $i <= 22; $i++) {
+			if ($cinema[$i] != '' && $cinema[$i] != '0') {
+                if ($first == false) {
+                    $theater .= " ";
+                }
+				$finish = (($cinema[$i] = trim($cinema[$i])) != '1') ? '('.$cinema[$i].')' : '';
+                $theater .= "<li><a href=\"../theater/{$koumokuCode[$koumoku[$i]]}/\">{$koumoku[$i]}{$finish}</a></li>";
+                $first = false;
+			}
+		}
+
+		// 制限生成
+		$rTxt = '';
+		if($cinema[4] != ""){
+			$rTxt = '<p class="restriction"><img border="0" src="../images/theaters_showingList_';
+			switch(strtoupper($cinema[4])){
+				case 'PG-12': $rTxt .= 'PG12'; break;
+				case 'R-15': $rTxt .= 'R15'; break;
+				case 'R-18': $rTxt .= 'R18'; break;
+			}
+			$rTxt .= ".gif\" width=\"51\" height=\"17\" alt=\"{$cinema[4]}\" /></p>";
+		}
+	}
+	
+    ?>
+    
+    
+          <div class="movie">
+            <p class="movieImageBlock"><?=$movieImageBlock?></p>
+            <div class="movieInformation">
+              <div class="movieDetailed">
+                <p class="topBottom"><img border="0" src="../images/public_showing_list_box_top.gif" width="553" height="5" alt="" /></p>
+                <div class="detailedBody">
+                  <?=$rTxt?>
+                  <h2><?=$mName?></h2>
+                  <p class="movieCopy"><?=$cinema[7]?></p>
+                </div>
+                <p class="topBottom"><img border="0" src="../images/public_showing_list_box_bottom.gif" width="553" height="5" alt="" /></p>
+              </div>
+              <div class="showingTheaters">
+                <p class="topBottom"><img border="0" src="../images/public_showing_list_box_top.gif" width="553" height="5" alt="" /></p>
+                <div class="theatersBody">
+                  <h3>上映劇場：</h3>
+                  <ul>
+                    <?=$theater?>
+                  </ul>
+                </div>
+                <p class="topBottom"><img border="0" src="../images/public_showing_list_box_bottom.gif" width="553" height="5" alt="" /></p>
+              </div>
+              <?=$officialBlock?>
+            </div>
+            <hr/>
+          </div>
+          
+        <?php
+	}
+?>
+        
+        
+        
+        </div>
+      </div>
+      <p class="showingListBottom"><img border="0" src="../images/theaters_showingList_bottom.gif" width="770" height="25" alt="" /></p>
+    </div>
+    <!--▲　body　▲-->
+    <!--▼　footer　▼-->
+    <div id="footer">
+      <p id="topCarrier"> <a href="#"><img border="0" src="../images/footer_button.gif" width="64" height="13" alt="toTop" class="toTop" /></a> </p>
+      <hr />
+      <ol id="theatersNavigation">
+        <li><a href="../theater/ikebukuro">シネマサンシャイン池袋(東京都)</a></li>
+        <li><a href="../theater/heiwajima">シネマサンシャイン平和島(東京都)</a></li>
+        <li><a href="../theater/matsudo">シネマサンシャイン松戸(千葉県)</a></li>
+        <li><a href="../theater/mobara">シネマサンシャイン茂原(千葉県)</a></li>
+        <li><a href="../theater/iwai">シネマサンシャイン岩井(茨城県)</a></li>
+<li><a href="../theater/tsuchiura">シネマサンシャイン土浦(茨城県)</a></li>
+        <li><a href="../theater/numazu">シネマサンシャイン沼津(静岡県)</a></li>
+        <li><a href="../theater/okaido">シネマサンシャイン大街道(愛媛県)</a></li>
+        <li><a href="../theater/kinuyama">シネマサンシャイン衣山(愛媛県)</a></li>
+        <li><a href="../theater/shigenobu">シネマサンシャイン重信(愛媛県)</a></li>
+        <li><a href="../theater/ozu">シネマサンシャイン大洲(愛媛県)</a></li>
+        <li><a href="../theater/imabari">シネマサンシャイン今治(愛媛県)</a></li>
+        <li><a href="../theater/kitajima">シネマサンシャイン北島(徳島県)</a></li>
+        <!--			<li><a href="#">シネマサンシャイン池袋(東京)</a></li>	-->
+      </ol>
+      <p id="mail">　　　　お問い合わせ　　（ご利用劇場をお知らせください）<br /><a href="mailto:cin-sun_mail@cinemasunshine.co.jp?Subject=お問い合わせ"><img src="../images/mail.gif" border="0" width="268" height="15" /></a></p>
+      <p id="credit"> Copyright (Co) 2001-2009, Cinema Sunshine Co., Ltd. All Right Reserved. </p>
+    </div>
+    <!--▲　footer　▲-->
+  </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8383230-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

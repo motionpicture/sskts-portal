@@ -300,7 +300,7 @@ include("../../../../lib/require.php");
 			<tbody>
 				<tr>
 					<td class="admission_tl">量り売りお菓子</td>
-					<td class="admission_tr">100g 360円</td>
+					<td class="admission_tr">100g 420円</td>
 				</tr>
 				<tr>
 					<td colspan="2" class="table_line_02"></td>

@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>プレゼント応募フォ−ム</title>
+</head>
+<body>
+<center>
+<div><img src="images/cam_img.gif" alt="メールマガジン登録キャンペーン" /></div>
+</center>
+<br><img src="images/spacer.gif" height="10"><br>
+<font size="1" style="color:#ff0000;">
+以下に必要事項をご記入の上、応募して下さい。<br />
+</font>
+<font size="1">
+<form method="post" action="https://www.biotech.ne.jp/cgi-bin/rsv.php">
+<br>
+お名前 <font color="#ff8800">必須</font><br>
+<input type="text" maxlength="50" size="16" value="" name="name_sei"><br>
+<br>
+性別 <font color="#ff8800">必須</font><br>
+<input type="radio" value="1" name="sex">男性　
+<input type="radio" value="2" name="sex">女性<br>
+<br>
+年齢 <font color="#ff8800">必須</font><br>
+<input type="text" maxlength="50" size="16" value="" name="age"><br>
+<br>
+郵便番号 <font color="#ff8800">必須</font><br>
+<input type="text" maxlength="50" size="16" value="" name="postcoad"><br>
+<br>
+住所 <font color="#ff8800">必須</font><br>
+<input type="text" maxlength="50" size="16" value="" name="add"><br>
+<br>
+ﾋﾞﾙ･ﾏﾝｼｮﾝ名 <font color="#ff8800"></font><br>
+<input type="text" maxlength="50" size="16" value="" name="bldg"><br>
+<br>
+電話番号 <font color="#ff8800">必須</font><br>
+<input type="text" maxlength="50" size="16" value="" name="phone"><br>
+<br>
+ﾒｰﾙｱﾄﾞﾚｽ <font color="#ff8800">必須</font><br>
+<input type="text" maxlength="256" istyle="3" value="" name="email"><br>
+<br>
+ﾒｰﾙｱﾄﾞﾚｽ確認 <font color="#ff8800">必須</font><br>
+<input type="text" maxlength="256" istyle="3" value="" name="email"><br>
+<br>
+プレゼントを選ぶ <font color="#ff8800">必須</font><br>
+<font size="1" style="color:#ff0000;">「塔の上のラプンツェル」</font><br>　
+<input type="radio" value="1" name="pre1">オリジナル腕時計（小人用）<br>　
+<input type="radio" value="2" name="pre2">オリジナルTシャツ（小人用120cm）<br>
+<input type="radio" value="3" name="pre3">オリジナルノートブック<br>
+<br>
+<font size="1" style="color:#ff0000;">「漫才ギャング」</font><br>　
+<input type="radio" value="4" name="pre4">出演者サイン入りプレスシート<br>　
+<input type="radio" value="25" name="pre5">タトゥーシール<br>
+<br>　
+<font size="1" style="color:#ff0000;">「ガリバー旅行記」</font><br>　
+<input type="radio" value="4" name="pre4">ガリバーサイズイヤホン型スピーカー<br>　
+<input type="radio" value="25" name="pre5">ガリバー＆ミニサイズえんぴつセット<br>
+<br>
+
+
+
+
+<br><img src="images/spacer.gif" height="10"><br>
+個人情報の取扱いについて
+<br><img src="images/spacer.gif" height="5"><br>
+ご登録の前に､当社の｢ﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ｣をよくお読み下さい｡<br />
+ご確認いただき､ご同意いただける場合はﾁｪｯｸﾎﾞｯｸｽにｸﾘｯｸして下さい｡
+<br><img src="images/spacer.gif" height="5"><br>
+<input type="checkbox" value="1" name="ppa">個人情報の取り扱いに同意する
+<br><img src="images/spacer.gif" height="5"><br>
+※当選者の発表は、厳選なる抽選のうえ、ご本人さまへの通知をもって代えさせていただきます。<br /> 
+<center><input type="submit" value="送信"></center>
+</form>
+</font>
+<br />
+<center>
+<div><img src="images/waribiki_img_2_m.gif" alt="Copyright (Co) 2001-2010, Cinema Sunshine Co., Ltd. All Right Reserved."/></div>
+</center>
+</body>
+</html>

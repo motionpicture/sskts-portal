@@ -1,0 +1,116 @@
+.imax_log_box {
+	width:480px;	
+	text-align:center;
+	float:left;
+}
+
+.imax_log_box img{
+	text-align:center;	 
+}
+
+.imax_text_area{
+	background-image:url(../images/theater/theater_txt_bg.gif);
+	background-repeat:no-repeat;
+	width:435px;
+	min-height:332px;
+	padding:10px;
+	float:right;
+	line-height:155%;
+}
+
+.imax_infomation{
+	width:903px;
+	min-height:440px;
+	float:left;
+	border:#fff 2px solid;
+	text-align:left;
+	padding:20px 25px;
+	margin-top:20px;
+}
+
+imax_infomation p{
+	font-size:12px;
+}
+
+.imax_infomation_text{
+	float:left;
+	width: 582px;
+}
+
+.imax_infomation_figure{
+	float:right;
+	margin-top:20px;
+	width: 285px;
+}
+
+.button{
+	margin-top:20px;
+}
+
+.imax_infomation_text h2{
+	font-size:20px;
+	color:#00B2FF;
+}
+
+.imax_infomation_text table{
+	margin-top:10px;
+	margin-left:10px;
+}
+.column{
+	width:80px;
+	background-color:#0090d5;
+	text-align:center;
+}
+
+.space{
+	width:20px;
+}
+
+.value{
+	width:460px;
+	font-size:15px;
+}
+
+.spacer{
+	height:10px;
+}
+
+
+.price_infomation{
+	width:903px;
+	min-height:380px;
+	float:left;
+	border:#fff 2px solid;
+	text-align:left;
+	padding:10px 25px;
+	margin-top:20px;
+}
+
+.textArea {
+	margin-left:50px;
+	margin-top:10px;
+	width:790px;
+}
+
+.textArea  table tr td {
+		padding-bottom:5px;
+}
+
+.b_txt {
+	color:#0090d5;
+	font-size:18px;
+}
+
+.w_txt {
+	color:#FFF;
+	font-size:18px;
+}
+
+.smalltxt {
+	  color:#FFF;
+	  font-size:12px;
+  }
+
+.textArea tr{
+	margin:0 0 5px 0;
+}

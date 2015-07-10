@@ -90,9 +90,9 @@ include("../../../lib/require.php");
 												<td class="rightColumn" valign="middle"><p>W12.7m×5.3m</p></td>
 											</tr>
 																						<tr>
-												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig8.gif" data-fancybox-group="gallery" title="シネマ8" rel="theater">シネマ8</a></p></td>
-												<td class="middle" valign="middle"><p>200</p></td>
-												<td class="middle" valign="middle"><p>2</p></td>
+												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig10.gif" data-fancybox-group="gallery" title="4DXシアター" rel="theater">4DX<sup>&reg;</sup>シアター</a></p></td>
+												<td class="middle" valign="middle"><p>128</p></td>
+												<td class="middle" valign="middle"><p>-</p></td>
 												<td class="middle" valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W11.1m×4.6m</p></td>
 											</tr>
@@ -104,6 +104,15 @@ include("../../../lib/require.php");
 												<td class="rightColumn bottomColumn" valign="middle"><p>W8.9m×3.7m</p></td>
 											</tr>
 										</table>
+
+										<p class="title">4DX<sup>&reg;</sup>シアター</p>
+										<div class="floorBox clearfix">
+											<div class="left"><a href="../../../4dx/"><img src="../../../images/common/fig_4dx.jpg"  alt="4DX&reg;" ></a></div>
+											<div class="right">
+												<p class="subTitle" >4DX<sup>&reg;</sup>シアター</p>
+												<p class="txt" >3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの11個の機能により、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</p>
+											</div>
+										</div>
 
 										<p class="title">3D上映</p>
 										

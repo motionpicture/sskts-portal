@@ -7,8 +7,8 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <title>作品紹介 | シネマサンシャイン&nbsp;cinema&nbsp;sunshine×4DX</title>
-<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島" />
-<meta name="description" content="最先端の体感型シアターがシネマサンシャイン平和島に上陸" />
+<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,東京,沼津,静岡,エミフルMASAKI,愛媛" />
+<meta name="description" content="シネマサンシャイン平和島、シネマサンシャイン沼津の4DX®シアターで上映中、上映予定の映画作品をご紹介。" />
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script src="../js/fullscreen.js" type="text/javascript"></script>
 <script src="../js/jquery-1.7.min.js" type="text/javascript"></script>
@@ -73,6 +73,7 @@
 }
 
 .rightArea .area09{
+  width: 100%;
     margin: 10px 0 0;
     text-align: right;
 }
@@ -106,6 +107,29 @@ P {
 .movieSet .rightArea .area06{
 	font-size:16px;
 }
+.area11{
+  width:100%;
+  height: 13px;
+  margin: 10px 0;
+}
+.area11 img{
+  width:78px;
+  height: 13px;
+  float: left;
+}
+.area12{
+  width: 100%;
+  height: 22px;
+  margin-bottom: 10px;
+}
+.area12 ul li{
+  display: inline-block;
+}
+.theater_btn{
+  width:84px;
+  height: 22px;
+  margin-right: 10px; 
+}
 </style>
 <script type="text/javascript">
 
@@ -128,12 +152,11 @@ P {
 <div id="navi" class="transparent">
   <ul>
       <li><a href="../"><img class="transparent" src="../img/logo.png"></a></li>
-      <li><a href="../movie/"><img class="" src="../img/btn03.png" alt="作品紹介"></a></li>
-      <li><a href="../news/"><img class="" src="../img/btn01.png"alt="NEWS"></a></li>
-      <li><a href="../about/"><img class="transparent" src="../img/btn02.png" alt="4DXとは"></a></li>
-      <li><a href="http://www.facebook.com/sunshineheiwajima" target="_blank"><img class="" src="../img/btn04.png"></a></li>
-      <li><a href="https://twitter.com/sunshine_imm" target="_blank"><img class="" src="../img/btn05.png"></a></li>
-    </ul>
+      <li><a href="../movie/"><img class="" src="../img/btn03.png"></a></li>
+      <li><a href="../news/"><img class="" src="../img/btn01.png"></a></li>
+      <li><a href="../about/"><img class="transparent" src="../img/btn02.png"></a></li>
+      <li><a href="../theater/"><img class="" src="../img/btn06.png"></a></li>
+     </ul>
 </div>
 <div id="mainContents">
 <div class="section01" style="margin:0 0 25px;">
@@ -165,22 +188,34 @@ P {
                 echo "4DX3D版";
             }
             echo "</p>";
-            echo "<p class=\"area10\">$val[midokoro1]<br />";
+            echo "<p class=\"area10\">$val[midokoro1]</p>";
             echo "<p class=\"area07\"><img src=\"../img/movie_info_story.png\" width=\"143\" height=\"12\" alt=\"ストーリー\" ></p>";
             echo "<p class=\"area08\">$val[midokoro2]</p>";
             echo "<p class=\"area03\">$val[cast]<br /></p>";
-            echo "<div class=\"area09\" style=\"float:right;\">";
-            echo "<div style=\"float:left;margin:0 10px 0 0;\"><a href=\"{$val['site']}\" target=\"_blank\"><img src=\"../img/movie_info_link_btn.gif\" width=\"119\" height=\"33\" alt=\"公式サイトへ\" ></a></div>";
+            echo "<div class=\"area09\">";
+            echo "<p class=\"area11\"><img src=\"../img/movie_info_theater.png\" width=\"78\" height=\"13\" alt=\"上映劇場\" ></p>";
+            echo "<div class=\"area12\">";
+            echo "<ul>";
             unset($theaters);
             $theaters = explode(",",$val["theater_ids"]);
             foreach($theaters as $key => $val2){
                 if($val2 == 2){
-                    echo "<div style=\"float:left;\"><a href=\"http://www.cinemasunshine.co.jp/theater/heiwajima/\" target=\"_blank\"><img src=\"../img/buy_link_btn.gif\" width=\"119\" height=\"33\" alt=\"チケット購入\" ></a></div>";
+                    echo "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/heiwajima/\" target=\"_blank\"><img src=\"../img/4dx_theater_heiwajima.gif\" width=\"84\" height=\"22\" alt=\"平和島\" ></a></li>";
+                }
+                if($val2 == 6){
+                    echo "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/numazu/\" target=\"_blank\"><img src=\"../img/4dx_theater_numazu.gif\" width=\"84\" height=\"22\" alt=\"沼津\" ></a></li>";
+                }
+                if($val2 == 15){
+                    echo "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/masaki/\" target=\"_blank\"><img src=\"../img/4dx_theater_masaki.gif\" width=\"84\" height=\"22\" alt=\"エミフルMASAKI\" ></a></li>";
                 }
             }
+            echo "</ul>";
+            echo "</div>";
+            echo "<div style=\"margin:0 10px 0 0;\"><a href=\"{$val['site']}\" target=\"_blank\"><img src=\"../img/movie_info_link_btn.gif\" width=\"119\" height=\"33\" alt=\"公式サイトへ\" ></a></div>";
             echo "</div>";
             echo "</div>";
             echo "<div class=\"clear\"></div>";
+            echo "</div>";
             echo "</div>";
             echo "<!-- Movie Set -->";
           }
@@ -210,7 +245,7 @@ P {
                 echo "4DX3D版";
             }
             echo "</p>";
-            echo "<p class=\"area10\">$val[midokoro1]<br />";
+            echo "<p class=\"area10\">$val[midokoro1]</p>";
             echo "<p class=\"area07\"><img src=\"../img/movie_info_story.png\" width=\"143\" height=\"12\" alt=\"ストーリー\" ></p>";
             echo "<p class=\"area08\">$val[midokoro2]</p>";
             echo "<p class=\"area03\">$val[cast]<br /></p>";
@@ -219,6 +254,7 @@ P {
             echo "</div>";
             echo "</div>";
             echo "<div class=\"clear\"></div>";
+            echo "</div>";
             echo "</div>";
             echo "<!-- Movie Set -->";
           }
@@ -229,6 +265,8 @@ P {
 <div class="footerArea" style="_width:100%;">
   <p class="copyright">(C) 2001-2014, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
   <p class="link_top"><a href="http://www.cinemasunshine.co.jp/" target="_blank";>シネマサンシャインTOPへ</a></p>
+</div>
+</div>
 </div>
 </body>
 </html>

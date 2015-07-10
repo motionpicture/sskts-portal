@@ -121,42 +121,13 @@ P {
   </div>
   <div id="mainContents">
     <div class="section01" style="margin:0 0 25px;">
-      <h1 class="area01" style="margin:20px 0 0 0; "><img src="../img/news_title.png" alt="NEWS" ></h1>
-      <div class="clear"></div>
     </div>
-    <div id="news_container"> 
-		<?php
-			$theaterId = 1003;
+    <div id="container"> 
+        <h1 class="area01" style="margin:20px 0 0 0; "><img src="./images/img_01.jpg" alt="4DX Revival Weeks" ></h1>
+        <div class="clear"></div>
+        <p><img src="./images/img_02.jpg" alt="4DX Revival Weeks" ></p>
+        <p><img src="./images/img_03.jpg" alt="4DX Revival Weeks" ></p>
 
-			$newsViews = getNewsViews($theaterId);
-			$newsViews = explode(",",$newsViews['view']);
-
-
-			$news = getNews($theaterId);
-			if (count($newsViews) >= 1) {
-				foreach ($newsViews as $view) {
-					if(count($news) >= 1) {
-						foreach($news as $nws){
-							if($view==$nws['id']) {
-		?>
-
-	      <!--ニュースセットここから-->
-	      <div class="news_set" style="margin:0;">
-	        <p class="news_day"><?php echo date ('Y/m/d',strtotime($nws['start_date'])) ?></p>
-	        <h3 class="news_title"><?php echo $nws['midasi'] ?></h3>
-	        <p class="news_text"><?php echo $nws['txt'] ?></p>
-	      </div>
-	      <div class="news_blue_border"> <img src="../img/movie_info_section.gif"> </div>
-	      <!--ニュースセットここまで-->
-
-		<?php
-							}
-						}
-					}
-				}
-
-			}
-		?>      
     </div>
   </div>
 </div>

@@ -56,8 +56,8 @@ include("../../../../lib/require.php");
 					<tr>
 						<td class="access_tl">駐車場</td>
 						<td class="access_tr">提携駐車場有り<br />
-						キスケパーキング/三番町パーキング他<br />
-						<span class="notice">※駐車券を掲示で3名様まで、映画鑑賞料金をお一人様￥1,000に割引致します。</span></td>
+						キスケパーキング<br />
+						<span class="notice">※駐車券をチケット売場にてご提示いただき、捺印しますと駐車料金が100円割引になります。</span></td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>

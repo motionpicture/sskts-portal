@@ -309,7 +309,7 @@ include("../../../../lib/require.php");
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 
-                    <tr>
+                <tr>
 						<td colspan="2" class="admission_tl regulation04">カツドッグ</td>
 					</tr>
 					<tr>
@@ -321,7 +321,7 @@ include("../../../../lib/require.php");
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 
-                    <tr>
+                <tr>
 						<td colspan="2" class="admission_tl regulation04">チキン</td>
 					</tr>
 					<tr>
@@ -332,8 +332,7 @@ include("../../../../lib/require.php");
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
-
-					</tbody>
+				</tbody>
 			</table>
 		</div>
 		<!-- table end -->
