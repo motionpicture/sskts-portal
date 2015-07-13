@@ -293,6 +293,7 @@ $arr = getNowPage();
 	$jack= "<link type=\"text/css\" rel=\"stylesheet\" href=\"{$define['Css_URL']}base_jack.css\" />";	
 	$jack .= "<script type=\"text/javascript\" src=\"{$define['SCRIPT_URL']}pagejack.js\"></script>";	
 }*/
+$jack= "<script type=\"text/javascript\" src=\"{$define['SCRIPT_URL']}pagejack.js\"></script>";
 
 //meta情報取得
 $meta = getMeta($arr);
@@ -321,6 +322,7 @@ echo <<<EOL
 			DD_belatedPNG.fix('img, .png_bg');
 		</script>
 	<![endif]-->
+	
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}reset.css" />
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}base.css" />
         {$jack}

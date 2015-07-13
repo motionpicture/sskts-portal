@@ -1,112 +1,46 @@
 @charset "utf-8";
 /* container */
+html {
+  background-color: #000 !important;
+}
 
-body{
-  min-width: 1260px;
+body {
+  min-width: 1000px;
   margin: 0 auto;
 }
 
-#container{
+#container {
+  background-position: center 0 !important;
+  background-repeat: no-repeat !important;
   background-color: #000 !important;
-  background-image: none;
+  background-image: url(/images/jack/mirn_cs_banner_main.jpg) !important;
   width:100%!important;
   min-height:650px!important;
 }
 
 #container #contents {
   position: relative;
-  background: url("../images/common/bg_gray.gif") repeat;
-  padding: 0 30px 30px;
+  background: url(/images/common/bg_gray.gif) repeat;
+  padding: 0 30px 30px !important;
 }
 
 .jack-side {
   position: absolute;
   top: 0;
-  width: 130px;
-  height: 282px;
+  width: 300px;
+  height: 650px;
 }
 
 .jack-left {
-  left: -130px;
+  left: -300px;
 }
 
 .jack-right {
-  right: -130px;
+  right: -300px;
 }
 
 .jack-side a {
   display: block;
-  height: 282px;
-  background-size: 130px 282px;
-  background-repeat: no-repeat;
-}
-
-.jack-left a {
-  background-image: url(/images/jack/mirn_cs_banner_left.jpg);
-}
-
-.jack-right a {
-  background-image: url(/images/jack/mirn_cs_banner_right.jpg);
-}
-
-#p2 {
-  min-width: 1000px;
-  overflow-x: hidden;
-  margin: 0 auto;
-}
-
-#p2 .jack-side {
-  position: absolute;
-  top: 0;
-  width: 300px;
   height: 650px;
-}
-
-#p2 .jack-left {
-  left: -300px;
-}
-
-#p2 .jack-right {
-  right: -300px;
-}
-
-#p2 .jack-side a {
-  display: block;
-  height: 650px;
-  background-size: 300px 650px;
-  background-repeat: no-repeat;
-}
-
-
-#p3 {
-  min-width: 1000px;
-  margin: 0 auto;
-}
-
-#p3 #container {
-  background-image: url(/images/jack/mirn_cs_banner_main.jpg);
-  background-position: center 0;
-  background-repeat: no-repeat;
-}
-
-#p3 .jack-side {
-  position: absolute;
-  top: 0;
-  width: 300px;
-  height: 650px;
-}
-
-#p3 .jack-left {
-  left: -300px;
-}
-
-#p3 .jack-right {
-  right: -300px;
-}
-
-#p3 .jack-side a {
-  display: block;
-  height: 650px;
-  background: none;
 }
 
