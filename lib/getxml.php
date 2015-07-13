@@ -38,9 +38,6 @@ flvimage
 180.222.178.152/theaters_image/flv
 */
 
-// $flv_path = "http://160.16.87.153/theaters_image/flv/";
-// $image_path = "http://160.16.87.153/theaters_image/flvimage/";
-
 $flv_path = "http://www.cinemasunshine.co.jp/theaters_image/flv/";
 $image_path = "http://www.cinemasunshine.co.jp/theaters_image/flvimage/";
 
