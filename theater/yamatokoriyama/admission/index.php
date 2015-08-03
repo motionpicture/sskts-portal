@@ -22,59 +22,7 @@ include("../../../lib/require.php");
 							<div class="MainArea">
   								<h2 class="headlineImg"><img src="../../../images/common/headline_Price.png"  alt="料金案内" ></h2>
 								<div class="whiteCanvas clearfix">
-									<h3 class="lightBlueTitle">IMAX鑑賞料金</h3>
-									<table class="imaxTable">
-										<tr class="line">
-											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-										<tr>
-											<td class="priceSubject"><p>IMAX2D版</p></td>
-											<td class="priceNotes" >一般・大学生・高校生</td>
-											<td class="priceAdd" >￥2,000</td>
-										</tr>
 
-										<tr>
-											<td class="priceSubject"><p></p></td>
-											<td class="priceNotes" >
-												中学生・小学生・幼児<span class="note">(※1)</span><br />
-												シニア・ハンディキャップ<span class="note">(※2)</span><br />
-											</td>
-											<td class="priceAdd" valign="middle">￥1,200</td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="priceSubject"><p>IMAX3D版</p></td>
-											<td class="priceNotes" >一般・大学生・高校生</td>
-											<td class="priceAdd" >￥2,200</td>
-										</tr>
-
-										<tr>
-
-											<td class="priceSubject"><p></p></td>
-											<td class="priceNotes" >
-												中学生・小学生・幼児<span class="note">(※1)</span><br />
-												シニア・ハンディキャップ<span class="note">(※2)</span><br />
-											</td>
-											<td class="priceAdd" valign="middle">￥1,500</td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-									</table>
-									
-									<div class="ImaxNote">
-										<p>※1:作品により2歳以上の場合がございます。</p>
-										<p>※2:障がい者手帳をお持ちのご本人様。付き添いの方1名まで同じ料金になります。</p>
-										<p>※特別興行となるため、レイトショー・レディースデイ・メンバーズカード割引等の各種割引サービスは対象外となります。</p>
-										<p>※シネマサンシャインCINEMA TICKET（特別鑑賞券）、前売券をお使いの場合は、IMAX料金とご購入金額の差額を別途お支払い頂きます。</p>
-										<p>※ムビチケはご利用頂けません。メンバーズカードポイントによる無料鑑賞はできません。</p>
-									</div>
-									
 									<h3 class="lightBlueTitle">料金案内</h3>
 									<table class="priceTable">
 										<tr class="line">
@@ -143,6 +91,48 @@ include("../../../lib/require.php");
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 									</table>
+									
+									<!--8.1から-->
+									<h3 class="lightBlueTitle">IMAX鑑賞料金</h3>
+									<table class="imaxTable">
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+										<tr>
+											<td class="priceSubject"><p>IMAX版<br>IMAX3D版</p></td>
+											<td class="priceNotes">通常鑑賞料金　＋　IMAX鑑賞料金400円<br>通常鑑賞料金　＋　IMAX鑑賞料金700円</td>
+											<td class="priceAdd"></td>
+										</tr>
+
+										<tr class="line">
+											<td valign="middle" colspan="3"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+
+										<tr>
+											<td class="priceSubject"><p>料金例</p></td>
+											<td class="priceNotes"><p style="font-size:11px;">IMAX版・一般の場合<br>＜一般 1,800円＞＋＜IMAX鑑賞料金 400円＞＝2,200円<br>
+											IMAX3D版・ファーストデイの場合<br>＜一般 1,100円＞＋＜IMAX鑑賞料金 700円＞＝1,800円</p></td>
+											<td class="priceAdd"></td>
+										</tr>
+
+										<tr>
+
+											<td class="priceSubject"><p></p></td>
+											<td class="priceNotes" ></td>
+											<td class="priceAdd" valign="middle"></td>
+										</tr>
+
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+									</table>
+									
+									<div class="ImaxNote">
+										<p>※ムビチケは窓口でのご利用に限られます。※各種サービスデイはサービス料金＋IMAX鑑賞料金となります。</p>
+										<p>※前売券、シネマサンシャインCINEMATICKET（特別鑑賞券）、シネマサンシャインINVITATION TICKET（招待券）、メンバーズカードのポイントによる無料鑑賞、各種割引券も＋IMAX鑑賞料金でご利用いただけます</p>
+										<p>※ハンディキャップ料金は障がい者手帳をお持ちのご本人様と付き添いの方1名まで同じ料金になります</p>
+									</div>
+									<!--8.1から-->
 
 									<h3 class="lightBlueTitle">割引料金</h3>
 									<table class="priceTable">

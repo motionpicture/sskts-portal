@@ -12,75 +12,6 @@ include("../../../../lib/require.php");
 	<?php getSmartPankuzu(); ?>
 	<div class="basebox2_ptrl">
     
-    
-
-
-        
-        
-        
-		<table cellpadding="0" cellspacing="0" class="theater_u">
-			<thead>
-			<tr>
-				<th colspan="2" class="table_line_01"></th>
-			</tr>
-			</thead>
-		</table>
-
-		<table cellpadding="0" cellspacing="0" class="theater_t">
-			<tbody>
-				<tr class="first-child">
-					<td colspan="2" class="table_top_01">IMAX鑑賞料金</td>
-				</tr>
-			</tbody>
-		</table>
-
-		<div class="table_wrapper regulation02">
-			<table cellpadding="0" cellspacing="0" class="theater_u">
-				<tbody>
-					<tr>
-						<td colspan="2" class="admission_tl regulation04">IMAX2D版</td>
-					</tr>
-					<tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">一般・大学生・高校生</span></td>
-						<td class="admission_tr regulation03 regulation04">2,000円</td>
-					</tr>
-					<tr>
-						<td class="admission_tl regulation03 "><span class="notice">中学生・小学生・幼児(※1)<br />シニア・ハンディキャップ(※2)</span></td>
-						<td class="admission_tr regulation03 ">1,200円</td>
-					</tr>
-                    <tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-                    <tr>
-						<td colspan="2" class="admission_tl regulation04">IMAX3D版</td>
-					</tr>
-					<tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">一般・大学生・高校生</span></td>
-						<td class="admission_tr regulation03 regulation04">2,200円</td>
-					</tr>
-					<tr>
-						<td class="admission_tl regulation03 "><span class="notice">中学生・小学生・幼児(※1)<br />シニア・ハンディキャップ(※2)</span></td>
-						<td class="admission_tr regulation03 ">1,500円</td>
-					</tr>
-                    <tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-                    <tr>
-						<td class="admission_to" colspan="2">
-							<span class="notice">
-								※1 作品により2歳以上の場合がございます。<br />
-                                ※2 障がい者手帳をお持ちのご本人様。付き添いの方1名まで同じ料金になります。<br />
-								※特別興行となるため、レイトショー・レディースデイ・メンバーズカード割引等の各種割引サービスは対象外となります。なお、2歳以下のお子様の3Ｄ鑑賞料金は1,400円です<br />
-                                ※シネマサンシャインCINEMA TICKET（特別鑑賞券）、前売券をお使いの場合は、IMAX料金とご購入金額の差額を別途お支払い頂きます。<br />
-                                ※ムビチケはご利用頂けません。メンバーズカードポイントによる無料鑑賞はできません。
-							</span>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-        </div>
-        
-        
         <table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
@@ -145,6 +76,80 @@ include("../../../../lib/require.php");
 				</tbody>
 			</table>
 		</div>
+        <!--8.1から-->
+        <table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+				<tr>
+					<th colspan="2" class="table_line_01"></th>
+				</tr>
+			</thead>
+		</table>
+
+		<table cellpadding="0" cellspacing="0" class="theater_t">
+			<tbody>
+				<tr class="first-child">
+					<td colspan="2" class="table_top_01">IMAX鑑賞料金</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="table_wrapper regulation02">
+			<table cellpadding="0" cellspacing="0" class="theater_u">
+				<tbody>
+					<tr>
+						<td colspan="2" class="admission_tl regulation04">IMAX版</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04" colspan="2"><span class="notice">通常鑑賞料金　＋　IMAX鑑賞料金400円</span></td>
+					</tr>
+                    <tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+                    <tr>
+						<td colspan="2" class="admission_tl regulation04">IMAX3D版</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04" colspan="2"><span class="notice">通常鑑賞料金　＋　IMAX鑑賞料金700円</span></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="admission_tl regulation04">料金例</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04" colspan="2"><span class="notice">【IMAX版・一般の場合】<br>＜一般 1,800円＞＋＜IMAX鑑賞料金 400円＞＝2,200円</span></td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04" colspan="2"><span class="notice">【IMAX3D版・ファーストデイの場合】<br>＜一般 1,100円＞＋＜IMAX鑑賞料金 700円＞＝1,800円</span></td>
+					</tr>
+                    <tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+
+                    <tr>
+						<td class="admission_to" colspan="2">
+							<span class="notice">
+								※ムビチケは窓口でのご利用に限られます。<br />
+                                ※各種サービスデイはサービス料金＋IMAX鑑賞料金となります。<br />
+								※前売券、シネマサンシャインCINEMATICKET（特別鑑賞券）、シネマサンシャインINVITATION TICKET（招待券）、メンバーズカードのポイントによる無料鑑賞、各種割引券も＋IMAX鑑賞料金でご利用いただけます。<br />
+                                ※ハンディキャップ料金は障がい者手帳をお持ちのご本人様と付き添いの方1名まで同じ料金になります。
+							</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </div>
+        
+        <table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+				<tr>
+					<th colspan="2" class="table_line_01"></th>
+				</tr>
+			</thead>
+		</table>
+		<!--8.1から-->
+		
 
 		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
