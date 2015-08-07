@@ -325,7 +325,7 @@ echo <<<EOL
 	
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}reset.css" />
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}base.css" />
-        {$jack}
+        
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-core.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-demos.css" media="screen, projection" />
