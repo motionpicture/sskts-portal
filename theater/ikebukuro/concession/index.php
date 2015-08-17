@@ -119,7 +119,7 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="menuName">
 												<p class="optionText">
-													ミネラルフォーター・コーラZERO・爽健美茶・綾鷹上煎茶・QOOオレンジ・<br />おーいお茶・花緑茶・オレンジティー 
+													ミネラルフォーター・コーラZERO・爽健美茶・綾鷹上煎茶・QOOオレンジ
 												</p>
 											</td>
 											<td class="menuprice" ><p>210円</p></td>
