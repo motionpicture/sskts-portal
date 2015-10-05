@@ -98,14 +98,14 @@ include("../../../lib/require.php");
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="optionText">ココア</p></td>
+									<td class="menuName"><p>ココア</p></td>
 									<td class="menuprice" ><p>310円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="optionText">アイスココア</p></td>
+									<td class="menuName"><p>アイスココア</p></td>
 									<td class="menuprice" ><p>310円</p></td>
 								</tr>
 								<tr class="line">
