@@ -421,7 +421,7 @@ function getHeader(){
 		$html .= "<div class='bottomArea'>";
 		$html .= "<div class='bottomWrap'>";
 		$html .= "<ul>";
-		$html .= "<li><h1><img src='$define[Images_URL]common/list_$arr[ename].gif' alt='シネマサンシャイン$arr[name]' ></h1></li>";
+		$html .= "<li><h2><img src='$define[Images_URL]common/list_$arr[ename].gif' alt='$arr[name]' ></h2></li>";
 		$html .= "<li><a href='$define[Theater_URL]$arr[ename]/'><img src='$define[Images_URL]common/list_headBtn01$select[schedule].gif'  alt='上映スケジュールチケット購入' ></a></li>";
 		$html .= "<li><a href='$define[Theater_URL]$arr[ename]/news/'><img src='$define[Images_URL]common/list_headBtn02$select[news].gif'  alt='ニュース' ></a></li>";
 		$html .= "<li><a href='$define[Theater_URL]$arr[ename]/admission/'><img src='$define[Images_URL]common/list_headBtn03$select[admission].gif'  alt='料金案内' ></a></li>";
@@ -443,7 +443,7 @@ echo <<<EOL
 		<div class="topArea">
 			<div class="topWrap clearfix">
 				<div class="left">
-					<h1><a href="{$define['GROBAL_TOP_URL']}"><img src="{$define['Images_URL']}common/logo_img01.gif"  alt="シネマサンシャイン" ></a></h1>
+					<h1><a href="{$define['GROBAL_TOP_URL']}"><img src="{$define['Images_URL']}common/logo_img01.gif"  alt="シネマサンシャイン$arr[name]" ></a></h1>
 					{$smart}
 				</div>
 
