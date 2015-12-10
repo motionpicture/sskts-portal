@@ -151,19 +151,7 @@ include("../../../lib/require.php");
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
                                         </tr>
                                         
-                                        <tr>
-											<td class="menuName"><p>ステアスムージー</p></td>
-											<td class="menuprice" ></td>
-										</tr>
-											<tr>
-											<td class="menuName">
-												<p class="optionText">(コーラ、コーラゼロ、メロンソーダ、オレンジ、カルピス、ジンジャエール、<br />アイスティー、ウーロン茶)</p>
-											</td>
-											<td class="menuprice" ><p>500円</p></td>
-										</tr>
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
+                                        
 
 
 									</table>
@@ -348,6 +336,15 @@ include("../../../lib/require.php");
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
 
+										<tr>
+											<td class="menuName"><p>バゲットサンド</p></td>
+											<td class="menuprice" ><p>600円</p></td>
+										</tr>
+
+										<tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+										</tr>
+										
 										<tr>
 											<td class="menuName"><p>アメリカンドッグ</p></td>
 											<td class="menuprice" ><p>310円</p></td>
