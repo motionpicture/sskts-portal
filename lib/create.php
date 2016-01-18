@@ -290,8 +290,8 @@ $define = get_defined_constants() ;
 
 $arr = getNowPage();
 /*if($arr['name'] == "TOP" || ($arr['ename'] != 'ikebukuro' && $arr['ename'] != 'okaido' && ($arr['ename2'] == "schedule" || $arr['ename2'] == "news" || $arr['ename2'] == "admission" || $arr['ename2'] == "advance_ticket" || $arr['ename2'] == "concession" || $arr['ename2'] == "floor_guide" || $arr['ename2'] == "access"))){
-	$jack= "<link type=\"text/css\" rel=\"stylesheet\" href=\"{$define['Css_URL']}base_jack.css\" />";	
-	$jack .= "<script type=\"text/javascript\" src=\"{$define['SCRIPT_URL']}pagejack.js\"></script>";	
+	$jack= "<link type=\"text/css\" rel=\"stylesheet\" href=\"{$define['Css_URL']}base_jack.css\" />";
+	$jack .= "<script type=\"text/javascript\" src=\"{$define['SCRIPT_URL']}pagejack.js\"></script>";
 }*/
 $jack= "<script type=\"text/javascript\" src=\"{$define['SCRIPT_URL']}pagejack.js\"></script>";
 
@@ -314,6 +314,7 @@ echo <<<EOL
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}sliderkit.counter.1.0.pack.js"></script>
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}sliderkit.timer.1.0.pack.js"></script>
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}sliderkit.imagefx.1.0.pack.js"></script>
+  <script type="text/javascript" src="{$define['SCRIPT_URL']}imageBlock.js"></script>
 	<script language="javascript">AC_FL_RunContent = 0;</script>
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}AC_RunActiveContent4cache.js"></script>
 	<!--[if IE 6]>
@@ -322,10 +323,10 @@ echo <<<EOL
 			DD_belatedPNG.fix('img, .png_bg');
 		</script>
 	<![endif]-->
-	
+
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}reset.css" />
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}base.css" />
-        
+
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-core.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-demos.css" media="screen, projection" />

@@ -26,6 +26,7 @@ echo <<<EOL
 	<link rel="stylesheet" type="text/css" href="{$define['Css_SP_URL']}flickslide.css">
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}jquery-1.8.3.min.js"></script>
 	<script src="{$define['SCRIPT_SP_URL']}jquery.flickslide.js" type="application/javascript" charset="UTF-8"></script>
+  <script src="{$define['SCRIPT_SP_URL']}imageBlock.js" type="application/javascript" charset="UTF-8"></script>
 	<script type="application/javascript" charset="UTF-8">//a:hoverの設定
 		jQuery(function($){
 			$( 'a, input[type="button"], input[type="submit"], button' ).bind( 'touchstart', function(){
