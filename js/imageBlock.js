@@ -4,7 +4,7 @@
       e.preventDefault();
     };
     $(document)
-      .on('mousedown', 'img', imageCancel)
-      .on('contextmenu', 'img', imageCancel);
+      .on('mousedown', 'img', imageBlock)
+      .on('contextmenu', 'img', imageBlock);
   });
 })(jQuery);
