@@ -15,7 +15,7 @@ $newsViews = getNewsViews($theaterId);
 $newsViews = explode(",",$newsViews['view']);
 
 $theaterName = $arr["ename"];
-$arries = getNewsDetail($_GET["i"]);
+$arries = getNewsDetail($_GET["i"]);if(!$arries['txt']){header("Location: ../../");}
 
 $BASE = dirname(dirname(dirname(__FILE__)));
 $resourcePath = $BASE . '/resource/news/' . basename(dirname(__FILE__)) . '/';

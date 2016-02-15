@@ -38,7 +38,7 @@ if($_GET["i"] == "time"){
 	$template = str_replace('{$newsText}',$txt, $template);
 
 }else{
-	$arries = getNewsDetail($_GET["i"]);
+	$arries = getNewsDetail($_GET["i"]);if(!$arries['txt']){header("Location: ../../");}
 
 	$template = str_replace('{$newsTime}',date('Y/m/d',strtotime($arries['start_date'])), $template);
 	$template = str_replace('{$newsTitle}',mb_convert_encoding($arries['midasi'],"SJIS","utf-8"), $template);

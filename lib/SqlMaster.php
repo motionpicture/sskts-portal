@@ -109,6 +109,8 @@ function getNewsDetail($Id){
 		select *
 		from news
 		where
+		start_date <= date_format(now(), '%Y%m%d%H%i%s') and
+		end_date >= date_format(now(), '%Y%m%d%H%i%s') and
 		id=$Id
 		".plusDelFlg();
 	$news= $db->select($sql);
