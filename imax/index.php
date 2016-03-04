@@ -311,7 +311,7 @@ include("../lib/require.php");
 </div>
 
 <div id="footer_bottom" style="background:#00070e; height:50px; width:962px; padding:10px; margin:0 auto;">
-	<p style="font-size:10px; float:left;">Copyright (C) 2001-2014, Cinema Sunshine Co., Ltd. All Right Reserved. </p>
+	<p style="font-size:10px; float:left;">Copyright (C) 2001-2016, Cinema Sunshine Co., Ltd. All Right Reserved. </p>
 	<p style=" float:right; width:427px; height:16px;"><img src="images/common/imax_c.gif" width="427" height="16"></p>
 </div>
 </div>
