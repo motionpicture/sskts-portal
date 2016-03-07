@@ -213,3 +213,35 @@ a.nivo-prevNav {
 .clear {
 	clear:both;
 }
+
+/*---------------------
+20160304 youtube表示
+----------------------*/
+.modal-cover {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.close_btn {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  background-color: #fff;
+}
+
+.close_btn a {
+  display: block;
+  height: 40px;
+}

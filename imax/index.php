@@ -1,5 +1,5 @@
 ﻿<?php
-include("../lib/require.php");
+//include("../lib/require.php");
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -14,6 +14,7 @@ include("../lib/require.php");
 	<link rel="stylesheet" href="./css/ac_gl_nav.css" type="text/css" />
 	<link rel="shortcut icon" href="favicon.ico" >
 	<script type='text/javascript' src='scripts/jquery-1.4.3.min.js'></script>
+  <script type='text/javascript' src='./js/top.js'></script>
 	<!--[if IE 6]>
 		<script src="scripts/DD_belatedPNG.js"></script>
 		<script>
