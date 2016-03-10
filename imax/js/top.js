@@ -24,10 +24,13 @@
         dom.show();
         ytPlayer = new YT.Player('youtube', youtubeObj);
       };
-      onPlayerStateChange = function(e) {
+      var onPlayerStateChange = function(e) {
         if (e.data == YT.PlayerState.ENDED) {
-          youtubeClose();
+          setTimeout(youtubeClose, 500);
         }
+      }
+      var onPlayerReady = function() {
+        ytPlayer.setPlaybackQuality('hd720');
       }
       var youtubeObj = {
         width: 960,
@@ -38,6 +41,7 @@
           autoplay: 1
         },
         events: {
+          'onReady': onPlayerReady,
           'onStateChange': onPlayerStateChange
         }
       };
@@ -48,7 +52,7 @@
                     </div>\
                   </div>');
       var youtubeClose = function() {
-        dom.remove();
+        dom.find('.modal').fadeOut(200, function(){dom.remove()});
       };
       $('#wrapper').append(dom);
       dom.find('#youtube').css({
