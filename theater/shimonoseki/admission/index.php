@@ -79,35 +79,8 @@ include("../../../lib/require.php");
 							</table>
 
 
-							<h3 class="lightBlueTitle">ドルビーアトモス料金</h3>
-							<table class="priceTable">
-								<tr class="line">
-									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-								</tr>
+							
 
-								<tr>
-									<td class="priceSubject"><p>ドルビーアトモス料金</p></td>
-									<td class="priceNotes" >
-	           						    <p>
-	           							    通常（2D）作品の場合<br />
-											(例)〈一般1,800円〉+〈ドルビーアトモス料金100円〉＝1,900円<br /><br />
-										</p>
-										<p>
-											3D作品の場合<br />
-											(例)〈一般1,800円〉+〈3D鑑賞料金400円〉+〈ドルビーアトモス料金100円〉＝2,300円<br /><br />
-										</p>
-										<p>
-											レイトショーの場合<br />
-											(例)〈レイトショー1,300円〉+〈ドルビーアトモス料金100円〉＝1,400円<br /><br />
-										</p>
-									</td>
-									<td class="priceAdd">通常料金+100円</td>
-								</tr>
-
-								<tr class="line">
-									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-								</tr>
-							</table>
 
 
 							<h3 class="lightBlueTitle">割引料金</h3>
