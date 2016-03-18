@@ -101,7 +101,6 @@ $theater = $arr["ename"];
 							<div class="scheduleBox">
 								<div class="topNotesBox">
 									<p> インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br />
-										※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br />
 										※購入マークがない時間はインターネットでのチケット購入対象外となります。 </p>
 								</div>
 								<div class="topTimeBox">
@@ -203,8 +202,8 @@ if (count($dates) <7) {
 										<?php
 										$cal_cnt = 0;
 										foreach($calender_dates as $cal_date) {
-										
-											if ($cal_date['available']) {											    
+
+											if ($cal_date['available']) {
 												if ($cal_cnt>0) {
 													echo '<li style="cursor: pointer;" class="cal_date '.$cal_date['date']. ' notAvailable">';
 												} else {
