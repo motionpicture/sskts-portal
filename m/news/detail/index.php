@@ -15,7 +15,7 @@ $newsViews = getNewsViews($theaterId);
 $newsViews = explode(",",$newsViews['view']);
 
 $theaterName = $arr["ename"];
-$arries = getNewsDetail($_GET["i"]);if(!$arries['txt']){header("Location: ../../");}
+$arries = getNewsDetail($_GET["i"]);if(!$arries['txt']){header('HTTP/1.0 404 Not Found');die(file_get_contents('http://www.cinemasunshine.co.jp/m/news404.html'));}
 
 $BASE = dirname(dirname(dirname(__FILE__)));
 $resourcePath = $BASE . '/resource/news/' . basename(dirname(__FILE__)) . '/';
