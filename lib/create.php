@@ -988,6 +988,7 @@ EOL;
 
 
 if($arr["ename"] == "tsuchiura" || $arr["ename"] == "kinuyama" || $arr["ename"] == "yamatokoriyama"){
+  var_dump($arr);
     if($arr["ename2"] == "schedule"){
 echo <<<EOL
 
