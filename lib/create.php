@@ -290,8 +290,8 @@ $define = get_defined_constants() ;
 
 $arr = getNowPage();
 /*if($arr['name'] == "TOP" || ($arr['ename'] != 'ikebukuro' && $arr['ename'] != 'okaido' && ($arr['ename2'] == "schedule" || $arr['ename2'] == "news" || $arr['ename2'] == "admission" || $arr['ename2'] == "advance_ticket" || $arr['ename2'] == "concession" || $arr['ename2'] == "floor_guide" || $arr['ename2'] == "access"))){
-	$jack= "<link type=\"text/css\" rel=\"stylesheet\" href=\"{$define['Css_URL']}base_jack.css\" />";
-	$jack .= "<script type=\"text/javascript\" src=\"{$define['SCRIPT_URL']}pagejack.js\"></script>";
+	$jack= "<link type=\"text/css\" rel=\"stylesheet\" href=\"{$define['Css_URL']}base_jack.css\" />";	
+	$jack .= "<script type=\"text/javascript\" src=\"{$define['SCRIPT_URL']}pagejack.js\"></script>";	
 }*/
 $jack= "<script type=\"text/javascript\" src=\"{$define['SCRIPT_URL']}pagejack.js\"></script>";
 
@@ -314,7 +314,6 @@ echo <<<EOL
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}sliderkit.counter.1.0.pack.js"></script>
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}sliderkit.timer.1.0.pack.js"></script>
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}sliderkit.imagefx.1.0.pack.js"></script>
-  <script type="text/javascript" src="{$define['SCRIPT_URL']}imageBlock.js"></script>
 	<script language="javascript">AC_FL_RunContent = 0;</script>
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}AC_RunActiveContent4cache.js"></script>
 	<!--[if IE 6]>
@@ -323,10 +322,10 @@ echo <<<EOL
 			DD_belatedPNG.fix('img, .png_bg');
 		</script>
 	<![endif]-->
-
+	
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}reset.css" />
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}base.css" />
-
+        
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-core.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-demos.css" media="screen, projection" />
@@ -998,35 +997,6 @@ var yahoo_retargeting_label = '';
 /* ]]> */
 </script>
 <script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
-
-<!-- Google Code for IMAX Conversion Page -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 993895592;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "0O_4CJXb82QQqMn22QM";
-var google_remarketing_only = false;
-/* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/993895592/?label=0O_4CJXb82QQqMn22QM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
-
-<script type="text/javascript" language="javascript">
-  /* <![CDATA[ */
-  var yahoo_ydn_conv_io = "GAJxYt0OLDXyzhiugq09";
-  var yahoo_ydn_conv_label = "";
-  var yahoo_ydn_conv_transaction_id = "";
-  var yahoo_ydn_conv_amount = "0";
-  /* ]]> */
-</script>
-<script type="text/javascript" language="javascript" charset="UTF-8" src="//b90.yahoo.co.jp/conv.js"></script>
 
 EOL;
 
