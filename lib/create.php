@@ -988,7 +988,6 @@ EOL;
 
 
 if($arr["ename"] == "tsuchiura" || $arr["ename"] == "kinuyama" || $arr["ename"] == "yamatokoriyama"){
-  var_dump($arr);
     if($arr["ename2"] == "schedule"){
 echo <<<EOL
 
@@ -999,6 +998,35 @@ var yahoo_retargeting_label = '';
 /* ]]> */
 </script>
 <script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+<!-- Google Code for IMAX Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 993895592;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "0O_4CJXb82QQqMn22QM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/993895592/?label=0O_4CJXb82QQqMn22QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script type="text/javascript" language="javascript">
+  /* <![CDATA[ */
+  var yahoo_ydn_conv_io = "GAJxYt0OLDXyzhiugq09";
+  var yahoo_ydn_conv_label = "";
+  var yahoo_ydn_conv_transaction_id = "";
+  var yahoo_ydn_conv_amount = "0";
+  /* ]]> */
+</script>
+<script type="text/javascript" language="javascript" charset="UTF-8" src="//b90.yahoo.co.jp/conv.js"></script>
 
 EOL;
 
