@@ -33,7 +33,7 @@ include("../lib/require.php");
 									</div>
 
 									<a id="section01" name="section01"></a>
-									<h3 class="blackTitle">チケットについて</h3>
+									<h3 class="blackTitle">チケット（座席指定券）について</h3>
 
 									<div class="textArea textMargin">
 										<div class="questionArea clearfix">
@@ -61,7 +61,10 @@ include("../lib/require.php");
 												<div class="answer">
 													<p class="left">A</p>
 													<p class="right">
-														窓口で当日券とのお引換えが必要です。<br />通常、ご鑑賞日の２日前からお引換え可能ですが、作品によっては早まる場合がございますのでご了承下さい。</p>
+														窓口で座席指定券とのお引換えが必要です。<br />通常、ご鑑賞日の２日前からお引換え可能ですが、作品によっては早まる場合がございますのでご了承下さい。</br>
+                            ※「ムビチケ」タイプの前売券は、オンラインで座席予約が可能です。</br>
+                            詳しくは当ページの「ムビチケについて」をご覧ください。
+                          </p>
 												</div>
 											</div>
 											<!-- question -->
@@ -153,7 +156,7 @@ include("../lib/require.php");
 
 												<div class="answer">
 													<p class="left">A</p>
-													<p class="right">電話予約はできません。インターネットによるチケット購入が可能な劇場があります。詳しくは<a href="http://www2.css-ebox.jp/ikebukuro/schedule/y_pcExplanation.php" target="_blank">こちらをご確認ください。</a></p>
+													<p class="right">電話予約はできません。</p>
 												</div>
 											</div>
 											<!-- question -->
@@ -383,8 +386,7 @@ include("../lib/require.php");
 												<div class="answer">
 													<p class="left">A</p>
 													<p class="right">
-														シネマサンシャインの全劇場でご利用いただけます。<br />
-														<span class="notes">※IMAXデジタルシアター（土浦、大和郡山、衣山）、imm 3D sound シアター（平和島）ではご利用いただけません。</span>
+														シネマサンシャインの全劇場でご利用いただけます。
 													</p>
 												</div>
 											</div>
@@ -620,7 +622,7 @@ include("../lib/require.php");
 
 												<div class="answer">
 													<p class="left">A</p>
-													<p class="right">無料でお貸ししております。</p>
+													<p class="right">無料で貸し出ししております。</p>
 												</div>
 											</div>
 											<!-- question -->
