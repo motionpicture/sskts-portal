@@ -7,6 +7,7 @@ body {
 	color:#323232;
 	font-size:12px;
 	-webkit-text-size-adjust: none;
+  position: relative;
 }
 .clearfix:after {
 	visibility:hidden;
@@ -77,7 +78,7 @@ body {
 /* footerの指定
 -----------------------------------------------------------------------------------------------------------*/
 /* フッター
------------------------------------------------------------------------------------------------------------*/	
+-----------------------------------------------------------------------------------------------------------*/
 .change_pc {
 	text-align:center;
 	margin-top:25px;
@@ -114,7 +115,7 @@ body {
 	background-image: -o-linear-gradient( white /*{b-bup-background-start}*/, #f4f4f4 /*{b-bup-background-end}*/);
 	background-image: linear-gradient( white /*{b-bup-background-start}*/, #f4f4f4 /*{b-bup-background-end}*/);
 }
-.ui-btn-up .bottom_line{
+.ui-btn-up li:last-child a{
 	border-bottom: 1px solid #c8c8c8;
 	}
 #footer {
@@ -155,17 +156,179 @@ body {
 	height:1px;
 }
 /* ヘッダー
------------------------------------------------------------------------------------------------------------*/	
+-----------------------------------------------------------------------------------------------------------*/
 #header {
+  position: relative;
 	background-color:#f0f0f0;
-	padding:0 0 0 5px;
+  padding: 15px 0 15px 5px;
+  line-height: 1;
+  z-index: 2;
 }
 .btn_return {
 	float:left;
 	padding:0 15px 0 0;
 }
+
+#header .menu-btn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+#header .menu-btn a {
+	font-size: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+}
+
+#header .menu-btn a .border {
+	position: relative;
+	width: 30px;
+	height: 20px;
+	margin: 0 auto 5px;
+}
+
+#header .menu-btn a .border span {
+	position: absolute;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 4px;
+	background-color: #333;
+  transition: all 0.2s;
+}
+
+#header .menu-btn a .border span:nth-child(1) {
+	top: 0;
+}
+
+#header .menu-btn a .border span:nth-child(2) {
+	top: 50%;
+	margin-top: -2px;
+}
+
+#header .menu-btn a .border span:nth-child(3) {
+	bottom: 0;
+}
+
+#header .menu-btn .active .border span {
+  top: 50% !important;
+  bottom: inherit !important;
+  left: 50% !important;
+	margin-top: -2px;
+  margin-left: -15px;
+}
+
+#header .menu-btn .active .border span:nth-child(1) {
+	transform: rotate(45deg);
+}
+
+#header .menu-btn .active .border span:nth-child(2) {
+  opacity: 0;
+}
+
+#header .menu-btn .active .border span:nth-child(3) {
+	transform: rotate(-45deg);
+}
+
+#header .menu-btn a::after {
+  content: 'MENU';
+  height: 1em;
+  display: block;
+}
+
+#header .menu-btn .active::after {
+  content: 'CLOSE';
+}
+/* メニュー
+-----------------------------------------------------------------------------------------------------------*/
+
+.menu.active {
+  display: block;
+}
+.menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.menu .menu-ttl {
+  background-color: #0096dc;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.menu ul {
+
+}
+
+.menu li {
+
+}
+
+.menu li a {
+  position: relative;
+  padding: 15px 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+  background-color: #f0f0f0;
+  display: block;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.menu li a::before,
+.menu li a::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 5px;
+}
+
+.menu li a::before {
+  right: 10px;
+  border-color: transparent transparent transparent #000000;
+}
+
+.menu li a::after {
+  right: 11px;
+  border-color: transparent transparent transparent #f0f0f0;
+}
+
+
+.menu .hover {
+  opacity: 1;
+}
+
+.menu-cover.active {
+  display: block;
+}
+
+.menu-cover {
+  display: none;
+  opacity: 0.7;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+
 /* ボタンの透過処理
------------------------------------------------------------------------------------------------------------*/	
+-----------------------------------------------------------------------------------------------------------*/
  a:hover img {
 	filter: alpha(opacity=70);
 	-moz-opacity:0.70;
@@ -175,7 +338,7 @@ body {
 	opacity:0.5;
 }
 /* 共通300px_box
------------------------------------------------------------------------------------------------------------*/	
+-----------------------------------------------------------------------------------------------------------*/
 .basebox_lineblue {
 	background-color:#0096dc;
 	height:5px;
@@ -184,7 +347,7 @@ body {
 	padding:0 1px 0 1px;
 }
 /* 共通width100%_box
------------------------------------------------------------------------------------------------------------*/	
+-----------------------------------------------------------------------------------------------------------*/
 .basebox2_ptrl{
 	padding:15px 10px 0 10px;
 	}
@@ -194,27 +357,27 @@ body {
 	 border-right:solid 1px #c8c8c8;
 	 border-bottom:solid 1px #c8c8c8;
 	 width:100%;
-	}	
+	}
 .basebox2_line{
 	border-bottom: dashed 1px #918b8a;
 	margin:0 10px;
 	padding:5px 0 5px 0;
 
-	}		
+	}
 .basebox2_lineblue{
 	 background-color:#0096dc;
 	 height:5px;
 	 width:100%;
 	 margin:0 auto;
 	 padding:0 1px 0 1px;
-	}	
+	}
 .basebox2 .more{
 	text-align:right;
 	padding:5px 5px 10px 0;
-	}		
+	}
 
 /* 追加分
------------------------------------------------------------------------------------------------------------*/	
+-----------------------------------------------------------------------------------------------------------*/
 .linkList ul{
 	clear:both;
 }
@@ -225,4 +388,4 @@ body {
 
 .disable_class{
 	 float: right;
-}	
+}
