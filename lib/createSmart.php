@@ -109,14 +109,6 @@ function getSmartHeader(){
 
   $menu = "<!-- menu -->";
   $menu .= "<div class='menu'>";
-  $menu .= "<div class='menu-ttl'>劇場共通メニュー</div>";
-  $menu .= "<ul>";
-  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]'>シネマサンシャインTOP</a></li>";
-  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/'>劇場一覧</a></li>";
-  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]showing/'>上映中作品</a></li>";
-  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]next_showing/'>上映予定作品</a></li>";
-  $menu .= "<li><a href='$define[GROBAL_TOP_URL]question/'>よくあるご質問</a></li>";
-  $menu .= "</ul>";
 
   if ($arr["ename2"]) {
     $menu .= "<div class='menu-ttl'>シネマサンシャイン".$arr["name"]." | 劇場メニュー</div>";
@@ -130,6 +122,15 @@ function getSmartHeader(){
 		$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/access/'>アクセス</a></li>";
 		$menu .= "</ul>";
   }
+
+  $menu .= "<div class='menu-ttl'>劇場共通メニュー</div>";
+  $menu .= "<ul>";
+  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]'>シネマサンシャインTOP</a></li>";
+  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/'>劇場一覧</a></li>";
+  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]showing/'>上映中作品</a></li>";
+  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]next_showing/'>上映予定作品</a></li>";
+  $menu .= "<li><a href='$define[GROBAL_TOP_URL]question/'>よくあるご質問</a></li>";
+  $menu .= "</ul>";
   $menu .= "</div>";
   $menu .= "<div class='menu-cover'></div>";
   $menu .= "<!-- menu -->";
