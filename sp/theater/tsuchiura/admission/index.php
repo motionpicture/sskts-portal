@@ -111,7 +111,7 @@ include("../../../../lib/require.php");
 						<td colspan="2" class="admission_tl regulation04">IMAX版</td>
 					</tr>
 					<tr>
-						<td class="admission_tl regulation03 regulation04" colspan="2"><span class="notice">通常鑑賞料金　＋　IMAX鑑賞料金400円</span></td>
+						<td class="admission_tl regulation03 regulation04" colspan="2"><span class="notice">通常料金＋400円</span></td>
 					</tr>
                     <tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -120,7 +120,7 @@ include("../../../../lib/require.php");
 						<td colspan="2" class="admission_tl regulation04">IMAX3D版</td>
 					</tr>
 					<tr>
-						<td class="admission_tl regulation03 regulation04" colspan="2"><span class="notice">通常鑑賞料金　＋　IMAX鑑賞料金700円</span></td>
+						<td class="admission_tl regulation03 regulation04" colspan="2"><span class="notice">通常料金＋700円<span style="color:red;">(+IMAXメガネ代100円)</span></span></td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -140,6 +140,7 @@ include("../../../../lib/require.php");
 
                     <tr>
 						<td class="admission_to" colspan="2">
+                        <p style="color:red;font-size:10px;line-height: 1.3;">なおIMAX3D専用メガネはお客様がお持ち帰りいただくことが可能で、次回、IMAX3D作品をご鑑賞いただく際にご持参いただきましたらメガネ代100円はいただきません。</p>
 							<span class="notice">
 								※ムビチケは窓口でのご利用に限られます。<br />
                                 ※各種サービスデイはサービス料金＋IMAX鑑賞料金となります。<br />
