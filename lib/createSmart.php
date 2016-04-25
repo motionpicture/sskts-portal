@@ -515,6 +515,154 @@ echo <<<EOL
 		});
 	</script>
 EOL;
+
+getSmartFooterTag($arr);
+
+}
+
+function getSmartFooterTag($arr) {
+	//土浦、大和郡山、衣山　TOPのみのタグ
+	if($arr["ename"] == "tsuchiura" || $arr["ename"] == "kinuyama" || $arr["ename"] == "yamatokoriyama"){
+		if($arr["ename2"] == "schedule"){
+			
+echo <<<EOL
+
+<!--CB-CV計測タグ-->
+
+<!-- Google Code for IMAX Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 993895592;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "0O_4CJXb82QQqMn22QM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/993895592/?label=0O_4CJXb82QQqMn22QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!--/CB-CV計測タグ-->
+
+<!--gaie-Google-リマーケティングタグ-->
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 927515068;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/927515068/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!--/gaie-Google-リマーケティングタグ-->
+
+<!--gaie-Google-コンバージョンタグ-->
+
+<!-- Google Code for &#12481;&#12465;&#12483;&#12488;&#36092;&#36023; Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 927515068;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "jasyCOLo62UQvIOjugM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/927515068/?label=jasyCOLo62UQvIOjugM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!--/gaie-Google-コンバージョンタグ-->
+
+<!--gaie-Yahoo!スポンサードサーチ-コンバージョンタグ-->
+
+<!-- Yahoo Code for your Conversion Page -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var yahoo_conversion_id = 1000294996;
+    var yahoo_conversion_label = "wv-ECPf45WUQ9735twM";
+    var yahoo_conversion_value = 0;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//s.yimg.jp/images/listing/tool/cv/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//b91.yahoo.co.jp/pagead/conversion/1000294996/?value=0&label=wv-ECPf45WUQ9735twM&guid=ON&script=0&disvt=true"/>
+    </div>
+</noscript>
+
+<!--/gaie-Yahoo!スポンサードサーチ-コンバージョンタグ-->
+
+<!--gaie-YDN-リマーケティングタグ-->
+
+<script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+var yahoo_retargeting_id = 'HRDFLUEGVL';
+var yahoo_retargeting_label = '';
+/* ]]> */
+</script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+<!--/gaie-YDN-リマーケティングタグ-->
+
+<!--gaie-YDN-コンバージョンタグ-->
+
+<script type="text/javascript" language="javascript">
+  /* <![CDATA[ */
+  var yahoo_ydn_conv_io = "AqkhsXoOLDXfGGHsSB3s";
+  var yahoo_ydn_conv_label = "DRJO6MJCYJSUGS7HRYV147361";
+  var yahoo_ydn_conv_transaction_id = "";
+  var yahoo_ydn_conv_amount = "1";
+  /* ]]> */
+</script>
+<script type="text/javascript" language="javascript" charset="UTF-8" src="//b90.yahoo.co.jp/conv.js"></script>
+
+<!--/gaie-YDN-コンバージョンタグ-->
+
+<!--gaie-FB計測タグ-->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '212446625793321');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=212446625793321&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!--/gaie-FB計測タグ-->
+
+
+EOL;
+
+
+		}
+	}
 }
 
 function paging($limit, $page, $disp=5){
