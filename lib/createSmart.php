@@ -98,44 +98,44 @@ function getSmartHeader(){
 	}else{
 
 	}
-  $html = "";
-  $html .= "<!-- header -->";
-  $html .= "<div id='header'>";
-  $html .= "<h1><img src='$define[Images_SP_URL]common/header_rogo.gif' width='119' height='24' alt=''></h1>";
-  $html .= "<div class='menu-btn'><a href='#'><div class='border'><span></span><span></span><span></span></div></a></div>";
-  $html .= "</div>";
-  $html .= "<!-- header -->";
+	$html = "";
+	$html .= "<!-- header -->";
+	$html .= "<div id='header'>";
+	$html .= "<h1><img src='$define[Images_SP_URL]common/header_rogo.gif' width='119' height='24' alt=''></h1>";
+	$html .= "<div class='menu-btn'><a href='#'><div class='border'><span></span><span></span><span></span></div></a></div>";
+	$html .= "</div>";
+	$html .= "<!-- header -->";
 
 
-  $menu = "<!-- menu -->";
-  $menu .= "<div class='menu'>";
+	$menu = "<!-- menu -->";
+	$menu .= "<div class='menu'>";
 
-  if ($arr["ename2"]) {
-    $menu .= "<div class='menu-ttl'>シネマサンシャイン".$arr["name"]." | 劇場メニュー</div>";
-    $menu .= "<ul>";
-		$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/'>上映スケジュール</a></li>";
-		$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/news/'>ニュース＆キャンペーン</a></li>";
-		$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/advance_ticket/'>前売情報</a></li>";
-		$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/admission/'>料金案内</a></li>";
-		$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/concession/'>コンセッション</a></li>";
-		$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/floor_guide/'>劇場設備</a></li>";
-		$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/access/'>アクセス</a></li>";
-		$menu .= "</ul>";
-  }
+	if ($arr["ename2"]) {
+		$menu .= "<div class='menu-ttl'>シネマサンシャイン".$arr["name"]." | 劇場メニュー</div>";
+		$menu .= "<ul>";
+			$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/'>上映スケジュール</a></li>";
+			$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/news/'>ニュース＆キャンペーン</a></li>";
+			$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/advance_ticket/'>前売情報</a></li>";
+			$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/admission/'>料金案内</a></li>";
+			$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/concession/'>コンセッション</a></li>";
+			$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/floor_guide/'>劇場設備</a></li>";
+			$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/$arr[ename]/access/'>アクセス</a></li>";
+			$menu .= "</ul>";
+	}
 
-  $menu .= "<div class='menu-ttl'>劇場共通メニュー</div>";
-  $menu .= "<ul>";
-  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]'>シネマサンシャインTOP</a></li>";
-  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/'>劇場一覧</a></li>";
-  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]showing/'>上映中作品</a></li>";
-  $menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]next_showing/'>上映予定作品</a></li>";
-  $menu .= "<li><a href='$define[GROBAL_TOP_URL]question/'>よくあるご質問</a></li>";
-  $menu .= "</ul>";
-  $menu .= "</div>";
-  $menu .= "<div class='menu-cover'></div>";
-  $menu .= "<!-- menu -->";
+	$menu .= "<div class='menu-ttl'>劇場共通メニュー</div>";
+	$menu .= "<ul>";
+	$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]'>シネマサンシャインTOP</a></li>";
+	$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]theater/'>劇場一覧</a></li>";
+	$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]showing/'>上映中作品</a></li>";
+	$menu .= "<li><a href='$define[GROBAL_SP_TOP_URL]next_showing/'>上映予定作品</a></li>";
+	$menu .= "<li><a href='$define[GROBAL_TOP_URL]question/'>よくあるご質問</a></li>";
+	$menu .= "</ul>";
+	$menu .= "</div>";
+	$menu .= "<div class='menu-cover'></div>";
+	$menu .= "<!-- menu -->";
 
-  $html .= $menu;
+	$html .= $menu;
 
 	echo $html;
 }
@@ -167,7 +167,7 @@ $define = get_defined_constants() ;
 				$target = '';
 			}
 
-      $bnrHtml = '';
+      
 			if($val["url"]){
 				$bnrHtml .= "<li><div class='pickup_slide'><a href='$val[url]'><img src='/theaters_image/topslider/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></a></div>";
 			}else{
