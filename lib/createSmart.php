@@ -66,8 +66,8 @@ EOL;
 
 function getSmartHeadTag($arr) {
 	
-	//土浦　TOPのみのタグ
-	if($arr["ename"] == "tsuchiura"){
+	//土浦、衣山、大和郡山　TOPのみのタグ
+	if($arr["ename"] == "tsuchiura" || $arr["ename"] == "kinuyama" || $arr["ename"] == "yamatokoriyama"){
 		if($arr["ename2"] == "schedule"){
 	
 echo <<<EOL
