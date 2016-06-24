@@ -43,14 +43,14 @@ if(window.isMobile){
 }
 </script>
 <?php
-$issue = trim(htmlspecialchars($_GET['issue'],ENT_NOQUOTES));
-if($issue){
+$issue = trim(htmlspecialchars($_GET['issue'],ENT_QUOTES,'UTF-8'));
+if($issue && preg_match('/^[a-zA-Z0-9]+$/',$issue)){
   $html = file_get_contents('./'.$issue.'/text.html');
-  if($html){
-    echo $html;
-  }else{
-    echo 'NOT FOUND';
-  }
+}
+if($html){
+  echo $html;
+}else{
+  echo 'NOT FOUND';
 }
 $output = ob_get_contents();
 ob_end_clean();
