@@ -491,7 +491,7 @@ function getSmartFooter(){
 	if($arr["ename"] != "top" || preg_match("!news/detail!",$Url)){
 		$home = "<p class='return_home'><a href='$define[GROBAL_SP_TOP_URL]'><img src='$define[Images_SP_URL]common/btn_home.gif' width='300' alt='HOME'></a></p>";
 	}
-	$trailAreaHtml = getTrailAreaSP($arr["ename"]);
+	
 
 echo <<<EOL
 	<!-- footer -->
@@ -512,8 +512,6 @@ echo <<<EOL
 		</script>
 	</div>
 	<!-- ↑adsense下部↑ -->
-
-	{$trailAreaHtml}
 
 
 	<div class="section">
