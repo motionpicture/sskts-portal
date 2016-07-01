@@ -131,7 +131,6 @@ include("../../../../lib/require.php");
 						<td class="admission_to" colspan="2">
                               <p style="color:red;font-size:10px;line-height: 1.3;">なおIMAX3D専用メガネはお客様がお持ち帰りいただくことが可能で、次回、IMAX3D作品をご鑑賞いただく際にご持参いただきましたらメガネ代100円はいただきません。</p>
 							<span class="notice">
-								※ムビチケは窓口でのご利用に限られます。<br />
                                 ※各種サービスデイはサービス料金＋IMAX鑑賞料金となります。<br />
 								※前売券、シネマサンシャインCINEMATICKET（特別鑑賞券）、シネマサンシャインINVITATION TICKET（招待券）、メンバーズカードのポイントによる無料鑑賞、各種割引券も＋IMAX鑑賞料金でご利用いただけます。<br />
                                 ※ハンディキャップ料金は障がい者手帳をお持ちのご本人様と付き添いの方1名まで同じ料金になります。
