@@ -123,3 +123,7 @@
 	float:left;
 
 }
+
+.movie .official_page_button a[href=""] {
+    display: none;
+}
