@@ -235,7 +235,7 @@ divScroller("scrollbar", "v", 70, 2000);
 ?>
 
  <div style="margin:60px 0 0 0;">
-    <p id="copyright">(C) 2001-2014, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
+    <p id="copyright">(C) 2001-2016, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
     <p class="link_top"><a href="http://www.cinemasunshine.co.jp/" target="_blank";>シネマサンシャインTOPへ</a></p>
   </div>
 </div>
