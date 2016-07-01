@@ -742,49 +742,13 @@ foreach($campaignBnr as $key => $val){
 		$campaign .= "<li><a href='$val[url]' $blank><img src='$define[GROBAL_TOP_URL]theaters_image/campaign/$val[pic_path]' width='258' alt='" . htmlspecialchars($val["midasi"], ENT_QUOTES) . "' ></a></li>";
 	}
 }
-
+$trailAreaHtml = getTrailArea($arr["ename"]);
 echo <<<EOL
 	<div class="rightColumn">
 		<div class="trailArea">
 			<h3 class="headlineImg"><img src="{$define['Images_URL']}common/headline_Trail.png"  alt="おすすめ予告編" ></h3>
 			<p>
-				<script language="javascript">
-					if (AC_FL_RunContent == 0) {
-						alert("このページでは \"AC_RunActiveContent.js\" が必要です。");
-					} else {
-						AC_FL_RunContent(
-							'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
-							'width', '256',
-							'height', '230',
-							'src', '{$define["GROBAL_TOP_URL"]}flv_player',
-							'quality', 'high',
-							'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
-							'align', 'middle',
-							'play', 'true',
-							'loop', 'true',
-							'scale', 'showall',
-							'wmode', 'transparent',
-							'devicefont', 'false',
-							'id', 'flv_player',
-							'bgcolor', '#ffffff',
-							'name', 'flv_player',
-							'menu', 'true',
-							'allowFullScreen', 'false',
-							'allowScriptAccess','sameDomain',
-							'movie', '{$define["GROBAL_TOP_URL"]}flv_player',
-							'FlashVars', 'theater={$theaterId}',
-							'salign', ''
-							); //end AC code
-					}
-				</script>
-				<noscript>
-					<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="256" height="230" id="flv_player" align="middle">
-					<param name="allowScriptAccess" value="sameDomain" />
-					<param name="allowFullScreen" value="false" />
-					<param name="movie" value="flv_player.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="flv_player.swf" quality="high" bgcolor="#ffffff" width="300" height="243" name="flv_player" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-					<param name="wmode" value="transparent" />
-					</object>
-				</noscript>
+				{$trailAreaHtml}
 			</p>
 		</div>
 
@@ -816,6 +780,114 @@ echo <<<EOL
 		</div>
 	</div>
 EOL;
+}
+
+function getTrailArea($theaterName) {
+	$html = '';
+
+	if ($theaterName == 'masaki'
+	|| $theaterName == 'kahoku'
+	|| $theaterName == 'kinuyama'
+	|| $theaterName == 'shimonoseki'
+	|| $theaterName == 'shigenobu'
+	|| $theaterName == 'numazu'
+	|| $theaterName == 'okaido'
+	|| $theaterName == 'ozu'
+	|| $theaterName == 'yamatokoriyama'
+	|| $theaterName == 'ikebukuro'
+	|| $theaterName == 'tsuchiura'
+	|| $theaterName == 'heiwajima'
+	|| $theaterName == 'kitajima') {
+		$theaterMediaNetwork = array(
+			'masaki'=> '1463113779226-0',
+			'kahoku'=> '1463113229613-0',
+			'kinuyama'=> '1463113611480-0',
+			'shimonoseki'=> '1463113431009-0',
+			'shigenobu'=> '1463113696177-0',
+			'numazu'=> '1463113099521-0',
+			'okaido'=> '1463113527808-0',
+			'ozu'=> '1463113874944-0',
+			'yamatokoriyama'=> '1463113342732-0',
+			'ikebukuro'=> '1463112742866-0',
+			'tsuchiura'=> '1463112998403-0',
+			'heiwajima'=> '1463112890125-0',
+			'kitajima'=> '1463113963815-0'
+		);
+
+		$html = <<<EOL
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') +
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+	googletag.defineSlot('/22524478/sunshine_{$theaterName}_pc', [250, 250], 'div-gpt-ad-{$theaterMediaNetwork[$theaterName]}').addService(googletag.pubads());
+	googletag.pubads().enableSingleRequest();
+	googletag.enableServices();
+});
+</script>
+
+<!-- /22524478/sunshine_{$theaterName}_pc -->
+<div id='div-gpt-ad-{$theaterMediaNetwork[$theaterName]}' style='height:250px; width:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-{$theaterMediaNetwork[$theaterName]}'); });
+</script>
+</div>
+EOL;
+	} else {
+		$html = <<<EOL
+<script language="javascript">
+if (AC_FL_RunContent == 0) {
+	alert("このページでは \"AC_RunActiveContent.js\" が必要です。");
+} else {
+	AC_FL_RunContent(
+		'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+		'width', '256',
+		'height', '230',
+		'src', '{$define["GROBAL_TOP_URL"]}flv_player',
+		'quality', 'high',
+		'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+		'align', 'middle',
+		'play', 'true',
+		'loop', 'true',
+		'scale', 'showall',
+		'wmode', 'transparent',
+		'devicefont', 'false',
+		'id', 'flv_player',
+		'bgcolor', '#ffffff',
+		'name', 'flv_player',
+		'menu', 'true',
+		'allowFullScreen', 'false',
+		'allowScriptAccess','sameDomain',
+		'movie', '{$define["GROBAL_TOP_URL"]}flv_player',
+		'FlashVars', 'theater={$theaterId}',
+		'salign', ''
+		); //end AC code
+}
+</script>
+<noscript>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="256" height="230" id="flv_player" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="allowFullScreen" value="false" />
+<param name="movie" value="flv_player.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="flv_player.swf" quality="high" bgcolor="#ffffff" width="300" height="243" name="flv_player" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+<param name="wmode" value="transparent" />
+</object>
+</noscript>
+EOL;
+	}
+
+	return $html;
 }
 
 function getMap(){
