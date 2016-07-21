@@ -200,41 +200,62 @@ include("../../../lib/require.php");
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
 
-                                    <tr>
+                                <tr>
 									<td class="menuName"><p>アメリカンドッグ</p></td>
 									<td class="menuprice" ><p>310円</p></td>
 								</tr>
                                  <tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
-
-                                <tr>
-									<td class="menuName">
-									    <p class="Name">カツドッグ</p>
-									</td>
-								</tr>
-
-								<tr>
-									<td class="menuName">
-										<p class="optionText">ソースカツドッグ・えびカツドッグ</p>
-									</td>
-									<td class="menuprice" >440円</td>
-								</tr>
-                                <tr class="line">
-									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-								</tr>
-
                                 <tr>
 									<td class="menuName">
 									    <p class="Name">チキン</p>
 									</td>
 								</tr>
+								<tr>
+									<td class="menuName">
+										<p class="optionText">スパイシーチキン</p>
+									</td>
+									<td class="menuprice" >360円</td>
+								</tr>
+                                <tr class="line">
+									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+								</tr>
+
+								<tr>
+									<td class="menuName"><p>ソフトプレッツェルドッグ</p></td>
+									<td class="menuprice" ><p>300円</p></td>
+								</tr>
+                                 <tr class="line">
+									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+								</tr>
 
 								<tr>
 									<td class="menuName">
-										<p class="optionText">スパイシーチキン・スナックピザ・スパイシーチキン&ピザ</p>
+									    <p class="Name">バゲットサンド</p>
 									</td>
-									<td class="menuprice" >360円</td>
+								</tr>
+								<tr>
+									<td class="menuName">
+										<p class="optionText">ハム＆チーズ</p>
+									</td>
+									<td class="menuprice" >600円</td>
+								</tr>
+                                <tr class="line">
+									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+								</tr>
+
+
+								<tr>
+									<td class="menuName">
+									    <p class="Name">ベルギーワッフル</p>
+									</td>
+								</tr>
+								<tr>
+									<td class="menuName">
+										<p class="optionText">メープル・チョコ・バター</p>
+									</td>
+									<td class="menuprice" >450円</td>
 								</tr>
                                 <tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
