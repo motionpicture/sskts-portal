@@ -295,43 +295,64 @@ include("../../../../lib/require.php");
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
                    <tr>
-					<td class="admission_tl">フライドポテト（クレイジーソルト味）</td>
-					<td class="admission_tr">340円</td>
-				</tr>
+						<td class="admission_tl">フライドポテト（クレイジーソルト味）</td>
+						<td class="admission_tr">340円</td>
+					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
-                     <tr>
-					<td class="admission_tl">アメリカンドッグ</td>
-					<td class="admission_tr">310円</td>
-				</tr>
-                <tr>
+	                <tr>
+						<td class="admission_tl">アメリカンドッグ</td>
+						<td class="admission_tr">310円</td>
+					</tr>
+	                <tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 
-                <tr>
-						<td colspan="2" class="admission_tl regulation04">カツドッグ</td>
-					</tr>
-					<tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ソースカツドッグ・えびカツドッグ</span></td>
-						<td class="admission_tr regulation03 regulation04">440円</td>
-					</tr>
-
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-
-                <tr>
+                    <tr>
 						<td colspan="2" class="admission_tl regulation04">チキン</td>
 					</tr>
 					<tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">スパイシーチキン・スナックピザ・スパイシーチキン&ピザ</span></td>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">スパイシーチキン</span></td>
 						<td class="admission_tr regulation03 regulation04">360円</td>
 					</tr>
 
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
+
+					<tr>
+						<td class="admission_tl">ソフトプレッツェルドッグ</td>
+						<td class="admission_tr">300円</td>
+				    </tr>
+                	<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+
+					<tr>
+						<td colspan="2" class="admission_tl regulation04">バゲットサンド</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">ハム＆チーズ</span></td>
+						<td class="admission_tr regulation03 regulation04">600円</td>
+					</tr>
+
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+
+					<tr>
+						<td colspan="2" class="admission_tl regulation04">ベルギーワッフル</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">メープル・チョコ・バター</span></td>
+						<td class="admission_tr regulation03 regulation04">450円</td>
+					</tr>
+
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+
 				</tbody>
 			</table>
 		</div>
