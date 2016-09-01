@@ -378,133 +378,108 @@ include("../../../../lib/require.php");
 		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<tbody>
 				<tr>
-						<td colspan="2" class="admission_tl regulation04">ポップコーン塩</td>
-					</tr>
-					<tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ペアセット(ポップコーンL×1＋ドリンクM×2)</span></td>
-						<td class="admission_tr regulation03 regulation04">940円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクMセット</span></td>
-						<td class="admission_tr regulation03 regulation04">520円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ビールセット</span></td>
-						<td class="admission_tr regulation03 regulation04">790円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">コーヒーセット</span></td>
-						<td class="admission_tr regulation03 regulation04">520円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03"><span class="notice">カフェラテセット</span></td>
-						<td class="admission_tr regulation03">570円</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-                    <tr>
-						<td colspan="2" class="admission_tl regulation04">ポップコーンキャラメル</td>
-					</tr>
-					<tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ペアセット(ポップコーンL×1＋ドリンクM×2)</span></td>
-						<td class="admission_tr regulation03 regulation04">1,140円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクMセット</span></td>
-						<td class="admission_tr regulation03 regulation04">620円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ビールセット</span></td>
-						<td class="admission_tr regulation03 regulation04">890円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">コーヒーセット</span></td>
-						<td class="admission_tr regulation03 regulation04">620円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03"><span class="notice">カフェラテセット</span></td>
-						<td class="admission_tr regulation03">670円</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-					<tr>
-						<td colspan="2" class="admission_tl regulation04">ポップコーン塩・キャラメル</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03"><span class="notice">ペアセット(ポップコーンハーフ×1＋ドリンクM×2)</span></td>
-						<td class="admission_tr regulation03">1,090円</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-                    <tr>
-						<td colspan="2" class="admission_tl regulation04">フライドポテト</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクMセット</span></td>
-						<td class="admission_tr regulation03 regulation04">590円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ビールセット</span></td>
-						<td class="admission_tr regulation03 regulation04">860円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">コーヒーセット</span></td>
-						<td class="admission_tr regulation03 regulation04">590円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03"><span class="notice">カフェラテセット</span></td>
-						<td class="admission_tr regulation03">640円</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-                    <tr>
-						<td colspan="2" class="admission_tl regulation04">フライドポテト（クレイジーソルト味）</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクMセット</span></td>
-						<td class="admission_tr regulation03 regulation04">600円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ビールセット</span></td>
-						<td class="admission_tr regulation03 regulation04">870円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">コーヒーセット</span></td>
-						<td class="admission_tr regulation03 regulation04">600円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03"><span class="notice">カフェラテセット</span></td>
-						<td class="admission_tr regulation03">650円</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-                    <tr>
-						<td colspan="2" class="admission_tl regulation04">ホットドッグ</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクMセット</span></td>
-						<td class="admission_tr regulation03 regulation04">620円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ビールセット</span></td>
-						<td class="admission_tr regulation03 regulation04">890円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">コーヒーセット</span></td>
-						<td class="admission_tr regulation03 regulation04">620円</td>
-					</tr>
-                    <tr>
-						<td class="admission_tl regulation03"><span class="notice">カフェラテセット</span></td>
-						<td class="admission_tr regulation03">670円</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
+					<td colspan="2" class="admission_tl regulation04">ポップコーン塩</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクM or コーヒーセット</span></td>
+					<td class="admission_tr regulation03 regulation04">600円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">カフェラテセット</span></td>
+					<td class="admission_tr regulation03 regulation04">630円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">ビールセット</span></td>
+					<td class="admission_tr regulation03 regulation04">850円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">LLセット(ポップコーンＬ＋ドリンクL)</span></td>
+					<td class="admission_tr regulation03 regulation04">850円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03"><span class="notice">ペアセット(ポップコーンL＋ドリンクM×2)</span></td>
+					<td class="admission_tr regulation03">1100円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="admission_tl regulation04">ポップコーンキャラメル</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクM or コーヒーセット</span></td>
+					<td class="admission_tr regulation03 regulation04">700円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">カフェラテセット</span></td>
+					<td class="admission_tr regulation03 regulation04">730円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">ビールセット</span></td>
+					<td class="admission_tr regulation03 regulation04">950円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">LLセット(ポップコーンＬ＋ドリンクL)</span></td>
+					<td class="admission_tr regulation03 regulation04">1050円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03"><span class="notice">ペアセット(ポップコーンL＋ドリンクM×2)</span></td>
+					<td class="admission_tr regulation03">1300円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="admission_tl regulation04">ポップコーン塩・キャラメル</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">LLセット(ポップコーンハーフL ＋ドリンクL)</span></td>
+					<td class="admission_tr regulation03 regulation04">950円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03"><span class="notice">ペアセット(ポップコーンハーフL＋ドリンクM×2)</span></td>
+					<td class="admission_tr regulation03">1200円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+				<tr>
+					<td colspan="2" class="admission_tl regulation04">フライドポテト</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクM or コーヒーセット</span></td>
+					<td class="admission_tr regulation03 regulation04">650円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">カフェラテセット</span></td>
+					<td class="admission_tr regulation03 regulation04">680円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03"><span class="notice">ビールセット</span></td>
+					<td class="admission_tr regulation03">900円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+				
+				<tr>
+					<td colspan="2" class="admission_tl regulation04">ホットドッグ</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクM or コーヒーセット</span></td>
+					<td class="admission_tr regulation03 regulation04">700円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03 regulation04"><span class="notice">カフェラテセット</span></td>
+					<td class="admission_tr regulation03 regulation04">730円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl regulation03"><span class="notice">ビールセット</span></td>
+					<td class="admission_tr regulation03">950円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
 			</tbody>
 		</table>
 	</div>
