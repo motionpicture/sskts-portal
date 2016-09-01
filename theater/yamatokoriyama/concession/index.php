@@ -30,12 +30,12 @@ include("../../../lib/require.php");
 										</tr>
 
 										<tr>
-											<td class="menuName"><p>ペプシコーラ・ペプシネックス・セブンアップ・ニチレイアセロラマイルド・ポップメロンソーダ・ホワイトウォーター・リプトンアイスティー・ウーロン茶・まろやか緑茶・オレンジ100</p></td>
+											<td class="menuName"><p>ペプシコーラ・ペプシネックス・セブンアップ・ジンジャーエール・ニチレイアセロラマイルド・ポップメロンソーダ・ホワイトウォーター・リプトンアイスティー・ウーロン茶・まろやか緑茶・オレンジ100</p></td>
 											<td class="menuprice" >
 												<p>
-													Ｓサイズ&nbsp;&nbsp;210円<br />
-													Ｍサイズ&nbsp;&nbsp;310円<br />
-													Ｌサイズ&nbsp;&nbsp;420円<br />
+													Ｓサイズ&nbsp;&nbsp;250円<br />
+													Ｍサイズ&nbsp;&nbsp;350円<br />
+													Ｌサイズ&nbsp;&nbsp;450円<br />
 												</p>
 											</td>
 										</tr>
@@ -53,7 +53,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="menuName"><p>ホットコーヒー・アイスコーヒー</p></td>
-											<td class="menuprice" ><p>310円</p></td>
+											<td class="menuprice" ><p>350円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -62,7 +62,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="menuName"><p>カフェラテ・アイスラテ</p></td>
-											<td class="menuprice" ><p>360円</p></td>
+											<td class="menuprice" ><p>380円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -71,7 +71,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="menuName"><p>カフェモカ・アイスモカ</p></td>
-											<td class="menuprice" ><p>360円</p></td>
+											<td class="menuprice" ><p>380円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -88,7 +88,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="menuName"><p>生ビール</p></td>
-											<td class="menuprice" ><p>580円</p></td>
+											<td class="menuprice" ><p>600円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -112,7 +112,7 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="optionText">ココア</p>
 											</td>
-											<td class="menuprice" ><p>310円</p></td>
+											<td class="menuprice" ><p>350円</p></td>
 										</tr>
 	<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -127,21 +127,21 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="optionText">ココア</p>
 											</td>
-											<td class="menuprice" ><p>310円</p></td>
+											<td class="menuprice" ><p>350円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
 												<p class="optionText">紅茶</p>
 											</td>
-											<td class="menuprice" ><p>260円</p></td>
+											<td class="menuprice" ><p>300円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
 												<p class="optionText">烏龍茶・緑茶</p>
 											</td>
-											<td class="menuprice" ><p>210円</p></td>
+											<td class="menuprice" ><p>300円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -159,8 +159,8 @@ include("../../../lib/require.php");
 											<td class="menuName"><p>塩</p></td>
 											<td class="menuprice" >
 												<p>
-													Ｍサイズ&nbsp;&nbsp;260円<br />
-													Ｌサイズ&nbsp;&nbsp;420円
+													Ｍサイズ&nbsp;&nbsp;300円<br />
+													Ｌサイズ&nbsp;&nbsp;500円
 												</p>
 											</td>
 										</tr>
@@ -173,8 +173,8 @@ include("../../../lib/require.php");
 											<td class="menuName"><p>キャラメル</p></td>
 											<td class="menuprice" >
 												<p>
-													Ｍサイズ&nbsp;&nbsp;360円<br />
-													Ｌサイズ&nbsp;&nbsp;620円
+													Ｍサイズ&nbsp;&nbsp;400円<br />
+													Ｌサイズ&nbsp;&nbsp;700円
 												</p>
 											</td>
 										</tr>
@@ -185,7 +185,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="menuName"><p>塩・キャラメル</p></td>
-											<td class="menuprice" ><p>ハーフ&nbsp;&nbsp;570円</p></td>
+											<td class="menuprice" ><p>ハーフ&ハーフ&nbsp;&nbsp;600円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -209,7 +209,7 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="optionText">レインボー・ストロベリーチーズケーキ</p>
 											</td>
-											<td class="menuprice" ><p>360円</p></td>
+											<td class="menuprice" ><p>400円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -227,7 +227,7 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="Name">量り売りお菓子</p>
 											</td>
-											<td class="menuprice" ><p>100g&nbsp;&nbsp;360円</p></td>
+											<td class="menuprice" ><p>100g&nbsp;&nbsp;420円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -238,7 +238,7 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="Name">フライドポテト</p>
 											</td>
-											<td class="menuprice" ><p>330円</p></td>
+											<td class="menuprice" ><p>350円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -249,7 +249,7 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="Name">ホットドッグ</p>
 											</td>
-											<td class="menuprice" ><p>360円</p></td>
+											<td class="menuprice" ><p>400円</p></td>
 										</tr>
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -259,7 +259,7 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="Name">プレッツェル</p>
 											</td>
-											<td class="menuprice" ><p>360円 </p></td>
+											<td class="menuprice" ><p>370円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -277,31 +277,18 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="Name">スパイシーチキン</p>
 											</td>
-											<td class="menuprice" ><p>360円</p></td>
-										</tr>
-
-									
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="Name">スナックピザ</p>
-											</td>
-											<td class="menuprice" ><p>360円</p></td>
+											<td class="menuprice" ><p>370円</p></td>
 										</tr>
 
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
                                         
-                                        	<tr>
+                                        <tr>
 											<td class="menuName">
 												<p class="Name">アメリカンドッグ</p>
 											</td>
-											<td class="menuprice" ><p>310円</p></td>
+											<td class="menuprice" ><p>300円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -324,28 +311,35 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="optionText">ペアセット(ポップコーンL×1＋ドリンクM×2)</p>
 											</td>
-											<td class="menuprice" ><p>940円</p></td>
+											<td class="menuprice" ><p>1,100円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
-												<p class="optionText">ドリンクMセット</p>
+												<p class="optionText">ドリンクM or コーヒーセット</p>
 											</td>
-											<td class="menuprice" ><p>520円</p></td>
+											<td class="menuprice" ><p>600円</p></td>
+										</tr>
+
+										<tr>
+											<td class="menuName">
+												<p class="optionText">カフェラテセット</p>
+											</td>
+											<td class="menuprice" ><p>630円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
 												<p class="optionText">ビールセット</p>
 											</td>
-											<td class="menuprice" ><p>790円</p></td>
+											<td class="menuprice" ><p>850円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
 												<p class="optionText">LLセット(ポップコーンＬ＋ドリンクL)</p>
 											</td>
-											<td class="menuprice" ><p>780円</p></td>
+											<td class="menuprice" ><p>850円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -360,28 +354,35 @@ include("../../../lib/require.php");
 											<td class="menuName">
 												<p class="optionText">ペアセット(ポップコーンL×1＋ドリンクM×2)</p>
 											</td>
-											<td class="menuprice" ><p>1,140円</p></td>
+											<td class="menuprice" ><p>1,300円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
-												<p class="optionText">ドリンクMセット</p>
+												<p class="optionText">ドリンクM or コーヒーセット</p>
 											</td>
-											<td class="menuprice" ><p>620円</p></td>
+											<td class="menuprice" ><p>700円</p></td>
+										</tr>
+
+										<tr>
+											<td class="menuName">
+												<p class="optionText">カフェラテセット</p>
+											</td>
+											<td class="menuprice" ><p>730円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
 												<p class="optionText">ビールセット</p>
 											</td>
-											<td class="menuprice" ><p>890円</p></td>
+											<td class="menuprice" ><p>950円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
 												<p class="optionText">LLセット(ポップコーンＬ＋ドリンクL)</p>
 											</td>
-											<td class="menuprice" ><p>980円</p></td>
+											<td class="menuprice" ><p>1,050円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -394,16 +395,23 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="menuName">
-												<p class="optionText">ドリンクMセット</p>
+												<p class="optionText">ドリンクM or コーヒーセット</p>
 											</td>
-											<td class="menuprice" ><p>590円</p></td>
+											<td class="menuprice" ><p>650円</p></td>
+										</tr>
+
+										<tr>
+											<td class="menuName">
+												<p class="optionText">カフェラテセット</p>
+											</td>
+											<td class="menuprice" ><p>680円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
 												<p class="optionText">ビールセット</p>
 											</td>
-											<td class="menuprice" ><p>860円</p></td>
+											<td class="menuprice" ><p>900円</p></td>
 										</tr>
 
 										<tr class="line">
@@ -416,16 +424,23 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="menuName">
-												<p class="optionText">ドリンクMセット</p>
+												<p class="optionText">ドリンクM or コーヒーセット</p>
 											</td>
-											<td class="menuprice" ><p>620円</p></td>
+											<td class="menuprice" ><p>700円</p></td>
+										</tr>
+
+										<tr>
+											<td class="menuName">
+												<p class="optionText">カフェラテセット</p>
+											</td>
+											<td class="menuprice" ><p>730円</p></td>
 										</tr>
 
 										<tr>
 											<td class="menuName">
 												<p class="optionText">ビールセット</p>
 											</td>
-											<td class="menuprice" ><p>890円</p></td>
+											<td class="menuprice" ><p>950円</p></td>
 										</tr>
 
 										<tr class="line">

@@ -369,50 +369,43 @@ include("../../../../lib/require.php");
 	<div class="table_wrapper regulation02">
 		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<tbody>
-				<tr>
-						<td class="admission_tl">アメリカンドッグ</td>
-						<td class="admission_tr">310円</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="table_line_02"></td>
-				</tr>
 
-				<tr>
-						<td class="admission_tl">プレッツェル<br />
-						<span class="notice">スウィートクリームチーズ</span></td>
-						<td class="admission_tr">360円</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="table_line_02"></td>
-				</tr>
-
-                 <tr>
-				<td class="admission_tl">金沢かれいぱん</td>
-				<td class="admission_tr">360円</td>
+                <tr>
+				  <td class="admission_tl">バゲットサンド</td>
+				  <td class="admission_tr">600円</td>
 			    </tr>
-
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
-
-                 <tr>
-				<td class="admission_tl">ソフトプレッツェルドッグ</td>
-				<td class="admission_tr">300円</td>
+				<tr>
+				  <td class="admission_tl">アメリカンドッグ</td>
+				  <td class="admission_tr">310円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+				<tr>
+				  <td class="admission_tl">プレッツェル<br />
+					<span class="notice">スウィートクリームチーズ</span></td>
+				  <td class="admission_tr">360円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+                <tr>
+				  <td class="admission_tl">ソフトプレッツェルドッグ</td>
+				  <td class="admission_tr">300円</td>
 			    </tr>
-
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
-
-                 <tr>
-				<td class="admission_tl">アンデスポテト</td>
-				<td class="admission_tr">310円</td>
+                <tr>
+				  <td class="admission_tl">ベルギーワッフル メープル味</td>
+				  <td class="admission_tr">450円</td>
 			    </tr>
-
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
-
 			</tbody>
 		</table>
 	</div>

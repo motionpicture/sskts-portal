@@ -34,10 +34,10 @@ include("../../../../lib/require.php");
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
 					<tr>
-						<td class="admission_tl">コーラ・コーラゼロ・ジンジャーエール・ファンタレモン　ファンタメロン・カルピス・アイスティー・ウーロン茶</td>
-						<td class="admission_tr">Ｓサイズ 210円<br />
-						Ｍサイズ 310円<br />
-						Ｌサイズ 420円</td>
+						<td class="admission_tl">コーラ・コーラゼロ・ジンジャーエール・スプライト　ファンタメロン・カルピス・アイスティー・ウーロン茶</td>
+						<td class="admission_tr">Ｓサイズ 250円<br />
+						Ｍサイズ 350円<br />
+						Ｌサイズ 450円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -68,21 +68,21 @@ include("../../../../lib/require.php");
 				<tbody>
 					<tr>
 						<td class="admission_tl">ホットコーヒー・アイスコーヒー</td>
-						<td class="admission_tr">310円</td>
+						<td class="admission_tr">350円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 					<tr>
 						<td class="admission_tl">カフェラテ・アイスラテ</td>
-						<td class="admission_tr">360円</td>
+						<td class="admission_tr">380円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
                     <tr>
 						<td class="admission_tl">カフェモカ・アイスカフェモカ</td>
-						<td class="admission_tr">360円</td>
+						<td class="admission_tr">380円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -113,7 +113,7 @@ include("../../../../lib/require.php");
 				<tbody>
 					<tr>
 						<td class="admission_tl">生ビール</td>
-						<td class="admission_tr">580円</td>
+						<td class="admission_tr">600円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -148,15 +148,15 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">紅茶</span></td>
-						<td class="admission_tr regulation03 regulation04">260円</td>
+						<td class="admission_tr regulation03 regulation04">300円</td>
 					</tr>
 					<tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">烏龍茶・緑茶</span></td>
-						<td class="admission_tr regulation03 regulation04">210円</td>
+						<td class="admission_tr regulation03 regulation04">300円</td>
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">ココア</span></td>
-						<td class="admission_tr regulation03 regulation04">310円</td>
+						<td class="admission_tr regulation03 regulation04">350円</td>
 					</tr>
                    
 					<tr>
@@ -168,11 +168,11 @@ include("../../../../lib/require.php");
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">ミニッツメイド（オレンジ100％・フルーツミックス100％）</span></td>
-						<td class="admission_tr regulation03 regulation04">310円</td>
+						<td class="admission_tr regulation03 regulation04">350円</td>
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03"><span class="notice">ココア</span></td>
-						<td class="admission_tr regulation03">310円</td>
+						<td class="admission_tr regulation03">350円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -183,7 +183,7 @@ include("../../../../lib/require.php");
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03 "><span class="notice">グレープ・メロン</span></td>
-						<td class="admission_tr regulation03 ">260円</td>
+						<td class="admission_tr regulation03 ">300円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -217,23 +217,23 @@ include("../../../../lib/require.php");
 				<tbody>
 					<tr>
 						<td class="admission_tl">塩</td>
-						<td class="admission_tr">Mサイズ 260円<br />
-						Lサイズ 420円</td>
+						<td class="admission_tr">Mサイズ 300円<br />
+						Lサイズ 500円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 					<tr>
 						<td class="admission_tl">キャラメル</td>
-						<td class="admission_tr">Mサイズ 360円<br />
-						Lサイズ 620円</td>
+						<td class="admission_tr">Mサイズ 400円<br />
+						Lサイズ 700円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 					<tr>
 						<td class="admission_tl">ハーフ&amp;ハーフ</td>
-						<td class="admission_tr">Lサイズ 570円</td>
+						<td class="admission_tr">Lサイズ 600円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -266,7 +266,7 @@ include("../../../../lib/require.php");
 			<tbody>
 				<tr>
 					<td class="admission_tl">フライドポテト</td>
-					<td class="admission_tr">310円</td>
+					<td class="admission_tr">350円</td>
 				</tr>
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
@@ -274,14 +274,14 @@ include("../../../../lib/require.php");
                 
 				<tr>
 					<td class="admission_tl">ホットドッグ</td>
-					<td class="admission_tr">360円</td>
+					<td class="admission_tr">400円</td>
 				</tr>
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
                 <tr>
 					<td class="admission_tl">プレッツェル</td>
-					<td class="admission_tr">360円</td>
+					<td class="admission_tr">370円</td>
 				</tr>
 				
 				<tr>
@@ -312,14 +312,14 @@ include("../../../../lib/require.php");
 				<tbody>
 					<tr>
 						<td class="admission_tl">ソフトクリーム<br /><span class="notice">バニラ・クッキークリーム</span></td>
-						<td class="admission_tr">340円</td>
+						<td class="admission_tr">350円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
                     <tr>
 						<td class="admission_tl">ディッピンドッツ・アイスクリーム<br /><span class="notice">レインボー・ストロベリーチーズケーキ</span></td>
-						<td class="admission_tr">360円</td>
+						<td class="admission_tr">400円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -354,19 +354,23 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">ペア(ポップコーンL×1＋ドリンクM×2)</span></td>
-						<td class="admission_tr regulation03 regulation04">940円</td>
+						<td class="admission_tr regulation03 regulation04">1,100円</td>
 					</tr>
                     <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクMセット</span></td>
-						<td class="admission_tr regulation03 regulation04">520円</td>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクM or コーヒーセット</span></td>
+						<td class="admission_tr regulation03 regulation04">600円</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">カフェラテセット</span></td>
+						<td class="admission_tr regulation03 regulation04">630円</td>
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">ビールセット</span></td>
-						<td class="admission_tr regulation03 regulation04">790円</td>
+						<td class="admission_tr regulation03 regulation04">850円</td>
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03"><span class="notice">LLセット(ポップコーンＬ＋ドリンクL)</span></td>
-						<td class="admission_tr regulation03">780円</td>
+						<td class="admission_tr regulation03">850円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -376,19 +380,23 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">ペア(ポップコーンL×1＋ドリンクM×2)</span></td>
-						<td class="admission_tr regulation03 regulation04">1,140円</td>
+						<td class="admission_tr regulation03 regulation04">1,300円</td>
 					</tr>
                     <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクMセット</span></td>
-						<td class="admission_tr regulation03 regulation04">620円</td>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクM or コーヒーセット</span></td>
+						<td class="admission_tr regulation03 regulation04">700円</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">カフェラテセット</span></td>
+						<td class="admission_tr regulation03 regulation04">730円</td>
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">ビールセット</span></td>
-						<td class="admission_tr regulation03 regulation04">890円</td>
+						<td class="admission_tr regulation03 regulation04">950円</td>
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03"><span class="notice">LLセット(ポップコーンＬ＋ドリンクL)</span></td>
-						<td class="admission_tr regulation03">980円</td>
+						<td class="admission_tr regulation03">1,050円</td>
 					</tr>
                     <tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -398,11 +406,11 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">ペア(ポップコーンL×1＋ドリンクM×2)</span></td>
-						<td class="admission_tr regulation03 regulation04">1,090円</td>
+						<td class="admission_tr regulation03 regulation04">1,200円</td>
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03"><span class="notice">LLセット(ポップコーンＬ＋ドリンクL)</span></td>
-						<td class="admission_tr regulation03">930円</td>
+						<td class="admission_tr regulation03">950円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -411,12 +419,16 @@ include("../../../../lib/require.php");
 						<td colspan="2" class="admission_tl regulation04">ポテト</td>
 					</tr>
                     <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクMセット</span></td>
-						<td class="admission_tr regulation03 regulation04">590円</td>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクM or コーヒーセット</span></td>
+						<td class="admission_tr regulation03 regulation04">650円</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">カフェラテセット</span></td>
+						<td class="admission_tr regulation03 regulation04">680円</td>
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03"><span class="notice">ビールセット</span></td>
-						<td class="admission_tr regulation03">860円</td>
+						<td class="admission_tr regulation03">900円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -425,12 +437,16 @@ include("../../../../lib/require.php");
 						<td colspan="2" class="admission_tl regulation04">ホットドック</td>
 					</tr>
                     <tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクMセット</span></td>
-						<td class="admission_tr regulation03 regulation04">620円</td>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">ドリンクM or コーヒーセット</span></td>
+						<td class="admission_tr regulation03 regulation04">700円</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">カフェラテセット</span></td>
+						<td class="admission_tr regulation03 regulation04">730円</td>
 					</tr>
                     <tr>
 						<td class="admission_tl regulation03"><span class="notice">ビールセット</span></td>
-						<td class="admission_tr regulation03">890円</td>
+						<td class="admission_tr regulation03">950円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
