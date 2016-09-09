@@ -271,10 +271,6 @@ if(!empty($_GET["pre"])) {
 	</div>
 	<!-- ↑adsense上部↑ -->
 
-	<?php
-	echo (getTrailAreaSP($arr["ename"]));
-	?>
-
 
 	<div class="section ptb10">
 		<?php

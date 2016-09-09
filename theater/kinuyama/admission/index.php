@@ -105,7 +105,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="priceSubject"><p>IMAX版<br>IMAX3D版</p></td>
-											<td class="priceNotes">通常鑑賞料金　＋　IMAX鑑賞料金400円<br>通常鑑賞料金　＋　IMAX鑑賞料金700円</td>
+											<td class="priceNotes">通常料金＋400円<br>通常料金＋700円<span style="color:red;">(+IMAXメガネ代100円)</span></td>
 											<td class="priceAdd"></td>
 										</tr>
 
@@ -132,7 +132,8 @@ include("../../../lib/require.php");
 									</tbody>
 								</table>
 								<div class="ImaxNote">
-										<p>※ムビチケは窓口でのご利用に限られます。※各種サービスデイはサービス料金＋IMAX鑑賞料金となります。</p>
+                                          <p style="color:red;">なおIMAX3D専用メガネはお客様がお持ち帰りいただくことが可能で、次回、IMAX3D作品をご鑑賞いただく際にご持参いただきましたらメガネ代100円はいただきません。</p>
+										<p>※各種サービスデイはサービス料金＋IMAX鑑賞料金となります。</p>
 										<p>※前売券、シネマサンシャインCINEMATICKET（特別鑑賞券）、シネマサンシャインINVITATION TICKET（招待券）、メンバーズカードのポイントによる無料鑑賞、各種割引券も＋IMAX鑑賞料金でご利用いただけます</p>
 										<p>※ハンディキャップ料金は障がい者手帳をお持ちのご本人様と付き添いの方1名まで同じ料金になります</p>
 									</div>

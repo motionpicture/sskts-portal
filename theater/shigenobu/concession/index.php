@@ -28,10 +28,10 @@ include("../../../lib/require.php");
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p>ペプシコーラ・ペプシネックス・メロンソーダ・ＣＣレモン・ジンジャーエール・なっちゃんオレンジ・ホワイトウォーター・ウーロン茶・アイスティー<br>
+									<td class="menuName"><p>ペプシコーラ・ペプシネックス・ポップメロンソーダ・ＣＣレモン・ジンジャーエール・なっちゃんオレンジ・ホワイトウォーター・ウーロン茶・リプトンアイスティー<br>
 										</p></td>
-									<td class="menuprice" ><p> Ｓサイズ&nbsp;&nbsp;210円<br />
-											Ｍサイズ&nbsp;&nbsp;310円 </p></td>
+									<td class="menuprice" ><p> Ｓサイズ&nbsp;&nbsp;250円<br />
+											Ｍサイズ&nbsp;&nbsp;350円<br />Lサイズ&nbsp;&nbsp;450円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -44,21 +44,21 @@ include("../../../lib/require.php");
 								</tr>
 								<tr>
 									<td class="menuName"><p>ホットコーヒー・アイスコーヒー</p></td>
-									<td class="menuprice" ><p>310円</p></td>
+									<td class="menuprice" ><p>350円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 								<tr>
 									<td class="menuName"><p>カフェラテ・アイスラテ</p></td>
-									<td class="menuprice" ><p>360円</p></td>
+									<td class="menuprice" ><p>380円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 								<tr>
 									<td class="menuName"><p>カフェモカ</p></td>
-									<td class="menuprice" ><p>360円</p></td>
+									<td class="menuprice" ><p>380円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -71,7 +71,7 @@ include("../../../lib/require.php");
 								</tr>
 								<tr>
 									<td class="menuName"><p>生ビール</p></td>
-									<td class="menuprice" ><p>580円</p></td>
+									<td class="menuprice" ><p>600円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -83,30 +83,32 @@ include("../../../lib/require.php");
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 								<tr>
+									<td class="menuName"><p class="Name">アイス</p></td>
+									<td class="menuprice" ></td>
+								</tr>
+								<tr>
+									<td class="menuName"><p class="optionText">ココア</p></td>
+									<td class="menuprice" ><p>350円</p></td>
+								</tr>
+								<tr class="line">
+									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+								</tr>
+								<tr>
 									<td class="menuName"><p class="Name">ホット</p></td>
 									<td class="menuprice" ></td>
 								</tr>
+
+								<tr>
+									<td class="menuName"><p>ココア</p></td>
+									<td class="menuprice" ><p>350円</p></td>
+								</tr>
 							   <tr>
 									<td class="menuName"><p class="optionText">紅茶</p></td>
-									<td class="menuprice" ><p>260円</p></td>
+									<td class="menuprice" ><p>300円</p></td>
 								</tr>
 								<tr>
 									<td class="menuName"><p class="optionText">烏龍茶・緑茶</p></td>
-									<td class="menuprice" ><p>210円</p></td>
-								</tr>
-								<tr class="line">
-									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-								</tr>
-								<tr>
-									<td class="menuName"><p>ホットココア</p></td>
-									<td class="menuprice" ><p>310円</p></td>
-								</tr>
-								<tr class="line">
-									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-								</tr>
-								<tr>
-									<td class="menuName"><p>アイスココア</p></td>
-									<td class="menuprice" ><p>310円</p></td>
+									<td class="menuprice" ><p>300円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -120,23 +122,23 @@ include("../../../lib/require.php");
 								</tr>
 								<tr>
 									<td class="menuName"><p>塩</p></td>
-									<td class="menuprice" ><p> Ｍサイズ&nbsp;&nbsp;260円<br />
-											Ｌサイズ&nbsp;&nbsp;420円 </p></td>
+									<td class="menuprice" ><p> Ｍサイズ&nbsp;&nbsp;300円<br />
+											Ｌサイズ&nbsp;&nbsp;500円 </p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 								<tr>
 									<td class="menuName"><p>キャラメル</p></td>
-									<td class="menuprice" ><p> Ｍサイズ&nbsp;&nbsp;360円<br />
-											Ｌサイズ&nbsp;&nbsp;620円 </p></td>
+									<td class="menuprice" ><p> Ｍサイズ&nbsp;&nbsp;400円<br />
+											Ｌサイズ&nbsp;&nbsp;700円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 								<tr>
 									<td class="menuName"><p>塩・キャラメル</p></td>
-									<td class="menuprice" ><p>ハーフ&nbsp;&nbsp;570円</p></td>
+									<td class="menuprice" ><p>ハーフ&ハーフ&nbsp;&nbsp;600円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -149,7 +151,7 @@ include("../../../lib/require.php");
 								</tr>
 								<tr>
 									<td class="menuName"><p>バニラ・クッキー&amp;クリーム</p></td>
-									<td class="menuprice" ><p>340円</p></td>
+									<td class="menuprice" ><p>350円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -162,15 +164,15 @@ include("../../../lib/require.php");
 								</tr>
 								<tr>
 									<td class="menuName"><p>量り売りお菓子</p></td>
-									<td class="menuprice" ><p>100g&nbsp;&nbsp;360円</p></td>
+									<td class="menuprice" ><p>100g&nbsp;&nbsp;420円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
                                 
-                          <tr>
+                                <tr>
 									<td class="menuName"><p>フライドポテト</p></td>
-									<td class="menuprice" ><p>330円</p></td>
+									<td class="menuprice" ><p>350円</p></td>
 								</tr>
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -178,14 +180,14 @@ include("../../../lib/require.php");
 
 								<tr>
 									<td class="menuName"><p>ホットドッグ</p></td>
-									<td class="menuprice" ><p>360円</p></td>
+									<td class="menuprice" ><p>400円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
                                 <tr>
 									<td class="menuName"><p>プレッツェル</p></td>
-									<td class="menuprice" ><p>360円</p></td>
+									<td class="menuprice" ><p>370円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -200,7 +202,7 @@ include("../../../lib/require.php");
 
                                 <tr>
 									<td class="menuName"><p>シャカシャカポテト（クレイジーソルト味）</p></td>
-									<td class="menuprice" ><p>340円</p></td>
+									<td class="menuprice" ><p>380円</p></td>
 								</tr>
                                  <tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -208,7 +210,7 @@ include("../../../lib/require.php");
 
                                 <tr>
 									<td class="menuName"><p>アメリカンドッグ</p></td>
-									<td class="menuprice" ><p>310円</p></td>
+									<td class="menuprice" ><p>300円</p></td>
 								</tr>
                                 <tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -217,7 +219,7 @@ include("../../../lib/require.php");
                                 
                                 <tr>
 									<td class="menuName"><p>スパイシーチキン</p></td>
-									<td class="menuprice" ><p>360円</p></td>
+									<td class="menuprice" ><p>370円</p></td>
 								</tr>
                                  <tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -236,24 +238,24 @@ include("../../../lib/require.php");
 									<td class="menuprice" ></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="optionText">ペア(ポップコーンL×1＋ドリンクM×2)</p></td>
-									<td class="menuprice" ><p>940円</p></td>
+									<td class="menuName"><p class="optionText">ペアセット(ポップコーンL×1＋ドリンクM×2)</p></td>
+									<td class="menuprice" ><p>1,100円</p></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="optionText">ドリンクМセット</p></td>
-									<td class="menuprice" ><p>520円</p></td>
-								</tr>
-                                <tr>
-									<td class="menuName"><p class="optionText">コーヒーセット</p></td>
-									<td class="menuprice" ><p>520円</p></td>
+									<td class="menuName"><p class="optionText">ドリンクM or コーヒーセット</p></td>
+									<td class="menuprice" ><p>600円</p></td>
 								</tr>
                                 <tr>
 									<td class="menuName"><p class="optionText">カフェラテセット</p></td>
-									<td class="menuprice" ><p>570円</p></td>
+									<td class="menuprice" ><p>630円</p></td>
 								</tr>
 								<tr>
 									<td class="menuName"><p class="optionText">ビールセット</p></td>
-									<td class="menuprice" ><p>790円</p></td>
+									<td class="menuprice" ><p>850円</p></td>
+								</tr>
+								<tr>
+									<td class="menuName"><p class="optionText">LLセット(ポップコーンＬ＋ドリンクL)</p></td>
+									<td class="menuprice" ><p>850円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -262,35 +264,39 @@ include("../../../lib/require.php");
 									<td class="menuprice" ></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="optionText">ペア(ポップコーンL×1＋ドリンクM×2)</p></td>
-									<td class="menuprice" ><p>1,140円</p></td>
+									<td class="menuName"><p class="optionText">ペアセット(ポップコーンL×1＋ドリンクM×2)</p></td>
+									<td class="menuprice" ><p>1,300円</p></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="optionText">ドリンクМセット</p></td>
-									<td class="menuprice" ><p>620円</p></td>
+									<td class="menuName"><p class="optionText">ドリンクM or コーヒーセット</p></td>
+									<td class="menuprice" ><p>700円</p></td>
 								</tr>
-                                	<tr>
-									<td class="menuName"><p class="optionText">コーヒーセット</p></td>
-									<td class="menuprice" ><p>620円</p></td>
-								</tr>
-                                 	<tr>
+                                <tr>
 									<td class="menuName"><p class="optionText">カフェラテセット</p></td>
-									<td class="menuprice" ><p>670円</p></td>
+									<td class="menuprice" ><p>730円</p></td>
 								</tr>
 								<tr>
 									<td class="menuName"><p class="optionText">ビールセット</p></td>
-									<td class="menuprice" ><p>890円</p></td>
+									<td class="menuprice" ><p>950円</p></td>
+								</tr>
+								<tr>
+									<td class="menuName"><p class="optionText">LLセット(ポップコーンＬ＋ドリンクL)</p></td>
+									<td class="menuprice" ><p>1,050円</p></td>
 								</tr>
                                  <tr class="line">
 									<td height="40" colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="Name">ポップコーン塩・キャラメル</p></td>
+									<td class="menuName"><p class="Name">ポップコーン塩＆キャラメル</p></td>
 									<td class="menuprice" ></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="optionText">ペア(ポップコーンL×1＋ドリンクM×2)</p></td>
-									<td class="menuprice" ><p>1090円</p></td>
+									<td class="menuName"><p class="optionText">ペアセット(ポップコーンハーフ×1+ドリンクM×2)</p></td>
+									<td class="menuprice" ><p>1,200円</p></td>
+								</tr>
+								<tr>
+									<td class="menuName"><p class="optionText">LLセット(ポップコーンハーフ×1＋ドリンクL)</p></td>
+									<td class="menuprice" ><p>950円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -299,64 +305,35 @@ include("../../../lib/require.php");
 									<td class="menuprice" ></td>
 								</tr>
 								<tr>
-									<td class="menuName"><p class="optionText">ドリンクМセット</p></td>
-									<td class="menuprice" ><p>590円</p></td>
-								</tr>
-                                	<tr>
-									<td class="menuName"><p class="optionText">コーヒーセット</p></td>
-									<td class="menuprice" ><p>590円</p></td>
-								</tr>
-                                	<tr>
-									<td class="menuName"><p class="optionText">カフェラテセット</p></td>
-									<td class="menuprice" ><p>640円</p></td>
-								</tr>
-								<tr>
-									<td class="menuName"><p class="optionText">ビールセット</p></td>
-									<td class="menuprice" ><p>860円</p></td>
-								</tr>
-								<tr class="line">
-									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-								</tr>
-                                	<td class="menuName"><p class="Name">ポテト（クレイジーソルト味）</p></td>
-									<td class="menuprice" ></td>
-								</tr>
-								<tr>
-									<td class="menuName"><p class="optionText">ドリンクМセット</p></td>
-									<td class="menuprice" ><p>600円</p></td>
-								</tr>
-                                	<tr>
-									<td class="menuName"><p class="optionText">コーヒーセット</p></td>
-									<td class="menuprice" ><p>600円</p></td>
-								</tr>
-                                	<tr>
-									<td class="menuName"><p class="optionText">カフェラテセット</p></td>
+									<td class="menuName"><p class="optionText">ドリンクM or コーヒーセット</p></td>
 									<td class="menuprice" ><p>650円</p></td>
 								</tr>
+                                <tr>
+									<td class="menuName"><p class="optionText">カフェラテセット</p></td>
+									<td class="menuprice" ><p>680円</p></td>
+								</tr>
 								<tr>
 									<td class="menuName"><p class="optionText">ビールセット</p></td>
-									<td class="menuprice" ><p>870円</p></td>
+									<td class="menuprice" ><p>900円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
+                                <tr>
 								<td class="menuName"><p class="Name">ホットドック</p></td>
 									<td class="menuprice" ></td>
 								</tr>
                                 <tr>
-									<td class="menuName"><p class="optionText">ドリンクМセット</p></td>
-									<td class="menuprice" ><p>620円</p></td>
-								</tr>
-								<tr>
-									<td class="menuName"><p class="optionText">コーヒーセット</p></td>
-									<td class="menuprice" ><p>620円</p></td>
+									<td class="menuName"><p class="optionText">ドリンクM or コーヒーセット</p></td>
+									<td class="menuprice" ><p>700円</p></td>
 								</tr>
                                 <tr>
 									<td class="menuName"><p class="optionText">カフェラテセット</p></td>
-									<td class="menuprice" ><p>670円</p></td>
+									<td class="menuprice" ><p>730円</p></td>
 								</tr>
 								<tr>
 									<td class="menuName"><p class="optionText">ビールセット</p></td>
-									<td class="menuprice" ><p>890円</p></td>
+									<td class="menuprice" ><p>950円</p></td>
 								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
