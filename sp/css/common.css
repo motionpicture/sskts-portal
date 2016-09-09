@@ -389,3 +389,10 @@ body {
 .disable_class{
 	 float: right;
 }
+.schedulebox .mark{
+    display:inline-block;
+    margin-right:1px;
+}
+.schedulebox .mark img{
+    max-height: 1.5em;
+}

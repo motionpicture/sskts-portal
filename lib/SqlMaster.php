@@ -203,7 +203,8 @@ function getNowRoadShow($theaterId = null) {
 		    credit,
 		    site,
 		    grade,
-		    ename
+		    ename,
+		    midokoro
 		FROM
 		    roadshows ,
 		    movies
@@ -245,7 +246,8 @@ function getNextRoadShow($theaterId = null) {
 		    credit,
 		    site,
 		    grade,
-		    ename
+		    ename,
+		    midokoro
 		FROM
 		    roadshows a,
 		    movies b
@@ -286,7 +288,8 @@ function getNowRoadShow3d() {
 		    credit,
 		    site,
 		    grade,
-		    ename
+		    ename,
+		    midokoro
 		FROM
 		    roadshows ,
 		    movies
@@ -325,7 +328,8 @@ function getNextRoadShow3d() {
 		    credit,
 		    site,
 		    grade,
-		    ename
+		    ename,
+		    midokoro
 		FROM
 		    roadshows a,
 		    movies b

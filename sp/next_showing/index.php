@@ -16,7 +16,7 @@ include("../../lib/require.php");
 	<!--/ライン-->
 
 	<div class="category_bar_p">上映予定作品</div>
-	<div class="section schedule ptb10"> <img src="../images/showing/public_now_showing.gif" width="320" alt="劇場ごとの上映作品を見る">
+	<div class="section schedule ptb10"> <img src="../images/next_showing/public_next_showing.gif" width="320" alt="劇場ごとの上映予定作品を見る">
 		<form name="SearchLisBoxForm" enctype="multipart/form-data" method="get" action="./">
 			<select name="theaterSelect">
 				<?php
@@ -103,34 +103,25 @@ include("../../lib/require.php");
 				echo "<tr>";
 				echo "<td colspan='3' height='10'></td>";
 				echo "</tr>";
+				echo "</tbody></table>";
 				if($showing['grade']){
-					echo "<tr>";
 					if($showing['grade'] == 1){
-						echo "<td colspan='3' style='color:#E50307;'><img src='../../images/common/mark_R15.gif' width='27' /></td>";
+						echo '<p class="mark"><img src="../../images/common/mark_R15.gif"></p>';
 					}elseif($showing['grade'] == 2){
-						echo "<td colspan='3' style='color:#E50307;'><img src='../../images/common/mark_R18.gif' width='27' /></td>";
+						echo '<p class="mark"><img src="../../images/common/mark_R18.gif"></p>';
 					}else{
-						echo "<td colspan='3' style='color:#E50307;'><img src='../../images/common/mark_PG12.gif' width='27' /></td>";
+						echo '<p class="mark"><img src="../../images/common/mark_PG12.gif"></p>';
 					}
-					echo "</tr>";
-					echo "<tr>";
-					echo "<td colspan='3' height='10'></td>";
-					echo "</tr>";
+				}
+				if($showing['midokoro']){
+					echo $showing['midokoro'];
 				}
 				if($showing['tuika']){
 					$tuika = "";
 					$tuika = preg_replace("/;/","<br />",$showing['tuika']);
-					echo "<tr>";
-					echo "<td colspan='3' style='color:#E50307;'>$tuika</td>";
-					echo "</tr>";
-					echo "<tr>";
-					echo "<td colspan='3' height='10'></td>";
-					echo "</tr>";
+					echo "<p style='color:#E50307;'>$tuika</p>";
 				}
-				echo "<tr>";
-				echo "<td colspan='3'>上映劇場</td>";
-				echo "</tr>";
-				echo "</table>";
+				echo "<p style='margin-top:1em;'>上映劇場</p>";
 				echo "</div>";
 				echo "<ul class='theater_list'>";
 				foreach ($theaters as $theater) {

@@ -121,12 +121,15 @@ include("../lib/require.php");
 											<?php
 												if($showing['grade']){
 													if($showing['grade'] == 1){
-														echo '<p class="mark"><img src="../images/common/mark_R15.gif" width="27" /></p>';
+														echo '<p class="mark"><img src="../images/common/mark_R15.gif"></p>';
 													}elseif($showing['grade'] == 2){
-														echo '<p class="mark"><img src="../images/common/mark_R18.gif" width="27" /></p>';
+														echo '<p class="mark"><img src="../images/common/mark_R18.gif"></p>';
 													}else{
-														echo '<p class="mark"><img src="../images/common/mark_PG12.gif" width="27" /></p>';
+														echo '<p class="mark"><img src="../images/common/mark_PG12.gif"></p>';
 													}
+												}
+												if($showing['midokoro']){
+													echo $showing['midokoro'];
 												}
 											?>
 											<p class="tuika"><?php echo preg_replace("/;/","<br />",$showing['tuika']); ?></p>

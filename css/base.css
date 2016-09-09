@@ -765,7 +765,12 @@ a:hover{
 }
 
 #container #contents #mainColumn .leftColumn .movieListArea .right p.mark{
+	display:inline-block;
 	margin:10px 0 0;
+}
+
+#container #contents #mainColumn .leftColumn .movieListArea .right p.mark img{
+	max-height:1.5em;
 }
 
 #container #contents #mainColumn .leftColumn .movieListArea .right p.tuika{
