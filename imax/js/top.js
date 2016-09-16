@@ -2,16 +2,7 @@
 
 (function($){
     //PC or SP
-    var ua = navigator.userAgent;
-    if( ua.indexOf('iPhone') > 0
-    || ua.indexOf('iPod') > 0
-    || (ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0)
-    || ( ua.indexOf('windows') > 0 && ua.indexOf('phone') > 0)
-    || ( ua.indexOf('firefox') > 0 && ua.indexOf('mobile') > 0)
-    || ua.indexOf('iPad') > 0
-    || ua.indexOf('Android') > 0
-    || (ua.indexOf('windows') > 0 && ua.indexOf('touch') > 0)
-    || ( ua.indexOf('firefox') > 0 && ua.indexOf('tablet') > 0) ) {
+    if(isMobile()) {
         return null;
     } else {
         // IFrame Player API LOAD
@@ -22,7 +13,7 @@
         
         $(function(){
             //非表示の場合下の行をコメントアウト
-            showVideo('2FiJ8I3_uQM');//ID設定
+            showVideo('ihB9DR1mVR0');//ID設定
         });
     }
 
@@ -89,3 +80,20 @@
         });
     }
 })(jQuery);
+
+function isMobile() {
+    var ua = navigator.userAgent;
+    if( ua.indexOf('iPhone') > 0
+    || ua.indexOf('iPod') > 0
+    || (ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0)
+    || ( ua.indexOf('windows') > 0 && ua.indexOf('phone') > 0)
+    || ( ua.indexOf('firefox') > 0 && ua.indexOf('mobile') > 0)
+    || ua.indexOf('iPad') > 0
+    || ua.indexOf('Android') > 0
+    || (ua.indexOf('windows') > 0 && ua.indexOf('touch') > 0)
+    || ( ua.indexOf('firefox') > 0 && ua.indexOf('tablet') > 0) ) {
+        return true;
+    } else {
+        return false;
+    }
+}
