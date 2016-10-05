@@ -256,7 +256,7 @@ include("../lib/require.php");
           </div>
           <!--作品情報▲-->
 
-			<a href="./blog"><img src="images/common/blog_bnr.jpg" width="387" height="80" style="margin-top:20px;"></a>
+			<a href="https://www.youtube.com/channel/UCJKMXyAshxRj6JhNzwXfCCQ" target="_blank"><img src="images/common/youtube_bnr.jpg" width="387" height="80" style="margin-top:20px;"></a>
 			<div id="sns_area">
 				<img src="images/common/sns_bar.gif" width="372" height="27">
 				<div class="tsuchiura"style="height:21px; width:350px; margin:15px 0 5px 32px;">

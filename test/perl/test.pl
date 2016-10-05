@@ -1,4 +1,5 @@
 use ExtUtils::Installed;
+@INC = grep $_ ne "." , @INC;
 my ($inst) = ExtUtils::Installed->new();
 my (@modules) = $inst->modules();
 

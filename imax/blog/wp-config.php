@@ -27,7 +27,7 @@ define('DB_NAME', 'mail_magazine');
 define('DB_USER', 'motionpicture');
 
 /** MySQL データベースのパスワード */
-define('DB_PASSWORD', '53862089');
+define('DB_PASSWORD', 'cine_sun_px');
 
 /** MySQL のホスト名 */
 define('DB_HOST', 'localhost');

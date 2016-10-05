@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body,h1,h2,h3,h4,img,div,p,a,ul,li{
+	margin:0px;
+	padding:0px;
+}
+
+
+body{
+	background-color:#000;
+}
+
+#wrapper{
+	width:920px;
+	margin:0px auto;
+}
+ul li{
+	float: left;
+	height: 80px;
+	margin: 18px;
+}
+
+ul li a:hover{
+	opacity: 0.5;
+}
+
+.link_list{
+	width: 700px;
+	margin: 30px auto;
+	height: 14px;
+}
+.center{
+	margin: 0px 80px;
+}
+.kokuchi_node{
+	color:#FFFFFF;
+	font-size:14px;
+	width:850px;
+	margin:20px auto;
+	}
+.kokuchi_node p span{
+	color:#e50011;
+	font-weight:bold;
+	}
+	.kokuchi_node p img{
+	margin:0 5px;
+	}
+.kokuchi_node p a{
+	color:#FFFFFF;
+	}

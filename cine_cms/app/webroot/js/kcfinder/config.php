@@ -26,7 +26,7 @@ $_CONFIG = array(
     'theme' => "oxygen",
 
     'uploadURL' => "/cine_cms/uploads",
-    'uploadDir' => "",
+    'uploadDir' => "/var/www/vhosts/cinemasunshine.co.jp/httpdocs/cine_cms/uploads",
 
     'dirPerms' => 0755,
     'filePerms' => 0644,
@@ -93,7 +93,7 @@ $_CONFIG = array(
     'cookiePrefix' => 'KCFINDER_',
 
     // THE FOLLOWING SETTINGS CANNOT BE OVERRIDED WITH SESSION CONFIGURATION
-    '_check4htaccess' => true,
+    '_check4htaccess' => false,
     //'_tinyMCEPath' => "/tiny_mce",
 
     '_sessionVar' => &$_SESSION['KCFINDER'],

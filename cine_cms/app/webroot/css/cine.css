@@ -574,4 +574,13 @@ SPAN.t10red {
 
 
 
+.movie-tag-guide p{
+  margin-bottom:1em;
+}
+
+.movie-tag-guide code{
+  display:block;
+  padding:8px;
+  border:solid 1px #000;
+  background-color:#fdfdfd;
 }

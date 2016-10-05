@@ -156,7 +156,7 @@ P {
   </div>
 </div>
 <div class="footerArea" style="_width:100%;">
-  <p class="copyright">(C) 2001-2014 Cinema Sunshine Co., Ltd. All Rights Reserved.</p>
+  <p class="copyright">(C) 2001-2016 Cinema Sunshine Co., Ltd. All Rights Reserved.</p>
   <p class="link_top"><a href="http://www.cinemasunshine.co.jp/" target="_blank";>シネマサンシャインTOPへ</a></p>
 </div>
 </body>
