@@ -1,17 +1,24 @@
 <?php
 class DB{
 	function DB() {
-		$dbHost = 'localhost';
+		require_once dirname(__FILE__) . '../../env.php';
 
-		//local用
-		/*$dbUser = 'root';
-		$dbPass = 'yun1210';
-		$dbName = 'cinema_cms';*/
-		//remote用
-		$dbUser = 'cinesun_cms';
-		$dbPass = 'cine_sun_px';
-		$dbName = 'cinema_cms';
-
+		if ($env === 'prod') {
+			$dbHost = 'localhost';
+			$dbUser = 'cinesun_cms';
+			$dbPass = 'cine_sun_px';
+			$dbName = 'cinema_cms';
+		} else if ($env === 'test') {
+			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
+			$dbUser = 'b79cdee58d5b03';
+			$dbPass = '375438fb';
+			$dbName = 'testsasakidb';
+		} else {
+			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
+			$dbUser = 'b79cdee58d5b03';
+			$dbPass = '375438fb';
+			$dbName = 'testsasakidb';
+		}
  
 		$this->db = mysql_connect("{$dbHost}", "{$dbUser}", "{$dbPass}");
 		if(!$this->db) exit("Could not connect!");
