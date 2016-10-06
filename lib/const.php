@@ -1,4 +1,5 @@
 <?php
+include dirname(__FILE__) . '../../env.php';
 
 //movie img 格納 local
 define('movie_picture','/theaters_image/movie');
@@ -21,7 +22,13 @@ define('flvimage_picture','/theaters_image/flvimage');
 
 
 //TOPページURL
-define ("GROBAL_TOP_URL", 'http://www.cinemasunshine.co.jp/');
+if ($env === 'prod') {
+    define ("GROBAL_TOP_URL", 'http://www.cinemasunshine.co.jp/');
+} else if ($env === 'test') {
+    define ("GROBAL_TOP_URL", 'http://sasaki.src.master.hook.motionpicture.jp/');
+} else {
+    define ("GROBAL_TOP_URL", 'http://sasaki.localhost:8080/');
+}
 
 //スマートフォンのTOPページURL
 define ("GROBAL_SP_TOP_URL", GROBAL_TOP_URL . 'sp/');
