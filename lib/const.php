@@ -25,7 +25,8 @@ define('flvimage_picture','/theaters_image/flvimage');
 if ($env === 'prod') {
     define ("GROBAL_TOP_URL", 'http://www.cinemasunshine.co.jp/');
 } else if ($env === 'test') {
-    define ("GROBAL_TOP_URL", 'http://sasaki.src.master.hook.motionpicture.jp/');
+    // define ("GROBAL_TOP_URL", 'http://sasaki.src.master.hook.motionpicture.jp/');
+    define ("GROBAL_TOP_URL", 'http://testsasakiwebapp.azurewebsites.net/');
 } else {
     define ("GROBAL_TOP_URL", 'http://sasaki.localhost:8080/');
 }
