@@ -492,8 +492,6 @@ function getSmartFooter(){
 		$home = "<p class='return_home'><a href='$define[GROBAL_SP_TOP_URL]'><img src='$define[Images_SP_URL]common/btn_home.gif' width='300' alt='HOME'></a></p>";
 	}
 
-	$trailerHtml = getSmartTrailer();
-
 echo <<<EOL
 	<!-- footer -->
 	{$social}
@@ -514,7 +512,7 @@ echo <<<EOL
 	</div>
 	<!-- ↑adsense下部↑ -->
 
-	{$trailerHtml}
+
 
 
 	<div class="section">
@@ -555,68 +553,6 @@ EOL;
 
 getSmartFooterTag($arr);
 
-}
-
-function getSmartTrailer() {
-	$arr = getNowPage();
-	$theaterName = $arr['ename'];
-	$theaterId = getTheaterId($theaterName)['id'];
-	$theaterMediaNetwork = array(
-		'1'=> '1463114321049-0', //池袋 
-		'2'=> '1463114425475-0', //平和島
-		'6'=> '1463114610118-0', //沼津
-		'7'=> '1463115631220-0', //北島
-		'8'=> '1463115092247-0', //衣山
-		'9'=> '1463115013734-0', //大街道
-		'11'=> '1463115510743-0', //大洲
-		'12'=> '1463115219252-0', //重信
-		'13'=> '1463114519699-0', //土浦
-		'14'=> '1463114716128-0', //かほく
-		'15'=> '1463115336241-0', //MASAKI
-		'16'=> '1463114817432-0', //大和郡山
-		'17'=> '1463114915106-0' //下関
-	);
-
-
-	$html = '';
-	if ($theaterId) {
-		$html = <<<EOL
-		<div class="section ptb10" style="width: 250px;">
-		<script type='text/javascript'>
-		var googletag = googletag || {};
-		googletag.cmd = googletag.cmd || [];
-		(function() {
-			var gads = document.createElement('script');
-			gads.async = true;
-			gads.type = 'text/javascript';
-			var useSSL = 'https:' == document.location.protocol;
-			gads.src = (useSSL ? 'https:' : 'http:') +
-			'//www.googletagservices.com/tag/js/gpt.js';
-			var node = document.getElementsByTagName('script')[0];
-			node.parentNode.insertBefore(gads, node);
-		})();
-		</script>
-
-		<script type='text/javascript'>
-		googletag.cmd.push(function() {
-			googletag.defineSlot('/22524478/sunshine_{$theaterName}_sp', [250, 250], 'div-gpt-ad-{$theaterMediaNetwork[$theaterId]}').addService(googletag.pubads());
-			googletag.pubads().enableSingleRequest();
-			googletag.pubads().collapseEmptyDivs();
-			googletag.enableServices();
-		});
-		</script>
-
-		<!-- /22524478/sunshine_{$theaterName}_sp -->
-		<div id='div-gpt-ad-{$theaterMediaNetwork[$theaterId]}' style='height:250px; width:250px;'>
-		<script type='text/javascript'>
-		googletag.cmd.push(function() { googletag.display('div-gpt-ad-{$theaterMediaNetwork[$theaterId]}'); });
-		</script>
-		</div>
-		</div>
-EOL;
-	}
-	
-	return $html;
 }
 
 function getSmartFooterTag($arr) {
