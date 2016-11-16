@@ -21,7 +21,7 @@ include("../lib/require.php");
 <script src="js/jquery.coda-slider-2.0.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 <link href="css/fullscreen.css" rel="stylesheet">
-
+<link href="css/top.css" rel="stylesheet">
 
 <script type="text/javascript">
 $().ready(function() {
@@ -38,64 +38,6 @@ $().ready(function() {
 });
 </script>
 
-<style type="text/css">
-    /* Tab nav */
-
-  	/* JavaScriptが使用不能なときでも、箱に含まれるスライダー内容を保つために、これを使ってください（yahoo翻訳にて） */
-	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
-  	/* スライドコンテンツの横幅と高さ */
-  	.coda-slider, .coda-slider .panel { width: 900px ; height: 400px; }
-	/* スライドコンテンツの大きさと表示位置 */
-	.coda-slider-wrapper { padding: 0;  position:relative; width:900px; margin: 0; }
-	/* ベース（触らない方が良い部分） */
-	.coda-slider { float: left; overflow: hidden; position: relative; }
-	.coda-slider .panel { display: block; float: left }
-	.coda-slider .panel-container { position: relative; }
-/*	.coda-nav-left, .coda-nav-right { float: left }
-	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }*/
-
-#navi{
-	padding:12px 20px 20px 20px;
-}
-
-#navi ul li{
-	margin:0 0 3px 0;
-}
-
-.footerArea{
-	position:absolute;
-	bottom:0;
-	background:#fff ;
-	width:100%;
-	padding:3px 0;
-	text-align:center;
-	font-size:10px;
-}
-
-.pngs:hover img{
-	filter:alpha(opacity=100);
-	-moz-opacity:none!important;
-	opacity:none!important;
-}
-#footer{
-  height: 162px !important;
-}
-#footer ul {
-    width: 760px;
-}
-/* .coda-nav{width: px;}   4個 */
-/* .coda-nav{width: 182px;}   5個 */
-/* .coda-nav{width: 206px;}   6個 */
-/* .coda-nav{width: 230px;}   7個 */
-.coda-nav{width:230px;}
-
-
-
-/*  #slider_btn {width: 963px;}   4個 */
-#slider_btn {width: 963px;}
-#slider{margin-top: 90px !important;}
-
-</style>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -152,7 +94,7 @@ var google_remarketing_only = true;
         foreach($banner as $key => $val){
             unset($target);
             if($val["site_url_flg1"] == 1) $target = "target='_blank'";
-            echo "<div class='panel bar1 transparent' style='display: block;'> <a class='pngs' href='$val[site_url1]' $target ><img width='900' height='400' src='/theaters_image/special_main_banner/$val[pic_path2]' class='transparent' alt='$val[name]'></a> </div>";
+            echo "<div class='panel bar1 transparent' style='display: block;'> <a class='pngs' href='$val[site_url1]' $target ><img width='807' height='337' src='/theaters_image/special_main_banner/$val[pic_path2]' class='transparent' alt='$val[name]'></a> </div>";
         }
         ?>
       </div>
