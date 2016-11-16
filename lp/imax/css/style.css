@@ -213,6 +213,12 @@ body{
 .bnr a{
     margin: 0 0 16px;
     display: block;
+    background-color: #fff;
+    display: block;
+}
+
+.bnr a:hover img{
+    opacity: 0.75;
 }
 
 .bnr .credit{
