@@ -1132,12 +1132,13 @@ echo <<<EOL
 EOL;
 	}
 
-//土浦、大和郡山、平和島、沼津　TOPのみのタグ(2016/11/17)
+//土浦、大和郡山、平和島、沼津、衣山、MASAKI　TOPのみのタグ(2016/11/17)
 	if(($arr["ename"] == "tsuchiura" 
 	|| $arr["ename"] == "yamatokoriyama" 
 	|| $arr["ename"] == "heiwajima" 
 	|| $arr["ename"] == "numazu"
-	|| $arr[""] == "masaki") 
+	|| $arr["ename"] == "kinuyama"
+	|| $arr["ename"] == "masaki") 
 	&& $arr["ename2"] == "schedule"
 	){
 echo <<<EOL
