@@ -664,6 +664,7 @@ EOL;
 	&& $arr["ename2"] == "schedule"
 	){
 echo <<<EOL
+	<!-- サンライズ社CVタグ 161119 -->
 	<!-- Google Code for CV Conversion Page -->
 	<script type="text/javascript">
 	/* <![CDATA[ */
@@ -682,6 +683,7 @@ echo <<<EOL
 	<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/869306713/?label=cH6ICJLG8GsQ2aLCngM&amp;guid=ON&amp;script=0"/>
 	</div>
 	</noscript>
+	<!-- /サンライズ社CVタグ 161119 -->
 EOL;
 	}
 
