@@ -1102,13 +1102,13 @@ EOL;
     }
 }
 
-//土浦、大和郡山、平和島、沼津　TOPのみのタグ(2016/07/01)
-if(($arr["ename"] == "tsuchiura" 
-|| $arr["ename"] == "yamatokoriyama" 
-|| $arr["ename"] == "heiwajima" 
-|| $arr["ename"] == "numazu") 
-&& $arr["ename2"] == "schedule"
-){
+	//土浦、大和郡山、平和島、沼津　TOPのみのタグ(2016/07/01)
+	if(($arr["ename"] == "tsuchiura" 
+	|| $arr["ename"] == "yamatokoriyama" 
+	|| $arr["ename"] == "heiwajima" 
+	|| $arr["ename"] == "numazu") 
+	&& $arr["ename2"] == "schedule"
+	){
 echo <<<EOL
 	<!-- リマーケティング タグの Google コード -->
 	<!--
@@ -1130,7 +1130,37 @@ echo <<<EOL
 	</div>
 	</noscript>	
 EOL;
-}
+	}
+
+//土浦、大和郡山、平和島、沼津　TOPのみのタグ(2016/11/17)
+	if(($arr["ename"] == "tsuchiura" 
+	|| $arr["ename"] == "yamatokoriyama" 
+	|| $arr["ename"] == "heiwajima" 
+	|| $arr["ename"] == "numazu"
+	|| $arr[""] == "masaki") 
+	&& $arr["ename2"] == "schedule"
+	){
+echo <<<EOL
+	<!-- Google Code for CV Conversion Page -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 869306713;
+	var google_conversion_language = "en";
+	var google_conversion_format = "3";
+	var google_conversion_color = "ffffff";
+	var google_conversion_label = "cH6ICJLG8GsQ2aLCngM";
+	var google_remarketing_only = false;
+	/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/869306713/?label=cH6ICJLG8GsQ2aLCngM&amp;guid=ON&amp;script=0"/>
+	</div>
+	</noscript>
+EOL;
+	}
 
 
 
