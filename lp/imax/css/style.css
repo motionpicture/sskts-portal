@@ -12,6 +12,7 @@ img{
 body{
     background-color: #000;
     font-family: 'Lucida Grande', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, Helvetica, Arial, sans-serif;
+    min-width: 1100px;
 }
 
 .header{
