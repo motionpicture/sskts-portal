@@ -11,6 +11,7 @@ img{
 
 body{
     background-color: #000;
+    font-family: 'Lucida Grande', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, Helvetica, Arial, sans-serif;
 }
 
 .header{
@@ -25,11 +26,11 @@ body{
     margin: 0 auto;
     background-image: url(/lp/imax/images/bg_top.png);
     background-repeat: no-repeat;
-    padding: 4px 0 0;
+    padding: 78px 0 0;
 }
 
 .top h1{
-    margin: 0 0 165px 33px;
+    margin: 0 0 87px 38px;
 }
 
 .comic{
@@ -206,7 +207,6 @@ body{
 }
 
 .bnr{
-    text-align: center;
     margin: 0 50px 80px;
 }
 
@@ -214,7 +214,6 @@ body{
     margin: 0 0 16px;
     display: block;
     background-color: #fff;
-    display: block;
 }
 
 .bnr a:hover img{
