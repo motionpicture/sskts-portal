@@ -328,8 +328,12 @@ function getSmartRank(){
 }
 
 function getSmartPickUp(){
-	//現在のページ情報の取得
 	$arr = getNowPage();
+	//TOPの場合メディアネットワークタグ
+	if ($arr["ename"] == 'top') {
+		echo getSmartTrailer();
+	}
+	//現在のページ情報の取得
 	$html =  BnrPattern($arr["ename"]);
 	echo $html;
 }
@@ -492,7 +496,7 @@ function getSmartFooter(){
 		$home = "<p class='return_home'><a href='$define[GROBAL_SP_TOP_URL]'><img src='$define[Images_SP_URL]common/btn_home.gif' width='300' alt='HOME'></a></p>";
 	}
 
-	$trailerHtml = getSmartTrailer();
+	
 
 echo <<<EOL
 	<!-- footer -->
@@ -514,7 +518,6 @@ echo <<<EOL
 	</div>
 	<!-- ↑adsense下部↑ -->
 
-	{$trailerHtml}
 
 
 	<div class="section">
@@ -565,6 +568,8 @@ function getSmartTrailer() {
 	if (!$theaterId) {
 		$theaterId = 1000;
 	}
+	
+	if ($arr["ename"] == 'showing') $theaterName = 'top';
 	$theaterMediaNetwork = array(
 		'1000'=> '1478747373365-0', //TOP
 		'1'=> '1463114321049-0', //池袋 
