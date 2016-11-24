@@ -560,7 +560,8 @@ getSmartFooterTag($arr);
 function getSmartTrailer() {
 	$arr = getNowPage();
 	$theaterName = $arr['ename'];
-	$theaterId = getTheaterId($theaterName)['id'];
+	$theaterId = getTheaterId($theaterName);
+	$theaterId = $theaterId['id'];
 	if (!$theaterId) {
 		$theaterId = 1000;
 	}
