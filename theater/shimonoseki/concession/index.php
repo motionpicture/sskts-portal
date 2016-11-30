@@ -157,6 +157,22 @@ include("../../../lib/require.php");
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
 							</table>
+							<h3 class="lightBlueTitle">アイスクリーム</h3>
+									<table class="menuTable">
+										<tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+										</tr>
+										<tr>
+											<td class="menuName">
+												ディッピングドッツアイス<br />
+												<p class="optionText">（レインボー・ストロベリーチーズケーキ）</p>
+											</td>
+											<td class="menuprice" ><p>400円</p></td>
+										</tr>
+										<tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+										</tr>
+									</table>
 							<h3 class="lightBlueTitle">定番フード</h3>
 							<table class="menuTable">
 								<tr class="line">
