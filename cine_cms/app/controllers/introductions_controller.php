@@ -32,6 +32,9 @@ class IntroductionsController extends AppController {
 	    $theaters['1003']="4DX 特設サイト表示用";
 	    $theaters['1004']="DOLBY 特設サイト表示用";
 
+	    $theaters['16'] = "大和郡山(IMAX)";
+	    $theaters['yamatokoriyama4dx'] = "大和郡山(4DX)";
+
 	    $this->set('theaters',$theaters);
 
 	    $statu1['1'] = "IMAX";
