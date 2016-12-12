@@ -244,6 +244,36 @@ include("../../../../lib/require.php");
 	<table cellpadding="0" cellspacing="0" class="theater_t">
 		<tbody>
 			<tr class="first-child">
+				<td colspan="2" class="table_top_01">アイスクリーム</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div class="table_wrapper regulation02">
+		<table cellpadding="0" cellspacing="0" class="theater_u">
+			<tbody>
+				<tr>
+					<td class="admission_tl">ディッピンドッツ・アイスクリーム<br /><span class="notice">レインボー・ストロベリーチーズケーキ</span></td>
+					<td class="admission_tr">400円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!-- table end -->	
+	<!-- table -->
+	<table cellpadding="0" cellspacing="0" class="theater_u">
+		<thead>
+			<tr>
+				<th colspan="2" class="table_line_01"></th>
+			</tr>
+		</thead>
+	</table>
+	<table cellpadding="0" cellspacing="0" class="theater_t">
+		<tbody>
+			<tr class="first-child">
 				<td colspan="2" class="table_top_01">定番フード</td>
 			</tr>
 		</tbody>

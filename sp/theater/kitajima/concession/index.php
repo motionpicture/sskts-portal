@@ -293,14 +293,7 @@ include("../../../../lib/require.php");
 	<div class="table_wrapper regulation02">
 		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<tbody>
-				<tr>
-					<td class="admission_tl">ソフトアイス<br />
-						<span class="notice">バニラ・クッキー＆クリーム</span></td>
-					<td class="admission_tr">350円</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="table_line_02"></td>
-				</tr>
+				
                 <tr>
 					<td class="admission_tl">ディッピンドッツ・アイスクリーム<br />
 						<span class="notice">レインボー・ストロベリーチーズケーキ</span></td>
@@ -400,9 +393,13 @@ include("../../../../lib/require.php");
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
 				<tr>
-					<td class="admission_tl">ベルギーワッフルメイプル</td>
-				  	<td class="admission_tr">450円</td>
-			    </tr>
+					<td colspan="2" class="admission_tl regulation04">ベルギーワッフル</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">メープル・チョコ</span></td>
+						<td class="admission_tr regulation03 regulation04">450円</td>
+					</tr>
+
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>

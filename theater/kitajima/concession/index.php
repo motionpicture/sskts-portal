@@ -240,19 +240,6 @@ include("../../../lib/require.php");
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
 
-										<tr>
-											<td class="menuName"><p>ソフトアイス</p></td>
-											<td class="menuprice" ></td>
-										</tr>
-											<tr>
-											<td class="menuName">
-												<p class="optionText">バニラ・クッキー＆クリーム</p>
-											</td>
-											<td class="menuprice" ><p>350円</p></td>
-										</tr>
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
 
                                         <tr>
 											<td class="menuName"><p>ディッピンドッツ・アイスクリーム</p></td>
@@ -289,9 +276,6 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="menuName"><p>フライドポテト</p></td>
 											<td class="menuprice" ><p>350円</p></td>
-										</tr>
-											<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
 
 										<tr class="line">
@@ -345,8 +329,15 @@ include("../../../lib/require.php");
 										</tr>
 
 										<tr>
-											<td class="menuName"><p>ベルギーワッフルメイプル</p></td>
-											<td class="menuprice" ><p>450円</p></td>
+											<td class="menuName">
+												<p class="Name">ベルギーワッフル</p>
+											</td>
+										</tr>
+										<tr>
+											<td class="menuName">
+												<p class="optionText">メープル・チョコ</p>
+											</td>
+											<td class="menuprice" >450円</td>
 										</tr>
 
 										<tr class="line">
