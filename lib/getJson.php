@@ -3,8 +3,6 @@
 /*if (PHP_VERSION <"5.2.0") {
 	include("upgrade.php");
 }*/
-require_once dirname(__FILE__) . '/../env.php';
-
 
 //xmlパーシング格納
 $schedules;
@@ -239,15 +237,6 @@ function outputArray($data){
 
 
 function output($data) {
-	//本番でjosn_encodeが使えない
-	if ($env === 'test') {
-		echo json_encode($data);
-	} else {
-		require_once("JSON.php");
-		$json = new Services_JSON;
-		$encode = $json->encode($data);
-		//header("Content-Type: text/javascript; charset=utf-8");
-		echo $encode;
-	}
+	echo json_encode($data);
 }
 ?>

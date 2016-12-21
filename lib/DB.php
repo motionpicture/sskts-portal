@@ -1,14 +1,12 @@
 <?php
 class DB{
 	function DB() {
-		require_once dirname(__FILE__) . '../../env.php';
-
-		if ($env === 'prod') {
+		if (APP_ENV === 'prod') {
 			$dbHost = 'localhost';
 			$dbUser = 'cinesun_cms';
 			$dbPass = 'cine_sun_px';
 			$dbName = 'cinema_cms';
-		} else if ($env === 'test') {
+		} else if (APP_ENV === 'test') {
 			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
 			$dbUser = 'b79cdee58d5b03';
 			$dbPass = '375438fb';

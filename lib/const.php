@@ -1,5 +1,6 @@
 <?php
 include dirname(__FILE__) . '../../env.php';
+define('APP_ENV', $env);
 
 //movie img 格納 local
 define('movie_picture','/theaters_image/movie');
@@ -22,13 +23,14 @@ define('flvimage_picture','/theaters_image/flvimage');
 
 
 //TOPページURL
-if ($env === 'prod') {
+if (APP_ENV === 'prod') {
     define ("GROBAL_TOP_URL", 'http://www.cinemasunshine.co.jp/');
-} else if ($env === 'test') {
+} else if (APP_ENV === 'test') {
     // define ("GROBAL_TOP_URL", 'http://sasaki.src.master.hook.motionpicture.jp/');
     define ("GROBAL_TOP_URL", 'http://testsasakiwebapp.azurewebsites.net/');
 } else {
-    define ("GROBAL_TOP_URL", 'http://sasaki.localhost:8080/');
+    $globalTopURL = 'http://' . $_SERVER["HTTP_HOST"] . '/';
+    define ("GROBAL_TOP_URL", $globalTopURL);
 }
 
 //スマートフォンのTOPページURL
