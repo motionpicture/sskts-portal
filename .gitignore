@@ -1,6 +1,12 @@
 m_test/magazine/images/btn_3.gif
 m_test/
+
+# env
 env.php
+Web.config
+.user.ini
+
+# Mac OS
 *.DS_Store
 
 # IDE
