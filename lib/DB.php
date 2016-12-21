@@ -19,15 +19,19 @@ class DB{
 			$dbPass = '375438fb';
 			$dbName = 'testsasakidb';
 		}
- 
-		$this->db = mysql_connect("{$dbHost}", "{$dbUser}", "{$dbPass}");
-		if(!$this->db) exit("Could not connect!");
-		mysql_select_db($dbName, $this->db);
-		mysql_query("set names utf8",$this->db);
+
+        $this->db = mysqli_connect($dbHost, $dbUser, $dbPass);
+
+        if (mysqli_connect_errno() > 0) {
+            exit("Could not connect!");
+        }
+
+        mysqli_select_db($this->db, $dbName);
+        mysqli_query($this->db, 'set names utf8');
 	}
 
 	function dbClose() {
-		mysql_close($this->db);
+		mysqli_close($this->db);
 	}
 
 	function startTransaction() {
@@ -87,23 +91,23 @@ class DB{
 	function select($sql) {
 		$data = Array();
 		$result = $this->execSQL($sql);
-		while($row = mysql_fetch_assoc($result)){
+
+		while ($row = mysqli_fetch_assoc($result)){
 			$data[] = $row;
 		}
+
 		return $data;
 	}
 
-
 	//SQL
 	function execSQL($sql) {
-		//print $sql;
-		$result = mysql_query($sql,$this->db);
-		if(!$result) {
+        $result = mysqli_query($this->db, $sql);
+
+		if (!$result) {
 			print $sql . "<BR/>";
-			print mysql_error($this->db) . "\n";
-		} else {
-			echo mysql_error();
+			print mysqli_error($this->db) . "\n";
 		}
+
 		return $result;
 	}
 
@@ -113,11 +117,12 @@ class DB{
 		if (get_magic_quotes_gpc()) {
 			$value = stripslashes($value);
 		}
+
 		//
 		if (!is_numeric($value)) {
-			$value = "'" . mysql_real_escape_string($value) . "'";
+			$value = "'" . mysqli_real_escape_string($value) . "'";
 		}
+
 		return $value;
 	}
 }
-?>
