@@ -128,7 +128,7 @@ P {
 .theater_btn{
   width:84px;
   height: 22px;
-  margin-right: 10px; 
+  margin-right: 5px; 
 }
 </style>
 <script type="text/javascript">
@@ -207,6 +207,9 @@ P {
                 }
                 if($val2 == 15){
                     echo "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/masaki/\" target=\"_blank\"><img src=\"../img/4dx_theater_masaki.gif\" width=\"84\" height=\"22\" alt=\"エミフルMASAKI\" ></a></li>";
+                }
+                if($val2 == "yamatokoriyama4dx"){
+                    echo "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/yamatokoriyama/\" target=\"_blank\"><img src=\"../img/4dx_theater_yamato.gif\" width=\"84\" height=\"22\" alt=\"大和郡山\" ></a></li>";
                 }
             }
             echo "</ul>";

@@ -57,7 +57,9 @@ include("../../lib/require.php");
 	</div>
 	<!-- ↑adsense上部↑ -->
 
-
+	<?php
+	echo getSmartTrailer();
+	?>
 
 	<?php
 		if (!empty($_GET['theaterSelect'])){
