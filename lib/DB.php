@@ -8,13 +8,13 @@ class DB{
 			$dbName = 'cinema_cms';
 		} else if (APP_ENV === 'test') {
 			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
-			$dbUser = 'b79cdee58d5b03';
-			$dbPass = '375438fb';
+			$dbUser = 'b68a3a830cc797';
+			$dbPass = 'c9e1bde9';
 			$dbName = 'testsasakidb';
 		} else {
 			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
-			$dbUser = 'b79cdee58d5b03';
-			$dbPass = '375438fb';
+			$dbUser = 'b68a3a830cc797';
+			$dbPass = 'c9e1bde9';
 			$dbName = 'testsasakidb';
 		}
 
