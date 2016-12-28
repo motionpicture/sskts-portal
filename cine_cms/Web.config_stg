@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <rewrite>
+            <rules>
+                <rule name="cine_cms Rule 1" stopProcessing="true">
+                    <match url="^(.+(html|js|css|png|gif|jpg|ico))$" />
+                    <action type="Rewrite" url="/cine_cms/app/webroot/{R:1}" appendQueryString="true" />
+                </rule>
+                <rule name="cine_cms Rule 2" stopProcessing="true">
+                    <match url="^(.*)$" />
+                    <conditions logicalGrouping="MatchAny">
+                        <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+                        <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+                    </conditions>
+                    <action type="Rewrite" url="/cine_cms/app/webroot/index.php?url={R:1}" appendQueryString="true" />
+                </rule>
+            </rules>
+        </rewrite>
+    </system.webServer>
+</configuration>
