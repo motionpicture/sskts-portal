@@ -1,4 +1,4 @@
-<? echo $html->script('ckeditor/ckeditor'); ?>
+<?php echo $html->script('ckeditor/ckeditor'); ?>
 <div id="panku">開館時間 ＞ 修正</div>
 <?php echo $this->Form->create('Important', array('url' => 'edit/'.$this->data['Important']['theater_id']));?>
 <TABLE WIDTH="100%" ALIGN="CENTER">
