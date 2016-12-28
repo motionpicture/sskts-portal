@@ -6,7 +6,7 @@ class DB{
 			$dbUser = 'cinesun_cms';
 			$dbPass = 'cine_sun_px';
 			$dbName = 'cinema_cms';
-		} else if (APP_ENV === 'test') {
+		} else if (APP_ENV === 'stg') {
 			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
 			$dbUser = 'b68a3a830cc797';
 			$dbPass = 'c9e1bde9';
