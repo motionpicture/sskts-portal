@@ -4,10 +4,15 @@
         <rewrite>
             <rules>
                 <rule name="cine_cms Rule 1" stopProcessing="true">
-                    <match url="^(.+(html|js|css|png|gif|jpg|ico))$" />
-                    <action type="Rewrite" url="/cine_cms/app/webroot/{R:1}" appendQueryString="true" />
+                    <match url="^uploads/(.*)$" />
+                    <action type="Rewrite" url="/cine_cms/uploads/{R:1}" appendQueryString="true" />
                 </rule>
                 <rule name="cine_cms Rule 2" stopProcessing="true">
+                    <!-- phpはkcfinder用 -->
+                    <match url="^(.+(php|html|js|css|png|gif|jpg|ico))$" />
+                    <action type="Rewrite" url="/cine_cms/app/webroot/{R:1}" appendQueryString="true" />
+                </rule>
+                <rule name="cine_cms Rule 3" stopProcessing="true">
                     <match url="^(.*)$" />
                     <conditions logicalGrouping="MatchAny">
                         <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
