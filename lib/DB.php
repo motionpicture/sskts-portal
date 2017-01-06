@@ -26,6 +26,7 @@ class DB{
 
         mysqli_select_db($this->db, $dbName);
         mysqli_query($this->db, 'set names utf8');
+        mysqli_query($this->db, "SET SESSION time_zone = '+09:00';"); // Azure環境対策。Asia/Tokyoは使えず
 	}
 
 	function dbClose() {
