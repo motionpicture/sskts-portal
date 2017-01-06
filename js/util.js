@@ -1,4 +1,4 @@
-var setTimeOut=5000;
+var setTimeOut=20000; // TODO:5000に戻す。azure環境でタイムアウトするので一時的に変更（SASAKI_TICKET-35 Azureにサーバ移管）
 //time : 区切りに変換
 function getTimeFormat(time) {
 	var a = time.substr(0,2);
