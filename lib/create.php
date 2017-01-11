@@ -263,12 +263,12 @@ function getNowPage(){
 function getMeta($arr){
 	if($arr["ename"] == "top"){
 		$meta["title"] = "シネマサンシャイン";
-		$meta["description"] = "池袋、平和島、茨城、千葉、徳島、愛媛で映画を見るならシネマサンシャイン";
+		$meta["description"] = "池袋、平和島、茨城、千葉、徳島、愛媛、鹿児島で映画を見るならシネマサンシャイン";
 		$meta["keyword"] = "シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間";
 	//共通のmeta情報
 	}elseif(!$arr["ename2"]){
 		$meta["title"] = "$arr[name]&nbsp;|&nbsp;シネマサンシャイン";
-		$meta["description"] = "池袋、平和島、茨城、千葉、徳島、愛媛で映画を見るならシネマサンシャイン";
+		$meta["description"] = "池袋、平和島、茨城、千葉、徳島、愛媛、鹿児島で映画を見るならシネマサンシャイン";
 		$meta["keyword"] = "$arr[name],シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間";
 	//各下層のmeta情報
 	}elseif($arr["ename2"]){
