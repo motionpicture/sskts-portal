@@ -213,15 +213,15 @@ include("../lib/require.php");
 										</div>
 
                                         <div class="theaterLinkList">
-											<p class="flip">鹿児島</p>
+											<p class="flip">姶良</p>
 											<ul class="linkList">
-												<li><a href="../theater/kagoshima/">上映スケジュール＆チケット購入</a></li>
-												<li><a href="../theater/kagoshima/news/">ニュース</a></li>
-												<li><a href="../theater/kagoshima/admission/">料金案内</a></li>
-												<li><a href="../theater/kagoshima/advance_ticket/">前売情報</a></li>
-												<li><a href="../theater/kagoshima/concession/">コンセッション</a></li>
-												<li><a href="../theater/kagoshima/floor_guide/">劇場設備＆サービス</a></li>
-												<li><a href="../theater/kagoshima/access/">アクセス</a></li>
+												<li><a href="../theater/aira/">上映スケジュール＆チケット購入</a></li>
+												<li><a href="../theater/aira/news/">ニュース</a></li>
+												<li><a href="../theater/aira/admission/">料金案内</a></li>
+												<li><a href="../theater/aira/advance_ticket/">前売情報</a></li>
+												<li><a href="../theater/aira/concession/">コンセッション</a></li>
+												<li><a href="../theater/aira/floor_guide/">劇場設備＆サービス</a></li>
+												<li><a href="../theater/aira/access/">アクセス</a></li>
 											</ul>
 										</div>
 									</div>

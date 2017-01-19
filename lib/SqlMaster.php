@@ -44,7 +44,7 @@ function getTheaterList(){
 		if($theater["ename"] == "ozu") $arr[11] = $theater;
 		if($theater["ename"] == "imabari") $arr[12] = $theater;
 		if($theater["ename"] == "kitajima") $arr[13] = $theater;
-        if($theater["ename"] == "kagoshima") $arr[14] = $theater;
+        if($theater["ename"] == "aira") $arr[14] = $theater;
 	}
 
 	ksort($arr,SORT_NUMERIC);
