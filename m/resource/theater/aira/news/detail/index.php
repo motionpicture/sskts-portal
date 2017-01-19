@@ -8,7 +8,7 @@
 
 if (isset($_GET['i'])) {
 	$BASE = dirname(dirname(dirname(dirname(dirname(__FILE__)))));
-	$resourcePath = $BASE . '/resource/theater/kagoshima/news/' . basename(dirname(__FILE__)) . '/';
+	$resourcePath = $BASE . '/resource/theater/aira/news/' . basename(dirname(__FILE__)) . '/';
 
 	ob_start();
 	include $BASE . '/lib/resource.php';
@@ -20,7 +20,7 @@ if (isset($_GET['i'])) {
 	 * detail
 	 * */
 	$news = false;
-	$lines = @file("{$BASE}/../data/kagoshima/news.csv");
+	$lines = @file("{$BASE}/../data/aira/news.csv");
 	if (is_array($lines)) {
 		$lines = array_reverse($lines);
 		//•\¦”•ÏX‚Ìê‡‰º‹L
