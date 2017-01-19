@@ -43,7 +43,7 @@ include("../../lib/require.php");
 	</ul>
     <ul class="theatre_list">
 		<li class="theatre_category"><h3>九州地区</h3></li>
-		<li class="theatre_area"><a href="./kagoshima">鹿児島</a></li>
+		<li class="theatre_area"><a href="./aira">姶良</a></li>
 	</ul>
 
 	<?php getSmartFooter(); ?>

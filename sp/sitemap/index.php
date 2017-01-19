@@ -210,15 +210,15 @@ include("../../lib/require.php");
 					</ul>
 				</div>
               <div class="theaterLinkList">
-					<p class="flip"><a href="javascript:toggle14()">鹿児島</a></p>
-					<ul class="linkList" style="display: block; opacity: 1; display:none;" id="close_content14">
-						<li><a href="../theater/kagoshima/">上映スケジュール＆チケット購入</a></li>
-						<li><a href="../theater/kagoshima/news/">ニュース</a></li>
-						<li><a href="../theater/kagoshima/admission/">料金案内</a></li>
-						<li><a href="../theater/kagoshima/advance_ticket/">前売情報</a></li>
-						<li><a href="../theater/kagoshima/concession/">コンセッション</a></li>
-						<li><a href="../theater/kagoshima/floor_guide/">劇場設備＆サービス</a></li>
-						<li><a href="../theater/kagoshima/access/">アクセス</a></li>
+					<p class="flip"><a href="javascript:toggle15()">姶良</a></p>
+					<ul class="linkList" style="display: block; opacity: 1; display:none;" id="close_content15">
+						<li><a href="../theater/aira/">上映スケジュール＆チケット購入</a></li>
+						<li><a href="../theater/aira/news/">ニュース</a></li>
+						<li><a href="../theater/aira/admission/">料金案内</a></li>
+						<li><a href="../theater/aira/advance_ticket/">前売情報</a></li>
+						<li><a href="../theater/aira/concession/">コンセッション</a></li>
+						<li><a href="../theater/aira/floor_guide/">劇場設備＆サービス</a></li>
+						<li><a href="../theater/aira/access/">アクセス</a></li>
 					</ul>
 				</div>
 			</div>
