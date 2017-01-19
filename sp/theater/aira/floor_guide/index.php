@@ -129,7 +129,7 @@ include("../../../../lib/require.php");
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
 					<tr>
-						<td class="admission_icon" rowspan="2"><a href="../"><img src="../../../images/theater/icon_ebox.gif" width="50" alt="e-box"></a></td>
+						<td class="admission_icon" rowspan="2"><a href="aira"><img src="../../../images/theater/icon_ebox.gif" width="50" alt="e-box"></a></td>
 						<td class="admission_tl_name">e-box</td>
 					</tr>
 					<tr>
