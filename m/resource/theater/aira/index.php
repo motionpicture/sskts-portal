@@ -17,7 +17,7 @@ ob_end_clean();
  * news
  * */
 $newsList = array();
-$lines = @file("{$BASE}/../data/kagoshima/news.csv");
+$lines = @file("{$BASE}/../data/aira/news.csv");
 if (is_array($lines)) {
     $lines = array_reverse($lines);
     //表示数変更の場合下記
@@ -42,7 +42,7 @@ $template = str_replace('{$newsList}', $html, $template);
  * detail
  * */
 $news = false;
-$lines = @file("{$BASE}/../data/kagoshima/advance.csv");
+$lines = @file("{$BASE}/../data/aira/advance.csv");
 if (is_array($lines)) {
 //	$lines = array_reverse($lines);
 //	$lines = array($lines);
