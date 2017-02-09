@@ -11,6 +11,7 @@ theaters_image/campaign/*
 theaters_image/flv/*
 theaters_image/flvimage/*
 theaters_image/movie/*
+theaters_image/news/*
 
 # Mac OS
 *.DS_Store
