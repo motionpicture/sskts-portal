@@ -8,6 +8,7 @@ Web.config
 
 # upload
 theaters_image/campaign/*
+theaters_image/flv/*
 
 # Mac OS
 *.DS_Store
