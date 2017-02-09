@@ -16,6 +16,7 @@ theaters_image/pick/*
 theaters_image/special/*
 theaters_image/special_main_banner/*
 theaters_image/special_side_banner/*
+theaters_image/topimage/*
 
 # Mac OS
 *.DS_Store
