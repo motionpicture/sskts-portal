@@ -6,6 +6,9 @@ env.php
 Web.config
 .user.ini
 
+# upload
+theaters_image/campaign/*
+
 # Mac OS
 *.DS_Store
 
@@ -13,3 +16,6 @@ Web.config
 /nbproject
 .project
 .settings
+
+# git
+!.gitkeep
