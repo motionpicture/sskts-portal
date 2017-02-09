@@ -10,6 +10,7 @@ Web.config
 theaters_image/campaign/*
 theaters_image/flv/*
 theaters_image/flvimage/*
+theaters_image/movie/*
 
 # Mac OS
 *.DS_Store
