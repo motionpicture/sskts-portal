@@ -12,6 +12,7 @@ theaters_image/flv/*
 theaters_image/flvimage/*
 theaters_image/movie/*
 theaters_image/news/*
+theaters_image/pick/*
 
 # Mac OS
 *.DS_Store
