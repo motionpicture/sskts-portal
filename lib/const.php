@@ -25,9 +25,6 @@ define('flvimage_picture','/theaters_image/flvimage');
 //TOPページURL
 if (APP_ENV === 'prod') {
     define ("GROBAL_TOP_URL", 'http://www.cinemasunshine.co.jp/');
-} else if (APP_ENV === 'stg') {
-    // define ("GROBAL_TOP_URL", 'http://sasaki.src.master.hook.motionpicture.jp/');
-    define ("GROBAL_TOP_URL", 'http://testsasakiwebapp.azurewebsites.net/');
 } else {
     define ("GROBAL_TOP_URL", 'http://' . $_SERVER["HTTP_HOST"] . '/');
 }

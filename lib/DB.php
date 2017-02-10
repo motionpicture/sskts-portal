@@ -7,15 +7,15 @@ class DB{
 			$dbPass = 'cine_sun_px';
 			$dbName = 'cinema_cms';
 		} else if (APP_ENV === 'stg') {
-			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
-			$dbUser = 'b68a3a830cc797';
-			$dbPass = 'c9e1bde9';
-			$dbName = 'testsasakidb';
+			$dbHost = '';
+			$dbUser = '';
+			$dbPass = '';
+			$dbName = '';
 		} else {
 			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
-			$dbUser = 'b68a3a830cc797';
-			$dbPass = 'c9e1bde9';
-			$dbName = 'testsasakidb';
+			$dbUser = 'bf09d71fd6434a';
+			$dbPass = 'd8a6129b';
+			$dbName = 'devssktsportal';
 		}
 
         $this->db = mysqli_connect($dbHost, $dbUser, $dbPass);

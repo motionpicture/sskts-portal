@@ -20,10 +20,10 @@ class DATABASE_CONFIG {
     var $stg = array(
 		'datasource' => 'AzureMysql',
 		'persistent' => false,
-		'host' => 'ja-cdbr-azure-east-a.cloudapp.net',
-		'login' => 'b68a3a830cc797',
-		'password' => 'c9e1bde9',
-		'database' => 'testsasakidb',
+		'host' => '',
+		'login' => '',
+		'password' => '',
+		'database' => '',
 		'encoding' => 'utf8',
         'time_zone' => '+09:00',
 	);
@@ -32,9 +32,9 @@ class DATABASE_CONFIG {
         'datasource' => 'AzureMysql',
 		'persistent' => false,
 		'host' => 'ja-cdbr-azure-east-a.cloudapp.net',
-		'login' => 'b68a3a830cc797',
-		'password' => 'c9e1bde9',
-		'database' => 'testsasakidb',
+		'login' => 'bf09d71fd6434a',
+		'password' => 'd8a6129b',
+		'database' => 'devssktsportal',
 		'encoding' => 'utf8',
         'time_zone' => '+09:00',
 	);
