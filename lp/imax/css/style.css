@@ -149,7 +149,7 @@ body{
 }
 
 .lineup{
-    margin: 0 50px 80px;
+    margin: 0 50px 60px;
  }
 
  .lineup h2{
@@ -163,6 +163,7 @@ body{
 
 .lineup li{
     overflow: hidden;
+    margin-bottom: 60px;
 }
 
 .lineup li h3{
