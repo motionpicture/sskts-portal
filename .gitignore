@@ -7,17 +7,17 @@ Web.config
 .user.ini
 
 # upload
-theaters_image/campaign/*
-theaters_image/flv/*
-theaters_image/flvimage/*
-theaters_image/movie/*
-theaters_image/news/*
-theaters_image/pick/*
-theaters_image/special/*
-theaters_image/special_main_banner/*
-theaters_image/special_side_banner/*
-theaters_image/topimage/*
-theaters_image/topslider/*
+/theaters_image/campaign/*
+/theaters_image/flv/*
+/theaters_image/flvimage/*
+/theaters_image/movie/*
+/theaters_image/news/*
+/theaters_image/pick/*
+/theaters_image/special/*
+/theaters_image/special_main_banner/*
+/theaters_image/special_side_banner/*
+/theaters_image/topimage/*
+/theaters_image/topslider/*
 
 # cakephp
 !empty
