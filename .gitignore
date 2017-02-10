@@ -19,6 +19,11 @@ theaters_image/special_side_banner/*
 theaters_image/topimage/*
 theaters_image/topslider/*
 
+# KCFinder
+# .htaccessはもともと含まれるので残しておく
+!/cine_cms/uploads/.htaccess
+/cine_cms/uploads/*
+
 # Mac OS
 *.DS_Store
 
