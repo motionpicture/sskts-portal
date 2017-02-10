@@ -1,1 +1,0 @@
-2012-08-08 16:33:36 : {:error} (2): is_file() [<a href='http://php.net/function.is-file'>function.is-file</a>]: open_basedir restriction in effect. File(/users/lists) is not within the allowed path(s): (/var/www/vhosts/cinemasunshine.co.jp/httpdocs:/tmp) in [/var/www/vhosts/cinemasunshine.co.jp/httpdocs/cine_cms/cake/libs/view/view.php, line 860]

@@ -19,6 +19,15 @@ theaters_image/special_side_banner/*
 theaters_image/topimage/*
 theaters_image/topslider/*
 
+# cakephp
+!empty
+/cine_cms/app/tmp/cache/models/*
+/cine_cms/app/tmp/cache/persistent/*
+/cine_cms/app/tmp/cache/views/*
+/cine_cms/app/tmp/logs/*
+/cine_cms/app/tmp/sessions/*
+/cine_cms/app/tmp/tests/*
+
 # KCFinder
 # .htaccessはもともと含まれるので残しておく
 !/cine_cms/uploads/.htaccess
