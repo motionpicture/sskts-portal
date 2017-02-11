@@ -712,7 +712,7 @@ if($arr["side_flag"] == 0){
 	$html .= "</ul>";
 	$html .= "</div>";
     $html .= "<div class='Box clearfix'>";
-	$html .= "<div class='kind'><p><img src='$define[Images_URL]common/theater_chugoku_shikoku.gif' alt='中国・四国'></p></div>"; // TODO:九州
+	$html .= "<div class='kind'><p><img src='$define[Images_URL]common/theater_kyushu.gif' alt='九州'></p></div>";
 	$html .= "<ul>";
 	$html .= "<li><a href='$define[Theater_URL]aira/'>姶良</a></li>";
 	$html .= "</ul>";

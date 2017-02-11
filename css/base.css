@@ -234,7 +234,7 @@ a:hover{
 .whiteCanvas.aprilArea{
 	text-align:center;
 	margin:0 0 30px;
-	
+
 	}
 .aprilAreaTxt{
 	color:#505050;
@@ -244,12 +244,12 @@ a:hover{
 	text-align:center;
 	width:277px;
 	margin:10px auto 0;
-	
+
 	}
 
 #aprilArea h2.headlineImg{
 	margin:30px 0 20px;
-	}	
+	}
 
 /* container */
 #container{
@@ -324,7 +324,7 @@ a:hover{
 #container #contents #mainColumn .leftColumn .theaterArea{
 	background:url("../images/common/bg_theaterList.jpg") no-repeat;
 	width:630px;
-	height:288px;
+	height:332px;
 }
 
 #container #contents #mainColumn .leftColumn .theaterArea .theaterLinkBox{
@@ -1220,7 +1220,7 @@ a:hover{
 #container #contents #mainColumn .rightColumn .theaterListArea{
 	background:url("../images/common/bg_miniTheater.jpg") no-repeat left;
 	width:258px;
-	height:284px;
+	height:333px;
 	margin:0 auto 20px;
 }
 
