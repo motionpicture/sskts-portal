@@ -15,8 +15,11 @@ define('campaign_picture','/theaters_image/campaign');
 //Top image
 define('topimage_picture','/theaters_image/topimage');
 
-//flv
+// flv（ローカル）
 define('flv_picture','/theaters_image/flv');
+
+// flv（動画サーバ）
+define('FLV_PATH', 'http://160.16.87.153/' . APP_ENV . '/flv');
 
 //flv image
 define('flvimage_picture','/theaters_image/flvimage');

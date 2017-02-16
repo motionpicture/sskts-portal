@@ -860,7 +860,7 @@ EOL;
 
         $width = 256;
         $height = 166;
-        $flv =  GROBAL_TOP_URL . substr(flv_picture, 1) . '/' . $trailer['trailer_path'];
+        $flv =  FLV_PATH . '/' . $trailer['trailer_path'];
         $swfParams = array(
             'flv'             => $flv,
             'width'           => $width,
