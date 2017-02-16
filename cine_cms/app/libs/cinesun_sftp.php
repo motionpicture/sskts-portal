@@ -80,7 +80,6 @@ class CinesunSftp
      */
     public function remove($name)
     {
-        exit('TODO');
         $curl = curl_copy_handle($this->curl);
 
         $host = Configure::read('SFTP.host');

@@ -171,6 +171,17 @@ class TrailersController extends AppController {
 					$uploadfileflv = flv_picture.DS.basename($this->data['Trailer']['trailer_path']);
 					unlink($uploadfileflv);
 
+                    App::import('lib', 'cinesun_sftp');
+                    $sftp = new CinesunSftp();
+
+                    try {
+                        // 別サーバのファイルを削除
+                        $sftp->remove(basename($uploadfileflv));
+                    } catch (RuntimeException $e) {
+                        $this->log($e->getMessage());
+                    }
+
+
 					$this->Session->setFlash(__('Trailer ID ['.$this->data['Trailer']['id'].']が削除されました。', true));
 					$this->redirect(array('action' => 'search'));
 				}
