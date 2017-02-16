@@ -852,44 +852,49 @@ function getTrailer() {
 		</div>
 EOL;
 	} else {
+		$trailerList = getTrailerList($theaterId);
+
+        // ランダムに１つを抽出
+        $randKey = array_rand($trailerList);
+        $trailer = $trailerList[$randKey];
+
+        $width = 256;
+        $height = 166;
+        $flv =  GROBAL_TOP_URL . substr(flv_picture, 1) . '/' . $trailer['trailer_path'];
+        $swfParams = array(
+            'flv'             => $flv,
+            'width'           => $width,
+            'height'          => $height,
+            'loop'            => '1',
+            'autoplay'        => '1',
+            'autoload'        => '1',
+            'volume'          => 0,
+            'margin'          => 0,
+            'showvolume'      => '1',
+            'showplayer'      => 'always',
+            'playercolor'     => 'eaeaea',
+            'loadingcolor'    => '888888',
+            'buttoncolor'     => '868686',
+            'buttonovercolor' => '888888',
+            'slidercolor1'    => '868686',
+            'slidercolor2'    => '868686',
+            'sliderovercolor' => '868686',
+        );
+        $flashVars = http_build_query($swfParams, '', '&amp;');
+        $bunnerPath = flvimage_picture . '/'. $trailer['pic_path'];
+        $bunnerUrl = $trailer['url'];
+
+        /**
+         * @link http://flv-player.net/players/maxi/
+         */
 		$html = <<<EOL
-		<script language="javascript">
-			if (AC_FL_RunContent == 0) {
-				alert("このページでは \"AC_RunActiveContent.js\" が必要です。");
-			} else {
-				AC_FL_RunContent(
-					'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
-					'width', '256',
-					'height', '230',
-					'src', '{$define["GROBAL_TOP_URL"]}flv_player',
-					'quality', 'high',
-					'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
-					'align', 'middle',
-					'play', 'true',
-					'loop', 'true',
-					'scale', 'showall',
-					'wmode', 'transparent',
-					'devicefont', 'false',
-					'id', 'flv_player',
-					'bgcolor', '#ffffff',
-					'name', 'flv_player',
-					'menu', 'true',
-					'allowFullScreen', 'false',
-					'allowScriptAccess','sameDomain',
-					'movie', '{$define["GROBAL_TOP_URL"]}flv_player',
-					'FlashVars', 'theater={$theaterId}',
-					'salign', ''
-					); //end AC code
-			}
-		</script>
-		<noscript>
-			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="256" height="230" id="flv_player" align="middle">
-			<param name="allowScriptAccess" value="sameDomain" />
-			<param name="allowFullScreen" value="false" />
-			<param name="movie" value="flv_player.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="flv_player.swf" quality="high" bgcolor="#ffffff" width="300" height="243" name="flv_player" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-			<param name="wmode" value="transparent" />
-			</object>
-		</noscript>
+		<object type="application/x-shockwave-flash" data="/player_flv_maxi.swf" width="$width" height="$height">
+            <param name="movie" value="/player_flv_maxi.swf" />
+            <param name="allowFullScreen" value="true" />
+            <param name="FlashVars" value="$flashVars" />
+        </object>
+
+        <a href="$bunnerUrl" target="_blank"><img src="$bunnerPath" width="$width" /><a/>
 EOL;
 	}
 
