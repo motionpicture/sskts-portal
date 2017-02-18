@@ -8,8 +8,8 @@
 $baseDir = '/var/www/cinemasunshine';
 
 if (APP_ENV === 'prod') {
-    $user = '';
-    $keyPassphrase = '';
+    $user = 'cinesun';
+    $keyPassphrase = 'QgSeM7mQ4krZPIohDU';
     $baseDir .= '/prod';
 } else if (APP_ENV === 'stg') {
     $user = '';
