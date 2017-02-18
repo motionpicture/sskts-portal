@@ -5,7 +5,6 @@ m_test/
 env.php
 .user.ini
 /Web.config
-/cine_cms/Web.config
 
 # upload
 /theaters_image/campaign/*
