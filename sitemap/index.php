@@ -211,19 +211,6 @@ include("../lib/require.php");
 												<li><a href="../theater/kitajima/access/">アクセス</a></li>
 											</ul>
 										</div>
-
-                                        <div class="theaterLinkList">
-											<p class="flip">鹿児島</p>
-											<ul class="linkList">
-												<li><a href="../theater/kagoshima/">上映スケジュール＆チケット購入</a></li>
-												<li><a href="../theater/kagoshima/news/">ニュース</a></li>
-												<li><a href="../theater/kagoshima/admission/">料金案内</a></li>
-												<li><a href="../theater/kagoshima/advance_ticket/">前売情報</a></li>
-												<li><a href="../theater/kagoshima/concession/">コンセッション</a></li>
-												<li><a href="../theater/kagoshima/floor_guide/">劇場設備＆サービス</a></li>
-												<li><a href="../theater/kagoshima/access/">アクセス</a></li>
-											</ul>
-										</div>
 									</div>
 
 									<h3 class="borderHeadline">会社情報</h3>
