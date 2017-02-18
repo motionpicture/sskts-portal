@@ -31,8 +31,7 @@ $theater = $arr["ename"];
 				});
 
 			makeBlock();
-            <?php // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携 ?>
-			//getJson('<?php echo $theater?>','<?php
+			getJson('<?php echo $theater?>','<?php
 
 			if ($_GET['pre']) {
 				$value = reset(getDates2($theater,true));
@@ -54,8 +53,8 @@ $theater = $arr["ename"];
 
 					$(this).removeClass("notAvailable");
 					makeBlock();
-                    <?php // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携 ?>
-					//getJson('<?php echo $theater?>',class_name);
+					getJson('<?php echo $theater?>',class_name);
+					//  console.log(class_name);
 				});
 
 		});
@@ -112,9 +111,8 @@ $theater = $arr["ename"];
 												echo $open['open_txt'];
 											?>
 									</p>
-                                    <?php // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携 ?>
-									<!--<p class="exception"> <a rel="popup" title="アイコン説明" data-fancybox-group="popup" href="../../images/common/fig_pop.jpg"  class="fancybox"><img src="../../images/common/btn_icon.gif"
-												alt="アイコンの詳しい説明はこちら"> </a> </p>-->
+									<p class="exception"> <a rel="popup" title="アイコン説明" data-fancybox-group="popup" href="../../images/common/fig_pop.jpg"  class="fancybox"><img src="../../images/common/btn_icon.gif"
+												alt="アイコンの詳しい説明はこちら"> </a> </p>
 									<?php
 										$isPreExistCode = getDates2($theater,true,true);
 										if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
@@ -198,8 +196,7 @@ if (count($dates) <7) {
 //foreach()
 
 ?>
-                                <?php // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携 ?>
-								<!--<div class="dayListBox">
+								<div class="dayListBox">
 									<div id="cal_left"></div>
 									<ul>
 										<?php
@@ -258,9 +255,8 @@ if (count($dates) <7) {
 ?>
 									</ul>
 									<div id="cal_right"> </div>
-								</div>-->
-                                <?php // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携 ?>
-								<!--<div class="movieListBox"> </div>-->
+								</div>
+								<div class="movieListBox"> </div>
 								<div class="notesBox">
 									<p class="start"></p>
 								</div>
