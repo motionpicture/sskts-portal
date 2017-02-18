@@ -154,7 +154,7 @@ include("../lib/require.php");
                                     <h3 class="borderHeadline">九州地区</h3>
                                     <ul class="theaterListArea clearfix">
 										<li class="clearfix">
-											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./aira" >シネマサンシャイン姶良</a></p>
+											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./kagoshima" >シネマサンシャイン鹿児島</a></p>
 											<p class="theaterPracce">鹿児島県</p>
 											<p class="theaterService">
 											</p>

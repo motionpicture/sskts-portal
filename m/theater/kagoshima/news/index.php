@@ -7,7 +7,7 @@
  */
 
 $BASE = dirname(dirname(dirname(dirname(__FILE__))));
-$resourcePath = $BASE . '/resource/theater/aira/' . basename(dirname(__FILE__)) . '/';
+$resourcePath = $BASE . '/resource/theater/kagoshima/' . basename(dirname(__FILE__)) . '/';
 ob_start();
 include $BASE . '/lib/resource.php';
 $template = ob_get_contents();
@@ -18,7 +18,7 @@ ob_end_clean();
  * public_news
  * */
 $newsList = array();
-$lines = @file("{$BASE}/../data/aira/news.csv");
+$lines = @file("{$BASE}/../data/kagoshima/news.csv");
 if (is_array($lines)) {
 	$lines = array_reverse($lines);
 	//•\¦”•ÏX‚Ìê‡‰º‹L

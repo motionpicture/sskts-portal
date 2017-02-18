@@ -90,7 +90,7 @@ class ConfirmsController extends AppController {
 		        'エミフルMASAKI',
 		        '大洲',
 		        '北島',
-                '姶良',
+                '鹿児島',
 		);
 
 		$this->set('trailer',$trailer);

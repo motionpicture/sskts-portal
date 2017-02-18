@@ -103,7 +103,7 @@ include("../../../lib/require.php");
 									<h3 class="lightBlueTitle bottomLine">シネマサンシャイン池袋の劇場サービス</h3>
 									<div class="floorArea end">
 										<div class="floorBox clearfix">
-											<div class="left"><a href="aira"><img src="../../../images/common/ebox_bnr_pc.gif"  alt="e-box" ></a></div>
+											<div class="left"><a href="../"><img src="../../../images/common/ebox_bnr_pc.gif"  alt="e-box" ></a></div>
 											<div class="right">
 												<p class="subTitle" >e-box</p>
 												<p class="txt" >
