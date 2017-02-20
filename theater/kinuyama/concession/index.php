@@ -91,6 +91,10 @@ include("../../../lib/require.php");
 									<td class="menuName"><p class="optionText">ココア</p></td>
 									<td class="menuprice" ><p>350円</p></td>
 								</tr>
+								<tr>
+									<td class="menuName"><p class="optionText">抹茶オレ</p></td>
+									<td class="menuprice" ><p>320円</p></td>
+								</tr>
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
@@ -101,6 +105,10 @@ include("../../../lib/require.php");
 								<tr>
 									<td class="menuName"><p class="optionText">ココア</p></td>
 									<td class="menuprice" ><p>350円</p></td>
+								</tr>
+								<tr>
+									<td class="menuName"><p class="optionText">抹茶オレ</p></td>
+									<td class="menuprice" ><p>320円</p></td>
 								</tr>
                                 <tr>
 									<td class="menuName"><p class="optionText">紅茶</p></td>
@@ -142,25 +150,7 @@ include("../../../lib/require.php");
 								<tr class="line">
 									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 								</tr>
-							</table>
-							<h3 class="lightBlueTitle">アイスクリーム</h3>
-							<table class="menuTable">
-								<tr class="line">
-									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-								</tr>
-								<tr>
-									<td class="menuName"><p class="Name">ソフトアイス</p></td>
-									<td class="menuprice" ></td>
-								</tr>
-								<tr>
-									<td class="menuName"><p class="optionText">バニラ/クッキー＆クリーム</p></td>
-									<td class="menuprice" ><p>350円</p></td>
-								</tr>
-						
-								<tr class="line">
-									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-								</tr>
-							</table>
+							</table>					
 							<h3 class="lightBlueTitle">定番フード</h3>
 							<table class="menuTable">
 								<tr class="line">
@@ -209,6 +199,31 @@ include("../../../lib/require.php");
 								</tr>
                                 <tr>
 									<td class="menuName"><p>アメリカンドッグ</p></td>
+									<td class="menuprice" ><p>300円</p></td>
+								</tr>
+								<tr class="line">
+									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+								</tr>
+								<tr>
+									<td class="menuName"><p>バゲットサンド</p></td>
+									<td class="menuprice" ><p>630円</p></td>
+								</tr>
+								<tr class="line">
+									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+								</tr>
+									<tr>
+									<td class="menuName"><p class="Name">ベルギーワッフル</p></td>
+									<td class="menuprice" ></td>
+								</tr>
+								<tr>
+									<td class="menuName"><p class="optionText">（メープル・バター・チョコ）</p></td>
+									<td class="menuprice" ><p>450円</p></td>
+								</tr>
+								<tr class="line">
+									<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+								</tr>
+								<tr>
+									<td class="menuName"><p>ソフトプレッツェルドック</p></td>
 									<td class="menuprice" ><p>300円</p></td>
 								</tr>
 								<tr class="line">
