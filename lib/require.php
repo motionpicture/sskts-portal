@@ -11,4 +11,8 @@ require_once($include_dir."/create.php");
 require_once($include_dir."/createSmart.php");
 require_once($include_dir."/getJsonSp.php");
 require_once($include_dir."/getSpecialSite.php");
+
+require_once $include_dir . '/cache.php';
+
+require_once dirname(__DIR__) . '/vendor/autoload.php';
 ?>

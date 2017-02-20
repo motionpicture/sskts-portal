@@ -2,6 +2,9 @@
 include dirname(__FILE__) . '../../env.php';
 define('APP_ENV', $env);
 
+// cache dir
+define('CACHE_DIR', realpath(dirname(__DIR__) . '/cache'));
+
 //movie img 格納 local
 define('movie_picture','/theaters_image/movie');
 
