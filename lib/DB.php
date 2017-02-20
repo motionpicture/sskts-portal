@@ -1,11 +1,14 @@
 <?php
+require_once 'const.php';
+
 class DB{
 	function DB() {
 		if (APP_ENV === 'prod') {
-			$dbHost = 'localhost';
-			$dbUser = 'cinesun_cms';
-			$dbPass = 'cine_sun_px';
-			$dbName = 'cinema_cms';
+            // TODO:本番Azure設定
+			$dbHost = '';
+			$dbUser = '';
+			$dbPass = '';
+			$dbName = '';
 		} else if (APP_ENV === 'stg') {
 			$dbHost = '';
 			$dbUser = '';
