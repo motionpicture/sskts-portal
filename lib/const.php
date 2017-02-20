@@ -26,11 +26,7 @@ define('flvimage_picture','/theaters_image/flvimage');
 
 
 //TOPページURL
-if (APP_ENV === 'prod') {
-    define ("GROBAL_TOP_URL", 'http://www.cinemasunshine.co.jp/');
-} else {
-    define ("GROBAL_TOP_URL", 'http://' . $_SERVER["HTTP_HOST"] . '/');
-}
+define ("GROBAL_TOP_URL", 'http://' . $_SERVER["HTTP_HOST"] . '/');
 
 //スマートフォンのTOPページURL
 define ("GROBAL_SP_TOP_URL", GROBAL_TOP_URL . 'sp/');
