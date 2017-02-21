@@ -63,7 +63,7 @@ function targetTheater($theater) {
     $cacheKeyPrefix = '';
 
 	if (isset($_GET['pre']) && $_GET['pre']) {
-        $cacheKeyPrefix = 'pre_schedule';
+        $cacheKeyPrefix = 'pre_schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
@@ -81,7 +81,7 @@ function targetTheater($theater) {
 		);
 
 	} else {
-        $cacheKeyPrefix = 'schedule';
+        $cacheKeyPrefix = 'schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
@@ -106,7 +106,7 @@ function targetTheater($theater) {
 	}
 
     $url = $theaterUrls[$theater];
-    $cacheKey = $cacheKeyPrefix . '_' . $theater;
+    $cacheKey = $cacheKeyPrefix . $theater;
     $cache = new CinesunCache();
 
     if ($cache->isHit($cacheKey)) {
@@ -128,7 +128,7 @@ function targetTheater($theater) {
             return false;
         } else {
             // エラーが無い場合キャッシュ
-            $cache->save($cacheKey, $data, 30);
+            $cache->save($cacheKey, $data, CACHE_LIFETIME);
         }
     }
 
