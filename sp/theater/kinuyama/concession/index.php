@@ -145,8 +145,12 @@ include("../../../../lib/require.php");
 						<td colspan="2" class="admission_tl regulation04">アイス</td>
 					</tr>
                     <tr>
-						<td class="admission_tl regulation03"><span class="notice">ココア</span></td>
-						<td class="admission_tr regulation03">350円</td>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">ココア</span></td>
+						<td class="admission_tr regulation03 regulation04">350円</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03"><span class="notice">抹茶オレ</span></td>
+						<td class="admission_tr regulation03">320円</td>
 					</tr>
                     <tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -158,6 +162,10 @@ include("../../../../lib/require.php");
                     <tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">ココア</span></td>
 						<td class="admission_tr regulation03 regulation04">350円</td>
+					</tr>
+					 <tr>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">抹茶オレ</span></td>
+						<td class="admission_tr regulation03 regulation04">320円</td>
 					</tr>
 					<tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">紅茶</span></td>
@@ -217,36 +225,7 @@ include("../../../../lib/require.php");
 		</div>
 		<!-- table end -->
 
-		<!-- table -->
-		<table cellpadding="0" cellspacing="0" class="theater_u">
-			<thead>
-				<tr>
-					<th colspan="2" class="table_line_01"></th>
-				</tr>
-			</thead>
-		</table>
-		<table cellpadding="0" cellspacing="0" class="theater_t">
-			<tbody>
-				<tr class="first-child">
-					<td colspan="2" class="table_top_01">アイスクリーム</td>
-				</tr>
-			</tbody>
-		</table>
-
-		<div class="table_wrapper regulation02">
-			<table cellpadding="0" cellspacing="0" class="theater_u">
-				<tbody>
-					<tr>
-						<td colspan="2" class="admission_tl regulation04">ソフトアイス</td>
-					</tr>
-					<tr>
-						<td class="admission_tl regulation03 regulation04"><span class="notice">バニラ/クッキー&amp;クリーム</span></td>
-						<td class="admission_tr regulation03 regulation04">350円</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<!-- table end -->
+		
 
 		<!-- table -->
 		<table cellpadding="0" cellspacing="0" class="theater_u">
@@ -328,6 +307,27 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="admission_tl">アメリカンドッグ<br>
+						<td class="admission_tr">300円</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+					<tr>
+						<td class="admission_tl">バゲットサンド<br>
+						<td class="admission_tr">630円</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="admission_tl regulation04">ベルギーワッフル</td>
+					</tr>
+					<tr>
+						<td class="admission_tl regulation03 regulation04"><span class="notice">（メープル・バター・チョコ）</span></td>
+						<td class="admission_tr regulation03 regulation04">450円</td>
+					</tr>
+					<tr>
+						<td class="admission_tl">ソフトプレッツェルドック<br>
 						<td class="admission_tr">300円</td>
 					</tr>
 				</tbody>
