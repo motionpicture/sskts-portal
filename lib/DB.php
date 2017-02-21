@@ -4,11 +4,10 @@ require_once 'const.php';
 class DB{
 	function DB() {
 		if (APP_ENV === 'prod') {
-            // TODO:本番Azure設定
-			$dbHost = '';
-			$dbUser = '';
-			$dbPass = '';
-			$dbName = '';
+			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
+			$dbUser = 'b6329db364f668';
+			$dbPass = '89c47454470eaac';
+			$dbName = 'prodssktsportal';
 		} else if (APP_ENV === 'stg') {
 			$dbHost = '';
 			$dbUser = '';

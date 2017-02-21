@@ -6,10 +6,10 @@ class DATABASE_CONFIG {
     var $prod = array(
 		'datasource' => 'AzureMysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'cinesun_cms',
-		'password' => 'cine_sun_px',
-		'database' => 'cinema_cms',
+		'host' => 'ja-cdbr-azure-east-a.cloudapp.net',
+		'login' => 'b6329db364f668',
+		'password' => '89c47454470eaac',
+		'database' => 'prodssktsportal',
 		'encoding' => 'utf8',
         'time_zone' => '+09:00',
 	);
