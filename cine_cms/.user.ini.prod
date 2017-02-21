@@ -1,0 +1,4 @@
+[Core]
+post_max_size = 26214400
+upload_max_filesize = 26214400
+php_value error_log = "D:\home\site\wwwroot\cine_cms\app\webroot\log\error.log"

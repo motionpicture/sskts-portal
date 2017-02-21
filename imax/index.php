@@ -107,7 +107,6 @@ include("../lib/require.php");
 						<li class="open"><a href="./theater/#price_infomation">鑑賞料金</a></li>
 					</ul>
 				</li>
-				<li class="tittle"><a href="./blog/"><img src="./images/common/navi5.gif" width="148" height="37" alt="オフシャルブログ"></a></li>
 			</ul>
 			</div>
 		</div>

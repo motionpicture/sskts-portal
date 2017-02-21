@@ -1,6 +1,9 @@
 <?php
+require dirname(dirname(dirname(dirname(__FILE__)))).DS.'env.php';
+define('APP_ENV', $env);
+
 //シネマサンシャインドメイン
-define('sunshine_domain','http://www.cinemasunshine.co.jp/');
+define('sunshine_domain', 'http://' . $_SERVER["HTTP_HOST"] . '/');
 
 //本部
 define('honbu','honbu');
@@ -29,38 +32,41 @@ define('flv_picture','C:'.DS.'phproot'.DS.'htdocs2'.DS.'theaters_image'.DS.'flv'
 define('flvimage_picture','C:'.DS.'phproot'.DS.'htdocs2'.DS.'theaters_image'.DS.'flvimage');
 
 */
+
+$pictureBaseDir = dirname(dirname(dirname(dirname(__FILE__)))).DS.'theaters_image';
+
 //movie img 格納 local
-define('movie_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/movie');
+define('movie_picture', $pictureBaseDir.DS.'movie');
 
 //NEWSのピクチャー
-define('news_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/news');
+define('news_picture', $pictureBaseDir.DS.'news');
 
 //作品紹介
-define('special_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/special');
+define('special_picture', $pictureBaseDir.DS.'special');
 
 //特設サイトのメインバナー
-define('special_main_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/special_main_banner');
+define('special_main_picture', $pictureBaseDir.DS.'special_main_banner');
 
 //特設サイトのサイドバナー
-define('special_side_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/special_side_banner');
+define('special_side_picture', $pictureBaseDir.DS.'special_side_banner');
 
 //ピックアップ
-define('pick_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/pick');
+define('pick_picture', $pictureBaseDir.DS.'pick');
 
 //campaignのピクチャー
-define('campaign_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/campaign');
+define('campaign_picture', $pictureBaseDir.DS.'campaign');
 
 //Top image
-define('topimage_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/topimage');
+define('topimage_picture', $pictureBaseDir.DS.'topimage');
 
 //Top slider
-define('topslider_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/topslider');
+define('topslider_picture', $pictureBaseDir.DS.'topslider');
 
 //flv
-define('flv_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/flv');
+define('flv_picture', $pictureBaseDir.DS.'flv');
 
 //flv image
-define('flvimage_picture','/var/www/vhosts/cinemasunshine.co.jp/httpdocs/theaters_image/flvimage');
+define('flvimage_picture', $pictureBaseDir.DS.'flvimage');
 
 ?>
 

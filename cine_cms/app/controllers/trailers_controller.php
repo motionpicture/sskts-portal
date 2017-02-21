@@ -89,16 +89,26 @@ class TrailersController extends AppController {
 
 					if (move_uploaded_file($this->data['Trailer']['trailer_path']['tmp_name'], $uploadfileflv)){
 						chmod($uploadfile, 0666);
-
-						// DBにレコード登録
-						$this->data['Trailer']['trailer_path'] = $this->data['Trailer']['trailer_path']['name'];
-
 					} else {
 						//失敗
 						$this->Trailer->invalidate("trailer_path","ファイルのアップロードに失敗しました。");
 
 					}
 
+                    App::import('lib', 'cinesun_sftp');
+                    $sftp = new CinesunSftp();
+
+                    try {
+                        // 別サーバにアップロード
+                        $sftp->upload($uploadfileflv, basename($uploadfileflv));
+
+                        // DBにレコード登録
+						$this->data['Trailer']['trailer_path'] = $this->data['Trailer']['trailer_path']['name'];
+
+                    } catch (RuntimeException $e) {
+                        $this->log($e->getMessage());
+                        $this->Trailer->invalidate("trailer_path","ファイルのアップロードに失敗しました。");
+                    }
 				}
 
 			} else {
@@ -160,6 +170,17 @@ class TrailersController extends AppController {
 
 					$uploadfileflv = flv_picture.DS.basename($this->data['Trailer']['trailer_path']);
 					unlink($uploadfileflv);
+
+                    App::import('lib', 'cinesun_sftp');
+                    $sftp = new CinesunSftp();
+
+                    try {
+                        // 別サーバのファイルを削除
+                        $sftp->remove(basename($uploadfileflv));
+                    } catch (RuntimeException $e) {
+                        $this->log($e->getMessage());
+                    }
+
 
 					$this->Session->setFlash(__('Trailer ID ['.$this->data['Trailer']['id'].']が削除されました。', true));
 					$this->redirect(array('action' => 'search'));
@@ -234,14 +255,26 @@ class TrailersController extends AppController {
 					if (move_uploaded_file($this->data['Trailer']['trailer_path']['tmp_name'], $uploadfileflv)){
 						chmod($uploadfileflv, 0666);
 
-						// DBにレコード登録
-						$this->data['Trailer']['trailer_path'] = $this->data['Trailer']['trailer_path']['name'];
-
 					} else {
 						//失敗
 						$this->Trailer->invalidate("trailer_path","ファイルのアップロードに失敗しました。");
 
 					}
+
+                    App::import('lib', 'cinesun_sftp');
+                    $sftp = new CinesunSftp();
+
+                    try {
+                        // 別サーバにアップロード
+                        $sftp->upload($uploadfileflv, basename($uploadfileflv));
+
+                        // DBにレコード登録
+						$this->data['Trailer']['trailer_path'] = $this->data['Trailer']['trailer_path']['name'];
+
+                    } catch (RuntimeException $e) {
+                        $this->log($e->getMessage());
+                        $this->Trailer->invalidate("trailer_path","ファイルのアップロードに失敗しました。");
+                    }
 
 				}
 

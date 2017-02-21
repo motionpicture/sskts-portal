@@ -51,4 +51,10 @@ config('const');
  * Inflector::rules('plural', array('rules' => array(), 'irregular' => array(), 'uninflected' => array()));
  *
  */
+
+/**
+ * load config
+ */
+Configure::load('sftp');
+
 ?>

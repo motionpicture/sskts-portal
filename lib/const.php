@@ -1,5 +1,6 @@
 <?php
 include dirname(__FILE__) . '../../env.php';
+define('APP_ENV', $env);
 
 //movie img 格納 local
 define('movie_picture','/theaters_image/movie');
@@ -14,22 +15,18 @@ define('campaign_picture','/theaters_image/campaign');
 //Top image
 define('topimage_picture','/theaters_image/topimage');
 
-//flv
+// flv（ローカル）
 define('flv_picture','/theaters_image/flv');
+
+// flv（動画サーバ）
+define('FLV_PATH', 'http://160.16.87.153/' . APP_ENV . '/flv');
 
 //flv image
 define('flvimage_picture','/theaters_image/flvimage');
 
 
 //TOPページURL
-if ($env === 'prod') {
-    define ("GROBAL_TOP_URL", 'http://www.cinemasunshine.co.jp/');
-} else if ($env === 'test') {
-    // define ("GROBAL_TOP_URL", 'http://sasaki.src.master.hook.motionpicture.jp/');
-    define ("GROBAL_TOP_URL", 'http://testsasakiwebapp.azurewebsites.net/');
-} else {
-    define ("GROBAL_TOP_URL", 'http://sasaki.localhost:8080/');
-}
+define ("GROBAL_TOP_URL", 'http://' . $_SERVER["HTTP_HOST"] . '/');
 
 //スマートフォンのTOPページURL
 define ("GROBAL_SP_TOP_URL", GROBAL_TOP_URL . 'sp/');

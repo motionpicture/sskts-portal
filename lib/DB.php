@@ -1,33 +1,38 @@
 <?php
+require_once 'const.php';
+
 class DB{
 	function DB() {
-		require_once dirname(__FILE__) . '../../env.php';
-
-		if ($env === 'prod') {
-			$dbHost = 'localhost';
-			$dbUser = 'cinesun_cms';
-			$dbPass = 'cine_sun_px';
-			$dbName = 'cinema_cms';
-		} else if ($env === 'test') {
+		if (APP_ENV === 'prod') {
 			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
-			$dbUser = 'b79cdee58d5b03';
-			$dbPass = '375438fb';
-			$dbName = 'testsasakidb';
+			$dbUser = 'b6329db364f668';
+			$dbPass = '89c47454470eaac';
+			$dbName = 'prodssktsportal';
+		} else if (APP_ENV === 'stg') {
+			$dbHost = '';
+			$dbUser = '';
+			$dbPass = '';
+			$dbName = '';
 		} else {
 			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
-			$dbUser = 'b79cdee58d5b03';
-			$dbPass = '375438fb';
-			$dbName = 'testsasakidb';
+			$dbUser = 'bf09d71fd6434a';
+			$dbPass = 'd8a6129b';
+			$dbName = 'devssktsportal';
 		}
- 
-		$this->db = mysql_connect("{$dbHost}", "{$dbUser}", "{$dbPass}");
-		if(!$this->db) exit("Could not connect!");
-		mysql_select_db($dbName, $this->db);
-		mysql_query("set names utf8",$this->db);
+
+        $this->db = mysqli_connect($dbHost, $dbUser, $dbPass);
+
+        if (mysqli_connect_errno() > 0) {
+            exit("Could not connect!");
+        }
+
+        mysqli_select_db($this->db, $dbName);
+        mysqli_query($this->db, 'set names utf8');
+        mysqli_query($this->db, "SET SESSION time_zone = '+09:00';"); // Azure環境対策。Asia/Tokyoは使えず
 	}
 
 	function dbClose() {
-		mysql_close($this->db);
+		mysqli_close($this->db);
 	}
 
 	function startTransaction() {
@@ -87,23 +92,23 @@ class DB{
 	function select($sql) {
 		$data = Array();
 		$result = $this->execSQL($sql);
-		while($row = mysql_fetch_assoc($result)){
+
+		while ($row = mysqli_fetch_assoc($result)){
 			$data[] = $row;
 		}
+
 		return $data;
 	}
 
-
 	//SQL
 	function execSQL($sql) {
-		//print $sql;
-		$result = mysql_query($sql,$this->db);
-		if(!$result) {
+        $result = mysqli_query($this->db, $sql);
+
+		if (!$result) {
 			print $sql . "<BR/>";
-			print mysql_error($this->db) . "\n";
-		} else {
-			echo mysql_error();
+			print mysqli_error($this->db) . "\n";
 		}
+
 		return $result;
 	}
 
@@ -113,11 +118,12 @@ class DB{
 		if (get_magic_quotes_gpc()) {
 			$value = stripslashes($value);
 		}
+
 		//
 		if (!is_numeric($value)) {
-			$value = "'" . mysql_real_escape_string($value) . "'";
+			$value = "'" . mysqli_real_escape_string($value) . "'";
 		}
+
 		return $value;
 	}
 }
-?>
