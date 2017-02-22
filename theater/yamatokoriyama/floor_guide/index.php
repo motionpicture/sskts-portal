@@ -76,9 +76,9 @@ include("../../../lib/require.php");
 											</tr>
 
 											<tr>
-												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/yamatokoriyama/fig6.gif" data-fancybox-group="gallery" title="シネマ6" rel="theater">シネマ6</a></p></td>
-												<td class="middle" valign="middle"><p>75</p></td>
-												<td class="middle" valign="middle"><p>1</p></td>
+												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/yamatokoriyama/fig6_4dx.gif" data-fancybox-group="gallery" title="4DXシアター" rel="theater">4DX<sup>&reg;</sup>シアター</a></p></td>
+												<td class="middle" valign="middle"><p>48</p></td>
+												<td class="middle" valign="middle"><p>-</p></td>
 												<td class="middle" valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W7.1m×3.8m</p></td>
 											</tr>
@@ -106,6 +106,15 @@ include("../../../lib/require.php");
 											</tr>
 
 										</table>
+										
+										<p class="title">4DX<sup>&reg;</sup></p>
+										<div class="floorBox clearfix">
+											<div class="left"><a href="../../../4dx/"><img src="../../../images/common/fig_4dx.jpg"  alt="4DX&reg;" ></a></div>
+											<div class="right">
+												<p class="subTitle" >4DX<sup>&reg;</sup>シアター</p>
+												<p class="txt" >3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの11個の機能により、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</p>
+											</div>
+										</div>
 
 										<p class="title">IMAX</p>
 										<div class="floorBox clearfix">

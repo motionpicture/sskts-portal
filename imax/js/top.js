@@ -13,7 +13,7 @@
         
         $(function(){
             //非表示の場合下の行をコメントアウト
-            var videoId = '7x1uXgKMgY4';
+            var videoId = 'CPCzd49c1fE';
             showVideo(videoId);//ID設定
         });
     }
