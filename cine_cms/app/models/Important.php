@@ -10,8 +10,8 @@ class Important extends AppModel {
 	),
 	'open_txt' => array(
 					'maxLength' => array(
-							'rule' => array('maxLength',1000),
-							'message' => '開館時間は1000文字以内に入力してください。'
+							'rule' => array('maxLength',5000),
+							'message' => '開館時間は5000文字以内に入力してください。'
 	)
 	),
     'reserv_txt' => array(
