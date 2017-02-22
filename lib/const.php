@@ -4,7 +4,7 @@ define('APP_ENV', $env);
 
 
 // cache
-define('CACHE_LIFETIME', 30); // sec
+define('CACHE_LIFETIME', 60 * 5); // sec
 define('CACHE_DIR', realpath(dirname(__DIR__) . '/cache'));
 
 //movie img 格納 local
