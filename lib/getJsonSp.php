@@ -89,24 +89,27 @@ function targetTheater($theater,$pre = null) {
     $url = $theaterUrls[$theater];
     $cacheKey = $cacheKeyPrefix . $theater;
     $cache = new CinesunCache();
+    $data = null;
 
     if ($cache->isHit($cacheKey)) {
         $schedules = @simplexml_load_string($cache->get($cacheKey), 'SimpleXMLElement', LIBXML_NOCDATA);
     } else {
         $data = file_get_contents($url);
         $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+    }
 
-        if(!$schedules) {
-            $result["error"] ="222222";
-        } else if ($schedules->error!= "000000"){
-            //エラーコードの場合
-            $result["error"] ="$schedules->error";
-        } else {
-            $result["error"] ="$schedules->error";
-            $result["attention"] ="$schedules->attention";
-            //var_dump($schedules->schedule);
-            $result["data"] = $schedules->schedule;
+    if(!$schedules) {
+        $result["error"] ="222222";
+    } else if ($schedules->error!= "000000"){
+        //エラーコードの場合
+        $result["error"] ="$schedules->error";
+    } else {
+        $result["error"] ="$schedules->error";
+        $result["attention"] ="$schedules->attention";
+        //var_dump($schedules->schedule);
+        $result["data"] = $schedules->schedule;
 
+        if ($data) {
             // エラーが無い場合キャッシュ
             $cache->save($cacheKey, $data, CACHE_LIFETIME);
         }
