@@ -36,6 +36,16 @@ env.php
 # log（php error_log）
 /cine_cms/app/webroot/log/*
 
+# cache
+/cache/*
+
+# vendor
+/vendor/*
+
+# composer
+composer.phar
+composer.bat
+
 # Mac OS
 *.DS_Store
 
