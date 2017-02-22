@@ -76,6 +76,47 @@ include("../../../../lib/require.php");
 				</tbody>
 			</table>
 		</div>
+		<!--4DX料金-->
+		<table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+				<tr>
+					<th colspan="2" class="table_line_01"></th>
+				</tr>
+			</thead>
+		</table>
+        <table cellpadding="0" cellspacing="0" class="theater_t">
+			<tbody>
+				<tr class="first-child">
+					<td colspan="2" class="table_top_01">4DX<sup>&reg;</sup>鑑賞料金</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="table_wrapper regulation02">
+			<table cellpadding="0" cellspacing="0" class="theater_u">
+				<tbody>
+					<tr>
+						<td class="admission_tl">4DX<sup>&reg;</sup>鑑賞料金：通常料金+1,000円</td>
+					
+					</tr>
+					<tr>
+						<td class="admission_tl"><span class="notice">2D作品の場合<br />
+〈通常料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+3D作品の場合<br />
+〈通常料金〉+〈3D鑑賞料金400円〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+サービスデーの場合<br />
+〈サービスデー料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br />
+<br /><br />
+※身長100cm未満の方、妊娠中の方、ご高齢の方、心臓・背中・腰・首などに障害のある方、特別な疾病のある方、乗り物酔いしやすい方、その他体調に不安のある方などは、４DX®をご利用いただけません。また、身長120cm未満のお子様は保護者の方と一緒にご鑑賞ください。<br />※3Dメガネ（MASTER IMAGE用）はお持ち帰り頂けます。次回鑑賞時にお持ち頂ければ、3D鑑賞料金を100円引き（3D鑑賞料金400円→300円）させて頂きます。</span></td>
+						
+					</tr>
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!--/4DX料金-->
         <!--8.1から-->
         <table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
