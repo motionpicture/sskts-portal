@@ -1,4 +1,4 @@
-<? echo $html->script('ckeditor/ckeditor'); ?>
+<?php echo $html->script('ckeditor/ckeditor'); ?>
 <div id="panku">NEWS ＞ 修正</div>
 
 	<?php echo $this->Form->create('News', array('type'=>'file'));?>

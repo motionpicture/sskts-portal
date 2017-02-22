@@ -1,4 +1,4 @@
-<? echo $html->script('ckeditor/ckeditor'); ?>
+<?php echo $html->script('ckeditor/ckeditor'); ?>
 <div id="panku">前売券情報 ＞ 修正</div>
 	<?php echo $this->Form->create('Maeuri', array('type'=>'file'));?>
 	<?php echo $this->Form->input('id'); ?>

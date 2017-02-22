@@ -1,4 +1,4 @@
-var setTimeOut=5000;
+var setTimeOut=20000; // SSKTS-112
 //time : 区切りに変換
 function getTimeFormat(time) {
 	var a = time.substr(0,2);

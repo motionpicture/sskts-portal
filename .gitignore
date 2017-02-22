@@ -1,9 +1,58 @@
-.project
-.settings
 m_test/magazine/images/btn_3.gif
 m_test/
+
+# env
 env.php
+.user.ini
+/Web.config
+
+# upload
+/theaters_image/campaign/*
+/theaters_image/flv/*
+/theaters_image/flvimage/*
+/theaters_image/movie/*
+/theaters_image/news/*
+/theaters_image/pick/*
+/theaters_image/special/*
+/theaters_image/special_main_banner/*
+/theaters_image/special_side_banner/*
+/theaters_image/topimage/*
+/theaters_image/topslider/*
+
+# cakephp
+!empty
+/cine_cms/app/tmp/cache/models/*
+/cine_cms/app/tmp/cache/persistent/*
+/cine_cms/app/tmp/cache/views/*
+/cine_cms/app/tmp/logs/*
+/cine_cms/app/tmp/sessions/*
+/cine_cms/app/tmp/tests/*
+
+# KCFinder
+# .htaccessはもともと含まれるので残しておく
+!/cine_cms/uploads/.htaccess
+/cine_cms/uploads/*
+
+# log（php error_log）
+/cine_cms/app/webroot/log/*
+
+# cache
+/cache/*
+
+# vendor
+/vendor/*
+
+# composer
+composer.phar
+composer.bat
+
+# Mac OS
 *.DS_Store
-cine_cms/uploads
-m
-imax/blog/wp-content/uploads
+
+# IDE
+/nbproject
+.project
+.settings
+
+# git
+!.gitkeep

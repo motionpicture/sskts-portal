@@ -113,7 +113,7 @@
 			//"http://localhost/cinemasunshine/lib/getJson.php",            // リクエストURL
 				    url:"../lib/getJson.php",
 				    data:params,
-				    timeout:5000,
+				    timeout:20000, // SSKTS-112
 					success: function(data, status) {    // 通信成功時にデータを表示
 					    	//console.log(data.error);
 

@@ -398,6 +398,24 @@ function getMaeuri($theaterEname) {
 
 }
 
+/**
+ * @global DB $db
+ * @param int $theaterId
+ */
+function getTrailerList($theaterId) {
+    global $db;
+    $sql = "
+        SELECT
+            *
+        FROM
+            trailers
+        WHERE
+            del_flg = '0' AND FIND_IN_SET($theaterId, theater_ids)
+    ";
+
+    return $db->select($sql);
+}
+
 function plusDelFlg(){
 	return " and del_flg='0'";
 }

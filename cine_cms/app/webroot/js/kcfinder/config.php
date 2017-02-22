@@ -26,7 +26,7 @@ $_CONFIG = array(
     'theme' => "oxygen",
 
     'uploadURL' => "/cine_cms/uploads",
-    'uploadDir' => "/var/www/vhosts/cinemasunshine.co.jp/httpdocs/cine_cms/uploads",
+    'uploadDir' => dirname(dirname(dirname(dirname(dirname(__FILE__))))).DIRECTORY_SEPARATOR.'uploads',
 
     'dirPerms' => 0755,
     'filePerms' => 0644,

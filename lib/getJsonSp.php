@@ -47,60 +47,74 @@ if(!empty($_GET["result"])) {
 //エラーチェックもする
 function targetTheater($theater,$pre = null) {
 
+    $cacheKeyPrefix = '';
+
 	if ($pre!=null){
+        $cacheKeyPrefix = 'pre_schedule_';
 		$theaterUrls= array(
-						"ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
-						"heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
-						"tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/preSchedule.xml",
-						"kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/preSchedule.xml",
-						"numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/preSchedule.xml",
-						"yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/preSchedule.xml",
-						"shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/preSchedule.xml",
-						"okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/preSchedule.xml",
-						"kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/preSchedule.xml",
-						"shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/preSchedule.xml",
-						"ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
-						"kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
-						"masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml"
+            "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
+            "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
+            "tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/preSchedule.xml",
+            "kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/preSchedule.xml",
+            "numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/preSchedule.xml",
+            "yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/preSchedule.xml",
+            "shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/preSchedule.xml",
+            "okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/preSchedule.xml",
+            "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/preSchedule.xml",
+            "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/preSchedule.xml",
+            "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
+            "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
+            "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
 		);
 
 	} else {
+        $cacheKeyPrefix = 'schedule_';
 		$theaterUrls= array(
-						"ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
-						"heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
-						"tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/schedule.xml",
-						"kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/schedule.xml",
-						"numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/schedule.xml",
-						"yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/schedule.xml",
-						"shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/schedule.xml",
-						"okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/schedule.xml",
-						"kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/schedule.xml",
-						"shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/schedule.xml",
-						"ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
-						"kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
-						"masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml"
-
+            "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
+            "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
+            "tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/schedule.xml",
+            "kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/schedule.xml",
+            "numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/schedule.xml",
+            "yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/schedule.xml",
+            "shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/schedule.xml",
+            "okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/schedule.xml",
+            "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/schedule.xml",
+            "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/schedule.xml",
+            "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
+            "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
+            "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
 		);
 	}
 
-	$schedules = @simplexml_load_file($theaterUrls[$theater], 'SimpleXMLElement', LIBXML_NOCDATA);
+    $url = $theaterUrls[$theater];
+    $cacheKey = $cacheKeyPrefix . $theater;
+    $cache = new CinesunCache();
+    $data = null;
 
+    if ($cache->isHit($cacheKey)) {
+        $schedules = @simplexml_load_string($cache->get($cacheKey), 'SimpleXMLElement', LIBXML_NOCDATA);
+    } else {
+        $data = file_get_contents($url);
+        $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+    }
 
-	if(!$schedules) {
-		$result["error"] ="222222";
-	}
+    if(!$schedules) {
+        $result["error"] ="222222";
+    } else if ($schedules->error!= "000000"){
+        //エラーコードの場合
+        $result["error"] ="$schedules->error";
+    } else {
+        $result["error"] ="$schedules->error";
+        $result["attention"] ="$schedules->attention";
+        //var_dump($schedules->schedule);
+        $result["data"] = $schedules->schedule;
 
-	//エラーコードの場合
-	if ($schedules->error!= "000000"){
-		$result["error"] ="$schedules->error";
-	} else {
+        if ($data) {
+            // エラーが無い場合キャッシュ
+            $cache->save($cacheKey, $data, CACHE_LIFETIME);
+        }
+    }
 
-		$result["error"] ="$schedules->error";
-		$result["attention"] ="$schedules->attention";
-		//var_dump($schedules->schedule);
-		$result["data"] = $schedules->schedule;
-
-	}
 	return $result;
 }
 

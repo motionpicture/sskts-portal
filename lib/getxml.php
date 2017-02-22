@@ -1,4 +1,6 @@
 <?php
+require_once 'const.php';
+
 require 'DB.php';
 $db = new DB();
 $theater = htmlspecialchars($_GET["theater"]) ;
@@ -25,24 +27,9 @@ $theater = htmlspecialchars($_GET["theater"]) ;
 
 $flv_datas = $db->select($sql);
 
-/*
-datas
-	data
-		image
-		url
-		flv
-	/data
-/datas
-flvimage
-180.222.178.152/theaters_image/flvimage
-180.222.178.152/theaters_image/flv
-*/
 
-// $flv_path = "http://160.16.87.153/theaters_image/flv/";
-// $image_path = "http://160.16.87.153/theaters_image/flvimage/";
-
-$flv_path = "http://www.cinemasunshine.co.jp/theaters_image/flv/";
-$image_path = "http://www.cinemasunshine.co.jp/theaters_image/flvimage/";
+$flv_path = FLV_PATH . '/';
+$image_path = GROBAL_TOP_URL . substr(flvimage_picture, 1) . '/';
 
 $xml_str .= '<?xml version="1.0" encoding="UTF-8"?>'."\n";
 $xml_str .= "<datas>"."\n";
