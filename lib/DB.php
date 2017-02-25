@@ -4,23 +4,26 @@ require_once 'const.php';
 class DB{
 	function DB() {
 		if (APP_ENV === 'prod') {
-			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
-			$dbUser = 'b6329db364f668';
-			$dbPass = '89c47454470eaac';
-			$dbName = 'prodssktsportal';
+			$dbHost = 'db-facce1f722-1.cloudapp.net';
+            $dbPort = '3310';
+			$dbUser = 'ud9ee5ecd9e2c3';
+			$dbPass = 'pb3fca0c068905';
+			$dbName = 'prodsskportal';
 		} else if (APP_ENV === 'stg') {
 			$dbHost = '';
+            $dbPort = null;
 			$dbUser = '';
 			$dbPass = '';
 			$dbName = '';
 		} else {
 			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
+            $dbPort = null;
 			$dbUser = 'bf09d71fd6434a';
 			$dbPass = 'd8a6129b';
 			$dbName = 'devssktsportal';
 		}
 
-        $this->db = mysqli_connect($dbHost, $dbUser, $dbPass);
+        $this->db = mysqli_connect($dbHost, $dbUser, $dbPass, '', $dbPort);
 
         if (mysqli_connect_errno() > 0) {
             exit("Could not connect!");
