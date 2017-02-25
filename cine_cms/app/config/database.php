@@ -6,10 +6,11 @@ class DATABASE_CONFIG {
     var $prod = array(
 		'datasource' => 'AzureMysql',
 		'persistent' => false,
-		'host' => 'ja-cdbr-azure-east-a.cloudapp.net',
-		'login' => 'b6329db364f668',
-		'password' => '89c47454470eaac',
-		'database' => 'prodssktsportal',
+		'host' => 'db-facce1f722-1.cloudapp.net',
+        'port' => '3310',
+		'login' => 'ud9ee5ecd9e2c3',
+		'password' => 'pb3fca0c068905',
+		'database' => 'prodsskportal',
 		'encoding' => 'utf8',
         'time_zone' => '+09:00',
 	);
