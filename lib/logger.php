@@ -69,8 +69,8 @@ class Logger extends BaseLogger
     private function initProd()
     {
         // Azure Storage
-        $storageAccount = 'TODO: prod account name';
-        $storageKey = 'TODO: prod key';
+        $storageAccount = 'prodsskportal';
+        $storageKey = '7HF4LEQ20Bt3lo8XUIIf0E73Qfdsnoqlzl4tYJnuPYFiyujTA6MGSyoNX/rvxnnvGcwtAWkW7v/o8Xm+cO5m4w==';
         $connectionString = sprintf('DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s', $storageAccount, $storageKey);
         $blobClient = ServicesBuilder::getInstance()->createBlobService($connectionString);
 
