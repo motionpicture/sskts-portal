@@ -1,5 +1,10 @@
 <?php
+// require.phpを読み込まないケースがあるので
 require_once 'const.php';
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+require_once 'logger.php';
+
+use Sasaki\Cinemasunshine\Logger;
 
 class DB{
 	function DB() {
@@ -26,6 +31,9 @@ class DB{
         $this->db = mysqli_connect($dbHost, $dbUser, $dbPass, '', $dbPort);
 
         if (mysqli_connect_errno() > 0) {
+            $logger = new Logger('database');
+            $message = sprintf('errno:%s error:%s', mysqli_connect_errno(), mysqli_connect_error());
+            $logger->alert($message);
             exit("Could not connect!");
         }
 
