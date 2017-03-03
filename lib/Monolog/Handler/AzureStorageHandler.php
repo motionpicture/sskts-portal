@@ -53,6 +53,6 @@ class AzureStorageHandler extends AbstractProcessingHandler
      */
     private function createBlobName()
     {
-        return date('YmdHis') . '_' . uniqid() . '.log';
+        return date('Ymd/His') . '_' . uniqid() . '.log';
     }
 }
