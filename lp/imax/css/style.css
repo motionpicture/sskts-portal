@@ -203,9 +203,10 @@ body{
 }
 
 .lineup li .right .credit{
-    font-size: 12px;
+    font-size: 11px;
     color: #a1a1a1;
     text-align: right;
+    width: 466px;
 }
 
 .bnr{
