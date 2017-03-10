@@ -169,8 +169,13 @@ body{
 .lineup li h3{
     color: #fff;
     font-size: 24px;
-    margin: 0 0 25px;
+    margin: 0 0 5px;
 }
+
+.lineup li .logo{
+    margin: 0 0 10px;
+}
+
 
 .lineup li .left{
     float: left;
@@ -203,9 +208,10 @@ body{
 }
 
 .lineup li .right .credit{
-    font-size: 12px;
+    font-size: 11px;
     color: #a1a1a1;
     text-align: right;
+    width: 466px;
 }
 
 .bnr{
