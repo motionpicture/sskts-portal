@@ -26,9 +26,6 @@ include("../lib/require.php");
 			//theater一覧取得
 			$theaters = getTheaterList();
 
-            // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携
-            unset($theaters[14]); // 連携まで鹿児島除外
-
 			foreach ($theaters as $theater) {
 				//もし劇場が選択されている場合
 				if (!empty($_GET['theater']) && $theater['ename'] == $_GET['theater']) {
