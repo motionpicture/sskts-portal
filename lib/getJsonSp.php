@@ -65,6 +65,7 @@ function targetTheater($theater,$pre = null) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
+            'aira' => 'http://www1.cinemasunshine.jp/aira/schedule/xml/preSchedule.xml',
 		);
 
 	} else {
@@ -83,6 +84,7 @@ function targetTheater($theater,$pre = null) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
+            'aira' => 'http://www1.cinemasunshine.jp/aira/schedule/xml/schedule.xml',
 		);
 	}
 
