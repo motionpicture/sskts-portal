@@ -236,5 +236,12 @@ define ("Policy_SP_URL", GROBAL_SP_TOP_URL . "sitepolicy/");
 
 //スマートフォンのサイトマップページURL
 define ("SiteMap_SP_URL", GROBAL_SP_TOP_URL . "sitemap/");
+
+if (APP_ENV == 'prod') {
+    define('TICKETING_BASE_URL', 'TODO');
+} else {
+    define('TICKETING_BASE_URL', 'https://testssktsfrontend.azurewebsites.net');
+}
+
 ?>
 
