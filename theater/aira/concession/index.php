@@ -23,7 +23,8 @@ include("../../../lib/require.php");
 							<div class="MainArea">
 								<h2 class="headlineImg"><img src="../../../images/common/headline_Conses.png"  alt="コンセッション" ></h2>
 								<div class="whiteCanvas clearfix">
-									<h3 class="lightBlueTitle">ソフトドリンク</h3>
+                                    Coming Soon<?php // 劇場オープン前の対応 ?>
+<!--									<h3 class="lightBlueTitle">ソフトドリンク</h3>
 									<table class="menuTable">
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -145,13 +146,13 @@ include("../../../lib/require.php");
 												<p class="optionText">抹茶オレ</p>
 											</td>
 											<td class="menuprice" ><p>320円</p></td>
-										</tr>										
+										</tr>
 
 
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
-                                        
+
                                         <tr>
 											<td class="menuName"><p>ホット</p></td>
 										</tr>
@@ -174,8 +175,8 @@ include("../../../lib/require.php");
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
 									</table>
-                                    
-                                    
+
+
 
 									<h3 class="lightBlueTitle">ポップコーン</h3>
 									<table class="menuTable">
@@ -262,7 +263,7 @@ include("../../../lib/require.php");
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
-                                        
+
 									</table>
 
 									<h3 class="lightBlueTitle">セット</h3>
@@ -301,7 +302,7 @@ include("../../../lib/require.php");
 												<p class="optionText">LLセット(ポップコーンL×1＋ドリンクL)</p>
 											</td>
 											<td class="menuprice" ><p>850円</p></td>
-										</tr>										
+										</tr>
 
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -337,7 +338,7 @@ include("../../../lib/require.php");
 												<p class="optionText">LLセット(ポップコーンL×1＋ドリンクL)</p>
 											</td>
 											<td class="menuprice" ><p>1,050円</p></td>
-										</tr>										
+										</tr>
 
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
@@ -345,7 +346,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="menuName"><p>ポップコーン塩/キャラメル(ハーフ&ハーフ)</p></td>
-										</tr>										
+										</tr>
 										<tr>
 											<td class="menuName">
 												<p class="optionText">ペア(ポップコーンL×1＋ドリンクM×2)</p>
@@ -358,12 +359,12 @@ include("../../../lib/require.php");
 												<p class="optionText">LLセット(ポップコーンL×1＋ドリンクL)</p>
 											</td>
 											<td class="menuprice" ><p>950円</p></td>
-										</tr>										
+										</tr>
 
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
 										</tr>
-									</table>
+									</table>-->
 								</div>
 							</div>
 						</div>

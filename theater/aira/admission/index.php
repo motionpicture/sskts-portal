@@ -21,7 +21,7 @@ include("../../../lib/require.php");
 						<!-- ↓修正する部分はここから↓ -->
 						<div class="leftColumn">
 							<div class="MainArea">
-                      			<h2 class="headlineImg"><img src="../../../images/common/headline_Price.png"  alt="料金案内" ></h2>
+  								<h2 class="headlineImg"><img src="../../../images/common/headline_Price.png"  alt="料金案内" ></h2>
 								<div class="whiteCanvas clearfix">
 									<h3 class="lightBlueTitle">料金案内</h3>
 									<table class="priceTable">
@@ -41,15 +41,13 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="priceSubject"><p>大学生</p></td>
-											<td class="priceNotes" ><p>※要学生証</p>
-                                            </td>
+											<td class="priceNotes" >※要学生証</td>
 											<td class="priceAdd" >￥1,500</td>
 										</tr>
-
 										<tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
-                                      
+
 										<tr>
 											<td class="priceSubject"><p>高校生・中学生・小学生</p></td>
 											<td class="priceNotes" >※高校生は要学生証</td>
@@ -94,6 +92,36 @@ include("../../../lib/require.php");
 										</tr>
 									</table>
 
+									<h3 class="lightBlueTitle">4DX<sup>&reg;</sup>鑑賞料金</h3>
+									<table class="priceTable">
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+
+										<tr>
+											<td class="priceSubject"><p>4DX<sup>&reg;</sup>鑑賞料金</p></td>
+											<td class="priceNotes" >
+												<p>
+													2D作品の場合<br />
+													〈通常料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+												</p>
+												<p>
+													3D作品の場合<br />
+													〈通常料金〉+〈3D鑑賞料金400円〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+													サービスデーの場合<br /></p>
+													<p>〈サービスデー料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+												</p>
+												<p>※ムビチケは、窓口でのご利用に限られます。（窓口で差額をお支払いいただきます。）</p>
+												<p>※身長100cm未満の方、妊娠中の方、ご高齢の方、心臓・背中・腰・首などに障害のある方、特別な疾病のある方、乗り物酔いしやすい方、その他体調に不安のある方などは、４DX®をご利用いただけません。また、身長120cm未満のお子様は保護者の方と一緒にご鑑賞ください。</p>
+											</td>
+											<td class="priceAdd" >通常料金+1,000円</td>
+										</tr>
+
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+									</table>
+
 									<h3 class="lightBlueTitle">割引料金</h3>
 									<table class="priceTable">
 										<tr class="line">
@@ -115,26 +143,14 @@ include("../../../lib/require.php");
 											<td class="priceNotes" >※毎週水曜日</td>
 											<td class="priceAdd" >女性&nbsp;&nbsp;￥1,100</td>
 										</tr>
-
-
-	
-
-      <tr class="line">
-
+										<tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-
 										</tr>
 
-
-
 										<tr>
-
 											<td class="priceSubject"><p>シネマサンシャインデイ</p></td>
-
 											<td class="priceNotes" >※毎月15日</td>
-
 											<td class="priceAdd" >￥1,100</td>
-
 										</tr>
 										<tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
@@ -143,7 +159,6 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="priceSubject">
 												<p>レイトショー</p>
-												<p>スーパーレイトショー</p>
 											</td>
 											<td class="priceNotes" >
 												<p>※連日20時以降に上映する回</p>
@@ -171,19 +186,24 @@ include("../../../lib/require.php");
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
-										
-
 										<tr>
 											<td class="priceSubject"><p>メンバーズカード </p></td>
 											<td class="priceNotes" >
 												<p>※カード提示で本人を含む4名様まで。</p>
 											</td>
-											<td class="priceAdd" >
-												<p>
-													一般&nbsp;&nbsp;￥300引<br>
-													学生・幼児&nbsp;&nbsp;￥200引
-												</p>
+											<td class="priceAdd" ><p>一般&nbsp;&nbsp;￥300引</p><p>学生・幼児&nbsp;&nbsp;￥200引</p></td>
+										</tr>
+
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+										<tr>
+											<td class="priceSubject"><p>キッズメンバーズカード</p></td>
+											<td class="priceNotes" >
+												<p>※3歳～12歳の方。</p>
+												<p>※会員様ご本人様のみ。</p>
 											</td>
+											<td class="priceAdd" ><p>会員様&nbsp;&nbsp;￥200引</p></td>
 										</tr>
 
 										<tr class="line">
@@ -199,18 +219,15 @@ include("../../../lib/require.php");
 
 										<tr class="top">
 											<td valign="middle">
-												<p>
-													通常の鑑賞料金プラス400円で3D作品をご鑑賞頂けます。<br />
-													3Dメガネ（MASTER IMAGE用）はお持ち帰り頂けます。<br />
-													次回鑑賞時にお持ち頂ければ、3D鑑賞料金を100円引き（3D鑑賞料金400円→300円）させて頂きます。
-												</p>
+												<p>通常の鑑賞料金プラス400円で3Ｄ作品をご鑑賞頂けます。</p>
 											</td>
 										</tr>
 
 										<tr class="bottom">
 											<td valign="middle">
+												<p>※3Dメガネ費100円含む。</p>
 												<p>※前売券、シネマサンシャインCINEMA TICKET（特別鑑賞券）、シネマサンシャインINVITATION TICKET（招待券）、メンバーズカードのポイントによる無料鑑賞、各種割引券もプラス400円でご利用頂けます。</p>
-												<p>※3D作品をご覧になりますお客様は2歳以下のお子様でも3Ｄメガネを利用される場合、鑑賞料金をいただきます。予めご了承ください。 なお、2歳以下のお子様の3D鑑賞料金は1,400円です。</p>
+											<p>※3Ｄ作品をご覧になりますお客様は2歳以下のお子様でも3Ｄメガネを利用される場合、鑑賞料金をいただきます。予めご了承ください。なお、2歳以下のお子様の3Ｄ鑑賞料金は1,400円です</p>
 											</td>
 										</tr>
 
@@ -220,7 +237,7 @@ include("../../../lib/require.php");
 									</table>
 								</div>
 							<!-- / .MainArea --></div>
-						<!-- / .leftColumn --></div>
+						</div>
 						<!-- ↑修正する部分はここまで↑ -->
 
 						<?php getRightMenu(); ?>

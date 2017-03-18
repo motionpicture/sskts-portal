@@ -17,13 +17,17 @@ include("../../../../lib/require.php");
 			$theaterName = $arr["ename"];
 			$theaterId=getTheaterId($theaterName);
 			$maeuri = getMaeuri($theaterId['id']);
-
+        ?>
+        <?php if (count($maeuri) === 0) : // 劇場オープン前の対応 ?>
+            Coming Soon
+        <?php endif; ?>
+        <?php
 			foreach($maeuri as $val){
 				$movie = getMovieById($val['movie_code']);
 				if(!$movie['name']){
 					continue;
 				}
-			?>
+		?>
 
 			<!-- table -->
 			<table cellpadding="0" cellspacing="0" class="advance_ticket_u">
