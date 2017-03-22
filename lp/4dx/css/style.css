@@ -72,7 +72,7 @@ img {
 
 .osusume {
     width: 1000px;
-    height: 744px;
+    height: 886px;
     margin: 0 auto;
     background-image:url(/lp/4dx/images/bg_02.png);
     margin-bottom: 76px;
@@ -148,6 +148,7 @@ iframe {
 
 .osusume ul {
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .osusume li {
