@@ -34,73 +34,92 @@ include("../../../../lib/require.php");
 					<tr>
 						<td class="admission_tc_gray2"></td>
 						<td class="admission_tc_gray3">座席数</td>
-						<td class="admission_tc_gray3">車椅子用スペース</td>
+						<td class="admission_tc_gray3">車椅子</td>
 						<td class="admission_tc_gray3">音響システム</td>
 						<td class="admission_tc_gray3">スクリーンサイズ</td>
 					</tr>
 					<tr>
 						<td class="admission_tc_gray1"><a href="./detail.php?p=1">シネマ1</a></td>
-						<td class="admission_tc">234</td>
+						<td class="admission_tc">250</td>
 						<td class="admission_tc">2</td>
-						<td class="admission_tc">デジタル6ch</td>
-						<td class="admission_tc">W7.5m<br>H3.2m</td>
+						<td class="admission_tc"></td>
+						<td class="admission_tc">W13.4m<br>
+						H5.9m</td>
 					</tr>
 					<tr>
 						<td class="admission_tc_gray1"><a href="./detail.php?p=2">シネマ2</a></td>
-						<td class="admission_tc">176</td>
+						<td class="admission_tc">155</td>
 						<td class="admission_tc">2</td>
-						<td class="admission_tc">デジタル6ch</td>
-						<td class="admission_tc">W7.0m<br>H3.0m</td>
+						<td class="admission_tc"></td>
+						<td class="admission_tc">W11.1m<br>
+						H5.3m</td>
 					</tr>
 					<tr>
 						<td class="admission_tc_gray1"><a href="./detail.php?p=3">シネマ3</a></td>
-						<td class="admission_tc">135</td>
+						<td class="admission_tc">81</td>
 						<td class="admission_tc">2</td>
-						<td class="admission_tc">デジタル6ch</td>
-						<td class="admission_tc">W7.2m<br>H3.1m</td>
+						<td class="admission_tc"></td>
+						<td class="admission_tc">W7.4m<br>
+						H4.2m</td>
 					</tr>
 					<tr>
 						<td class="admission_tc_gray1"><a href="./detail.php?p=4">シネマ4</a></td>
-						<td class="admission_tc">264</td>
+						<td class="admission_tc">81</td>
 						<td class="admission_tc">2</td>
-						<td class="admission_tc">デジタル6ch</td>
-						<td class="admission_tc">W7.2m<br>H3.2m</td>
+						<td class="admission_tc"></td>
+						<td class="admission_tc">W7.4m<br>
+						H4.2m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=5">シネマ5</a></td>
-						<td class="admission_tc">409</td>
+						<td class="admission_tc_gray1"><a href="./detail.php?p=5">レーザープロジェクター</a></td>
+						<td class="admission_tc">301</td>
 						<td class="admission_tc">2</td>
-						<td class="admission_tc">デジタル6ch</td>
-						<td class="admission_tc">W10.0m<br>H4.2m</td>
+						<td class="admission_tc"></td>
+						<td class="admission_tc">W16.5m<br>
+						H7.1m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=6">シネマ6</a></td>
-						<td class="admission_tc">139</td>
+						<td class="admission_tc_gray1"><a href="./detail.php?p=6">4DX<sup>&reg;</sup>シアター</a></td>
+						<td class="admission_tc">92</td>
+						<td class="admission_tc">-</td>
+						<td class="admission_tc"></td>
+						<td class="admission_tc">W12.1m<br>
+						H5.7m</td>
+					</tr>
+					<tr>
+						<td class="admission_tc_gray1"><a href="./detail.php?p=7">シネマ7</a></td>
+						<td class="admission_tc">104</td>
 						<td class="admission_tc">2</td>
-						<td class="admission_tc">デジタル6ch</td>
-						<td class="admission_tc">W5.0m<br>H2.0m</td>
+						<td class="admission_tc"></td>
+						<td class="admission_tc">W7.7mm<br>
+						H4.2m</td>
+					</tr>
+					<tr>
+						<td class="admission_tc_gray1"><a href="./detail.php?p=8">シネマ8</td>
+						<td class="admission_tc">104</td>
+						<td class="admission_tc">2</td>
+						<td class="admission_tc"></td>
+						<td class="admission_tc">W7.4m<br>
+							H4.2m</td>
+					</tr>
+					<tr>
+						<td class="admission_tc_gray1"><a href="./detail.php?p=9">シネマ9</a></td>
+						<td class="admission_tc">104</td>
+						<td class="admission_tc">2</td>
+						<td class="admission_tc"></td>
+						<td class="admission_tc">W7.6m<br>
+						H4.2m</td>
 					</tr>
 				</tbody>
 			</table>
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
 					<tr>
-						<td colspan="2" class="table_top_02">3D情報</td>
+						<td class="admission_icon2" rowspan="2"><a href="/4dx/"><img src="../../../images/theater/icon_4dx.gif" width="50" alt="4DX"></a></td>
+						<td class="admission_tl_name">4DX<sup>&reg;</sup>シアター</td>
 					</tr>
 					<tr>
-						<td colspan="2" height="10"></td>
-					</tr>
-					<tr>
-						<td class="admission_icon2" rowspan="2"><a href="/3d/master.html"><img src="../../../images/theater/icon_MasterImage3d.gif" width="50" alt="e-box"></a></td>
-						<td class="admission_tl_name">masterimage</td>
-
-					</tr>
-					<tr>
-						<td class="admission_tl">当劇場は3Dシステムとしてmasterimageを採用しております。
-<br />通常の鑑賞料金プラス400円で3D作品をご鑑賞頂けます。
-<br />3Dメガネ（MASTER IMAGE用）はお持ち帰り頂けます。
-<br />次回鑑賞時にお持ち頂ければ、3D鑑賞料金を100円引き（3D鑑賞料金400円→300円）させて頂きます。 </td>
-
+						<td class="admission_tl">3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの11個の機能により、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</td>
 					</tr>
 				</tbody>
 			</table>
@@ -129,7 +148,7 @@ include("../../../../lib/require.php");
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
 					<tr>
-						<td class="admission_icon" rowspan="2"><a href="aira"><img src="../../../images/theater/icon_ebox.gif" width="50" alt="e-box"></a></td>
+						<td class="admission_icon" rowspan="2"><a href="../"><img src="../../../images/theater/icon_ebox.gif" width="50" alt="e-box"></a></td>
 						<td class="admission_tl_name">e-box</td>
 					</tr>
 					<tr>
@@ -153,7 +172,7 @@ include("../../../../lib/require.php");
 						<td class="admission_tl_name">特別鑑賞券</td>
 					</tr>
 					<tr>
-						<td class="admission_tl">シネマサンシャイン全館でご利用頂ける特別鑑賞券絶賛販売中! </td>
+						<td class="admission_tl">シネマサンシャイン全館でご利用頂ける特別鑑賞券絶賛販売中!</td>
 					</tr>
 					<tr>
 						<td colspan="2" height="10"></td>
@@ -163,9 +182,9 @@ include("../../../../lib/require.php");
 						<td class="admission_tl_name">ムビチケ</td>
 					</tr>
 					<tr>
-						<td class="admission_tl">オンラインで購入して座席予約できる電子前売券 </td>
+						<td class="admission_tl">オンラインで購入して座席予約できる電子前売券</td>
 					</tr>
-					<tr>
+<!--					<tr>
 						<td colspan="2" height="10"></td>
 					</tr>
 					<tr>
@@ -174,12 +193,12 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="admission_tl">お得な情報がいっぱいの無料メール配信サービス </td>
-					</tr>
+					</tr>-->
 					<tr>
 						<td colspan="2" height="10"></td>
 					</tr>
 					<tr>
-						<td class="admission_icon" rowspan="2"><a target="_blank" href="http://www.facebook.com/sunshineikebukuro"><img src="../../../images/theater/icon_facebook.gif" width="50" alt="facebook"></a></td>
+						<td class="admission_icon" rowspan="2"><a target="_blank" href="https://www.facebook.com/sunshineehime"><img src="../../../images/theater/icon_facebook.gif" width="50" alt="facebook"></a></td>
 						<td class="admission_tl_name">facebook</td>
 					</tr>
 					<tr>
@@ -189,7 +208,7 @@ include("../../../../lib/require.php");
 						<td colspan="2" height="10"></td>
 					</tr>
 					<tr>
-						<td class="admission_icon" rowspan="2"><a target="_blank" href="http://twitter.com/cs_ikebukuro"><img src="../../../images/theater/icon_twitter.gif" width="50" alt="twitter"></a></td>
+						<td class="admission_icon" rowspan="2"><a target="_blank" href="https://twitter.com/cs_ehime"><img src="../../../images/theater/icon_twitter.gif" width="50" alt="twitter"></a></td>
 						<td class="admission_tl_name">twitter</td>
 					</tr>
 					<tr>

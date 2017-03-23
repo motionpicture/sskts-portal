@@ -36,7 +36,7 @@ include("../../../lib/require.php");
 											</tr>
 
 											<tr>
-												<td valign="middle"  bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig1.gif" data-fancybox-group="gallery" title="シネマ1" rel="theater" >シネマ1</a></p></td>
+												<td valign="middle"  bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig1.gif" data-fancybox-group="gallery" title="シネマ1" rel="theater" >シネマ1</a></p></td>
 												<td valign="middle"><p>250</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p></p></td>
@@ -44,7 +44,7 @@ include("../../../lib/require.php");
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig2.gif" data-fancybox-group="gallery" title="シネマ2" rel="theater">シネマ2</a></p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig2.gif" data-fancybox-group="gallery" title="シネマ2" rel="theater">シネマ2</a></p></td>
 												<td valign="middle"><p>155</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p></p></td>
@@ -52,7 +52,7 @@ include("../../../lib/require.php");
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig3.gif" data-fancybox-group="gallery" title="シネマ3" rel="theater">シネマ3</a></p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig3.gif" data-fancybox-group="gallery" title="シネマ3" rel="theater">シネマ3</a></p></td>
 												<td valign="middle"><p>81</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p></p></td>
@@ -60,7 +60,7 @@ include("../../../lib/require.php");
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig4.gif" data-fancybox-group="gallery" title="シネマ4" rel="theater">シネマ4</a></p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig4.gif" data-fancybox-group="gallery" title="シネマ4" rel="theater">シネマ4</a></p></td>
 												<td valign="middle"><p>81</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p></p></td>
@@ -68,7 +68,7 @@ include("../../../lib/require.php");
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig5.gif" data-fancybox-group="gallery" title="レーザープロジェクター" rel="theater">レーザープロジェクター</a></p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig5.gif" data-fancybox-group="gallery" title="レーザープロジェクター" rel="theater">レーザープロジェクター</a></p></td>
 												<td valign="middle"><p>301</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p></p></td>
@@ -76,28 +76,28 @@ include("../../../lib/require.php");
 											</tr>
 
 											<tr>
-												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig6.gif" data-fancybox-group="gallery" title="4DXシアター" rel="theater">4DX<sup>&reg;</sup>シアター</a></p></td>
+												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig6.gif" data-fancybox-group="gallery" title="4DXシアター" rel="theater">4DX<sup>&reg;</sup>シアター</a></p></td>
 												<td class="middle" valign="middle"><p>92</p></td>
 												<td class="middle" valign="middle"><p>-</p></td>
 												<td class="middle" valign="middle"><p></p></td>
 												<td class="rightColumn" valign="middle"><p>W12.1m×5.7m</p></td>
 											</tr>
 											<tr>
-												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig7.gif" data-fancybox-group="gallery" title="シネマ7" rel="theater">シネマ7</a></p></td>
+												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig7.gif" data-fancybox-group="gallery" title="シネマ7" rel="theater">シネマ7</a></p></td>
 												<td class="middle" valign="middle"><p>104</p></td>
 												<td class="middle" valign="middle"><p>2</p></td>
 												<td class="middle" valign="middle"><p></p></td>
 												<td class="rightColumn" valign="middle"><p>W7.7m×4.2m</p></td>
 											</tr>
 											<tr>
-												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig10.gif" data-fancybox-group="gallery" title="シネマ8" rel="theater">シネマ8</a></p></td>
+												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig8.gif" data-fancybox-group="gallery" title="シネマ8" rel="theater">シネマ8</a></p></td>
 												<td class="middle" valign="middle"><p>104</p></td>
 												<td class="middle" valign="middle"><p>2</p></td>
 												<td class="middle" valign="middle"><p></p></td>
 												<td class="rightColumn" valign="middle"><p>W7.4m×4.2m</p></td>
 											</tr>
 											<tr>
-												<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/masaki/fig9.gif" data-fancybox-group="gallery" title="シネマ9" rel="theater">シネマ9</a></p></td>
+												<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig9.gif" data-fancybox-group="gallery" title="シネマ9" rel="theater">シネマ9</a></p></td>
 												<td class="bottomColumn" valign="middle"><p>104</p></td>
 												<td class="bottomColumn" valign="middle"><p>2</p></td>
 												<td class="bottomColumn" valign="middle"><p></p></td>
@@ -113,7 +113,7 @@ include("../../../lib/require.php");
 												<p class="txt" >3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの11個の機能により、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</p>
 											</div>
 										</div>
-                                        
+
 									</div>
 
 									<h3 class="lightBlueTitle bottomLine">シネマサンシャイン姶良の劇場サービス</h3>
@@ -145,7 +145,7 @@ include("../../../lib/require.php");
 												</p>
 											</div>
 										</div>
-										<div class="floorBox clearfix">
+<!--										<div class="floorBox clearfix">
 											<div class="left"><a href="../../../magazine/magazine.html"><img src="../../../images/common/fig_magazine.gif"  alt="メールマガジン" ></a></div>
 											<div class="right">
 												<p class="subTitle" >メールマガジン</p>
@@ -153,7 +153,7 @@ include("../../../lib/require.php");
 													お得な情報がいっぱいの無料メール配信サービス
 												</p>
 											</div>
-										</div>
+										</div>-->
 										<div class="floorBox clearfix">
 											<div class="left"><a href="https://www.facebook.com/sunshineehime"><img src="../../../images/common/fig_facebook.gif"  alt="facebook" ></a></div>
 											<div class="right">
