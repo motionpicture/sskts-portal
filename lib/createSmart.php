@@ -65,11 +65,11 @@ EOL;
 }
 
 function getSmartHeadTag($arr) {
-	
+
 	//土浦、衣山、大和郡山　TOPのみのタグ
 	if($arr["ename"] == "tsuchiura" || $arr["ename"] == "kinuyama" || $arr["ename"] == "yamatokoriyama"){
 		if($arr["ename2"] == "schedule"){
-	
+
 echo <<<EOL
 
 	<!--gaie-FB計測タグ-->
@@ -90,7 +90,7 @@ echo <<<EOL
 	<!-- End Facebook Pixel Code -->
 
 	<!--/gaie-FB計測タグ-->
-	
+
 EOL;
 		}
 	}
@@ -202,7 +202,7 @@ $define = get_defined_constants() ;
 				$target = '';
 			}
 
-      
+
 			if($val["url"]){
 				$bnrHtml .= "<li><div class='pickup_slide'><a href='$val[url]'><img src='/theaters_image/topslider/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></a></div>";
 			}else{
@@ -373,7 +373,10 @@ function getSmartMap(){
 		$html = '<iframe width="278" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BB%8A%E6%B2%BB%E5%B8%82%E6%9D%B1%E9%96%80%E7%94%BA%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91+%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E4%BB%8A%E6%B2%BB&amp;aq=t&amp;sll=33.528977,132.568645&amp;sspn=0.001737,0.004128&amp;brcurrent=3,0x35503a7736a15089:0x25139c358788e3a2,0&amp;ie=UTF8&amp;hq=%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BB%8A%E6%B2%BB%E5%B8%82%E6%9D%B1%E9%96%80%E7%94%BA%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91+%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E4%BB%8A%E6%B2%BB&amp;t=m&amp;ll=34.062259,133.015938&amp;spn=0.017776,0.025706&amp;z=15&amp;iwloc=B&amp;output=embed"></iframe><br /><small><a href="http://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BB%8A%E6%B2%BB%E5%B8%82%E6%9D%B1%E9%96%80%E7%94%BA%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91+%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E4%BB%8A%E6%B2%BB&amp;aq=t&amp;sll=33.528977,132.568645&amp;sspn=0.001737,0.004128&amp;brcurrent=3,0x35503a7736a15089:0x25139c358788e3a2,0&amp;ie=UTF8&amp;hq=%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BB%8A%E6%B2%BB%E5%B8%82%E6%9D%B1%E9%96%80%E7%94%BA%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91+%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E4%BB%8A%E6%B2%BB&amp;t=m&amp;ll=34.062259,133.015938&amp;spn=0.017776,0.025706&amp;z=15&amp;iwloc=B" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>';
 	}elseif(preg_match("!/kitajima/!",$Url)){
 		$html = '<iframe width="278" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E5%8C%97%E5%B3%B6&amp;aq=&amp;sll=34.061424,133.016464&amp;sspn=0.003453,0.008256&amp;brcurrent=3,0x355372097bcba9e9:0x4f9a0c2e98520ff3,0&amp;ie=UTF8&amp;hq=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3&amp;hnear=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E6%9D%BF%E9%87%8E%E9%83%A1%E5%8C%97%E5%B3%B6%E7%94%BA&amp;t=m&amp;ll=34.112213,134.547329&amp;spn=0.008883,0.012853&amp;z=16&amp;iwloc=B&amp;output=embed"></iframe><br /><small><a href="http://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E5%8C%97%E5%B3%B6&amp;aq=&amp;sll=34.061424,133.016464&amp;sspn=0.003453,0.008256&amp;brcurrent=3,0x355372097bcba9e9:0x4f9a0c2e98520ff3,0&amp;ie=UTF8&amp;hq=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3&amp;hnear=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E6%9D%BF%E9%87%8E%E9%83%A1%E5%8C%97%E5%B3%B6%E7%94%BA&amp;t=m&amp;ll=34.112213,134.547329&amp;spn=0.008883,0.012853&amp;z=16&amp;iwloc=B" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>';
-	}
+	} else if (preg_match('!/aira/!', $Url)) {
+        // TODO:姶良のマップに更新
+        $html = '';
+    }
 
 	echo $html;
 }
@@ -496,7 +499,7 @@ function getSmartFooter(){
 		$home = "<p class='return_home'><a href='$define[GROBAL_SP_TOP_URL]'><img src='$define[Images_SP_URL]common/btn_home.gif' width='300' alt='HOME'></a></p>";
 	}
 
-	
+
 
 echo <<<EOL
 	<!-- footer -->
@@ -568,11 +571,11 @@ function getSmartTrailer() {
 	if (!$theaterId) {
 		$theaterId = 1000;
 	}
-	
+
 	if ($arr["ename"] == 'showing') $theaterName = 'top';
 	$theaterMediaNetwork = array(
 		'1000'=> '1478747373365-0', //TOP
-		'1'=> '1463114321049-0', //池袋 
+		'1'=> '1463114321049-0', //池袋
 		'2'=> '1463114425475-0', //平和島
 		'6'=> '1463114610118-0', //沼津
 		'7'=> '1463115631220-0', //北島
@@ -584,7 +587,8 @@ function getSmartTrailer() {
 		'14'=> '1463114716128-0', //かほく
 		'15'=> '1463115336241-0', //MASAKI
 		'16'=> '1463114817432-0', //大和郡山
-		'17'=> '1463114915106-0' //下関
+		'17'=> '1463114915106-0', //下関
+        '18'=> '1487136633128-0', // 姶良
 	);
 
 
@@ -622,7 +626,7 @@ function getSmartTrailer() {
 	</div>
 	</div>
 EOL;
-	
+
 	return $html;
 }
 
@@ -630,7 +634,7 @@ function getSmartFooterTag($arr) {
 	//土浦、大和郡山、衣山　TOPのみのタグ
 	if($arr["ename"] == "tsuchiura" || $arr["ename"] == "kinuyama" || $arr["ename"] == "yamatokoriyama"){
 		if($arr["ename2"] == "schedule"){
-			
+
 echo <<<EOL
 
 <!--CB-CV計測タグ-->
@@ -697,10 +701,10 @@ EOL;
 	}
 
 	//土浦、大和郡山、平和島、沼津　TOPのみのタグ(2016/07/01)
-	if(($arr["ename"] == "tsuchiura" 
-	|| $arr["ename"] == "yamatokoriyama" 
-	|| $arr["ename"] == "heiwajima" 
-	|| $arr["ename"] == "numazu") 
+	if(($arr["ename"] == "tsuchiura"
+	|| $arr["ename"] == "yamatokoriyama"
+	|| $arr["ename"] == "heiwajima"
+	|| $arr["ename"] == "numazu")
 	&& $arr["ename2"] == "schedule"
 	){
 echo <<<EOL
@@ -722,17 +726,17 @@ echo <<<EOL
 	<div style="display:inline;">
 	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/881288241/?value=0&amp;guid=ON&amp;script=0"/>
 	</div>
-	</noscript>	
+	</noscript>
 EOL;
 	}
 
 	//土浦、大和郡山、平和島、沼津、衣山、MASAKI　TOPのみのタグ(2016/11/17)
-	if(($arr["ename"] == "tsuchiura" 
-	|| $arr["ename"] == "yamatokoriyama" 
-	|| $arr["ename"] == "heiwajima" 
+	if(($arr["ename"] == "tsuchiura"
+	|| $arr["ename"] == "yamatokoriyama"
+	|| $arr["ename"] == "heiwajima"
 	|| $arr["ename"] == "numazu"
 	|| $arr["ename"] == "kinuyama"
-	|| $arr["ename"] == "masaki") 
+	|| $arr["ename"] == "masaki")
 	&& $arr["ename2"] == "schedule"
 	){
 echo <<<EOL
