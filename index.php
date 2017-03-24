@@ -170,6 +170,10 @@ if($val != $data){
 											<?php
 											//theater一覧取得
 											$theaters = getTheaterList();
+
+                                            // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携
+                                            unset($theaters[14]); // 連携まで鹿児島除外
+
 											foreach ($theaters as $theater) {
 												//もし劇場が選択されている場合
 												if (!empty($_GET['theater']) && $theater['ename'] == $_GET['theater']) {
@@ -249,6 +253,13 @@ if($val != $data){
 											<li><a href="./theater/masaki/">シネマサンシャインエミフルMASAKI</a></li>
 											<li><a href="./theater/ozu/">シネマサンシャイン大洲</a></li>
 											<li><a href="./theater/kitajima/">シネマサンシャイン北島</a></li>
+										</ul>
+									</div>
+
+                                  <div class="Box clearfix">
+										<div class="kind"><p><img src="./images/common/theater_kyushu.gif" alt="九州"></p></div>
+										<ul>
+											<li><a href="./theater/aira/">シネマサンシャイン姶良</a></li>
 										</ul>
 									</div>
 
