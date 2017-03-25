@@ -263,12 +263,12 @@ function getNowPage(){
 function getMeta($arr){
 	if($arr["ename"] == "top"){
 		$meta["title"] = "シネマサンシャイン";
-		$meta["description"] = "池袋、平和島、茨城、千葉、徳島、愛媛で映画を見るならシネマサンシャイン";
+		$meta["description"] = "池袋、平和島、茨城、千葉、徳島、愛媛、鹿児島で映画を見るならシネマサンシャイン";
 		$meta["keyword"] = "シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間";
 	//共通のmeta情報
 	}elseif(!$arr["ename2"]){
 		$meta["title"] = "$arr[name]&nbsp;|&nbsp;シネマサンシャイン";
-		$meta["description"] = "池袋、平和島、茨城、千葉、徳島、愛媛で映画を見るならシネマサンシャイン";
+		$meta["description"] = "池袋、平和島、茨城、千葉、徳島、愛媛、鹿児島で映画を見るならシネマサンシャイン";
 		$meta["keyword"] = "$arr[name],シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間";
 	//各下層のmeta情報
 	}elseif($arr["ename2"]){
@@ -381,11 +381,11 @@ EOL;
 }
 
 function getHeadTag($arr) {
-	
+
 	//土浦、衣山、大和郡山　TOPのみのタグ
 	if($arr["ename"] == "tsuchiura" || $arr["ename"] == "kinuyama" || $arr["ename"] == "yamatokoriyama"){
 		if($arr["ename2"] == "schedule"){
-	
+
 echo <<<EOL
 
 	<!--gaie-FB計測タグ-->
@@ -406,7 +406,7 @@ echo <<<EOL
 	<!-- End Facebook Pixel Code -->
 
 	<!--/gaie-FB計測タグ-->
-	
+
 EOL;
 		}
 	}
@@ -711,6 +711,12 @@ if($arr["side_flag"] == 0){
 	$html .= "<li><a href='$define[Theater_URL]kitajima/'>北島</a></li>";
 	$html .= "</ul>";
 	$html .= "</div>";
+    $html .= "<div class='Box clearfix'>";
+	$html .= "<div class='kind'><p><img src='$define[Images_URL]common/theater_kyushu.gif' alt='九州'></p></div>";
+	$html .= "<ul>";
+	$html .= "<li><a href='$define[Theater_URL]aira/'>姶良</a></li>";
+	$html .= "</ul>";
+	$html .= "</div>";
 	$html .= "</div>";
 	$html .= "</div>";
 }
@@ -800,7 +806,7 @@ function getTrailer() {
 		if ($arr["ename"] == 'showing') $theaterName = 'top';
 		$theaterMediaNetwork = array(
 			'1000'=> '1478747112860-0', //TOP
-			'1'=> '1463112742866-0', //池袋 
+			'1'=> '1463112742866-0', //池袋
 			'2'=> '1463112890125-0', //平和島
 			'6'=> '1463113099521-0', //沼津
 			'7'=> '1463113963815-0', //北島
@@ -812,7 +818,8 @@ function getTrailer() {
 			'14'=> '1463113229613-0', //かほく
 			'15'=> '1463113779226-0', //MASAKI
 			'16'=> '1463113342732-0', //大和郡山
-			'17'=> '1463113431009-0' //下関
+			'17'=> '1463113431009-0', //下関
+            '18'=> '1487136769798-0', // 姶良
 		);
 		$html = <<<EOL
 		<script type='text/javascript'>
@@ -891,9 +898,9 @@ EOL;
         <a href="$bunnerUrl" target="_blank"><img src="$bunnerPath" width="$width" /><a/>
 EOL;
 	}
-	
-		
-	
+
+
+
 	return $html;
 }
 
@@ -935,6 +942,9 @@ if(preg_match("!/ikebukuro/!",$Url)){
 	$html = '<iframe width="600" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BB%8A%E6%B2%BB%E5%B8%82%E6%9D%B1%E9%96%80%E7%94%BA%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91+%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E4%BB%8A%E6%B2%BB&amp;aq=t&amp;sll=33.528977,132.568645&amp;sspn=0.001737,0.004128&amp;brcurrent=3,0x35503a7736a15089:0x25139c358788e3a2,0&amp;ie=UTF8&amp;hq=%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BB%8A%E6%B2%BB%E5%B8%82%E6%9D%B1%E9%96%80%E7%94%BA%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91+%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E4%BB%8A%E6%B2%BB&amp;t=m&amp;ll=34.062259,133.015938&amp;spn=0.017776,0.025706&amp;z=15&amp;iwloc=B&amp;output=embed"></iframe><br /><small><a href="http://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BB%8A%E6%B2%BB%E5%B8%82%E6%9D%B1%E9%96%80%E7%94%BA%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91+%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E4%BB%8A%E6%B2%BB&amp;aq=t&amp;sll=33.528977,132.568645&amp;sspn=0.001737,0.004128&amp;brcurrent=3,0x35503a7736a15089:0x25139c358788e3a2,0&amp;ie=UTF8&amp;hq=%E6%84%9B%E5%AA%9B%E7%9C%8C%E4%BB%8A%E6%B2%BB%E5%B8%82%E6%9D%B1%E9%96%80%E7%94%BA%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%EF%BC%93%E2%88%92%EF%BC%91+%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E4%BB%8A%E6%B2%BB&amp;t=m&amp;ll=34.062259,133.015938&amp;spn=0.017776,0.025706&amp;z=15&amp;iwloc=B" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>';
 }elseif(preg_match("!/kitajima/!",$Url)){
 	$html = '<iframe width="600" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E5%8C%97%E5%B3%B6&amp;aq=&amp;sll=34.061424,133.016464&amp;sspn=0.003453,0.008256&amp;brcurrent=3,0x355372097bcba9e9:0x4f9a0c2e98520ff3,0&amp;ie=UTF8&amp;hq=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3&amp;hnear=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E6%9D%BF%E9%87%8E%E9%83%A1%E5%8C%97%E5%B3%B6%E7%94%BA&amp;t=m&amp;ll=34.112213,134.547329&amp;spn=0.008883,0.012853&amp;z=16&amp;iwloc=B&amp;output=embed"></iframe><br /><small><a href="http://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E5%8C%97%E5%B3%B6&amp;aq=&amp;sll=34.061424,133.016464&amp;sspn=0.003453,0.008256&amp;brcurrent=3,0x355372097bcba9e9:0x4f9a0c2e98520ff3,0&amp;ie=UTF8&amp;hq=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3&amp;hnear=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E6%9D%BF%E9%87%8E%E9%83%A1%E5%8C%97%E5%B3%B6%E7%94%BA&amp;t=m&amp;ll=34.112213,134.547329&amp;spn=0.008883,0.012853&amp;z=16&amp;iwloc=B" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>';
+}elseif(preg_match("!/aira/!",$Url)){ // 姶良
+    // TODO:姶良のマップに更新
+	$html = '';
 }
 
 echo $html;
@@ -1182,10 +1192,10 @@ EOL;
 }
 
 	//土浦、大和郡山、平和島、沼津　TOPのみのタグ(2016/07/01)
-	if(($arr["ename"] == "tsuchiura" 
-	|| $arr["ename"] == "yamatokoriyama" 
-	|| $arr["ename"] == "heiwajima" 
-	|| $arr["ename"] == "numazu") 
+	if(($arr["ename"] == "tsuchiura"
+	|| $arr["ename"] == "yamatokoriyama"
+	|| $arr["ename"] == "heiwajima"
+	|| $arr["ename"] == "numazu")
 	&& $arr["ename2"] == "schedule"
 	){
 echo <<<EOL
@@ -1207,17 +1217,17 @@ echo <<<EOL
 	<div style="display:inline;">
 	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/881288241/?value=0&amp;guid=ON&amp;script=0"/>
 	</div>
-	</noscript>	
+	</noscript>
 EOL;
 	}
 
 //土浦、大和郡山、平和島、沼津、衣山、MASAKI　TOPのみのタグ(2016/11/17)
-	if(($arr["ename"] == "tsuchiura" 
-	|| $arr["ename"] == "yamatokoriyama" 
-	|| $arr["ename"] == "heiwajima" 
+	if(($arr["ename"] == "tsuchiura"
+	|| $arr["ename"] == "yamatokoriyama"
+	|| $arr["ename"] == "heiwajima"
 	|| $arr["ename"] == "numazu"
 	|| $arr["ename"] == "kinuyama"
-	|| $arr["ename"] == "masaki") 
+	|| $arr["ename"] == "masaki")
 	&& $arr["ename2"] == "schedule"
 	){
 echo <<<EOL
