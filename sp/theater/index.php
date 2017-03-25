@@ -29,7 +29,7 @@ include("../../lib/require.php");
 	</ul>
 	<ul class="theatre_list">
 		<li class="theatre_category"><h3>関西地区</h3></li>
-		<li class="theatre_area"><a href="./yamatokoriyama">大和郡山<span class="area_icon"><img src="../images/theater/icon_imax.png" width="48" alt="IMAX"></span></a></li>
+		<li class="theatre_area"><a href="./yamatokoriyama">大和郡山<span class="area_icon"><img src="../images/theater/icon_4dx.png" width="65" alt="4dx"><img src="../images/theater/icon_imax.png" width="48" alt="IMAX"></span></a></li>
 	</ul>
 	<ul class="theatre_list">
 		<li class="theatre_category"><h3>中国・四国地区</h3></li>
@@ -43,7 +43,7 @@ include("../../lib/require.php");
 	</ul>
     <ul class="theatre_list">
 		<li class="theatre_category"><h3>九州地区</h3></li>
-		<li class="theatre_area"><a href="./aira">姶良<span class="area_icon"><img src="../images/theater/icon_4dx.png" width="65" alt="4dx"><img src="../images/theater/icon_imax.png" width="48" alt="IMAX"></span></a></li>
+		<li class="theatre_area"><a href="./aira">姶良<span class="area_icon"><img src="../images/theater/icon_4dx.png" width="65" alt="4dx"></span></a></li>
 	</ul>
 
 	<?php getSmartFooter(); ?>

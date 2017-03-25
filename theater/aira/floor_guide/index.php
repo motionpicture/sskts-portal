@@ -177,24 +177,24 @@ include("../../../lib/require.php");
 												</p>
 											</div>
 										</div>-->
-<!--										<div class="floorBox clearfix">
-											<div class="left"><a href="https://www.facebook.com/sunshineehime"><img src="../../../images/common/fig_facebook.gif"  alt="facebook" ></a></div>
+										<div class="floorBox clearfix">
+											<div class="left"><a href="https://www.facebook.com/シネマサンシャイン姶良-1907815646120897/" target="_blank"><img src="../../../images/common/fig_facebook.gif"  alt="facebook" ></a></div>
 											<div class="right">
 												<p class="subTitle" >facebook</p>
 												<p class="txt" >
 													当劇場のFacebookに「いいね！」を押して最新情報をゲット！
 												</p>
 											</div>
-										</div>-->
-<!--										<div class="floorBox clearfix end">
-											<div class="left"><a href="https://twitter.com/cs_ehime"><img src="../../../images/common/fig_twitter.gif"  alt="twitter" ></a></div>
+										</div>
+										<div class="floorBox clearfix end">
+											<div class="left"><a href="https://twitter.com/aira_cs" target="_blank"><img src="../../../images/common/fig_twitter.gif"  alt="twitter" ></a></div>
 											<div class="right">
 												<p class="subTitle" >Twitter</p>
 												<p class="txt" >
 													当劇場のTwitterをフォローして最新情報をゲット！
 												</p>
 											</div>
-										</div>-->
+										</div>
 									</div>
 								</div>
 							</div>

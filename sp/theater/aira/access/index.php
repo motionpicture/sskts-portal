@@ -39,7 +39,7 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="access_tl">住所</td>
-						<td class="access_tr">鹿児島県姶良市東餅田336</td>
+                        <td class="access_tr">鹿児島県姶良市東餅田336<br />(イオンタウン姶良 東街区3F) </td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
@@ -53,7 +53,7 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="access_tl">駐車場</td>
-						<td class="access_tr">未定</td>
+						<td class="access_tr">2,970台</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>

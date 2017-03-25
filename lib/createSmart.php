@@ -374,8 +374,7 @@ function getSmartMap(){
 	}elseif(preg_match("!/kitajima/!",$Url)){
 		$html = '<iframe width="278" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.jp/maps?f=q&amp;source=s_q&amp;hl=ja&amp;geocode=&amp;q=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E5%8C%97%E5%B3%B6&amp;aq=&amp;sll=34.061424,133.016464&amp;sspn=0.003453,0.008256&amp;brcurrent=3,0x355372097bcba9e9:0x4f9a0c2e98520ff3,0&amp;ie=UTF8&amp;hq=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3&amp;hnear=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E6%9D%BF%E9%87%8E%E9%83%A1%E5%8C%97%E5%B3%B6%E7%94%BA&amp;t=m&amp;ll=34.112213,134.547329&amp;spn=0.008883,0.012853&amp;z=16&amp;iwloc=B&amp;output=embed"></iframe><br /><small><a href="http://maps.google.co.jp/maps?f=q&amp;source=embed&amp;hl=ja&amp;geocode=&amp;q=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%E5%8C%97%E5%B3%B6&amp;aq=&amp;sll=34.061424,133.016464&amp;sspn=0.003453,0.008256&amp;brcurrent=3,0x355372097bcba9e9:0x4f9a0c2e98520ff3,0&amp;ie=UTF8&amp;hq=%E3%82%B7%E3%83%8D%E3%83%9E%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3&amp;hnear=%E5%BE%B3%E5%B3%B6%E7%9C%8C%E6%9D%BF%E9%87%8E%E9%83%A1%E5%8C%97%E5%B3%B6%E7%94%BA&amp;t=m&amp;ll=34.112213,134.547329&amp;spn=0.008883,0.012853&amp;z=16&amp;iwloc=B" style="color:#0000FF;text-align:left">大きな地図で見る</a></small>';
 	} else if (preg_match('!/aira/!', $Url)) {
-        // TODO:姶良のマップに更新
-        $html = '';
+        $html = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1753.4567379794848!2d130.62739174792173!3d31.73309605316688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353e57ddf88cdd8b%3A0xf70410c066683a75!2z44K344ON44Oe44K144Oz44K344Oj44Kk44Oz5ae26Imv!5e0!3m2!1sja!2sjp!4v1490407976401" width="278" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>';
     }
 
 	echo $html;
