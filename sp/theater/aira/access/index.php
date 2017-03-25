@@ -53,7 +53,7 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="access_tl">駐車場</td>
-						<td class="access_tr">未定</td>
+						<td class="access_tr">2,970台</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>

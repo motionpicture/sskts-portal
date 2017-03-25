@@ -159,7 +159,6 @@ include("../lib/require.php");
 											<p class="theaterPracce">鹿児島県</p>
 											<p class="theaterService">
                                                 <a class="link" href="../4dx" rel="4dx" alt="4dx" ><img src="../images/common/btn_4dx.gif"></a>
-                                                <a class="link" href="../imax" rel="imax" alt="imax" ><img src="../images/common/btn_imax.gif"></a>
                                                 <!--<a class="link" href="#" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>-->
 												<!--<a href="#" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>-->
 											</p>

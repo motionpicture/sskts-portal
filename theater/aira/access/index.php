@@ -54,7 +54,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="accessLeft" valign="top"><p>駐車場</p></td>
-											<td class="accessRight"><p>未定</p></td>
+											<td class="accessRight"><p>2,970台</p></td>
 										</tr>
 
 										<tr class="line">
