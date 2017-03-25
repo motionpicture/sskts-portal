@@ -159,8 +159,8 @@ include("../lib/require.php");
 											<p class="theaterPracce">鹿児島県</p>
 											<p class="theaterService">
                                                 <a class="link" href="../4dx" rel="4dx" alt="4dx" ><img src="../images/common/btn_4dx.gif"></a>
-                                                <!--<a class="link" href="#" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>-->
-												<!--<a href="#" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>-->
+                                                <a class="link" href="https://www.facebook.com/シネマサンシャイン姶良-1907815646120897/" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
+												<a href="https://twitter.com/aira_cs" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
 											</p>
 										</li>
                                     </ul>

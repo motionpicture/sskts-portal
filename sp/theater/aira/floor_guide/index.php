@@ -208,26 +208,26 @@ include("../../../../lib/require.php");
 					<tr>
 						<td class="admission_tl">お得な情報がいっぱいの無料メール配信サービス </td>
 					</tr>-->
-<!--					<tr>
+					<tr>
 						<td colspan="2" height="10"></td>
 					</tr>
 					<tr>
-						<td class="admission_icon" rowspan="2"><a target="_blank" href="https://www.facebook.com/sunshineehime"><img src="../../../images/theater/icon_facebook.gif" width="50" alt="facebook"></a></td>
+						<td class="admission_icon" rowspan="2"><a target="_blank" href="https://www.facebook.com/シネマサンシャイン姶良-1907815646120897/"><img src="../../../images/theater/icon_facebook.gif" width="50" alt="facebook"></a></td>
 						<td class="admission_tl_name">facebook</td>
 					</tr>
 					<tr>
 						<td class="admission_tl">当劇場のFacebookに「いいね！」を押して最新情報をゲット！</td>
-					</tr>-->
-<!--					<tr>
+					</tr>
+					<tr>
 						<td colspan="2" height="10"></td>
 					</tr>
 					<tr>
-						<td class="admission_icon" rowspan="2"><a target="_blank" href="https://twitter.com/cs_ehime"><img src="../../../images/theater/icon_twitter.gif" width="50" alt="twitter"></a></td>
+						<td class="admission_icon" rowspan="2"><a target="_blank" href="https://twitter.com/aira_cs"><img src="../../../images/theater/icon_twitter.gif" width="50" alt="twitter"></a></td>
 						<td class="admission_tl_name">twitter</td>
 					</tr>
 					<tr>
 						<td class="admission_tl">当劇場のTwitterをフォローして最新情報をゲット！ </td>
-					</tr>-->
+					</tr>
 				</tbody>
 			</table>
 		</div>
