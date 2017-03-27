@@ -11,11 +11,11 @@ include("../../../../lib/require.php");
 	<?php getSmartHeader(); ?>
 	<?php getSmartPankuzu(); ?>
 	<div class="basebox2_ptrl">
-		
-        <!-- 池袋SPコンセッション -->
-        
+
+        <!-- 姶良SPコンセッション -->
+        Coming Soon<?php // 劇場オープン前の対応 ?>
         <!-- table -->
-		<table cellpadding="0" cellspacing="0" class="theater_u">
+<!--		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
 					<th colspan="2" class="table_line_01"></th>
@@ -42,11 +42,11 @@ include("../../../../lib/require.php");
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</div>-->
 		<!-- table end -->
 
 		<!-- table -->
-		<table cellpadding="0" cellspacing="0" class="theater_u">
+<!--		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
 					<th colspan="2" class="table_line_01"></th>
@@ -87,11 +87,11 @@ include("../../../../lib/require.php");
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</div>-->
 		<!-- table end -->
 
 		<!-- table -->
-		<table cellpadding="0" cellspacing="0" class="theater_u">
+<!--		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
 					<th colspan="2" class="table_line_01"></th>
@@ -125,11 +125,11 @@ include("../../../../lib/require.php");
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</div>-->
 		<!-- table end -->
 
 		<!-- table -->
-		<table cellpadding="0" cellspacing="0" class="theater_u">
+<!--		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
 					<th colspan="2" class="table_line_01"></th>
@@ -170,7 +170,7 @@ include("../../../../lib/require.php");
 					</tr>
                     <tr>
 						<td colspan="2" class="admission_tl regulation04">ホット</td>
-						
+
 					</tr>
 					<tr>
 						<td class="admission_tl regulation03 regulation04"><span class="notice">ココア</span></td>
@@ -185,13 +185,13 @@ include("../../../../lib/require.php");
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</div>-->
 		<!-- table end -->
-        
-        
+
+
 
 		<!-- table -->
-		<table cellpadding="0" cellspacing="0" class="theater_u">
+<!--		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
 					<th colspan="2" class="table_line_01"></th>
@@ -232,11 +232,11 @@ include("../../../../lib/require.php");
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</div>-->
 		<!-- table end -->
 
 		<!-- table -->
-		<table cellpadding="0" cellspacing="0" class="theater_u">
+<!--		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
 					<th colspan="2" class="table_line_01"></th>
@@ -270,11 +270,11 @@ include("../../../../lib/require.php");
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</div>-->
 		<!-- table end -->
 
 		<!-- table -->
-		<table cellpadding="0" cellspacing="0" class="theater_u">
+<!--		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
 					<th colspan="2" class="table_line_01"></th>
@@ -301,11 +301,11 @@ include("../../../../lib/require.php");
 				</tr>
 			</tbody>
 		</table>
-		</div>
+		</div>-->
 		<!-- table end -->
 
 		<!-- table -->
-		<table cellpadding="0" cellspacing="0" class="theater_u">
+<!--		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>
 					<th colspan="2" class="table_line_01"></th>
@@ -382,7 +382,7 @@ include("../../../../lib/require.php");
 					</tr>
 				</tbody>
 			</table>
-		</div>
+		</div>-->
 		<!-- table end -->
 	</div>
 

@@ -74,7 +74,7 @@ $maeuri = getMaeuri($theaterId['id']);
 			continue;
 		}
 
-		if ($val['price']!="") {		
+		if ($val['price']!="") {
 			$prices = mb_convert_encoding($val['price'],"SJIS","utf-8");
 			$prices = preg_replace("/;/","<br />",$prices);
 		}
@@ -90,9 +90,9 @@ $maeuri = getMaeuri($theaterId['id']);
 		}else{
 			$dateTxt .= "<br />" . date ('Y/m/d',strtotime($val['roadshow_date'])) . "&nbsp;" . mb_convert_encoding("前売券発売","SJIS","utf-8");
 		}
-		
-				
-		$reservationList[] = 
+
+
+		$reservationList[] =
 			array(
 				"",
 				$dateTxt,
@@ -119,6 +119,11 @@ foreach ($reservationList as $value) {
 <div style=\"text-align:center; clear:both\"><img style=\"margin-top:6px; margin-bottom:6px;\" src=\"../../images/dl.gif\" alt=\"line\"/></div>
 <img src=\"../../images/sp.gif\" alt=\" \" height=\"4\"/><br />";
     }
+}
+
+// 劇場オープン前の対応
+if (count($reservationList) === 0) {
+    $html = 'Coming Soon';
 }
 
 $template = str_replace('{$reservationList}', $html, $template);

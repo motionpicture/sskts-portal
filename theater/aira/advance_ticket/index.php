@@ -23,6 +23,15 @@ include("../../../lib/require.php");
 							<div class="MainArea">
 								<h2 class="headlineImg"><img src="../../../images/common/headline_Advance.png"  alt="前売情報" ></h2>
 								<div class="whiteCanvas clearfix">
+<?php
+$arr = getNowPage();
+$theaterName = $arr["ename"];
+$theaterId=getTheaterId($theaterName);
+$maeuri = getMaeuri($theaterId['id']);
+?>
+                                <?php if (count($maeuri) === 0) : // 劇場オープン前の対応 ?>
+                                    Coming Soon
+                                <?php else : ?>
 									<div class="advanceNote">
 										<p>・前売券の販売は、公開日の前日までとなっております。</p>
 										<p>・前売券は通常、ご鑑賞日の２日前から窓口で当日券へのお引換えが可能ですが、作品によっては早まる場合がございますのでご了承下さい。</p>
@@ -40,12 +49,6 @@ include("../../../lib/require.php");
 											<td class="movieBenefit"><p>前売特典</p></td>
 										</tr>
 <?php
-$arr = getNowPage();
-$theaterName = $arr["ename"];
-$theaterId=getTheaterId($theaterName);
-$maeuri = getMaeuri($theaterId['id']);
-
-
 	foreach($maeuri as $val){
 		//var_dump($val);
 		$movie = getMovieById($val['movie_code']);
@@ -128,6 +131,7 @@ $maeuri = getMaeuri($theaterId['id']);
 										</tr>
 
 									</table>
+                                <?php endif; ?>
 								</div>
 							</div>
 						</div>

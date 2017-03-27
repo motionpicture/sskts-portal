@@ -78,17 +78,15 @@ $theater = $arr["ename"];
 
 							<!-- ↓adsense上部↓ -->
 							<div class="adArea">
-								<script type="text/javascript"><!--
-								google_ad_client = "ca-pub-3891476404601512";
-								/* シネサン（池袋上部） */
-								google_ad_slot = "1130081769";
-								google_ad_width = 468;
-								google_ad_height = 60;
-								//-->
-								</script>
-								<script type="text/javascript"
-								src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-								</script>
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <!-- シネサン(姶良上部) -->
+                                <ins class="adsbygoogle"
+                                     style="display:inline-block;width:468px;height:60px"
+                                     data-ad-client="ca-pub-3891476404601512"
+                                     data-ad-slot="3830220965"></ins>
+                                <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                                </script>
 							</div>
 							<!-- ↑adsense上部↑ -->
 
@@ -97,11 +95,12 @@ $theater = $arr["ename"];
 									alt="上映スケジュール"> </h2>
 						<div class="whiteCanvas clearfix">
 							<div class="scheduleBox">
-								<div class="topNotesBox">
+                              <?php // 劇場オープン前の対応 ?>
+<!--								<div class="topNotesBox">
 									<p> インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br />
 										※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br />
 										※購入マークがない時間はインターネットでのチケット購入対象外となります。 </p>
-								</div>
+								</div>-->
 								<div class="topTimeBox">
 									<p>
 										<?php

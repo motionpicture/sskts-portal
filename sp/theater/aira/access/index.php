@@ -39,27 +39,27 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="access_tl">住所</td>
-						<td class="access_tr">東京都豊島区東池袋1-14-3</td>
+                        <td class="access_tr">鹿児島県姶良市東餅田336<br />(イオンタウン姶良 東街区3F) </td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 					<tr>
 						<td class="access_tl">電話番号</td>
-						<td class="access_tr">24時間上映案内<br /><span class="stand_out">03-3982-6388</span><br /><span class="notice">※電話番号のお掛け間違いにご注意下さい</span></td>
+						<td class="access_tr">未定</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 					<tr>
 						<td class="access_tl">駐車場</td>
-						<td class="access_tr">無</td>
+						<td class="access_tr">2,970台</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 					<tr>
-						<td colspan="2" class="access_to">JR池袋駅東口より徒歩5分<br />サンシャイン60通りをサンシャインシティ方面に向かった左手</td>
+						<td colspan="2" class="access_to"></td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>

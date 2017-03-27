@@ -23,68 +23,98 @@ include("../../../lib/require.php");
 							<div class="MainArea">
 								<h2 class="headlineImg"><img src="../../../images/common/headline_Guide.png"  alt="劇場一覧＆サービス" ></h2>
 								<div class="whiteCanvas clearfix">
-									<h3 class="lightBlueTitle bottomLine">シネマサンシャイン池袋の設備一覧</h3>
+									<h3 class="lightBlueTitle bottomLine">シネマサンシャイン姶良の設備一覧</h3>
 									<div class="floorArea">
 										<p class="title">スクリーン</p>
 										<table class="floorTable">
 											<tr>
 												<th class="first" valign="middle" border="0" cellspacing="1" bgcolor="#dcdcdc"></th>
 												<th valign="middle" bgcolor="#f0f0f0">座席</th>
-												<th valign="middle" bgcolor="#f0f0f0">車椅子用スペース</th>
+												<th valign="middle" bgcolor="#f0f0f0">車椅子</th>
 												<th valign="middle" bgcolor="#f0f0f0">音響システム</th>
 												<th class="rightColumn" valign="middle" bgcolor="#f0f0f0">スクリーンサイズ</th>
 											</tr>
 
 											<tr>
-												<td valign="middle"  bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/ikebukuro/fig1.gif" data-fancybox-group="gallery" title="シネマ1" rel="theater" >シネマ1</a></p></td>
-												<td valign="middle"><p>234</p></td>
+												<td valign="middle"  bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig1.gif" data-fancybox-group="gallery" title="シネマ1" rel="theater" >シネマ1</a></p></td>
+												<td valign="middle"><p>250</p></td>
 												<td valign="middle"><p>2</p></td>
-												<td valign="middle"><p>デジタル6ch</p></td>
-												<td class="rightColumn" valign="middle"><p>W7.5m×3.2m</p></td>
+												<td valign="middle">デジタル6ch<p></p></td>
+												<td class="rightColumn" valign="middle"><p>W13.4m×5.9m</p></td>
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/ikebukuro/fig2.gif" data-fancybox-group="gallery" title="シネマ2" rel="theater">シネマ2</a></p></td>
-												<td valign="middle"><p>176</p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig2.gif" data-fancybox-group="gallery" title="シネマ2" rel="theater">シネマ2</a></p></td>
+												<td valign="middle"><p>155</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p>デジタル6ch</p></td>
-												<td class="rightColumn" valign="middle"><p>W7.0m×3.0m</p></td>
+												<td class="rightColumn" valign="middle"><p>W11.1m×5.3m</p></td>
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/ikebukuro/fig3.gif" data-fancybox-group="gallery" title="シネマ3" rel="theater">シネマ3</a></p></td>
-												<td valign="middle"><p>135</p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig3.gif" data-fancybox-group="gallery" title="シネマ3" rel="theater">シネマ3</a></p></td>
+												<td valign="middle"><p>81</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p>デジタル6ch</p></td>
-												<td class="rightColumn" valign="middle"><p>W7.2m×3.1m</p></td>
+												<td class="rightColumn" valign="middle"><p>W7.4m×4.2m</p></td>
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/ikebukuro/fig4.gif" data-fancybox-group="gallery" title="シネマ4" rel="theater">シネマ4</a></p></td>
-												<td valign="middle"><p>264</p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig4.gif" data-fancybox-group="gallery" title="シネマ4" rel="theater">シネマ4</a></p></td>
+												<td valign="middle"><p>81</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p>デジタル6ch</p></td>
-												<td class="rightColumn" valign="middle"><p>W7.5m×3.2m</p></td>
+												<td class="rightColumn" valign="middle"><p>W7.4m×4.2m</p></td>
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/ikebukuro/fig5.gif" data-fancybox-group="gallery" title="シネマ5" rel="theater">シネマ5</a></p></td>
-												<td valign="middle"><p>409</p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig5.gif" data-fancybox-group="gallery" title="BESTIA" rel="theater">BESTIA</a></p></td>
+												<td valign="middle"><p>301</p></td>
 												<td valign="middle"><p>2</p></td>
-												<td valign="middle"><p>デジタル6ch</p></td>
-												<td class="rightColumn" valign="middle"><p>W10.0m×4.2m</p></td>
+												<td valign="middle"><p>DTS:X</p></td>
+												<td class="rightColumn" valign="middle"><p>W16.5m×7.1m</p></td>
 											</tr>
 
 											<tr>
-												<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/ikebukuro/fig6.gif" data-fancybox-group="gallery" title="シネマ6" rel="theater">シネマ6</a></p></td>
-												<td class="bottomColumn" valign="middle"><p>139</p></td>
+												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig6.gif" data-fancybox-group="gallery" title="4DXシアター" rel="theater">4DX<sup>&reg;</sup>シアター</a></p></td>
+												<td class="middle" valign="middle"><p>92</p></td>
+												<td class="middle" valign="middle"><p>-</p></td>
+												<td class="middle" valign="middle"><p>デジタル6ch</p></td>
+												<td class="rightColumn" valign="middle"><p>W12.1m×5.7m</p></td>
+											</tr>
+											<tr>
+												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig7.gif" data-fancybox-group="gallery" title="シネマ7" rel="theater">シネマ7</a></p></td>
+												<td class="middle" valign="middle"><p>104</p></td>
+												<td class="middle" valign="middle"><p>2</p></td>
+												<td class="middle" valign="middle"><p>デジタル6ch</p></td>
+												<td class="rightColumn" valign="middle"><p>W7.7m×4.2m</p></td>
+											</tr>
+											<tr>
+												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig8.gif" data-fancybox-group="gallery" title="シネマ8" rel="theater">シネマ8</a></p></td>
+												<td class="middle" valign="middle"><p>104</p></td>
+												<td class="middle" valign="middle"><p>2</p></td>
+												<td class="middle" valign="middle"><p>デジタル6ch</p></td>
+												<td class="rightColumn" valign="middle"><p>W7.4m×4.2m</p></td>
+											</tr>
+											<tr>
+												<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/aira/fig9.gif" data-fancybox-group="gallery" title="シネマ9" rel="theater">シネマ9</a></p></td>
+												<td class="bottomColumn" valign="middle"><p>104</p></td>
 												<td class="bottomColumn" valign="middle"><p>2</p></td>
 												<td class="bottomColumn" valign="middle"><p>デジタル6ch</p></td>
-												<td class="rightColumn bottomColumn" valign="middle"><p>W5.0m×2.0m</p></td>
+												<td class="rightColumn bottomColumn" valign="middle"><p>W7.6m×4.3m</p></td>
 											</tr>
 										</table>
 
-										<p class="title">3D上映</p>
+										<p class="title">4DX<sup>&reg;</sup>シアター</p>
+										<div class="floorBox clearfix">
+											<div class="left"><a href="../../../4dx/"><img src="../../../images/common/fig_4dx.jpg"  alt="4DX&reg;" ></a></div>
+											<div class="right">
+												<p class="subTitle" >4DX<sup>&reg;</sup>シアター</p>
+												<p class="txt" >3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの11個の機能により、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</p>
+											</div>
+										</div>
+
+                                        <p class="title">3D上映</p>
 										<div class="floorBox clearfix">
 											<div class="left"><a href="../../../3d/master.html"><img src="../../../images/common/fig_3d.gif"  alt="3d" ></a></div>
 											<div class="right">
@@ -97,13 +127,13 @@ include("../../../lib/require.php");
 												</p>
 											</div>
 										</div>
-										
+
 									</div>
 
-									<h3 class="lightBlueTitle bottomLine">シネマサンシャイン池袋の劇場サービス</h3>
+									<h3 class="lightBlueTitle bottomLine">シネマサンシャイン姶良の劇場サービス</h3>
 									<div class="floorArea end">
-										<div class="floorBox clearfix">
-											<div class="left"><a href="aira"><img src="../../../images/common/ebox_bnr_pc.gif"  alt="e-box" ></a></div>
+                                        <div class="floorBox clearfix">
+											<div class="left"><a href="../"><img src="../../../images/common/ebox_bnr_pc.gif"  alt="e-box" ></a></div>
 											<div class="right">
 												<p class="subTitle" >e-box</p>
 												<p class="txt" >
@@ -111,7 +141,7 @@ include("../../../lib/require.php");
 												</p>
 											</div>
 										</div>
-                                        <div class="floorBox clearfix">
+										<div class="floorBox clearfix">
 											<div class="left"><a href="../../../members_card/"><img src="../../../images/common/fig_menber.gif"  alt="メンバーズカード" ></a></div>
 											<div class="right">
 												<p class="subTitle" >メンバーズカード</p>
@@ -138,7 +168,7 @@ include("../../../lib/require.php");
 												</p>
 											</div>
 										</div>
-										<div class="floorBox clearfix">
+<!--										<div class="floorBox clearfix">
 											<div class="left"><a href="../../../magazine/magazine.html"><img src="../../../images/common/fig_magazine.gif"  alt="メールマガジン" ></a></div>
 											<div class="right">
 												<p class="subTitle" >メールマガジン</p>
@@ -146,9 +176,9 @@ include("../../../lib/require.php");
 													お得な情報がいっぱいの無料メール配信サービス
 												</p>
 											</div>
-										</div>
+										</div>-->
 										<div class="floorBox clearfix">
-											<div class="left"><a href="http://www.facebook.com/sunshineikebukuro" target="_blank"><img src="../../../images/common/fig_facebook.gif"  alt="facebook" ></a></div>
+											<div class="left"><a href="https://www.facebook.com/シネマサンシャイン姶良-1907815646120897/" target="_blank"><img src="../../../images/common/fig_facebook.gif"  alt="facebook" ></a></div>
 											<div class="right">
 												<p class="subTitle" >facebook</p>
 												<p class="txt" >
@@ -157,7 +187,7 @@ include("../../../lib/require.php");
 											</div>
 										</div>
 										<div class="floorBox clearfix end">
-											<div class="left"><a href="http://twitter.com/cs_ikebukuro" target="_blank"><img src="../../../images/common/fig_twitter.gif"  alt="twitter" ></a></div>
+											<div class="left"><a href="https://twitter.com/aira_cs" target="_blank"><img src="../../../images/common/fig_twitter.gif"  alt="twitter" ></a></div>
 											<div class="right">
 												<p class="subTitle" >Twitter</p>
 												<p class="txt" >

@@ -81,6 +81,7 @@ include("../lib/require.php");
 											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./yamatokoriyama" >シネマサンシャイン大和郡山</a></p>
 											<p class="theaterPracce">奈良県</p>
 											<p class="theaterService">
+                                                <a class="link" href="../4dx" rel="4dx" alt="4dx" ><img src="../images/common/btn_4dx.gif"></a>
 												<a class="link" href="../imax" rel="imax" alt="imax" ><img src="../images/common/btn_imax.gif"></a>
 												<a class="link" href="http://www.facebook.com/sunshineyamatokoriyama" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
 												<a href="https://twitter.com/sunshine_imax" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
@@ -158,9 +159,8 @@ include("../lib/require.php");
 											<p class="theaterPracce">鹿児島県</p>
 											<p class="theaterService">
                                                 <a class="link" href="../4dx" rel="4dx" alt="4dx" ><img src="../images/common/btn_4dx.gif"></a>
-                                                <a class="link" href="../imax" rel="imax" alt="imax" ><img src="../images/common/btn_imax.gif"></a>
-                                                <a class="link" href="#" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
-												<a href="#" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
+                                                <a class="link" href="https://www.facebook.com/シネマサンシャイン姶良-1907815646120897/" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
+												<a href="https://twitter.com/aira_cs" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
 											</p>
 										</li>
                                     </ul>

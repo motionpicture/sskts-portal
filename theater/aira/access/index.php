@@ -31,11 +31,8 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="accessLeft" valign="top"><p>住所</p></td>
 											<td class="accessRight">
-											 	<p class="top">東京都豊島区東池袋1-14-3</p>
-											 	<p class="bottom">
-												 	JR池袋駅東口より徒歩5分<br />
-													サンシャイン60通りをサンシャインシティ方面に向かった左手
-												</p>
+											 	<p class="top">鹿児島県姶良市東餅田336<br />(イオンタウン姶良 東街区3F) </p>
+											 	<!--<p class="bottom"></p>-->
 											</td>
 										</tr>
 
@@ -46,9 +43,7 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="accessLeft" valign="top"><p>電話番号</p></td>
 											<td class="accessRight">
-											 	<p>24時間上映時間案内</p>
-											 	<p><span>03-3982-6388</span></p>
-											 	<p class="notes">※電話番号のお掛け間違いにご注意下さい</p>
+											 	<p>未定</p>
 											</td>
 										</tr>
 
@@ -58,7 +53,7 @@ include("../../../lib/require.php");
 
 										<tr>
 											<td class="accessLeft" valign="top"><p>駐車場</p></td>
-											<td class="accessRight"><p>なし</p></td>
+											<td class="accessRight"><p>2,970台</p></td>
 										</tr>
 
 										<tr class="line">
