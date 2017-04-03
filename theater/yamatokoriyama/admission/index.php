@@ -316,6 +316,23 @@ include("../../../lib/require.php");
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
+										<tr>
+											<td class="priceSubject"><p>イオンカード割引</p></td>
+											<td class="priceNotes" >
+												<p>※毎月20日、30日にイオンカード提示でご本人様のみ。</p>
+											</td>
+											<td class="priceAdd" >
+												<p>
+													一般&nbsp;&nbsp;￥300引<br />
+													学生・幼児&nbsp;&nbsp;￥200引
+												</p>
+											</td>
+										</tr>
+
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+
 
 									</table>
 
