@@ -276,5 +276,23 @@ if (count($dates) <7) {
 	<?php getFooter(); ?>
 </div>
 <!-- #wrapper end -->
+<!-- 170406 姶良GDN追加 -->
+<!-- リマーケティング タグの Google コード -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 856386322;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/856386322/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- /リマーケティング タグの Google コード -->
+<!-- /170406 姶良GDN追加 -->
 </body>
 </html>
