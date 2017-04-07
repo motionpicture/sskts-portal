@@ -198,7 +198,7 @@ include("../../../../lib/require.php");
 					<tr>
 						<td class="admission_tl">オンラインで購入して座席予約できる電子前売券</td>
 					</tr>
-<!--					<tr>
+				<tr>
 						<td colspan="2" height="10"></td>
 					</tr>
 					<tr>
@@ -207,7 +207,7 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="admission_tl">お得な情報がいっぱいの無料メール配信サービス </td>
-					</tr>-->
+					</tr>
 					<tr>
 						<td colspan="2" height="10"></td>
 					</tr>
