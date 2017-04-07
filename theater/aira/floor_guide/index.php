@@ -168,7 +168,7 @@ include("../../../lib/require.php");
 												</p>
 											</div>
 										</div>
-<!--										<div class="floorBox clearfix">
+										<div class="floorBox clearfix">
 											<div class="left"><a href="../../../magazine/magazine.html"><img src="../../../images/common/fig_magazine.gif"  alt="メールマガジン" ></a></div>
 											<div class="right">
 												<p class="subTitle" >メールマガジン</p>
@@ -176,7 +176,7 @@ include("../../../lib/require.php");
 													お得な情報がいっぱいの無料メール配信サービス
 												</p>
 											</div>
-										</div>-->
+										</div>
 										<div class="floorBox clearfix">
 											<div class="left"><a href="https://www.facebook.com/シネマサンシャイン姶良-1907815646120897/" target="_blank"><img src="../../../images/common/fig_facebook.gif"  alt="facebook" ></a></div>
 											<div class="right">
