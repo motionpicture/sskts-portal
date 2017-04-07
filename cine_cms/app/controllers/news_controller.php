@@ -39,16 +39,10 @@ class NewsController extends AppController {
 		$theaters['1002']="IMM 特設サイト表示用";
 		$theaters['1003']="4DX 特設サイト表示用";
 		$theaters['1004']="DOLBY 特設サイト表示用";
+        $theaters['1005'] = "BESTIA 特設サイト表示用";
 
 		$this->set('theaters',$theaters);
 
-
-		//result画面用特集処理
-		//imax,imm soundを追加
-		//$rtheaters=$theaters;
-		//$rtheaters['1001']="IMAX 特設サイト表示用";
-		//$rtheaters['1002']="IMM 特設サイト表示用";
-		//$this->set('rtheaters',$rtheaters);
 
 		//beforeではこの方法でglobal化することが可能
 		$this->rTheaters=$theaters;
