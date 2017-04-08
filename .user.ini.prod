@@ -1,3 +1,6 @@
+[Core]
+memory_limit = 200M
+
 [Date]
 date.timezone = Asia/Tokyo
 
