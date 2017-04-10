@@ -1,0 +1,10 @@
+[Core]
+display_errors = On
+error_reporting = E_ERROR | E_WARNING | E_PARSE
+
+[Date]
+date.timezone = Asia/Tokyo
+
+[mbstring]
+mbstring.language = Japanese
+mbstring.internal_encoding = UTF-8

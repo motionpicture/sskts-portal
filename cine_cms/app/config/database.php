@@ -21,10 +21,11 @@ class DATABASE_CONFIG {
     var $stg = array(
 		'datasource' => 'AzureMysql',
 		'persistent' => false,
-		'host' => '',
-		'login' => '',
-		'password' => '',
-		'database' => '',
+		'host' => 'ja-cdbr-azure-east-a.cloudapp.net',
+        'port' => '3306',
+		'login' => 'b7cfafbc66734f',
+		'password' => 'e03b98ae',
+		'database' => 'testssktsportal',
 		'encoding' => 'utf8',
         'time_zone' => '+09:00',
 	);
