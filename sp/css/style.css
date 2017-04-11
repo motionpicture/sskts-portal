@@ -7,7 +7,7 @@
 .schedule select {
   width: 260px;
   font-size:12px;
-  height:18px;
+  height:35px;
 }		
 .top_schedule{
 	padding:0 0 5px 0;
@@ -18,9 +18,11 @@
 	width:280px;
 	}		
 .schedule_txt{
-	padding:0 0 8px 15px;
+	padding:15px 0px 15px;
 	}	
-		
+.schedule_box{
+	padding: 5px 0px;
+}		
 /* ranking
 -----------------------------------------------------------------------------------------------------------*/	
 .rankingbox{
