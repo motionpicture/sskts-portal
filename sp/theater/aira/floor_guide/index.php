@@ -114,12 +114,19 @@ include("../../../../lib/require.php");
 			</table>
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
+                　 <tr>
+						<td class="admission_icon2" rowspan="2"><img src="../../../images/theater/icon_4dx.gif" width="50" alt="4DX"></td>
+						<td class="admission_tl_name">BESTIA</td>
+					</tr>
+					<tr>
+						<td class="admission_tl">リアルで鮮明な映像を映しだすことが可能な4K・9Pレーザープロジェクションシステムと、あらゆるサウンドをチャンネルの制限がない独立したオブジェクトとして存在させることができる3Dサウンドフォーマット（dts-X produced by GDC）の２つのシステムにより、観客がまるで映画の中に入ったような臨場感を生み出すことができるプレミアムシアターです。</td>
+					</tr>
 					<tr>
 						<td class="admission_icon2" rowspan="2"><a href="/4dx/"><img src="../../../images/theater/icon_4dx.gif" width="50" alt="4DX"></a></td>
 						<td class="admission_tl_name">4DX<sup>&reg;</sup>シアター</td>
 					</tr>
 					<tr>
-						<td class="admission_tl">3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの11個の機能により、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</td>
+						<td class="admission_tl">3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの19のエフェクトにより、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</td>
 					</tr>
                     <tr>
 						<td colspan="2" class="table_top_02">3D情報</td>

@@ -104,16 +104,31 @@ include("../../../lib/require.php");
 												<td class="rightColumn bottomColumn" valign="middle"><p>W7.6m×4.3m</p></td>
 											</tr>
 										</table>
-
+                                        
+                                        <!--BESTIA上映-->
+                                        <p class="title">BESTIA</p>
+										<div class="floorBox clearfix">
+											<div class="left"><img src="../../../images/common/fig_bestia.jpg"  alt="BESTIA" ></div>
+											<div class="right">
+												<p class="subTitle" >BESTIA</p>
+												<p class="txt" >
+                                                       リアルで鮮明な映像を映しだすことが可能な4K・9Pレーザープロジェクションシステムと、あらゆるサウンドをチャンネルの制限がない独立したオブジェクトとして存在させることができる3Dサウンドフォーマット（dts-X produced by GDC）の２つのシステムにより、観客がまるで映画の中に入ったような臨場感を生み出すことができるプレミアムシアターです。</p>
+											</div>
+										</div>
+                                        <!--/BESTIA上映-->
+                                        
+                                        <!--4DX上映-->
 										<p class="title">4DX<sup>&reg;</sup>シアター</p>
 										<div class="floorBox clearfix">
 											<div class="left"><a href="../../../4dx/"><img src="../../../images/common/fig_4dx.jpg"  alt="4DX&reg;" ></a></div>
 											<div class="right">
 												<p class="subTitle" >4DX<sup>&reg;</sup>シアター</p>
-												<p class="txt" >3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの11個の機能により、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</p>
+												<p class="txt" >3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの19のエフェクトにより、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</p>
 											</div>
 										</div>
-
+                                        <!--/4DX上映-->
+                                        
+                                        <!--3D上映-->
                                         <p class="title">3D上映</p>
 										<div class="floorBox clearfix">
 											<div class="left"><a href="../../../3d/master.html"><img src="../../../images/common/fig_3d.gif"  alt="3d" ></a></div>
@@ -127,6 +142,7 @@ include("../../../lib/require.php");
 												</p>
 											</div>
 										</div>
+                                        <!--/3D上映-->
 
 									</div>
 
