@@ -102,7 +102,7 @@ jQuery(function($){
 </head>
 <body>
 <!-- header -->
-<div id="header"><a href="../"><img class="btn_return" src="./images/common/header_return.gif" width="27" height="24" alt="戻る"></a>
+<div id="header"><a href="/sp"><img class="btn_return" src="./images/common/header_return.gif" width="27" height="24" alt="戻る"></a>
 	<h1><img src="./images/common/header_rogo.gif" width="119" height="24" alt=""></h1>
 </div>
 <!-- /header -->
