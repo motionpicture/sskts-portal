@@ -207,7 +207,7 @@ function convertTicketingURL($theaterCode, \SimpleXMLElement $movie, $date) {
 
         foreach ($screen->time as $time) {
             // 施設コード + 上映日 + 作品コード + 作品枝番 + スクリーンコード + 上映開始時刻
-            $param = $theaterCode . $date . $movieCode . $movieBranchCode . $screenCode . (string) $time->start_time;
+            $param = '0' . $theaterCode . $date . $movieCode . $movieBranchCode . $screenCode . (string) $time->start_time;
             $time->url = TICKETING_BASE_URL . '/purchase?id=' . $param;
         }
     }
