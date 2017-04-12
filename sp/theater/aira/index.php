@@ -225,6 +225,7 @@ if(!empty($_GET["pre"])) {
 							<td>21日</td>
 							<td>11:45</td>
 							<td>16:25</td>
+							<td>21:05<br /><span class="note_lil">レイトショー</span></td>
 							<td colspan="3"></td>
 						</tr>
 						<tr>

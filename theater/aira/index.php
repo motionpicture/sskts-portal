@@ -251,7 +251,8 @@ $theater = $arr["ename"];
 							<td>21日</td>
 							<td>11:45</td>
 							<td>16:25</td>
-							<td colspan="3"></td>
+							<td>21:05<br /><span class="note_lil">レイトショー</span></td>
+							<td colspan="2"></td>
 						</tr>
 						<tr>
 							<td class="tittle" colspan="6">レゴバットマン ザ・ムービー【吹替版】</td>
