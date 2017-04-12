@@ -114,10 +114,11 @@ $theater = $arr["ename"];
 									<!--姶良静的スケジュール-->
 			<style type="text/css">
 			  table , td, th {border: 1px solid #595959;border-collapse: collapse;}
-			  .scadule{width:100%;}
+			  .scadule{width:100%; font-size: 14px;}
+			  h3{margin:10px 0px;font-size: 14px;font-weight:bold;}
 			  td,th {padding: 3px;width: 30px;height: 25px;}
 			  .time td{text-align:center;font-weight:bold;}
-			  .note_lil{font-size:12px;}
+			  .note_lil{font-size:12px;font-weight:normal;}
 			  .red_txt{color:red;}
 			  /*リスト用CSS*/
 			  .tittle{text-align:left;background-color:#e3e3e3;padding:5px;font-weight:bold;}
@@ -237,7 +238,7 @@ $theater = $arr["ename"];
 							<td colspan="5">18:30</td>
 						</tr>
 						<tr>
-							<td class="tittle" colspan="5">ゴースト・イン・ザ・シェル【字幕版】</td>
+							<td class="tittle" colspan="6">ゴースト・イン・ザ・シェル【字幕版】</td>
 						</tr>
 						<tr class="time">
 							<td>20日</td>
@@ -371,7 +372,7 @@ $theater = $arr["ename"];
 						</tr>
 					</tbody>
 				</table>
-				<h3>4/22(土)〜4/27(木)</h3>
+				<h3>4/22(土)〜4/27(木)上映スケジュール</h3>
 				<table class="scadule">
 					<tbody>
 						<tr>
