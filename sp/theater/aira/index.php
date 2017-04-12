@@ -88,11 +88,11 @@ if(!empty($_GET["pre"])) {
 			<!--姶良静的スケジュール-->
 			<style type="text/css">
 			  table , td, th {border: 1px solid #595959;border-collapse: collapse;}
-			  .scadule{width:100%; font-size: 14px;}
-			  h3{margin:10px 0px;font-size: 14px;font-weight:bold;}
+			  .scadule{width:100%; font-size: 14px;margin-bottom:20px;}
+			  h3{margin:10px 0px;font-size: 15px;font-weight:bold;}
 			  td,th {padding: 3px;width: 30px;height: 25px;}
 			  .time td{text-align:center;font-weight:bold;}
-			  .note_lil{font-size:12px;font-weight:normal;}
+			  .note_lil{font-size:10px;font-weight:normal;}
 			  .red_txt{color:red;}
 			  /*リスト用CSS*/
 			  .tittle{text-align:left;background-color:#e3e3e3;padding:5px;font-weight:bold;}
@@ -139,7 +139,7 @@ if(!empty($_GET["pre"])) {
 							<td></td>
 						</tr>
 						<tr>
-							<td class="tittle" colspan="6">名探偵コナン　から紅の恋歌(ラブレター)[20日]</td>
+							<td class="tittle" colspan="6">名探偵コナン　から紅の恋歌(ラブレター)</td>
 						</tr>
 						<tr class="time">
 							<td>20日</td>
@@ -192,7 +192,7 @@ if(!empty($_GET["pre"])) {
 							<td>21日</td>
 							<td>9:25</td>
 							<td>12:25</td>
-							<td>17:45</td>
+							<td>17:40</td>
 							<td>19:10</td>
 							<td>&nbsp;</td>
 						</tr>
@@ -209,7 +209,8 @@ if(!empty($_GET["pre"])) {
 						</tr>
 						<tr class="time">
 							<td>21日</td>
-							<td colspan="5">18:30</td>
+							<td>18:30</td>
+							<td colspan="4"></td>
 						</tr>
 						<tr>
 							<td class="tittle" colspan="6">ゴースト・イン・ザ・シェル【字幕版】</td>
@@ -257,7 +258,7 @@ if(!empty($_GET["pre"])) {
 						<tr class="time">
 							<td>21日</td>
 							<td>14:25</td>
-							<td>20:30<br /><span class="note_lil">レイトショー</span></td>
+							<td>20:10<br /><span class="note_lil">レイトショー</span></td>
 							<td colspan="4">&nbsp;</td>
 						</tr>
 						<tr>
@@ -275,7 +276,8 @@ if(!empty($_GET["pre"])) {
 							<td>21日</td>
 							<td>11:50</td>
 							<td>16:25</td>
-							<td colspan="3">&nbsp;</td>
+							<td>21:00</td>
+							<td colspan="2">&nbsp;</td>
 						</tr>
 						<tr>
 							<td class="tittle" colspan="6">モアナと伝説の海【吹替版】</td>
