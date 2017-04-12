@@ -115,7 +115,7 @@ include("../../../../lib/require.php");
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
                 　 <tr>
-						<td class="admission_icon2" rowspan="2"><img src="../../../images/theater/icon_4dx.gif" width="50" alt="4DX"></td>
+						<td class="admission_icon2" rowspan="2"><img src="../../../images/theater/icon_bestia.gif" width="50" alt="BESTIA"></td>
 						<td class="admission_tl_name">BESTIA</td>
 					</tr>
 					<tr>
