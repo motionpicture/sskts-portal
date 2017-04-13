@@ -113,6 +113,14 @@ include("../../../../lib/require.php");
 				</tbody>
 			</table>
 		</div>
+		
+		<table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+				<tr>
+					<th colspan="2" class="table_line_01"></th>
+				</tr>
+			</thead>
+		</table>
 
 		<table cellpadding="0" cellspacing="0" class="theater_t">
 			<tbody>
