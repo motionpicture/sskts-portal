@@ -1,6 +1,9 @@
 m_test/magazine/images/btn_3.gif
 m_test/
 
+# SSKTS-267
+/data/aira/*
+
 # env
 env.php
 .user.ini
