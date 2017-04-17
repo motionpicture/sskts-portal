@@ -31,6 +31,7 @@ if(preg_match("/iPhone/", $_SERVER['HTTP_USER_AGENT']) ||
 			      !preg_match("!/imm/!", $_SERVER["REQUEST_URI"]) &&
 			      !preg_match("!/4dx/!", $_SERVER["REQUEST_URI"]) &&
 			      !preg_match("!/ast/!", $_SERVER["REQUEST_URI"]) &&
+                  !preg_match("!/bestia/!", $_SERVER["REQUEST_URI"]) &&
 			      !preg_match("!/special_ticket/!", $_SERVER["REQUEST_URI"])){
 					header("Location: $redirect");
 				}
