@@ -7,7 +7,7 @@ $theater = $arr["ename"];
 
 if(!empty($_GET['date'])) {
 	$p_date=date('Ymd',strtotime($_GET['date']));
-} else if (date() < strtotime('2017-04-20')) { // SSKTS-267
+} else if (time() < strtotime('2017-04-20')) { // SSKTS-267
     $p_date = date('Ymd', strtotime('2017-04-20'));
 } else {
     $p_date = date('Ymd');
