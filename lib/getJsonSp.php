@@ -48,6 +48,7 @@ if(!empty($_GET["result"])) {
 function targetTheater($theater,$pre = null) {
 
     $cacheKeyPrefix = '';
+    $airaDataDir = dirname(__DIR__) . '/data/aira';
 
 	if ($pre!=null){
         $cacheKeyPrefix = 'pre_schedule_';
@@ -65,6 +66,7 @@ function targetTheater($theater,$pre = null) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
+            'aira' => $airaDataDir . '/preSchedule.xml',
 		);
 
 	} else {
@@ -83,6 +85,7 @@ function targetTheater($theater,$pre = null) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
+            'aira' => $airaDataDir . '/schedule.xml',
 		);
 	}
 

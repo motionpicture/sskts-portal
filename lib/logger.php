@@ -41,6 +41,8 @@ class Logger extends BaseLogger
     {
         if (APP_ENV === 'prod') {
             $this->initProd();
+        } else if (APP_ENV == 'stg') {
+            $this->initStg();
         } else {
             $this->initDev();
         }
@@ -57,6 +59,23 @@ class Logger extends BaseLogger
         // Azure Storage
         $storageAccount = 'devsskportal';
         $storageKey = 'je4ygy9MORWT2cuDIiDqqQBVXp5a1XgCrXXFO7khWn0Aq8vX5ABA89EyDnyd7z1RiZWAl3rPWlwJF2DMcZtzow==';
+        $connectionString = sprintf('DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s', $storageAccount, $storageKey);
+        $blobClient = ServicesBuilder::getInstance()->createBlobService($connectionString);
+
+        $this->pushHandler(new AzureStorageHandler($blobClient, 'log', self::ERROR));
+    }
+
+    /**
+     * initalize stg
+     */
+    private function initStg()
+    {
+        // chrome PHP
+        $this->pushHandler(new ChromePHPHandler(self::DEBUG));
+
+        // Azure Storage
+        $storageAccount = 'testsskportal';
+        $storageKey = 'N85ssGnSwzKI1gpU2/f7MCfy4Ah6fAopQUfK3To9pCap3QyWNvIOAmJhVM0NlTSI5WqLyzTkpO5n42a5ssw6uw==';
         $connectionString = sprintf('DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s', $storageAccount, $storageKey);
         $blobClient = ServicesBuilder::getInstance()->createBlobService($connectionString);
 

@@ -121,6 +121,35 @@ include("../../../lib/require.php");
 										</tr>
 									</table>
 
+									<h3 class="lightBlueTitle">BESTIA鑑賞料金</h3>
+									<table class="priceTable">
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+
+										<tr>
+											<td class="priceSubject"><p>BESTIA鑑賞料金</p></td>
+											<td class="priceNotes" >
+												<p>
+													2D作品の場合<br />
+													〈通常料金〉+〈BESTIA鑑賞料金200円〉<br /><br />
+												</p>
+												<p>
+													3D作品の場合<br />
+													〈通常料金〉+〈3D鑑賞料金400円〉+〈BESTIA鑑賞料金200円〉<br /><br />
+													サービスデーの場合<br /></p>
+													<p>〈サービスデー料金〉+〈BESTIA鑑賞料金200円〉<br /><br />
+												</p>
+												<p style="color:red;">【オープン記念】<br />期間限定で追加料金無料</p>
+											</td>
+											<td class="priceAdd" >通常料金+200円</td>
+										</tr>
+
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+									</table>
+
 									<h3 class="lightBlueTitle">割引料金</h3>
 									<table class="priceTable">
 										<tr class="line">

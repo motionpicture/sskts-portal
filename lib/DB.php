@@ -15,11 +15,11 @@ class DB{
 			$dbPass = 'pb3fca0c068905';
 			$dbName = 'prodsskportal';
 		} else if (APP_ENV === 'stg') {
-			$dbHost = '';
-            $dbPort = null;
-			$dbUser = '';
-			$dbPass = '';
-			$dbName = '';
+			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
+            $dbPort = '3306';
+			$dbUser = 'b7cfafbc66734f';
+			$dbPass = 'e03b98ae';
+			$dbName = 'testssktsportal';
 		} else {
 			$dbHost = 'ja-cdbr-azure-east-a.cloudapp.net';
             $dbPort = null;

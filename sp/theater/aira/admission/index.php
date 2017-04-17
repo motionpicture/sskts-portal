@@ -113,6 +113,50 @@ include("../../../../lib/require.php");
 				</tbody>
 			</table>
 		</div>
+		
+		<table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+				<tr>
+					<th colspan="2" class="table_line_01"></th>
+				</tr>
+			</thead>
+		</table>
+
+		<table cellpadding="0" cellspacing="0" class="theater_t">
+			<tbody>
+				<tr class="first-child">
+					<td colspan="2" class="table_top_01">BESTIA鑑賞料金</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="table_wrapper regulation02">
+			<table cellpadding="0" cellspacing="0" class="theater_u">
+				<tbody>
+					<tr>
+						<td class="admission_tl">BESTIA鑑賞料金：通常料金+200円</td>
+					</tr>
+					<tr>
+						<td class="admission_tl">
+							<span class="notice">
+								2D作品の場合<br />
+								〈通常料金〉+〈BESTIA鑑賞料金200円〉<br /><br />
+								3D作品の場合<br />
+								〈通常料金〉+〈3D鑑賞料金400円〉+〈BESTIA鑑賞料金200円〉<br /><br />
+								サービスデーの場合<br />
+								〈サービスデー料金〉+〈BESTIA鑑賞料金200円〉<br /><br />
+							</span>
+							<span class="notice" style="color:red;">
+								【オープン記念】<br />
+								期間限定で追加料金無料<br />
+								<br />
+							</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
 		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 				<tr>

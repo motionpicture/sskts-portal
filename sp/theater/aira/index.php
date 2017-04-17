@@ -5,9 +5,12 @@ include("../../../lib/require.php");
 $arr = getNowPage();
 $theater = $arr["ename"];
 
-$p_date= date('Ymd');
 if(!empty($_GET['date'])) {
 	$p_date=date('Ymd',strtotime($_GET['date']));
+} else if (time() < strtotime('2017-04-20')) { // SSKTS-267
+    $p_date = date('Ymd', strtotime('2017-04-20'));
+} else {
+    $p_date = date('Ymd');
 }
 
 if(!empty($_GET["pre"])) {
@@ -15,9 +18,7 @@ if(!empty($_GET["pre"])) {
 } else {
 	$result = getScheduleSp($theater,$p_date);
 }
-
 ?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -88,8 +89,6 @@ if(!empty($_GET["pre"])) {
 		</div>
 
 		<?php
-            // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携
-            /*
 			$isPreExistCode = getDates($theater,true,true);
 			if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
 				//echo '<p><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
@@ -100,12 +99,9 @@ if(!empty($_GET["pre"])) {
 					//echo '<p><a href="./">通常</a></p>';
 				}
 			}
-            */
 		?>
 
 		<?php
-            // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携
-            /*
 			//予約可能な日付取得
 
 			//先行モードの場合
@@ -159,18 +155,14 @@ if(!empty($_GET["pre"])) {
 			}
 			//var_dump($calender_dates);
 			//foreach()
-            */
 		?>
 
 
 		<!--スライダー-->
-        <?php // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携 ?>
-		<!--<div class="dayListBox">
+		<div class="dayListBox">
 			<div id="cal_left"></div>
 			<ul>
 				<?php
-                    // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携
-                    /*
 					$cal_cnt = 0;
 					foreach($calender_dates as $cal_date) {
 						if ($cal_date['available']) {
@@ -234,11 +226,10 @@ if(!empty($_GET["pre"])) {
 
 						$cal_cnt++;
 					}
-                    */
 				?>
 			</ul>
 			<div id="cal_right"></div>
-		</div>-->
+		</div>
 		<!--/スライダー-->
 
 		<div class="bottomNotes">
@@ -255,12 +246,9 @@ if(!empty($_GET["pre"])) {
 
 		<p class="date">
 			<?php
-                // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携
-                /*
 				if ($result["error"] == "000000") {
 					echo date("Y年m月d日",strtotime($result["data"]->date))."(".getYoubi($result["data"]->date).")"; ;
 				}
-                */
 			?>
 		</p>
 	</div>
@@ -290,8 +278,6 @@ if(!empty($_GET["pre"])) {
 
 	<div class="section ptb10">
 		<?php
-            // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携
-            /*
 			foreach($result["data"]->movie as $movie) {
 				$comment="";
 				//var_dump($movie);
@@ -347,13 +333,11 @@ if(!empty($_GET["pre"])) {
 				echo '</table>';
 				echo '</div>';
 			}
-            */
 		?>
 	</div>
 	<div class="section">
 		<p class="notice">
-            <?php // TODO: SASAKI_TICKET-60 [鹿児島追加]スケジュール連携 ?>
-			<?php //echo $result["attention"] ?>
+			<?php echo $result["attention"] ?>
 		</p>
 	</div>
 	<div class="category_bar_p">ピックアップ</div>
