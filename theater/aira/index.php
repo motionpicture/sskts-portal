@@ -10,7 +10,7 @@ $theater = $arr["ename"];
 <script type="text/javascript" src="../../js/jquery.blockUI.js"></script>
 <script type="text/javascript" src="../../js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="../../js/util.js"></script>
-<script type="text/javascript" src="../../js/theater_ajax.js"></script>
+<script type="text/javascript" src="../../js/theater_ajax.js?20170330"></script>
 <script type="text/javascript">
 
 

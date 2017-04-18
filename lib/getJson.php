@@ -1,4 +1,5 @@
 <?php
+require_once 'const.php';
 require_once 'cache.php';
 
 /*if (PHP_VERSION <"5.2.0") {
@@ -19,9 +20,9 @@ if(!empty($_GET["result"])) {
 	if (targetTheater($_GET["theater"])) {
 
 		if (!empty($_GET["movie"])) {
-			getScheduleMovie($_GET["date"], $_GET["movie"]);
+			getScheduleMovie($_GET["date"], $_GET["movie"], $_GET["theater"]);
 		} else {
-			getSchedule($_GET["date"]);
+			getSchedule($_GET["date"], $_GET["theater"]);
 		}
 
 		//getDateList();
@@ -29,7 +30,7 @@ if(!empty($_GET["result"])) {
 	//劇場TOP
 } else if(!empty($_GET["top"])) {
 	if (targetTheater($_GET["theater"])) {
-		getSchedule($_GET["date"]);
+		getSchedule($_GET["date"], $_GET["theater"]);
 		//getDateList();
 	}
 	//それ以外はエラー
@@ -138,6 +139,8 @@ function targetTheater($theater) {
     // 正常終了
     $result["error"] ="$schedules->error";
     $result["attention"] ="$schedules->attention";
+    $result['theater_code'] = isset($schedules->theater_code) ? (string) $schedules->theater_code : null; // SSKTS-60
+
     return true;
 }
 
@@ -190,7 +193,7 @@ function getMovieList($date) {
 }
 
 //作品一覧を取得
-function getSchedule($date) {
+function getSchedule($date, $theater) {
 	global $schedules;
 	global $result;
 
@@ -206,13 +209,22 @@ function getSchedule($date) {
 			//}
 		}
 	}
+
+    if ($theater === 'aira') {
+        $data = $result['data'];
+
+        foreach ($data->movie as $movie) {
+            convertTicketingURL($movie, (string) $data->date) ;
+        }
+
+    }
 //var_dump($result);
 	output($result);
 
 }
 
 //指定作品のみ出力
-function getScheduleMovie($date,$movie_code) {
+function getScheduleMovie($date, $movie_code, $theater) {
 	global $schedules;
 	global $result;
 
@@ -225,6 +237,11 @@ function getScheduleMovie($date,$movie_code) {
 					//movieのみ格納
 					$r_schedule['date'] ="$schedule->date";
 					$r_schedule['usable'] ="$schedule->usable";
+
+                    if ($theater === 'aira') {
+                        convertTicketingURL($movie, $r_schedule['date']);
+                    }
+
 					$r_schedule['movie'] =$movie;
 
 
@@ -241,6 +258,41 @@ function getScheduleMovie($date,$movie_code) {
 	//var_dump($result);
 	output($return);
 
+}
+
+/**
+ * チケッティングURLを変換
+ *
+ * 既存のリンクを新チケッティングへ変更する
+ * 引数に設定したXMLデータがそのまま変更されるので、
+ * 必要に応じて渡す前にcloneなどする。
+ *
+ * @link https://m-p.backlog.jp/view/SSKTS-60
+ * @global array $result
+ * @param \SimpleXMLElement $movie
+ * @param string $date 日付（YYYYMMDD）
+ * @throws \LogicException
+ */
+function convertTicketingURL(\SimpleXMLElement $movie, $date) {
+    global $result;
+
+    if (isset($result['theater_code']) === false) {
+        throw new \LogicException('required "theater_code"');
+    }
+
+    $theaterCode = $result['theater_code'];
+    $movieCode = (string) $movie->movie_short_code;
+    $movieBranchCode = (string) $movie->movie_branch_code;
+
+    foreach ($movie->screen as $screen) {
+        $screenCode = (string) $screen->screen_code;
+
+        foreach ($screen->time as $time) {
+            // 施設コード + 上映日 + 作品コード + 作品枝番 + スクリーンコード + 上映開始時刻
+            $param = '0' . $theaterCode . $date . $movieCode . $movieBranchCode . $screenCode . (string) $time->start_time;
+            $time->url = TICKETING_BASE_URL . '/purchase?id=' . $param;
+        }
+    }
 }
 
 function outputArray($data){

@@ -320,7 +320,7 @@ if(!empty($_GET["pre"])) {
 						}else if ($time->available==5) {
 							echo '<td width="81"><img src="../../images/theater/btn_buyPtn5.gif" width="81" alt="満席"></td>';
 						}else {
-							echo '<td width="81"><a href="'.$time->url.'" target="_blank"><img src="../../images/theater/btn_buyPtn'.$time->available.'.gif" width="81" alt="購入"></a></td>';
+							echo '<td width="81"><a href="'.$time->url.'"><img src="../../images/theater/btn_buyPtn'.$time->available.'.gif" width="81" alt="購入"></a></td>';
 						}
 
 						echo '</tr>';
