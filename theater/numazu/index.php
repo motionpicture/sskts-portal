@@ -11,7 +11,7 @@ $theater = $arr["ename"];
 <script type="text/javascript" src="../../js/jquery.blockUI.js"></script>
 <script type="text/javascript" src="../../js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="../../js/util.js"></script>
-<script type="text/javascript" src="../../js/theater_ajax.js"></script>
+<script type="text/javascript" src="../../js/theater_ajax.js?20170330"></script>
 <script type="text/javascript">
 
 
@@ -218,8 +218,8 @@ if (count($dates) <7) {
 										<?php
 										$cal_cnt = 0;
 										foreach($calender_dates as $cal_date) {
-										
-											if ($cal_date['available']) {											    
+
+											if ($cal_date['available']) {
 												if ($cal_cnt>0) {
 													echo '<li style="cursor: pointer;" class="cal_date '.$cal_date['date']. ' notAvailable">';
 												} else {
