@@ -78,7 +78,7 @@ if(!empty($_GET["pre"])) {
 	<?php getSmartSlideBnr(); ?>
 	<h2><div class="category_bar_p">上映スケジュール</div></h2>
 	<div class="section">
-        <?php if (time() < AIRA_SCHEDULE_OPEN_TIME): // SSKTS-296 ?>
+        <?php if (time() >= AIRA_SCHEDULE_OPEN_TIME): // SSKTS-296 ?>
 		<!--チケット照会バナー-->
 		<div class="bnr_ticket_inquiry">
 			<a href="<?php echo TICKETING_BASE_URL ?>/inquiry/login?theater=018">

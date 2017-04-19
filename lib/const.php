@@ -10,7 +10,7 @@ define('CACHE_LIFETIME', 60 * 5); // sec
 define('CACHE_DIR', APP_ROOT_DIR . '/cache');
 
 // SSKTS-296
-define('AIRA_SCHEDULE_OPEN_TIME', strtotime('2017-04-19 17:10:00'));
+define('AIRA_SCHEDULE_OPEN_TIME', strtotime('2017-04-19 17:20:00'));
 
 /**
  * COAスケジュールAPI
