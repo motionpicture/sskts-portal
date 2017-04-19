@@ -1,4 +1,5 @@
 <?php
+require_once 'const.php';
 require_once 'cache.php';
 
 //
@@ -11,7 +12,6 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
 	$theaterUrls;
 
     $cacheKeyPrefix = '';
-    $airaDataDir = dirname(__DIR__) . '/data/aira';
 
 	if ($preTicket){
         $cacheKeyPrefix = 'pre_schedule_';
@@ -29,7 +29,7 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
-            'aira' => $airaDataDir . '/preSchedule.xml',
+            'aira' => PRE_SCHEDULE_AIRA,
 		);
 
 	} else {
@@ -48,7 +48,7 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
-            'aira' => $airaDataDir . '/schedule.xml',
+            'aira' => SCHEDULE_AIRA,
 		);
 	}
 
@@ -92,8 +92,7 @@ function getDates2($theater,$preTicket=false,$preIsExist=false) {
 	$theaterUrls;
 
     $cacheKeyPrefix = '';
-    $airaDataDir = dirname(__DIR__) . '/data/aira';
-
+    
 	if ($preTicket){
         $cacheKeyPrefix = 'pre_schedule_';
 		$theaterUrls= array(
@@ -110,7 +109,7 @@ function getDates2($theater,$preTicket=false,$preIsExist=false) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
-            'aira' => $airaDataDir . '/preSchedule.xml',
+            'aira' => PRE_SCHEDULE_AIRA,
 		);
 
 	} else {
@@ -129,7 +128,7 @@ function getDates2($theater,$preTicket=false,$preIsExist=false) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
-            'aira' => $airaDataDir . '/schedule.xml',
+            'aira' => SCHEDULE_AIRA,
 		);
 	}
 

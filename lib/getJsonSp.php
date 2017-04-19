@@ -1,4 +1,5 @@
 <?php
+require_once 'const.php';
 
 //dateを選択した場合
 
@@ -48,7 +49,6 @@ if(!empty($_GET["result"])) {
 function targetTheater($theater,$pre = null) {
 
     $cacheKeyPrefix = '';
-    $airaDataDir = dirname(__DIR__) . '/data/aira';
 
 	if ($pre!=null){
         $cacheKeyPrefix = 'pre_schedule_';
@@ -66,7 +66,7 @@ function targetTheater($theater,$pre = null) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
-            'aira' => $airaDataDir . '/preSchedule.xml',
+            'aira' => PRE_SCHEDULE_AIRA,
 		);
 
 	} else {
@@ -85,7 +85,7 @@ function targetTheater($theater,$pre = null) {
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
             "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
-            'aira' => $airaDataDir . '/schedule.xml',
+            'aira' => SCHEDULE_AIRA,
 		);
 	}
 
@@ -109,6 +109,7 @@ function targetTheater($theater,$pre = null) {
     } else {
         $result["error"] ="$schedules->error";
         $result["attention"] ="$schedules->attention";
+        $result['theater_code'] = isset($schedules->theater_code) ? (string) $schedules->theater_code : null; // SSKTS-60
         //var_dump($schedules->schedule);
         $result["data"] = $schedules->schedule;
 
@@ -135,6 +136,16 @@ function getScheduleSp($theater,$date,$pre=null) {
 			break;
 		}
 	}
+
+    if ($theater === 'aira') {
+        $data = $result['data'];
+
+        foreach ($data->movie as $movie) {
+            convertTicketingURL($result['theater_code'], $movie, (string) $data->date) ;
+        }
+
+    }
+
 	return $result;
 }
 
@@ -149,6 +160,11 @@ function getScheduleMovieSp($theater,$date,$movie_code) {
 					//movieのみ格納
 					$r_schedule['date'] ="$schedule->date";
 					$r_schedule['usable'] ="$schedule->usable";
+
+                    if ($theater === 'aira') {
+                        convertTicketingURL($result['theater_code'], $movie, $r_schedule['date']);
+                    }
+
 					$r_schedule['movie'] =$movie;
 
 					$return['error'] = $result['error'];
@@ -163,6 +179,39 @@ function getScheduleMovieSp($theater,$date,$movie_code) {
 	}
 	return $return;
 
+}
+
+/**
+ * チケッティングURLを変換
+ *
+ * 既存のリンクを新チケッティングへ変更する
+ * 引数に設定したXMLデータがそのまま変更されるので、
+ * 必要に応じて渡す前にcloneなどする。
+ *
+ * @link https://m-p.backlog.jp/view/SSKTS-60
+ * @param string $theaterCode
+ * @param \SimpleXMLElement $movie
+ * @param string $date 日付（YYYYMMDD）
+ * @throws \LogicException
+ */
+function convertTicketingURL($theaterCode, \SimpleXMLElement $movie, $date) {
+
+    if (isset($theaterCode) === false) {
+        throw new \LogicException('required "theater_code"');
+    }
+
+    $movieCode = (string) $movie->movie_short_code;
+    $movieBranchCode = (string) $movie->movie_branch_code;
+
+    foreach ($movie->screen as $screen) {
+        $screenCode = (string) $screen->screen_code;
+
+        foreach ($screen->time as $time) {
+            // 施設コード + 上映日 + 作品コード + 作品枝番 + スクリーンコード + 上映開始時刻
+            $param = '0' . $theaterCode . $date . $movieCode . $movieBranchCode . $screenCode . (string) $time->start_time;
+            $time->url = TICKETING_BASE_URL . '/purchase?id=' . $param;
+        }
+    }
 }
 
 function  getTimeFormat($time) {

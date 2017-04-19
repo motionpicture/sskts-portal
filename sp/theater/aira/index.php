@@ -78,6 +78,15 @@ if(!empty($_GET["pre"])) {
 	<?php getSmartSlideBnr(); ?>
 	<h2><div class="category_bar_p">上映スケジュール</div></h2>
 	<div class="section">
+        <?php if (time() >= AIRA_SCHEDULE_OPEN_TIME): // SSKTS-296 ?>
+		<!--チケット照会バナー-->
+		<div class="bnr_ticket_inquiry">
+			<a href="<?php echo TICKETING_BASE_URL ?>/inquiry/login?theater=018">
+				<img src="../../images/common/bnr_ticket_inquiry_sp.jpg" alt="オンラインチケット照会はこちら" width="100%">
+			</a>
+		</div>
+		<!--/チケット照会バナー-->
+        <?php endif; ?>
 		<div class="topNotes">
 			<p class="ptblr10">
 				<?php
@@ -85,6 +94,9 @@ if(!empty($_GET["pre"])) {
 					$open = getImportants($theaterId['id']);
 					echo $open['open_txt'];
 				?>
+				インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br>
+				※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br>
+				※購入マークがない時間はインターネットでのチケット購入対象外となります。<br>
 			</p>
 		</div>
 
@@ -232,18 +244,6 @@ if(!empty($_GET["pre"])) {
 		</div>
 		<!--/スライダー-->
 
-		<div class="bottomNotes">
-			<p class="ptblr10">
-				<?php
-					//echo $open['open_txt'];
-				?>
-
-				<!-- インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br>
-				※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br>
-				※購入マークがない時間はインターネットでのチケット購入対象外となります。 -->
-			</p>
-		</div>
-
 		<p class="date">
 			<?php
 				if ($result["error"] == "000000") {
@@ -320,7 +320,7 @@ if(!empty($_GET["pre"])) {
 						}else if ($time->available==5) {
 							echo '<td width="81"><img src="../../images/theater/btn_buyPtn5.gif" width="81" alt="満席"></td>';
 						}else {
-							echo '<td width="81"><a href="'.$time->url.'" target="_blank"><img src="../../images/theater/btn_buyPtn'.$time->available.'.gif" width="81" alt="購入"></a></td>';
+							echo '<td width="81"><a href="'.$time->url.'"><img src="../../images/theater/btn_buyPtn'.$time->available.'.gif" width="81" alt="購入"></a></td>';
 						}
 
 						echo '</tr>';

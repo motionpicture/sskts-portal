@@ -10,7 +10,7 @@ $theater = $arr["ename"];
 <script type="text/javascript" src="../../js/jquery.blockUI.js"></script>
 <script type="text/javascript" src="../../js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="../../js/util.js"></script>
-<script type="text/javascript" src="../../js/theater_ajax.js"></script>
+<script type="text/javascript" src="../../js/theater_ajax.js?20170330"></script>
 <script type="text/javascript">
 
 
@@ -97,12 +97,11 @@ $theater = $arr["ename"];
 									alt="上映スケジュール"> </h2>
 						<div class="whiteCanvas clearfix">
 							<div class="scheduleBox">
-                              <?php // 劇場オープン前の対応 ?>
-<!--								<div class="topNotesBox">
+								<div class="topNotesBox">
 									<p> インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br />
 										※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br />
 										※購入マークがない時間はインターネットでのチケット購入対象外となります。 </p>
-								</div>-->
+								</div>
 								<div class="topTimeBox">
 									<p>
 										<?php
