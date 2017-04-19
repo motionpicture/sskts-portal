@@ -1,11 +1,24 @@
 <?php
-include dirname(__FILE__) . '../../env.php';
+define('APP_ROOT_DIR', dirname(__DIR__));
+
+include APP_ROOT_DIR . '/env.php';
 define('APP_ENV', $env);
 
 
 // cache
 define('CACHE_LIFETIME', 60 * 5); // sec
-define('CACHE_DIR', realpath(dirname(__DIR__) . '/cache'));
+define('CACHE_DIR', APP_ROOT_DIR . '/cache');
+
+/**
+ * COAスケジュールAPI
+ *
+ * ひとまずここで設定
+ * TODO: 他の劇場もここに移すか、分散しているスケジュール取得処理の改修も含めて設定場所を検討
+ */
+$airaDataDir = APP_ROOT_DIR . '/data/aira';
+define('SCHEDULE_AIRA', $airaDataDir . '/schedule.xml');
+define('PRE_SCHEDULE_AIRA', $airaDataDir . '/preSchedule.xml');
+
 
 //movie img 格納 local
 define('movie_picture','/theaters_image/movie');
