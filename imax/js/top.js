@@ -13,11 +13,12 @@
         
         $(function(){
             //非表示の場合下の行をコメントアウト
-            var videoId = 'WEXfq1-aTWo';
+            var videoId = 'aC8hu2zJ8Ls';
             showVideo(videoId);//ID設定
         });
     }
 
+    
     function showVideo(_videoId) {
         onYouTubeIframeAPIReady = function() {
             dom.show();
