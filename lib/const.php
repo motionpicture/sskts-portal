@@ -9,23 +9,16 @@ define('APP_ENV', $env);
 define('CACHE_LIFETIME', 60 * 5); // sec
 define('CACHE_DIR', APP_ROOT_DIR . '/cache');
 
-// SSKTS-296
-define('AIRA_SCHEDULE_OPEN_TIME', strtotime('2017-04-20 00:00:00'));
-
 /**
  * COAスケジュールAPI
  *
  * ひとまずここで設定
  * TODO: 他の劇場もここに移すか、分散しているスケジュール取得処理の改修も含めて設定場所を検討
  */
-if (time() < AIRA_SCHEDULE_OPEN_TIME) { // SSKTS-296
-    $airaDataDir = APP_ROOT_DIR . '/data/aira';
-    define('SCHEDULE_AIRA', $airaDataDir . '/schedule.xml');
-    define('PRE_SCHEDULE_AIRA', $airaDataDir . '/preSchedule.xml');
-} else {
-    define('SCHEDULE_AIRA', 'http://www1.cinemasunshine.jp/aira/schedule/xml/schedule.xml');
-    define('PRE_SCHEDULE_AIRA', 'http://www1.cinemasunshine.jp/aira/schedule/xml/preSchedule.xml');
-}
+$airaDataDir = APP_ROOT_DIR . '/data/aira';
+define('SCHEDULE_AIRA', $airaDataDir . '/schedule.xml');
+define('PRE_SCHEDULE_AIRA', $airaDataDir . '/preSchedule.xml');
+
 
 //movie img 格納 local
 define('movie_picture','/theaters_image/movie');
