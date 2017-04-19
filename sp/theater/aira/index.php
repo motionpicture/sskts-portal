@@ -78,13 +78,15 @@ if(!empty($_GET["pre"])) {
 	<?php getSmartSlideBnr(); ?>
 	<h2><div class="category_bar_p">上映スケジュール</div></h2>
 	<div class="section">
+        <?php if (time() < AIRA_SCHEDULE_OPEN_TIME): // SSKTS-296 ?>
 		<!--チケット照会バナー-->
 		<div class="bnr_ticket_inquiry">
-			<a href="https://ticket-cinemasunshine.com/inquiry/login?theater=018">
+			<a href="<?php echo TICKETING_BASE_URL ?>/inquiry/login?theater=018">
 				<img src="../../images/common/bnr_ticket_inquiry_sp.jpg" alt="オンラインチケット照会はこちら" width="100%">
 			</a>
 		</div>
 		<!--/チケット照会バナー-->
+        <?php endif; ?>
 		<div class="topNotes">
 			<p class="ptblr10">
 				<?php
