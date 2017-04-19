@@ -78,6 +78,13 @@ if(!empty($_GET["pre"])) {
 	<?php getSmartSlideBnr(); ?>
 	<h2><div class="category_bar_p">上映スケジュール</div></h2>
 	<div class="section">
+		<!--チケット照会バナー-->
+		<div class="bnr_ticket_inquiry">
+			<a href="https://ticket-cinemasunshine.com/inquiry/login?theater=018">
+				<img src="../../images/common/bnr_ticket_inquiry_sp.jpg" alt="オンラインチケット照会はこちら" width="100%">
+			</a>
+		</div>
+		<!--/チケット照会バナー-->
 		<div class="topNotes">
 			<p class="ptblr10">
 				<?php
@@ -238,9 +245,9 @@ if(!empty($_GET["pre"])) {
 					//echo $open['open_txt'];
 				?>
 
-				<!-- インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br>
+				インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br>
 				※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br>
-				※購入マークがない時間はインターネットでのチケット購入対象外となります。 -->
+				※購入マークがない時間はインターネットでのチケット購入対象外となります。
 			</p>
 		</div>
 
