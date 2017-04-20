@@ -46,7 +46,12 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="access_tl">電話番号</td>
-						<td class="access_tr">未定</td>
+						<td class="access_tr">
+							<p>24時間上映案内<br>
+								<span class="stand_out">0995-55-0333</span><br>
+								<span class="notice">※電話番号のお掛け間違いにご注意下さい</span>
+							</p>
+						</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
