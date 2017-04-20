@@ -103,7 +103,7 @@ section.figuresection >div p {
 }
 
 section.figuresection >div figure {
-    width: 300px;
+    max-width: 300px;
     text-align: center;
 }
 
@@ -168,7 +168,7 @@ footer >p {
     section.figuresection >div p, 
     section.figuresection >div figure {
         display: block;
-        width: auto;
+        max-width: 100%;
         padding: 10px 0;
     }
 
