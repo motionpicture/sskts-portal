@@ -1312,3 +1312,8 @@ a:hover{
 	color:#FF0000;
 	margin:0 0 35px 0;
 }
+
+/* Schedule */
+.movieRepeattBox li .buyBtn span{
+	display: block;
+}
