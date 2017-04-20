@@ -119,7 +119,7 @@ P {
 }
 .area12{
   width: 100%;
-  height: 22px;
+  height: 50px;
   margin-bottom: 10px;
 }
 .area12 ul li{
@@ -128,7 +128,7 @@ P {
 .theater_btn{
   width:84px;
   height: 22px;
-  margin-right: 5px; 
+  margin:0 0 5px 5px; 
 }
 </style>
 <script type="text/javascript">
@@ -211,6 +211,9 @@ P {
                 if($val2 == "yamatokoriyama4dx"){
                     echo "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/yamatokoriyama/\" target=\"_blank\"><img src=\"../img/4dx_theater_yamato.gif\" width=\"84\" height=\"22\" alt=\"大和郡山\" ></a></li>";
                 }
+                if($val2 == 18){
+                    echo "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/aira/\" target=\"_blank\"><img src=\"../img/4dx_theater_aira.gif\" width=\"84\" height=\"22\" alt=\"姶良\" ></a></li>";
+                }
             }
             echo "</ul>";
             echo "</div>";
@@ -266,7 +269,7 @@ P {
 
 </div>
 <div class="footerArea" style="_width:100%;">
-  <p class="copyright">(C) 2001-2016, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
+  <p class="copyright">(C) 2001-2017, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
   <p class="link_top"><a href="http://www.cinemasunshine.co.jp/" target="_blank";>シネマサンシャインTOPへ</a></p>
 </div>
 </div>

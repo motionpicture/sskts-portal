@@ -9,7 +9,7 @@ include("../lib/require.php");
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <title>シネマサンシャイン&nbsp;cinema&nbsp;sunshine×4DX</title>
-<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,沼津" />
+<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,東京,沼津,静岡,松前,愛媛,大和郡山,奈良,姶良,鹿児島" />
 <meta name="description" content="4DX®は、3Dを遥かに超え、映画を「観る」から「体感する」ことに変えてしまう、五感を揺さぶる次世代の体感型プレミアムシアター。" />
 <!--ニュースティッカーここから-->
 <script src="js/aScroller-1.0.js" type="text/javascript"></script>
@@ -177,7 +177,7 @@ divScroller("scrollbar", "v", 70, 2000);
 ?>
 
  <div style="margin:60px 0 0 0;">
-    <p id="copyright">(C) 2001-2016, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
+    <p id="copyright">(C) 2001-2017, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
     <p class="link_top"><a href="http://www.cinemasunshine.co.jp/" target="_blank";>シネマサンシャインTOPへ</a></p>
   </div>
 </div>

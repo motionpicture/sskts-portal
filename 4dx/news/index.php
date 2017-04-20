@@ -9,7 +9,7 @@ include("../../lib/require.php");
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <title>最新情報 | シネマサンシャイン&nbsp;cinema&nbsp;sunshine×4DX</title>
-<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,沼津" />
+<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,東京,沼津,静岡,松前,愛媛,大和郡山,奈良,姶良,鹿児島" />
 <meta name="description" content="シネマサンシャイン4DX®シアターに関する最新情報をご紹介。" />
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script src="../js/fullscreen.js" type="text/javascript"></script>
@@ -160,7 +160,7 @@ P {
   </div>
 </div>
 <div class="footerArea" style="_width:100%;">
-  <p class="copyright">(C) 2001-2016 Cinema Sunshine Co., Ltd. All Rights Reserved.</p>
+  <p class="copyright">(C) 2001-2017 Cinema Sunshine Co., Ltd. All Rights Reserved.</p>
   <p class="link_top"><a href="http://www.cinemasunshine.co.jp/" target="_blank";>シネマサンシャインTOPへ</a></p>
 </div>
 </body>
