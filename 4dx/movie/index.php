@@ -7,8 +7,8 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <title>作品紹介 | シネマサンシャイン&nbsp;cinema&nbsp;sunshine×4DX</title>
-<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,東京,沼津,静岡,エミフルMASAKI,愛媛" />
-<meta name="description" content="シネマサンシャイン平和島、シネマサンシャイン沼津の4DX®シアターで上映中、上映予定の映画作品をご紹介。" />
+<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,東京,沼津,静岡,松前,愛媛,姶良,鹿児島" />
+<meta name="description" content="シネマサンシャイン平和島、シネマサンシャイン沼津、シネマサンシャインエミフルMASAKI、シネマサンシャイン大和郡山、シネマサンシャイン姶良の4DX®シアターで上映中、上映予定の映画作品をご紹介。" />
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script src="../js/fullscreen.js" type="text/javascript"></script>
 <script src="../js/jquery-1.7.min.js" type="text/javascript"></script>
