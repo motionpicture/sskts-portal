@@ -36,8 +36,6 @@ $theater = $arr["ename"];
 			if ($_GET['pre']) {
 				$value = reset(getDates2($theater,true));
 				echo $value['val'];
-            } else if (time() < strtotime('2017-04-20')) { // SSKTS-267
-                echo date('Ymd', strtotime('2017-04-20'));
 			} else {
 				echo date('Ymd');
 			}

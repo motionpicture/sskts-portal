@@ -7,8 +7,6 @@ $theater = $arr["ename"];
 
 if(!empty($_GET['date'])) {
 	$p_date=date('Ymd',strtotime($_GET['date']));
-} else if (time() < strtotime('2017-04-20')) { // SSKTS-267
-    $p_date = date('Ymd', strtotime('2017-04-20'));
 } else {
     $p_date = date('Ymd');
 }
@@ -78,7 +76,6 @@ if(!empty($_GET["pre"])) {
 	<?php getSmartSlideBnr(); ?>
 	<h2><div class="category_bar_p">上映スケジュール</div></h2>
 	<div class="section">
-        <?php if (time() >= AIRA_SCHEDULE_OPEN_TIME): // SSKTS-296 ?>
 		<!--チケット照会バナー-->
 		<div class="bnr_ticket_inquiry">
 			<a href="<?php echo TICKETING_BASE_URL ?>/inquiry/login?theater=018">
@@ -86,7 +83,6 @@ if(!empty($_GET["pre"])) {
 			</a>
 		</div>
 		<!--/チケット照会バナー-->
-        <?php endif; ?>
 		<div class="topNotes">
 			<p class="ptblr10">
 				<?php
