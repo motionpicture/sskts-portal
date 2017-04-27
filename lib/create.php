@@ -896,7 +896,7 @@ EOL;
             <param name="FlashVars" value="$flashVars" />
         </object>
 
-        <a href="$bunnerUrl" target="_blank"><img src="$bunnerPath" width="$width" /><a/>
+        <a href="$bunnerUrl" target="_blank"><img src="$bunnerPath" width="$width" /></a>
 EOL;
 	}
 
@@ -1004,8 +1004,6 @@ echo <<<EOL
 			<ul>
 				{$html}
 				<li class="closebtn"><img src="{$define['Images_URL']}common/fig_close.png" alt="close"></li>
-				</div>
-
 			</ul>
 	         <hr style="clear: left;visibility: hidden;"/>
 		</div>
