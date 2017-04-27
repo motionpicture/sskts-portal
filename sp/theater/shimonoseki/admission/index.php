@@ -224,6 +224,28 @@ include("../../../../lib/require.php");
 					</tr>
 				</tbody>
 			</table>
+
+			<table cellpadding="0" cellspacing="0" class="theater_t">
+			<tbody>
+				<tr class="first-child">
+					<td colspan="2" class="table_top_01">dts-X™版鑑賞料金</td>
+				</tr>
+			</tbody>
+		</table>
+        <div class="table_wrapper">
+			<table cellpadding="0" cellspacing="0" class="theater_u">
+				<tbody>
+					<tr>
+						<td class="admission_to">
+							・通常料金＋100円<br />
+							<span class="notice">
+								※3Dの場合は通常料金+3D鑑賞料金400円＋特別料金100円となります。<br />
+							</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
 		<!-- / .table_wrapper --></div>
 
 

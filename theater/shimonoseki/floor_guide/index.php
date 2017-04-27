@@ -116,6 +116,15 @@ include("../../../lib/require.php");
 								</div>
 
 								<div class="floorBox clearfix">
+									<div class="left"><a href="../../../3d/xpand.html"><img src="../../../images/common/fig_dtsx.gif"  alt="dtsx" ></a></div>
+									<div class="right">
+										<p class="subTitle" >dts-X™</p>
+										<p class="txt" > DTS:X™は、チャンネルではなく、オブジェクトをベースにしたオーディオフォーマットです。オブジェクトベースによって自然な音場を形成する事で、よりリアルな音響空間が再現されます。<br />
+											更にサウンドがシアター内を縦横無尽に動き回り、観客を包み込むような新次元サラウンドの体験を実現可能にします。 </p>
+									</div>
+								</div>
+
+								<div class="floorBox clearfix">
 									<div class="left"><img src="../../../images/common/fig_dolby.jpg"  alt="DOLBY ATMOS" ></div>
 									<div class="right">
 										<p class="subTitle" >DOLBY ATMOS</p>
