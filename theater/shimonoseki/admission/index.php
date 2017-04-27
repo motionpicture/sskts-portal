@@ -181,8 +181,8 @@ include("../../../lib/require.php");
                             <h3 class="lightBlueTitle">dts-X™版鑑賞料金</h3>
 									<table class="priceTable end">
 										<tr class="line">
-											<td valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
+									<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+								</tr>
 
 										<tr>
 											<td class="priceSubject"><p>dts-X™版鑑賞料金</p></td>

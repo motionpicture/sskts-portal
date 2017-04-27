@@ -230,7 +230,7 @@ include("../../../../lib/require.php");
 
 					<!-- / .table_wrapper --></div>
 
-			<table cellpadding="0" cellspacing="0" class="theater_u">
+		<table cellpadding="0" cellspacing="0" class="theater_u">
 			<thead>
 			<tr>
 				<th colspan="2" class="table_line_01"></th>
