@@ -222,6 +222,9 @@ include("../../../../lib/require.php");
 							</span>
 						</td>
 					</tr>
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
 				</tbody>
 			</table>
 
