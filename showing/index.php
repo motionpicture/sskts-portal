@@ -131,7 +131,6 @@ include("../lib/require.php");
 													echo $showing['midokoro'];
 												}
 											?>
-											</p>
 												<p class="tuika"><?php echo preg_replace("/;/","<br />",$showing['tuika']); ?></p>
 											<ul class="clearfix">
 
