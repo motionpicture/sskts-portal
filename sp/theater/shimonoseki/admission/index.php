@@ -225,7 +225,17 @@ include("../../../../lib/require.php");
 				</tbody>
 			</table>
 
-			<table cellpadding="0" cellspacing="0" class="theater_t">
+					<!-- / .table_wrapper --></div>
+
+			<table cellpadding="0" cellspacing="0" class="theater_u">
+			<thead>
+			<tr>
+				<th colspan="2" class="table_line_01"></th>
+			</tr>
+			</thead>
+		</table>
+		
+		<table cellpadding="0" cellspacing="0" class="theater_t">
 			<tbody>
 				<tr class="first-child">
 					<td colspan="2" class="table_top_01">dts-X™版鑑賞料金</td>

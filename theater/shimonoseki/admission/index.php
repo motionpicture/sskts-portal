@@ -180,7 +180,7 @@ include("../../../lib/require.php");
 									</table>
 
 									<h3 class="lightBlueTitle">dts-X™版鑑賞料金</h3>
-									<table class="priceTable">
+									<table class="priceTable end">
 										<tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
@@ -188,8 +188,7 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="priceSubject"><p>dts-X™版鑑賞料金</p></td>
 											<td class="priceNotes" >
-													<p>※3Dの場合は通常料金+3D鑑賞料金400円＋特別料金100円となります。<br /><br />
-												</p>
+													<p>※3Dの場合は通常料金+3D鑑賞料金400円＋特別料金100円となります。</p>
 											</td>
 											<td class="priceAdd" >通常料金+100円</td>
 										</tr>
