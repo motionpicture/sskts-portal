@@ -24,7 +24,8 @@ $(function(){
 			かほく: 'kahoku',
 			エミフルMASAKI: 'masaki' ,
 			大和郡山: 'yamatokoriyama' ,
-			下関: 'shimonoseki'
+			下関: 'shimonoseki',
+			姶良: 'aira'
 		};
 
         	$('.tableElement').css("background","#e0e0e0");
