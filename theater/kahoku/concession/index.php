@@ -244,33 +244,6 @@ include("../../../lib/require.php");
 										</tr>
 									</table>
 
-                                    <h3 class="lightBlueTitle">アイスクリーム</h3>
-									<table class="menuTable">
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="Name">ソフトアイス</p>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="optionText">バニラ・クッキー＆クリーム</p>
-											</td>
-											<td class="menuprice" ><p>350円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
-										</tr>
-
-										
-
-									</table>
-
 									<h3 class="lightBlueTitle">セット</h3>
 									<table class="menuTable end">
 										<tr class="line">

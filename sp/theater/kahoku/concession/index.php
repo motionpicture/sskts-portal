@@ -281,33 +281,8 @@ include("../../../../lib/require.php");
 				</tr>
 			</thead>
 		</table>
-		<table cellpadding="0" cellspacing="0" class="theater_t">
-			<tbody>
-				<tr class="first-child">
-					<td colspan="2" class="table_top_01">アイスクリーム</td>
-				</tr>
-			</tbody>
-		</table>
-
-		<div class="table_wrapper regulation02">
-			<table cellpadding="0" cellspacing="0" class="theater_u">
-				<tbody>
-					<tr>
-						<td colspan="2" class="admission_tl regulation04">ソフトアイス</td>
-					</tr>
-					<tr>
-						<td class="admission_tl regulation03 "><span class="notice">バニラ・クッキー＆クリーム</span></td>
-						<td class="admission_tr regulation03 ">350円</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
-					
-				</tbody>
-			</table>
-		</div>
+		
 		<!-- table end -->
-
 
 		<!-- table -->
 		<table cellpadding="0" cellspacing="0" class="theater_u">
