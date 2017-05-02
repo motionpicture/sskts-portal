@@ -197,7 +197,9 @@
 
 										    	} else {
 										    		var buyBtnA = document.createElement('a');
-										    		$(buyBtnA).attr("target","_blank")
+										    		if (theater !== 'aira') {
+										    			$(buyBtnA).attr("target","_blank");
+										    			}
 											    	var buyBtnImg = document.createElement('img');
 											    	$(buyBtnA).attr('href',time.url);
 											    	$(buyBtnImg).attr('src','./images/common/btn_buyPtn'+time.available+'.png');
