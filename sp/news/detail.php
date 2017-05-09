@@ -17,7 +17,7 @@ include("../../lib/require.php");
 	<!--ニュース-->
 	<div class="pt10">
 		<div class="basebox_lineblue"></div>
-	<div class="newsbox">
+		<div class="newsbox">
 			<?php
 				$theaterId = 1000;
 
@@ -40,15 +40,15 @@ include("../../lib/require.php");
 				}
 			?>
 
-		<?php
+			<?php
 			$arries = getNewsDetail($num[$_GET["p"]]);
-		?>
-		<h3 class="newsbox_title"><?php echo $arries['midasi']; ?></h3>
-		<p class="basebox2_line"><?php echo date('Y/m/d',strtotime($arries['start_date'])) ?></p>	
-		<p class=" ptblr10"><?php echo $arries['txt']; ?></p>
-</div>
-</div></div>
-<!--/ニュース-->
+			?>
+			<h3 class="newsbox_title"><?php echo $arries['midasi']; ?></h3>
+			<p class="basebox2_line"><?php echo date('Y/m/d',strtotime($arries['start_date'])) ?></p>
+			<p class=" ptblr10"><?php echo $arries['txt']; ?></p>
+		</div>
+	</div>
+	<!--/ニュース-->
 <div class="newsArea section pt10">
 	<?php		
 		$limit = count($num);//最大ページ数

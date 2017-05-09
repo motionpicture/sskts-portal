@@ -116,7 +116,7 @@ include("../../../lib/require.php");
 								</div>
 
 								<div class="floorBox clearfix">
-									<div class="left"><img src="../../../images/common/fig_dtsx.gif"  alt="dtsx" ></a></div>
+									<div class="left"><img src="../../../images/common/fig_dtsx.gif"  alt="dtsx" ></div>
 									<div class="right">
 										<p class="subTitle" >dts-X™</p>
 										<p class="txt" > DTS:X™は、チャンネルではなく、オブジェクトをベースにしたオーディオフォーマットです。オブジェクトベースによって自然な音場を形成する事で、よりリアルな音響空間が再現されます。<br />

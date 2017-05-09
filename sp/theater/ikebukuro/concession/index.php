@@ -342,7 +342,7 @@ include("../../../../lib/require.php");
 						<td class="admission_tl regulation03"><span class="notice">LLセット(ポップコーンL＋ドリンクL)</span></td>
 						<td class="admission_tr regulation03">850円</td>
                     </tr>
-					</tr>
+					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
                     <tr>
@@ -378,6 +378,7 @@ include("../../../../lib/require.php");
 						<td class="admission_tl regulation03"><span class="notice">LLセット(ポップコーンL＋ドリンクL)</span></td>
 						<td class="admission_tr regulation03">950円</td>
                     </tr>
+                    <tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 				</tbody>

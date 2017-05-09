@@ -27,7 +27,7 @@ include("../lib/require.php");
 										<p>「特定商取引に関する法律」第11条（通信販売についての広告）に基づき、商品の提供条件を次のとおり明示します。</p>
 									</div>
 
-									<h3 class="blackTitle">事業者</h2>
+									<h3 class="blackTitle">事業者</h3>
 									<div class="textArea textMargin">
 										<p class="textUnity"><span>販売事業者</span></p>
 										<p class="textUnity">佐々木興業株式会社</p>
@@ -40,7 +40,7 @@ include("../lib/require.php");
 										<p class="textUnity">03-3982-6101(月曜～金曜&nbsp;&nbsp;10:00～18:00、ただし祝日・年末年始は除く)</p>
 									</div>
 
-									<h3 class="blackTitle">ご購入に際して</h2>
+									<h3 class="blackTitle">ご購入に際して</h3>
 									<div class="textArea">
 										<p class="textUnity"><span>ご購入対象・価格・期間</span></p>
 										<p class="textUnity">

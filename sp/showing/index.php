@@ -81,7 +81,7 @@ include("../../lib/require.php");
 				}								
 				echo "</div>";
 				echo "<div class='basebox2_line'>";
-				echo "<table width='280'>";
+				echo "<table width='280'><tbody>";
 				echo "<tr>";
 				if ($showing['picture'] != null){
 					echo '<td rowspan="2" width="69" height="52"><img src="'. movie_picture . '/' . $showing['picture'] . '" width="69" /></td>';

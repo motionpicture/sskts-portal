@@ -204,9 +204,9 @@ $define = get_defined_constants() ;
 
 
 			if($val["url"]){
-				$bnrHtml .= "<li><div class='pickup_slide'><a href='$val[url]'><img src='/theaters_image/topslider/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></a></div>";
+				$bnrHtml .= "<li><div class='pickup_slide'><a href='$val[url]'><img src='/theaters_image/topslider/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></a></div></li>";
 			}else{
-				$bnrHtml .= "<li><div class='pickup_slide'><img src='/theaters_image/topslider/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></div>";
+				$bnrHtml .= "<li><div class='pickup_slide'><img src='/theaters_image/topslider/$val[pic_path]' alt='" . htmlspecialchars($val["name"], ENT_QUOTES) . "'></div></li>";
 			}
 		}
 

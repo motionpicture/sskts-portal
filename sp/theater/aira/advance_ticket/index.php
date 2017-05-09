@@ -49,6 +49,7 @@ include("../../../../lib/require.php");
 									echo $movie['name'];
 								}
 							?>
+						</td>
 					</tr>
 				</tbody>
 			</table>
