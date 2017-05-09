@@ -95,7 +95,7 @@ include("../../../../lib/require.php");
 						H4.2m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=8">シネマ8</td>
+						<td class="admission_tc_gray1"><a href="./detail.php?p=8">シネマ8</a></td>
 						<td class="admission_tc">104</td>
 						<td class="admission_tc">2</td>
 						<td class="admission_tc">デジタル6ch</td>

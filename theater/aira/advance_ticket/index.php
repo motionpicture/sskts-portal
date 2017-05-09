@@ -121,7 +121,7 @@ $maeuri = getMaeuri($theaterId['id']);
 
 												?>
 											</td>
-											<td class="movieTicket"><p><?php echo $val['movie_ticket_flg']==1 ? "○":"×" ?></td>
+											<td class="movieTicket"><p><?php echo $val['movie_ticket_flg']==1 ? "○":"×" ?></p></td>
 											<td class="movieBenefit"><p><?php echo $val['note'] ?></p></td>
 										</tr>
 <?php }?>

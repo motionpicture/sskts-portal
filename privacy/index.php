@@ -23,7 +23,7 @@ include("../lib/require.php");
 							<div class="MainArea">
 								<h2 class="headlineImg"><img src="../images/common/headline_Privacy.png"  alt="プライバシーポリシー" ></h2>
 								<div class="whiteCanvas clearfix">
-									<h3 class="blackTitle">プライバシーポリシーについて</h2>
+									<h3 class="blackTitle">プライバシーポリシーについて</h3>
 									<div class="textArea">
 										<p class="textUnity">2009年4月15日</p>
 										<p class="textUnity">当社はお客様の氏名・性別・生年月日・お住まい・職種のお申し込み内容等の個人情報の保護に関し、以下の取組みを実施いたしております。</p>

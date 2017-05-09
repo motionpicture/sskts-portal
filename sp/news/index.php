@@ -30,7 +30,7 @@ include("../../lib/require.php");
 	<div class=" plr10"><img src="../images/news/img_news_01.gif" width="280" alt=""></div>
 	<p class="ptblr10"><a href="">詳細はコチラ＞</a></p>
 </div>
-</div></div>
+</div>
 <!--/ニュース-->
 <div class="section pt10">
 	<div class="news_return"><a href=""><img src="../images/common/btn_news_return.gif" width="64" alt="前へ"></a></div>

@@ -23,7 +23,7 @@ include("../lib/require.php");
 							<div class="MainArea">
 								<h2 class="headlineImg"><img src="../images/common/headline_Policy.png"  alt="利用規約" ></h2>
 								<div class="whiteCanvas clearfix">
-									<h3 class="blackTitle">利用規約について</h2>
+									<h3 class="blackTitle">利用規約について</h3>
 									<div class="textArea">
 										<p class="textUnity">
 											本規約は、佐々木興業株式会社（以下「当社」）が独自に規定するものであり、当社の運営する「シネマサンシャイン」が提供するサービスに提供されるものとします。<br />

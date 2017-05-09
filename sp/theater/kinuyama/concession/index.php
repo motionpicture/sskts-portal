@@ -268,7 +268,7 @@ include("../../../../lib/require.php");
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
                 <tr>
-					<td class="admission_tl">プレッツェル<br>					
+					<td class="admission_tl">プレッツェル</td>					
 					<td class="admission_tr">370円</td>
 				</tr>
                 <tr>
@@ -299,21 +299,21 @@ include("../../../../lib/require.php");
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
                     <tr>
-						<td class="admission_tl">スパイシーチキン<br>
+						<td class="admission_tl">スパイシーチキン</td>
 						<td class="admission_tr">370円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 					<tr>
-						<td class="admission_tl">アメリカンドッグ<br>
+						<td class="admission_tl">アメリカンドッグ</td>
 						<td class="admission_tr">300円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>
 					</tr>
 					<tr>
-						<td class="admission_tl">バゲットサンド<br>
+						<td class="admission_tl">バゲットサンド</td>
 						<td class="admission_tr">630円</td>
 					</tr>
 					<tr>
@@ -327,7 +327,7 @@ include("../../../../lib/require.php");
 						<td class="admission_tr regulation03 regulation04">450円</td>
 					</tr>
 					<tr>
-						<td class="admission_tl">ソフトプレッツェルドック<br>
+						<td class="admission_tl">ソフトプレッツェルドック</td>
 						<td class="admission_tr">300円</td>
 					</tr>
 				</tbody>

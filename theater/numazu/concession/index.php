@@ -26,7 +26,7 @@ include("../../../lib/require.php");
 									<h3 class="lightBlueTitle">ソフトドリンク</h3>
 									<table class="menuTable">
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>ペプシ・ペプシネックス・ジンジャエール・なっちゃんオレンジ・メロンソーダ・ホワイトウォーター・アイスティー・ウーロン茶</span></p></td>
@@ -39,48 +39,48 @@ include("../../../lib/require.php");
 											</td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 									</table>
 									<h3 class="lightBlueTitle">コーヒー</h3>
 									<table class="menuTable">
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>ホットコーヒー・アイスコーヒー</p></td>
 											<td class="menuprice" ><p>350円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>カフェラテ・アイスラテ</p></td>
 											<td class="menuprice" ><p>380円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>カフェモカ（ホットのみ）</p></td>
 											<td class="menuprice" ><p>380円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 									</table>
 
 									<h3 class="lightBlueTitle">アルコール</h3>
 									<table class="menuTable">
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>生ビール</p></td>
 											<td class="menuprice" ><p>600円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 								    </table>
 								    <h3 class="lightBlueTitle">定番ドリンク</h3>
@@ -90,28 +90,28 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>300円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>烏龍茶・緑茶（ホットのみ）</p></td>
 											<td class="menuprice" ><p>300円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>ホットココア・アイスココア</p></td>
 											<td class="menuprice" ><p>350円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 									</table>
 
 									<h3 class="lightBlueTitle">ポップコーン</h3>
 									<table class="menuTable">
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>塩</p></td>
@@ -122,7 +122,7 @@ include("../../../lib/require.php");
 											  </td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>キャラメル</p></td>
@@ -133,7 +133,7 @@ include("../../../lib/require.php");
 											</td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>ハーフ＆ハーフ（塩＆キャラメル）※Lサイズのみ</p></td>
@@ -142,7 +142,7 @@ include("../../../lib/require.php");
 											</td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">
@@ -151,7 +151,7 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>520円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">
@@ -160,14 +160,14 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>520円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 									</table>
 
 									<h3 class="lightBlueTitle">アイスクリーム</h3>
 									<table class="menuTable">
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">ソフトアイス<br /><p class="optionText">（バニラ・クッキー&amp;クリーム）</p>
@@ -175,7 +175,7 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>350円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">
@@ -189,7 +189,7 @@ include("../../../lib/require.php");
 									<h3 class="lightBlueTitle">定番フード</h3>
 									<table class="menuTable">
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
 										<tr>
@@ -199,7 +199,7 @@ include("../../../lib/require.php");
 											</td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>シャカシャカポテト</p></td>
@@ -208,7 +208,7 @@ include("../../../lib/require.php");
 											</td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>ポテオニ</p></td>
@@ -217,7 +217,7 @@ include("../../../lib/require.php");
 											</td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>ホットドッグ</p></td>
@@ -226,7 +226,7 @@ include("../../../lib/require.php");
 											</td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName"><p>量り売りお菓子</p></td>
@@ -235,14 +235,14 @@ include("../../../lib/require.php");
 											</td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 									</table>
 
 									<h3 class="lightBlueTitle">限定フード</h3>
 									<table class="menuTable">
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">
@@ -251,7 +251,7 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>370円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">
@@ -260,7 +260,7 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>300円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">
@@ -269,7 +269,7 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>370円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">
@@ -278,7 +278,7 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>300円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">
@@ -287,7 +287,7 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>630円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 										<tr>
 											<td class="menuName">
@@ -296,14 +296,14 @@ include("../../../lib/require.php");
 											<td class="menuprice" ><p>450円</p></td>
 										</tr>
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 									</table>
 
 									<h3 class="lightBlueTitle">セット</h3>
 									<table class="menuTable end">
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
 										<tr>
@@ -347,7 +347,7 @@ include("../../../lib/require.php");
 
 
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
 										<tr>
@@ -391,7 +391,7 @@ include("../../../lib/require.php");
 
 
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
                                         
                                         <tr>
@@ -414,7 +414,7 @@ include("../../../lib/require.php");
 
 
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
 										<tr>
@@ -443,7 +443,7 @@ include("../../../lib/require.php");
 										</tr>
 
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
 										<tr>
@@ -473,7 +473,7 @@ include("../../../lib/require.php");
 
 
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
 										<tr>
@@ -503,7 +503,7 @@ include("../../../lib/require.php");
 
 
 										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></span></p></td>
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
 									</table>
