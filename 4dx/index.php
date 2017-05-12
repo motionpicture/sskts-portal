@@ -114,6 +114,7 @@ var google_remarketing_only = true;
     </div>
   </div>
 </div>
+</div>
 <div id="footer">
 
 
@@ -203,6 +204,5 @@ var google_remarketing_only = true;
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/881288241/?value=0&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>	
-</div>
 </body>
 </html>
