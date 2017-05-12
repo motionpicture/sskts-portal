@@ -22,6 +22,7 @@ include("../lib/require.php");
 <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 <link href="css/fullscreen.css" rel="stylesheet">
 <link href="css/top.css" rel="stylesheet">
+<script type='text/javascript' src='./js/top.js'></script>
 
 <script type="text/javascript">
 $().ready(function() {
