@@ -71,6 +71,7 @@ var google_remarketing_only = true;
 </noscript>
 </head>
 <body>
+  <div id="wrapper">
 <img src="img/main_bg.jpg" width="100%" height="100%" id="bg"  />
 <div id="contents">
   <div id="navi" class="transparent">
@@ -202,5 +203,6 @@ var google_remarketing_only = true;
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/881288241/?value=0&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>	
+</div>
 </body>
 </html>
