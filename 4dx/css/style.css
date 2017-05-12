@@ -59,7 +59,7 @@ html {
 
 body {
 	background:#000;
-	font:"‚l‚r ‚oƒSƒVƒbƒN", "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Osaka", verdana, arial, sans-serif;	 
+	font:"â€šlâ€šr â€šoÆ’SÆ’VÆ’bÆ’N", "Æ’qÆ’â€°Æ’MÆ’mÅ pÆ’S Pro W3", "Osaka", verdana, arial, sans-serif;	 
     color: #BCC0C3;
     font-size:12px;
 }  
@@ -70,7 +70,7 @@ body {
 
 
 
-/* ƒŠƒ“ƒNF
+/* Æ’Å Æ’â€œÆ’NÂF
 
 ---------------------------------------------------------------------------- */
 
@@ -514,7 +514,7 @@ background-color: #2f2f2f;
 }
 
 p {
-	font-family: "‚l‚r ‚oƒSƒVƒbƒN",Osaka,"ƒqƒ‰ƒMƒmŠpƒS Pro W3",sans-serif;
+	font-family: "â€šlâ€šr â€šoÆ’SÆ’VÆ’bÆ’N",Osaka,"Æ’qÆ’â€°Æ’MÆ’mÅ pÆ’S Pro W3",sans-serif;
 }  
 
 
@@ -522,7 +522,7 @@ p {
 
 
 
-/*ƒeƒBƒbƒJ[*/
+/*Æ’eÆ’BÆ’bÆ’JÂ[*/
 #scrollbar_container_1{
 	width:auto;
 	background-color:#000000;
@@ -556,7 +556,7 @@ p {
 	padding:2px 5px 0 0;
 }
 
-/*ƒjƒ…[ƒX‚±‚±‚©‚ç*/
+/*Æ’jÆ’â€¦Â[Æ’Xâ€šÂ±â€šÂ±â€šÂ©â€šÃ§*/
 #news_container{
 	padding:20px;
 }
@@ -594,3 +594,36 @@ p {
     margin: auto;
     min-height: 850px;
     width: 900px;
+}
+/*---------------------
+youtubeè¡¨ç¤º
+----------------------*/
+.modal-cover {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.close_btn {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  background-color: #fff;
+}
+
+.close_btn a {
+  display: block;
+  height: 40px;
+}
