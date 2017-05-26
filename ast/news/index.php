@@ -10,6 +10,7 @@ include("../../lib/require.php");
 <title>シネマサンシャイン&nbsp;cinema&nbsp;sunshine×immsound | 作品紹介</title>
 <meta name="keywords" content="immsound,3D,imm,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島" />
 <meta name="description" content="日本初、脅威のimm3Dsoundシアターがシネマサンシャイン平和島に上陸" />
+<script type='text/javascript' src='/js/gtm_tag.js'></script>
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script src="../js/fullscreen.js" type="text/javascript"></script>
 <script src="../js/jquery-1.7.min.js" type="text/javascript"></script>
@@ -83,20 +84,6 @@ P {
 }
 
 </style>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-8383230-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </head>
 <body>
 <div id="wrapper">
@@ -156,7 +143,7 @@ P {
   </div>
 </div>
 <div class="footerArea" style="_width:100%;">
-  <p class="copyright">(C) 2001-2016 Cinema Sunshine Co., Ltd. All Rights Reserved.</p>
+  <p class="copyright">(C) 2001-2017 Cinema Sunshine Co., Ltd. All Rights Reserved.</p>
   <p class="link_top"><a href="http://www.cinemasunshine.co.jp/" target="_blank";>シネマサンシャインTOPへ</a></p>
 </div>
 </body>

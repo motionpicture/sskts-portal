@@ -9,6 +9,7 @@
 <meta name="keywords" content="アメイジング・サウンドシアター,3D,imm,DOLBY,DOLBY ATMOS,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島" />
 <meta name="description" content="日本初、DOLBY ATMOSとimm soundを備えた最新音響シアター、“アメイジング・サウンドシアター”が誕生。客席を取り囲んで配置されたスピーカーによって体験したことのないような迫力で体感できるDOLBY ATMOS。
 前後左右、スクリーンや天井にもスピーカーを設置し、観客を包み込むような音響で、まるでその場にいるような臨場感のある音響体験ができるimm sound。その二つの音響システムを兼ね備えた“アメイジング・サウンドシアター”がついに誕生です。" />
+<script type='text/javascript' src='/js/gtm_tag.js'></script>
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script src="../js/fullscreen.js" type="text/javascript"></script>
 <script src="../js/jquery-1.7.min.js" type="text/javascript"></script>
@@ -108,19 +109,7 @@ P {
 	margin-right:10px;
 }
 </style>
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-8383230-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </head>
 <body>
 <div id="wrapper">
@@ -265,7 +254,7 @@ P {
   </div>
 </div>
 <div class="footerArea" style="_width:100%;">
-  <p class="copyright">(C) 2001-2016, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
+  <p class="copyright">(C) 2001-2017, Cinema Sunshine Co., Ltd. All Right Reserved.</p>
   <p class="link_top"><a href="http://www.cinemasunshine.co.jp/" target="_blank";>シネマサンシャインTOPへ</a></p>
 </div>
 </body>
