@@ -190,8 +190,9 @@ jQuery(function($){
 
 				echo '<td width="49">'.$screen->name.'</td>';
 
-
-				if($time->available==6) {
+                if ($p_theater === 'aira') {
+                    echo '<td width="81"></td>';
+                } else if($time->available==6) {
 					echo '<td width="81"></td>';
 				}else if ($time->available==1 || $time->available==4){
 					echo '<td width="81"><img src="./images/theater/btn_buyPtn1.gif" width="81" alt="窓口"></td>';
