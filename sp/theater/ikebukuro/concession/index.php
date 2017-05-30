@@ -148,7 +148,7 @@ include("../../../../lib/require.php");
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
 					<tr>
-						<td class="admission_tl">ペットボトル<br /><span class="notice">ミネラルフォーター・コーラZERO・爽健美茶・綾鷹上煎茶・QOOオレンジ</span></td>
+						<td class="admission_tl">ペットボトル<br /><span class="notice">ミネラルフォーター・コーラZERO・爽健美茶・綾鷹上煎茶・QOOみかん</span></td>
 						<td class="admission_tr">210円</td>
 					</tr>
 					<tr>
@@ -254,6 +254,13 @@ include("../../../../lib/require.php");
 		<div class="table_wrapper regulation02">
 			<table cellpadding="0" cellspacing="0" class="theater_u">
 				<tbody>
+					<tr>
+						<td class="admission_tl">ディッピンドッツアイス<br /><span class="notice">レインボー・ストロベリーチーズケーキ・チョコレート・ハニーコットンキャンディ</span></td>
+						<td class="admission_tr">400円</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="table_line_02"></td>
+					</tr>
 					<tr>
 						<td class="admission_tl ">アイスクレープ</td>
 						<td class="admission_tr">360円</td>
