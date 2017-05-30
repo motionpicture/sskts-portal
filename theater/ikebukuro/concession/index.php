@@ -120,7 +120,7 @@ include("../../../lib/require.php");
 										<tr>
 											<td class="menuName">
 												<p class="optionText">
-													ミネラルウォーター・コーラZERO・爽健美茶・綾鷹上煎茶・QOOオレンジ
+													ミネラルウォーター・コーラZERO・爽健美茶・綾鷹上煎茶・QOOみかん
 												</p>
 											</td>
 											<td class="menuprice" ><p>210円</p></td>
@@ -223,6 +223,25 @@ include("../../../lib/require.php");
 
 									<h3 class="lightBlueTitle">アイスクリーム</h3>
 									<table class="menuTable">
+										<tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+
+										<tr>
+											<td class="menuName">
+												<p class="Name">ディッピンドッツアイス</p>
+											</td>
+											<td class="menuprice" ></td>
+										</tr>
+
+										<tr>
+											<td class="menuName">
+												<p class="optionText">
+													レインボー・ストロベリーチーズケーキ・チョコレート・ハニーコットンキャンディ
+												</p>
+											</td>
+											<td class="menuprice" ><p>400円</p></td>
+										</tr>
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
