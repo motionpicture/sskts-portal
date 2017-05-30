@@ -179,10 +179,7 @@
 										    	$(timeBtn).addClass('buyBtn');
 
 
-										    	if (theater === 'aira') {
-                                                    // 一時的な購入ボタン非表示（SSKTS-373）
-                                                    $(timeBtn).html('<span>'+screenName+'</span>');
-                                                } else if (time.available==6) {
+										    	if(time.available==6) {
 										    		$(timeBtn).html('<span>'+screenName+'</span>');
 										    	}else if(time.available==1 || time.available==4) {
 											    	var buyBtnImg = document.createElement('img');
