@@ -23,172 +23,27 @@ include("../../../lib/require.php");
 							<div class="MainArea">
 								<h2 class="headlineImg"><img src="../../../images/common/headline_Conses.png"  alt="コンセッション" ></h2>
 								<div class="whiteCanvas clearfix">
-									<h3 class="lightBlueTitle">ソフトドリンク</h3>
-									<table class="menuTable">
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>コカコーラ・コカコーラゼロ・ジンジャエール・メロンソーダ・ミニッツメイドオレンジ30％・カルピス・アールグレイアイスティー・煌ウーロン茶</p></td>
-											<td class="menuprice" >
-												<p>
-													Ｓサイズ&nbsp;&nbsp;250円<br />
-													Ｍサイズ&nbsp;&nbsp;350円<br />
-													Ｌサイズ&nbsp;&nbsp;450円<br />
-												</p>
-											</td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-									</table>
-
-									<h3 class="lightBlueTitle">コーヒー</h3>
-									<table class="menuTable">
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>ホットコーヒー・アイスコーヒー</p></td>
-											<td class="menuprice" ><p>350円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>カフェラテ・アイスラテ</p></td>
-											<td class="menuprice" ><p>380円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-                                        <tr>
-											<td class="menuName"><p>カフェモカ・アイスモカ</p></td>
-											<td class="menuprice" ><p>380円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-									</table>
-
-									<h3 class="lightBlueTitle">アルコール</h3>
-									<table class="menuTable">
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>生ビール</p></td>
-											<td class="menuprice" ><p>600円</p></td>
-										</tr>
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-
-									</table>
-
+								
 									<h3 class="lightBlueTitle">定番ドリンク</h3>
 									<table class="menuTable">
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
-										<tr>
-											<td class="menuName">
-												<p class="Name">アイス</p>
-											</td>
+                                        <tr>
+											<td class="menuName"><p>ペットボトル</p></td>
 											<td class="menuprice" ></td>
 										</tr>
-
-
 										<tr>
 											<td class="menuName">
-												<p class="optionText">ココア</p>
+												<p class="optionText">コカ・コーラ・ファンタグレープ・Qooみかん・爽健美茶・いろはす天然水<br>ジョージアザ・プレミアム微糖・ジョージアヨーロピアンブラック</p>
 											</td>
-											<td class="menuprice" ><p>350円</p></td>
+											<td class="menuprice" ><p>210円</p></td>
 										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="optionText">抹茶オレ</p>
-											</td>
-											<td class="menuprice" ><p>320円</p></td>
-										</tr>
-
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-                                        </tr>
-
-                                        <tr>
-											<td class="menuName">
-												<p class="Name">ホット</p>
-											</td>
-											<td class="menuprice" ></td>
 										</tr>
-
-										 <tr>
-											<td class="menuName"><p class="optionText">コーンスープ</p></td>
-											<td class="menuprice" ><p>350円</p></td>
-										</tr>
-										<tr>
-											<td class="menuName"><p class="optionText">ココア</p></td>
-											<td class="menuprice" ><p>350円</p></td>
-										</tr>
-										<tr>
-											<td class="menuName"><p class="optionText">抹茶オレ</p></td>
-											<td class="menuprice" ><p>320円</p></td>
-										</tr>
-										<tr>
-											<td class="menuName"><p class="optionText">紅茶</p></td>
-											<td class="menuprice" ><p>300円</p></td>
-										</tr>
-                                        <tr>
-											<td class="menuName"><p class="optionText">烏龍茶</p></td>
-											<td class="menuprice" ><p>300円</p></td>
-										</tr>
-										<tr>
-											<td class="menuName"><p class="optionText">緑茶</p></td>
-											<td class="menuprice" ><p>300円</p></td>
-										</tr>
-                                        
-                                       
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-                                        </tr>
-
-
-
-
 									</table>
-
-                                    <!--<h3 class="lightBlueTitle">限定ドリンク</h3>
-									<table class="menuTable">
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-											<tr>
-											<td class="menuName">
-												<p class="optionText">赤(キャロット味)・紫(グレープ味)</p>
-											</td>
-											<td class="menuprice" ><p>420円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-									</table>-->
 
 									<h3 class="lightBlueTitle">ポップコーン</h3>
 									<table class="menuTable">
@@ -197,65 +52,29 @@ include("../../../lib/require.php");
 										</tr>
 
 										<tr>
-											<td class="menuName"><p>塩</p></td>
-											<td class="menuprice" >
-												<p>
-													Ｍサイズ&nbsp;&nbsp;300円<br />
-													Ｌサイズ&nbsp;&nbsp;500円
-												</p>
-											</td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
 											<td class="menuName"><p>キャラメル</p></td>
-											<td class="menuprice" >
-												<p>
-													Ｍサイズ&nbsp;&nbsp;400円<br />
-													Ｌサイズ&nbsp;&nbsp;700円
-												</p>
-											</td>
+											<td class="menuprice" ><p>520円</p></td>
 										</tr>
 
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>塩&#38;キャラメル</p></td>
-											<td class="menuprice" ><p>ハーフ&ハーフ&nbsp;&nbsp;600円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-									</table>
-
-									<h3 class="lightBlueTitle">アイスクリーム</h3>
-									<table class="menuTable">
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-
-                                        <tr>
-											<td class="menuName"><p>ディッピンドッツ・アイスクリーム</p></td>
-											<td class="menuprice" ></td>
 										</tr>
 										<tr>
-											<td class="menuName">
-												<p class="optionText">レインボー・ストロベリーチーズケーキ</p>
-											</td>
-											<td class="menuprice" ><p>400円</p></td>
+											<td class="menuName"><p>ショコラ</p></td>
+											<td class="menuprice" ><p>520円</p></td>
+										</tr>
+
+										<tr class="line">
+											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
+										
+										<tr>
+											<td class="menuName"><p>MIX（キャラメル＆チーズ）</p></td>
+											<td class="menuprice" ><p>520円</p></td>
 										</tr>
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
-
-
 									</table>
 
 									<h3 class="lightBlueTitle">定番フード</h3>
@@ -264,310 +83,19 @@ include("../../../lib/require.php");
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
-										<tr>
-											<td class="menuName"><p>量り売りお菓子</p></td>
-											<td class="menuprice" ><p>100g&nbsp;&nbsp;420円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>フライドポテト</p></td>
-											<td class="menuprice" ><p>350円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-										<tr>
-											<td class="menuName"><p>ホットドッグ</p></td>
-											<td class="menuprice" ><p>400円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-										
-
                                         <tr>
-											<td class="menuName"><p>プレッツェル</p></td>
-											<td class="menuprice" ><p>370円</p></td>
-										</tr>
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-										
-
-									</table>
-
-									<h3 class="lightBlueTitle">限定フード</h3>
-									<table class="menuTable">
-
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>バゲットサンド</p></td>
-											<td class="menuprice" ><p>630円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>スパイシーチキン</p></td>
-											<td class="menuprice" ><p>370円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="Name">ベルギーワッフル</p>
-											</td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="optionText">メープル・チョコ</p>
-											</td>
-											<td class="menuprice" >450円</td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>アメリカンドッグ</p></td>
-											<td class="menuprice" ><p>300円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName"><p>ソフトプレッツェルドッグ</p></td>
-											<td class="menuprice" ><p>300円</p></td>
-										</tr>
-
-                                        <tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-                                        </tr>										
-
-									</table>
-
-									<h3 class="lightBlueTitle">セット</h3>
-									<table class="menuTable end">
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="Name">ポップコーン塩</p>
-											</td>
+											<td class="menuName"><p>ドーナツ</p></td>
 											<td class="menuprice" ></td>
 										</tr>
 										<tr>
 											<td class="menuName">
-												<p class="optionText">ペア(ポップコーンL×1＋ドリンクM×2)</p>
+												<p class="optionText">プレーン・チョコ・シナモン・キャラメル</p>
 											</td>
-											<td class="menuprice" ><p>1100円</p></td>
+											<td class="menuprice" ><p>230円</p></td>
 										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="optionText">ドリンクM or コーヒーセット</p>
-											</td>
-											<td class="menuprice" ><p>600円</p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="optionText">カフェラテセット</p>
-											</td>
-											<td class="menuprice" ><p>630円</p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="optionText">ビールセット</p>
-											</td>
-											<td class="menuprice" ><p>850円</p></td>
-										</tr>
-                                        <tr>
-											<td class="menuName">
-												<p class="optionText">LLセット(ポップコーンＬ＋ドリンクL)</p>
-											</td>
-											<td class="menuprice" ><p>850円</p></td>
-										</tr>
-                                        
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="Name">ポップコーンキャラメル</p>
-											</td>
-											<td class="menuprice" ></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="optionText">ペア(ポップコーンL×1＋ドリンクM×2)</p>
-											</td>
-											<td class="menuprice" ><p>1300円</p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="optionText">ドリンクM or コーヒーセット</p>
-											</td>
-											<td class="menuprice" ><p>700円</p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="optionText">カフェラテセット</p>
-											</td>
-											<td class="menuprice" ><p>730円</p></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="optionText">ビールセット</p>
-											</td>
-											<td class="menuprice" ><p>950円</p></td>
-										</tr>
-                                        <tr>
-											<td class="menuName">
-												<p class="optionText">LLセット(ポップコーンＬ＋ドリンクL)</p>
-											</td>
-											<td class="menuprice" ><p>1050円</p></td>
-										</tr>
-                                        
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="Name">ポテト</p>
-											</td>
-											<td class="menuprice" ></td>
-										</tr>
-										<tr>
-											<td class="menuName">
-												<p class="optionText">ドリンクM or コーヒーセット</p>
-											</td>
-											<td class="menuprice" ><p>650円</p></td>
-										</tr>
-                                        
-                                        <tr>
-											<td class="menuName">
-												<p class="optionText">カフェラテセット</p>
-											</td>
-											<td class="menuprice" ><p>680円</p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="optionText">ビールセット</p>
-											</td>
-											<td class="menuprice" ><p>900円</p></td>
-										</tr>
-
-                                        <tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										
-										<tr>
-											<td class="menuName">
-												<p class="Name">ホットドック</p>
-											</td>
-											<td class="menuprice" ></td>
-										</tr>
-																				<tr>
-											<td class="menuName">
-												<p class="optionText">ドリンクM or コーヒーセット</p>
-											</td>
-											<td class="menuprice" ><p>700円</p></td>
-										</tr>
-										
-                                        <tr>
-											<td class="menuName">
-												<p class="optionText">カフェラテセット</p>
-											</td>
-											<td class="menuprice" ><p>730円</p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="optionText">ビールセット</p>
-											</td>
-											<td class="menuprice" ><p>950円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="Name">ポップコーンハーフ＆ハーフ（塩＆キャラメル）</p>
-											</td>
-											<td class="menuprice" ></td>
-										</tr>
-																				<tr>
-											<td class="menuName">
-												<p class="optionText">ペア(ポップコーンL×1＋ドリンクM×2)</p>
-											</td>
-											<td class="menuprice" ><p>1200円</p></td>
-										</tr>
-										
-                                        <tr>
-											<td class="menuName">
-												<p class="optionText">LLセット(ポップコーンＬ＋ドリンクL)</p>
-											</td>
-											<td class="menuprice" ><p>950円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
-										<tr>
-											<td class="menuName">
-												<p class="Name">シャカシャカポテト</p>
-											</td>
-											<td class="menuprice" ></td>
-										</tr>
-																				<tr>
-											<td class="menuName">
-												<p class="optionText">ドリンクM or コーヒーセット</p>
-											</td>
-											<td class="menuprice" ><p>680円</p></td>
-										</tr>
-										
-                                        <tr>
-											<td class="menuName">
-												<p class="optionText">カフェラテセット</p>
-											</td>
-											<td class="menuprice" ><p>710円</p></td>
-										</tr>
-
-										 <tr>
-											<td class="menuName">
-												<p class="optionText">ビールセット</p>
-											</td>
-											<td class="menuprice" ><p>930円</p></td>
-										</tr>
-
-										<tr class="line">
-											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-
+										</tr>	
 
 									</table>
 								</div>
