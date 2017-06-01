@@ -123,13 +123,7 @@ include("../../../../lib/require.php");
 	</div>
 	<!-- table end -->
 	<!-- table -->
-	<table cellpadding="0" cellspacing="0" class="theater_u">
-		<thead>
-			<tr>
-				<th colspan="2" class="table_line_01"></th>
-			</tr>
-		</thead>
-	</table>
+
 	
 	</div>
 	<!-- table end -->
