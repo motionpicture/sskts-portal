@@ -36,7 +36,7 @@ include("../../../lib/require.php");
 										</tr>
 										<tr>
 											<td class="menuName">
-												<p class="optionText">コカ・コーラ・ファンタグレープ・Qooみかん・爽健美茶・いろはす天然水・ジョージアザ・プレミアム微糖・ジョージアヨーロピアンブラック</p>
+												<p class="optionText">コカ・コーラ・ファンタグレープ・Qooみかん・爽健美茶・いろはす天然水<br>ジョージアザ・プレミアム微糖・ジョージアヨーロピアンブラック</p>
 											</td>
 											<td class="menuprice" ><p>210円</p></td>
 										</tr>
