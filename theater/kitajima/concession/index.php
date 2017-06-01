@@ -30,7 +30,6 @@ include("../../../lib/require.php");
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
 
-
                                         <tr>
 											<td class="menuName"><p>ペットボトル</p></td>
 											<td class="menuprice" ></td>
@@ -44,6 +43,7 @@ include("../../../lib/require.php");
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
+									</table>
 
 									<h3 class="lightBlueTitle">ポップコーン</h3>
 									<table class="menuTable">
@@ -75,13 +75,13 @@ include("../../../lib/require.php");
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
+									</table>
 
 									<h3 class="lightBlueTitle">定番フード</h3>
 									<table class="menuTable">
 										<tr class="line">
 											<td colspan="2" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
-
 
                                         <tr>
 											<td class="menuName"><p>ドーナツ</p></td>
