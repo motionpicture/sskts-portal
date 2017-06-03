@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <rewrite>
+            <rules>
+                <rule name="Maintenance" stopProcessing="true">
+                    <match url="^(?!.*maintenance.php$).*$" ignoreCase="true"/>
+                    <action type="Rewrite" url="/maintenance.php" />
+                </rule>
+            </rules>
+        </rewrite>
+    </system.webServer>
+</configuration>
