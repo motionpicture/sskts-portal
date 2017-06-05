@@ -10,16 +10,18 @@ http_response_code(503);
         <style>
             body {
                 margin: 0;
-                padding: 50px;
+                padding: 50px 10px;
             }
             img {
                 margin: 0 auto;
                 display: block;
                 vertical-align: bottom;
+                width: 100%;
+                max-width: 600px;
             }
         </style>
     </head>
     <body>
-        <img src="/images/maintenance.png" width="600" height="320" alt="メンテナンス">
+        <img src="/images/maintenance.png" alt="メンテナンス">
     </body>
 </html>
