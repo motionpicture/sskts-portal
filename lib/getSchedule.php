@@ -27,7 +27,7 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
             "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/preSchedule.xml",
             "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/preSchedule.xml",
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
-            "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
+            'kitajima' => PRE_SCHEDULE_KITAJIMA,
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
             'aira' => PRE_SCHEDULE_AIRA,
 		);
@@ -46,7 +46,7 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
             "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/schedule.xml",
             "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/schedule.xml",
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
-            "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
+            'kitajima' => SCHEDULE_KITAJIMA,
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
             'aira' => SCHEDULE_AIRA,
 		);
@@ -92,7 +92,7 @@ function getDates2($theater,$preTicket=false,$preIsExist=false) {
 	$theaterUrls;
 
     $cacheKeyPrefix = '';
-    
+
 	if ($preTicket){
         $cacheKeyPrefix = 'pre_schedule_';
 		$theaterUrls= array(
@@ -107,7 +107,7 @@ function getDates2($theater,$preTicket=false,$preIsExist=false) {
             "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/preSchedule.xml",
             "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/preSchedule.xml",
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
-            "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
+            'kitajima' => PRE_SCHEDULE_KITAJIMA,
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
             'aira' => PRE_SCHEDULE_AIRA,
 		);
@@ -126,7 +126,7 @@ function getDates2($theater,$preTicket=false,$preIsExist=false) {
             "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/schedule.xml",
             "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/schedule.xml",
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
-            "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
+            'kitajima' => SCHEDULE_KITAJIMA,
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
             'aira' => SCHEDULE_AIRA,
 		);
