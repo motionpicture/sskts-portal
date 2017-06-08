@@ -128,7 +128,7 @@ include("../lib/require.php");
 											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./masaki" >シネマサンシャインエミフルMASAKI</a></p>
 											<p class="theaterPracce">愛媛県</p>
 											<p class="theaterService">
-                                                   <a class="link" href="../4dx" rel="4dx" alt="4dx" ><img src="../images/common/btn_4dx.gif"></a>
+                                                <a class="link" href="../4dx" rel="4dx" alt="4dx" ><img src="../images/common/btn_4dx.gif"></a>
 												<a class="link" href="http://www.facebook.com/sunshineehime" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
 												<a href="http://twitter.com/cs_ehime" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
 											</p>
@@ -145,6 +145,7 @@ include("../lib/require.php");
 											<p class="theaterName"><img src="../images/common/btn_arrow.gif"><a href="./kitajima" >シネマサンシャイン北島</a></p>
 											<p class="theaterPracce">徳島県</p>
 											<p class="theaterService">
+												<a class="link" href="../4dx" rel="4dx" alt="4dx" ><img src="../images/common/btn_4dx.gif"></a>
 												<a class="link" href="http://www.facebook.com/sunshinekitajima" rel="facebook" alt="facebook" target="_blank"><img src="../images/common/btn_facebook.gif"></a>
 												<a href="https://twitter.com/cs_kitajima" rel="twitter" alt="twitter" target="_blank"><img src="../images/common/btn_twitter.gif"></a>
 											</p>
