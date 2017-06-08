@@ -48,7 +48,7 @@ include("../../../../lib/require.php");
 						H3.8m</td>
 					</tr>
 					<tr>
-						<td class="admission_tc_gray1"><a href="./detail.php?p=2">4DX&reg;シアター</a></td>
+						<td class="admission_tc_gray1"><a href="./detail.php?p=2">4DX<sup>&reg;</sup>シアター</a></td>
 						<td class="admission_tc">96</td>
 						<td class="admission_tc">-</td>
 						<td class="admission_tc">デジタル6ch</td>
