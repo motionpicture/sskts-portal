@@ -13,7 +13,7 @@ include("../../../../lib/require.php");
 <div class="basebox2_ptrl">
 
 
-    
+    <!-- 通常料金 -->
     <table cellpadding="0" cellspacing="0" class="theater_u">
 		<thead>
 			<tr>
@@ -39,12 +39,12 @@ include("../../../../lib/require.php");
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
 				<tr>
-						<td class="admission_tl">大学生<br /><span class="notice">※要学生証</span></td>
-						<td class="admission_tr">1,500円</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>
+					<td class="admission_tl">大学生<br /><span class="notice">※要学生証</span></td>
+					<td class="admission_tr">1,500円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
 				<tr>
 					<td class="admission_tl">高校生・中学生・小学生<br><span class="notice">※高校生は要学生証</span></td>
 					<td class="admission_tr">1,000円</td>
@@ -79,6 +79,9 @@ include("../../../../lib/require.php");
 			</tbody>
 		</table>
 	</div>
+	<!-- /通常料金 -->
+
+	<!-- 割引料金 -->
 	<table cellpadding="0" cellspacing="0" class="theater_u">
 		<thead>
 			<tr>
@@ -110,23 +113,13 @@ include("../../../../lib/require.php");
 					<td class="admission_tr">女性 1,100円</td>
 				</tr>
                 
-		<tr>
-
-						<td colspan="2" class="table_line_02"></td>
-
-					</tr>
-
-                    <tr>
-
-						<td class="admission_tl">シネマサンシャインデイ<br /><span class="notice">※毎月15日</span></td>
-
-						<td class="admission_tr"> 1,100円</td>
-
-					</tr>
-
-
-
-
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+				<tr>
+					<td class="admission_tl">シネマサンシャインデイ<br /><span class="notice">※毎月15日</span></td>
+					<td class="admission_tr"> 1,100円</td>
+				</tr>
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
@@ -150,13 +143,13 @@ include("../../../../lib/require.php");
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
-				<!--<tr>
-						<td class="admission_tl">高校生友情プライス<br /><span class="notice">※高校生３人以上<br />※要学生証</span></td>
-						<td class="admission_tr">お一人様 1,000円</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="table_line_02"></td>
-					</tr>-->
+			<!--<tr>
+					<td class="admission_tl">高校生友情プライス<br /><span class="notice">※高校生３人以上<br />※要学生証</span></td>
+					<td class="admission_tr">お一人様 1,000円</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>-->
 				<tr>
 					<td class="admission_tl">メンバーズカード<br />
 						<span class="notice">※カード提示で本人を含む4名様まで</span></td>
@@ -175,8 +168,7 @@ include("../../../../lib/require.php");
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
-				<!--
-				<tr>
+			<!--<tr>
 					<td class="admission_tl">キッズメンバーズカード<br />
 						<span class="notice">※3歳～12歳の方。<br />
 						※会員様ご本人様のみ。</span></td>
@@ -185,11 +177,44 @@ include("../../../../lib/require.php");
 				</tr>
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
-				</tr>
-				-->
+				</tr>-->
 			</tbody>
 		</table>
 	</div>
+	<!-- /割引料金 -->
+
+    <!-- 4DX料金 -->
+    <table cellpadding="0" cellspacing="0" class="theater_t">
+		<tbody>
+			<tr class="first-child">
+				<td colspan="2" class="table_top_01">4DX<sup>&reg;</sup>鑑賞料金</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div class="table_wrapper regulation02">
+		<table cellpadding="0" cellspacing="0" class="theater_u">
+			<tbody>
+				<tr>
+					<td class="admission_tl">4DX<sup>&reg;</sup>鑑賞料金：通常料金+1,000円</td>
+				</tr>
+				<tr>
+					<td class="admission_tl"><span class="notice">2D作品の場合<br />
+						〈通常料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+						3D作品の場合<br />
+						〈通常料金〉+〈3D鑑賞料金400円〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br /><br />
+						サービスデーの場合<br />
+						〈サービスデー料金〉+〈4DX<sup>&reg;</sup>鑑賞料金1,000円〉<br />
+						<br /><br />
+						※身長100cm未満の方、妊娠中の方、ご高齢の方、心臓・背中・腰・首などに障害のある方、特別な疾病のある方、乗り物酔いしやすい方、その他体調に不安のある方などは、４DX®をご利用いただけません。また、身長120cm未満のお子様は保護者の方と一緒にご鑑賞ください。</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+    <!-- /4DX料金 -->
+    
+	<!-- 3D料金 -->
 	<table cellpadding="0" cellspacing="0" class="theater_u">
 		<thead>
 			<tr>
@@ -215,12 +240,13 @@ include("../../../../lib/require.php");
 				</tr>
 			</tbody>
 		</table>
-	<!-- / .table_wrapper --></div>
+	</div>
+    <!-- /3D料金 -->
+
     
     
     
-    
-<!-- / .basebox2_ptrl --></div>
+</div><!-- / .basebox2_ptrl -->
 <?php getSmartFooter(); ?>
 </body>
 </html>
