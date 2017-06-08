@@ -193,17 +193,17 @@ P {
                 // 沼津
                 "6" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/numazu/\" target=\"_blank\"><img src=\"../img/4dx_theater_numazu.gif\" width=\"84\" height=\"22\" alt=\"沼津\" ></a></li>",
 
-                // MASAKI
-                "15" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/masaki/\" target=\"_blank\"><img src=\"../img/4dx_theater_masaki.gif\" width=\"84\" height=\"22\" alt=\"エミフルMASAKI\" ></a></li>",
-
                 // 大和郡山 (※本来"16"のはずだったがIMAXサイトでの表示フラグとして使われていたので4DXサイト用IDが作られた(CMSには「特設サイト表示フラグ」しか無く、IMAXと4DX両方ある劇場の登場が想定されていなかった))
                 "yamatokoriyama4dx" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/yamatokoriyama/\" target=\"_blank\"><img src=\"../img/4dx_theater_yamato.gif\" width=\"84\" height=\"22\" alt=\"大和郡山\" ></a></li>",
 
-                // 姶良
-                "18" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/aira/\" target=\"_blank\"><img src=\"../img/4dx_theater_aira.gif\" width=\"84\" height=\"22\" alt=\"姶良\" ></a></li>",
+                // MASAKI
+                "15" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/masaki/\" target=\"_blank\"><img src=\"../img/4dx_theater_masaki.gif\" width=\"84\" height=\"22\" alt=\"エミフルMASAKI\" ></a></li>",
 
                 // 北島
-                "7" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/kitajima/\" target=\"_blank\"><img src=\"../img/4dx_theater_kitajima.gif\" width=\"84\" height=\"22\" alt=\"北島\" ></a></li>"
+                "7" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/kitajima/\" target=\"_blank\"><img src=\"../img/4dx_theater_kitajima.gif\" width=\"84\" height=\"22\" alt=\"北島\" ></a></li>",
+
+                // 姶良
+                "18" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/aira/\" target=\"_blank\"><img src=\"../img/4dx_theater_aira.gif\" width=\"84\" height=\"22\" alt=\"姶良\" ></a></li>"
             ];
             foreach ($theaters4dxTable as $theater4dxId => $linkHTML) {
                 if (in_array( (string)$theater4dxId, $theaters, true)) {
