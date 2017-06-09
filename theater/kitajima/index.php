@@ -104,7 +104,7 @@ $theater = $arr["ename"];
 										※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br />
 										※購入マークがない時間はインターネットでのチケット購入対象外となります。 </p>
 								</div>-->
-								<!--<div class="topTimeBox">
+								<div class="topTimeBox">
 									<p>
 										<?php
 												$theaterId=getTheaterId($theater);
