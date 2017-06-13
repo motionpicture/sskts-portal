@@ -168,7 +168,7 @@ include("../../../../lib/require.php");
 					</tr>
                     <tr>
 						<td class="admission_tl">メンバーズデイ<br /><span class="notice">※毎週木曜日<br />※メンバーズカードご提示のご本人様</span></td>
-						<td class="admission_tr">1,300円</td>
+						<td class="admission_tr">1,100円</td>
 					</tr>
 					<tr>
 						<td colspan="2" class="table_line_02"></td>

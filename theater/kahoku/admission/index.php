@@ -224,7 +224,7 @@ include("../../../lib/require.php");
                                             <p>※毎週木曜日</p>
                                             <p>※メンバーズカードご提示のご本人様</p>
                                             </td>
-											<td class="priceAdd" >￥1,300</td>
+											<td class="priceAdd" >￥1,100</td>
 										</tr>
 
 										<tr class="line">
