@@ -12,9 +12,9 @@
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
         
         $(function(){
-            //非表示の場合下の行をコメントアウト
-            var videoId = 'dnooczglAsk';
-            showVideo(videoId);//ID設定
+            //非表示の場合下の2行をコメントアウト
+            // var videoId = 'dnooczglAsk';
+            // showVideo(videoId);//ID設定
         });
     }
 
