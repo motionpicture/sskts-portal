@@ -137,7 +137,7 @@ function getScheduleSp($theater,$date,$pre=null) {
 		}
 	}
 
-    if ($theater === 'aira') {
+    if ($theater === 'aira' || $theater === 'kitajima') {
         $data = $result['data'];
 
         foreach ($data->movie as $movie) {
@@ -161,7 +161,7 @@ function getScheduleMovieSp($theater,$date,$movie_code) {
 					$r_schedule['date'] ="$schedule->date";
 					$r_schedule['usable'] ="$schedule->usable";
 
-                    if ($theater === 'aira') {
+                    if ($theater === 'aira' || $theater === 'kitajima') {
                         convertTicketingURL($result['theater_code'], $movie, $r_schedule['date']);
                     }
 

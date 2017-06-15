@@ -197,9 +197,9 @@
 
 										    	} else {
 										    		var buyBtnA = document.createElement('a');
-										    		if (theater !== 'aira') {
+										    		if (theater !== 'aira' || theater !== 'kitajima') {
 										    			$(buyBtnA).attr("target","_blank");
-										    			}
+										    		}
 											    	var buyBtnImg = document.createElement('img');
 											    	$(buyBtnA).attr('href',time.url);
 											    	$(buyBtnImg).attr('src','./images/common/btn_buyPtn'+time.available+'.png');

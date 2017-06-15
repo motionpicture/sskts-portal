@@ -200,7 +200,7 @@ jQuery(function($){
 				}else {
                     echo '<td width="81">';
 
-                    if ($p_theater === 'aira') {
+                    if ($p_theater === 'aira' || $p_theater === 'kitajima') {
                         echo '<a href="'.$time->url.'">';
                     } else {
                         echo '<a href="'.$time->url.'" target="_blank">';
