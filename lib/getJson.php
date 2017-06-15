@@ -279,7 +279,9 @@ function convertTicketingURL(\SimpleXMLElement $movie, $date) {
         throw new \LogicException('required "theater_code"');
     }
 
-    $theaterCode = $result['theater_code'];
+    // @see SSKTS-453
+    $theaterCode = sprintf('%03d', $result['theater_code']);
+
     $movieCode = (string) $movie->movie_short_code;
     $movieBranchCode = (string) $movie->movie_branch_code;
 
@@ -288,7 +290,7 @@ function convertTicketingURL(\SimpleXMLElement $movie, $date) {
 
         foreach ($screen->time as $time) {
             // 施設コード + 上映日 + 作品コード + 作品枝番 + スクリーンコード + 上映開始時刻
-            $param = '0' . $theaterCode . $date . $movieCode . $movieBranchCode . $screenCode . (string) $time->start_time;
+            $param = $theaterCode . $date . $movieCode . $movieBranchCode . $screenCode . (string) $time->start_time;
             $time->url = TICKETING_BASE_URL . '/purchase?id=' . $param;
         }
     }
