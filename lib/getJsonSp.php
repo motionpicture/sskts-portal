@@ -48,10 +48,7 @@ if(!empty($_GET["result"])) {
 //エラーチェックもする
 function targetTheater($theater,$pre = null) {
 
-    $cacheKeyPrefix = '';
-
 	if ($pre!=null){
-        $cacheKeyPrefix = 'pre_schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
@@ -70,7 +67,6 @@ function targetTheater($theater,$pre = null) {
 		);
 
 	} else {
-        $cacheKeyPrefix = 'schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
@@ -90,16 +86,9 @@ function targetTheater($theater,$pre = null) {
 	}
 
     $url = $theaterUrls[$theater];
-    $cacheKey = $cacheKeyPrefix . $theater;
-    $cache = new CinesunCache();
-    $data = null;
 
-    if ($cache->isHit($cacheKey)) {
-        $schedules = @simplexml_load_string($cache->get($cacheKey), 'SimpleXMLElement', LIBXML_NOCDATA);
-    } else {
-        $data = file_get_contents($url);
-        $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
-    }
+    $data = file_get_contents($url);
+    $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
 
     if(!$schedules) {
         $result["error"] ="222222";
@@ -112,11 +101,6 @@ function targetTheater($theater,$pre = null) {
         $result['theater_code'] = isset($schedules->theater_code) ? (string) $schedules->theater_code : null; // SSKTS-60
         //var_dump($schedules->schedule);
         $result["data"] = $schedules->schedule;
-
-        if ($data) {
-            // エラーが無い場合キャッシュ
-            $cache->save($cacheKey, $data, CACHE_LIFETIME);
-        }
     }
 
 	return $result;

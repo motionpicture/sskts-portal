@@ -1,6 +1,5 @@
 <?php
 require_once 'const.php';
-require_once 'cache.php';
 
 /*if (PHP_VERSION <"5.2.0") {
 	include("upgrade.php");
@@ -61,10 +60,8 @@ function targetTheater($theater) {
 	global $schedules;
 	global $result;
 
-    $cacheKeyPrefix = '';
 
 	if (isset($_GET['pre']) && $_GET['pre']) {
-        $cacheKeyPrefix = 'pre_schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
@@ -83,7 +80,6 @@ function targetTheater($theater) {
 		);
 
 	} else {
-        $cacheKeyPrefix = 'schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
@@ -109,30 +105,20 @@ function targetTheater($theater) {
 	}
 
     $url = $theaterUrls[$theater];
-    $cacheKey = $cacheKeyPrefix . $theater;
-    $cache = new CinesunCache();
+    $data = file_get_contents($url);
+    $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
 
-    if ($cache->isHit($cacheKey)) {
-        $schedules = @simplexml_load_string($cache->get($cacheKey), 'SimpleXMLElement', LIBXML_NOCDATA);
-    } else {
-        $data = file_get_contents($url);
-        $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+    if(!$schedules) {
+        $result["error"] ="222222";
+        output($result);
+        return false;
+    }
 
-        if(!$schedules) {
-            $result["error"] ="222222";
-            output($result);
-            return false;
-        }
-
-        if ($schedules->error!= "000000"){
-            // エラーコードの場合
-            $result["error"] ="$schedules->error";
-            output($result);
-            return false;
-        } else {
-            // エラーが無い場合キャッシュ
-            $cache->save($cacheKey, $data, CACHE_LIFETIME);
-        }
+    if ($schedules->error!= "000000"){
+        // エラーコードの場合
+        $result["error"] ="$schedules->error";
+        output($result);
+        return false;
     }
 
     // 正常終了
