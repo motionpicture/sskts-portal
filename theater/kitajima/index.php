@@ -32,6 +32,7 @@ $theater = $arr["ename"];
 				});
 
 			makeBlock();
+            /* SSKTS-455
 			getJson('<?php echo $theater?>','<?php
 
 			if ($_GET['pre']) {
@@ -41,7 +42,7 @@ $theater = $arr["ename"];
 				echo date('Ymd');
 			}
 			 ?>');
-
+            */
 
 				$(".cal_date").click(function () {
 
@@ -128,7 +129,7 @@ $theater = $arr["ename"];
 								</div>
 								<?php
 //予約可能な日付取得
-
+/* SSKTS-455
 if ($_GET['pre']) {
 	$dates=getDates2($theater,true);
 } else {
@@ -136,11 +137,6 @@ if ($_GET['pre']) {
 }
 $dates2=$dates;
 
-//var_dump($dates);
-//var_dump(getDates2($theater,true,true));
-//$dates=array_reverse($dates);
-
-//var_dump($dates);
 //精査後のデーター格納
 $calender_dates;
 
@@ -193,10 +189,11 @@ if (count($dates) <7) {
 	}
 
 }
-
-//foreach()
+*/
 
 ?>
+                                <?php // SSKTS-455 ?>
+                                <!--
 								<div class="dayListBox">
 									<div id="cal_left"></div>
 									<ul>
@@ -257,7 +254,7 @@ if (count($dates) <7) {
 									</ul>
 									<div id="cal_right"> </div>
 								</div>
-								<div class="movieListBox"> </div>
+								<div class="movieListBox"> </div>-->
 								<div class="notesBox">
 									<p class="start"></p>
 								</div>
