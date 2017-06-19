@@ -5,11 +5,6 @@ include APP_ROOT_DIR . '/env.php';
 define('APP_ENV', $env);
 
 
-// cache
-define('CACHE_LIFETIME', 60 * 5); // sec
-define('CACHE_DIR', APP_ROOT_DIR . '/cache');
-
-
 /**
  * COAスケジュールAPI
  *

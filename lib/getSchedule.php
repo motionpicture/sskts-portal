@@ -1,6 +1,5 @@
 <?php
 require_once 'const.php';
-require_once 'cache.php';
 
 //
 //劇場のxmlを取得
@@ -11,10 +10,7 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
 
 	$theaterUrls;
 
-    $cacheKeyPrefix = '';
-
 	if ($preTicket){
-        $cacheKeyPrefix = 'pre_schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
@@ -33,7 +29,6 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
 		);
 
 	} else {
-        $cacheKeyPrefix = 'schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
@@ -53,17 +48,9 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
 	}
 
     $url = $theaterUrls[$theater];
-    $cacheKey = $cacheKeyPrefix . $theater;
-    $cache = new CinesunCache();
 
-	if ($cache->isHit($cacheKey)) {
-        $schedules = @simplexml_load_string($cache->get($cacheKey), 'SimpleXMLElement', LIBXML_NOCDATA);
-    } else {
-        $data = file_get_contents($url);
-        $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
-
-        $cache->save($cacheKey, $data, CACHE_LIFETIME);
-    }
+    $data = file_get_contents($url);
+    $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
 
 	if ($preIsExist) {
 		$dateArr;
@@ -91,10 +78,7 @@ function getDates2($theater,$preTicket=false,$preIsExist=false) {
 
 	$theaterUrls;
 
-    $cacheKeyPrefix = '';
-    
 	if ($preTicket){
-        $cacheKeyPrefix = 'pre_schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
@@ -113,7 +97,6 @@ function getDates2($theater,$preTicket=false,$preIsExist=false) {
 		);
 
 	} else {
-        $cacheKeyPrefix = 'schedule_';
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
             "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
@@ -133,17 +116,8 @@ function getDates2($theater,$preTicket=false,$preIsExist=false) {
 	}
 
     $url = $theaterUrls[$theater];
-    $cacheKey = $cacheKeyPrefix . $theater;
-    $cache = new CinesunCache();
-
-    if ($cache->isHit($cacheKey)) {
-        $schedules = @simplexml_load_string($cache->get($cacheKey), 'SimpleXMLElement', LIBXML_NOCDATA);
-    } else {
-        $data = file_get_contents($url);
-        $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
-
-        $cache->save($cacheKey, $data, CACHE_LIFETIME);
-    }
+    $data = file_get_contents($url);
+    $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
 
 
 	if ($preIsExist) {
