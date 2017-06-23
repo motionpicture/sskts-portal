@@ -9,13 +9,13 @@ $p_date= date('Ymd');
 if(!empty($_GET['date'])) {
 	$p_date=date('Ymd',strtotime($_GET['date']));
 }
-
+/* SSKTS-455
 if(!empty($_GET["pre"])) {
 	$result = getScheduleSp($theater,$p_date,true);
 } else {
 	$result = getScheduleSp($theater,$p_date);
 }
-
+*/
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -88,6 +88,7 @@ if(!empty($_GET["pre"])) {
 		</div>
 
 		<?php
+            /* SSKTS-455
 			$isPreExistCode = getDates($theater,true,true);
 			if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
 				//echo '<p><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
@@ -98,12 +99,14 @@ if(!empty($_GET["pre"])) {
 					//echo '<p><a href="./">通常</a></p>';
 				}
 			}
+            */
 		?>
 
 		<?php
 			//予約可能な日付取得
 
 			//先行モードの場合
+            /*
 			if ($_GET['pre']) {
 				$dates=getDates($theater,true);
 			} else {
@@ -152,16 +155,16 @@ if(!empty($_GET["pre"])) {
 					$calender_dates[] = array("available"=>true,"date"=>$db_date);
 				}
 			}
-			//var_dump($calender_dates);
-			//foreach()
+            */
 		?>
 
 
 		<!--スライダー-->
-		<div class="dayListBox">
+		<!--<div class="dayListBox">
 			<div id="cal_left"></div>
 			<ul>
 				<?php
+                /* SSKTS-455
 					$cal_cnt = 0;
 					foreach($calender_dates as $cal_date) {
 						if ($cal_date['available']) {
@@ -225,10 +228,11 @@ if(!empty($_GET["pre"])) {
 
 						$cal_cnt++;
 					}
+                */
 				?>
 			</ul>
 			<div id="cal_right"></div>
-		</div>
+		</div>-->
 		<!--/スライダー-->
 
 		<div class="bottomNotes">
@@ -245,9 +249,11 @@ if(!empty($_GET["pre"])) {
 
 		<p class="date">
 			<?php
+            /* SSKTS-455
 				if ($result["error"] == "000000") {
 					echo date("Y年m月d日",strtotime($result["data"]->date))."(".getYoubi($result["data"]->date).")"; ;
 				}
+            */
 			?>
 		</p>
 	</div>
@@ -277,6 +283,7 @@ if(!empty($_GET["pre"])) {
 
 	<div class="section ptb10">
 		<?php
+        /* SSKTS-455
 			foreach($result["data"]->movie as $movie) {
 				$comment="";
 				//var_dump($movie);
@@ -332,11 +339,13 @@ if(!empty($_GET["pre"])) {
 				echo '</table>';
 				echo '</div>';
 			}
+        */
 		?>
 	</div>
 	<div class="section">
 		<p class="notice">
-			<?php echo $result["attention"] ?>
+            <?php // SSKTS-455 ?>
+			<?php // echo $result["attention"] ?>
 		</p>
 	</div>
 	<div class="category_bar_p">ピックアップ</div>
