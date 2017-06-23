@@ -211,6 +211,21 @@ include("../../../lib/require.php");
 										<tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
+
+										<tr>
+											<td class="priceSubject"><p>キッズメンバーズカード </p></td>
+											<td class="priceNotes">
+												<p>
+													※3歳～12歳の方。<br />
+													※会員様ご本人様のみ。
+												</p>
+											</td>
+											<td class="priceAdd" >会員様&nbsp;&nbsp;￥200引</td>
+										</tr>
+
+										<tr class="line">
+											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
+										</tr>
 										<tr>
 											<td class="priceSubject"><p>エフカ割引</p></td>
 											<td class="priceNotes" >
@@ -223,21 +238,6 @@ include("../../../lib/require.php");
 										<tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
-										<!--
-										<tr>
-											<td class="priceSubject"><p>キッズメンバーズカード</p></td>
-											<td class="priceNotes" >
-												<p>※3歳～12歳の方。</p>
-												<p>※会員様ご本人様のみ。</p>
-											</td>
-											<td class="priceAdd" ><p>会員様&nbsp;&nbsp;￥200引</p></td>
-										</tr>
-										
-
-										<tr class="line">
-											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
-										</tr>
-										-->
 									</table>
 
 									<h3 class="lightBlueTitle">3D鑑賞料金</h3>
