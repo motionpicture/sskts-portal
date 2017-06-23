@@ -159,6 +159,18 @@ include("../../../../lib/require.php");
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
+
+				<tr>
+					<td class="admission_tl">キッズメンバーズカード<br />
+						<span class="notice">※3歳～12歳の方。<br />
+						※会員様ご本人様のみ。</span></td>
+					<td class="admission_tr">会員様<br />
+						200円引</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="table_line_02"></td>
+				</tr>
+
 				<tr>
 					<td class="admission_tl">エフカ割引<br />
 						<span class="notice">※カード提示で本人を含む2名様まで。</span></td>
@@ -168,16 +180,7 @@ include("../../../../lib/require.php");
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
-			<!--<tr>
-					<td class="admission_tl">キッズメンバーズカード<br />
-						<span class="notice">※3歳～12歳の方。<br />
-						※会員様ご本人様のみ。</span></td>
-					<td class="admission_tr">会員様<br />
-						200円引</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="table_line_02"></td>
-				</tr>-->
+				
 			</tbody>
 		</table>
 	</div>
