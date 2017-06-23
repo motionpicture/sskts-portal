@@ -113,8 +113,10 @@ $theater = $arr["ename"];
 												echo $open['open_txt'];
 											?>
 									</p>
+                                    <!-- SSKTS-455
 									<p class="exception"> <a rel="popup" title="アイコン説明" data-fancybox-group="popup" href="../../images/common/fig_pop.jpg"  class="fancybox"><img src="../../images/common/btn_icon.gif"
 												alt="アイコンの詳しい説明はこちら"> </a> </p>
+                                    -->
 									<?php
 										$isPreExistCode = getDates2($theater,true,true);
 										if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
