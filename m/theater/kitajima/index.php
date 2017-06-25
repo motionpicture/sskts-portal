@@ -67,7 +67,8 @@ $news = false;
 $theaterId=getTheaterId($theaterName);
 
 $maeuri = getMaeuri($theaterId['id']);
-//	var_dump($maeuri);
+$reservationList = array();
+
 	foreach($maeuri as $val){
 		$movie = getMovieById($val['movie_code']);
 		if(!$movie['name']){
@@ -105,6 +106,7 @@ $maeuri = getMaeuri($theaterId['id']);
 	}
 
 $html = '';
+
 foreach ($reservationList as $value) {
     if (!empty($value[2])) {
         $html .= "<span style=\"color:#7c6854;\">{$value[2]}</span><br />

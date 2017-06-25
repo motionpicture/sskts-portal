@@ -37,23 +37,23 @@ include("../../../lib/require.php");
 
 											<tr>
 												<td valign="middle"  bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/kitajima/fig1.gif" data-fancybox-group="gallery" title="シネマ1" rel="theater" >シネマ1</a></p></td>
-												<td valign="middle"><p>102</p></td>
+												<td valign="middle"><p>101</p></td>
 												<td valign="middle"><p>1</p></td>
 												<td valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W7.0m×3.8m</p></td>
 											</tr>
 
 											<tr>
-												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/kitajima/fig2.gif" data-fancybox-group="gallery" title="シネマ2" rel="theater">シネマ2</a></p></td>
-												<td valign="middle"><p>191</p></td>
-												<td valign="middle"><p>2</p></td>
+												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/kitajima/fig2.gif" data-fancybox-group="gallery" title="4DX&reg;シアター" rel="theater">4DX&reg;シアター</a></p></td>
+												<td valign="middle"><p>96</p></td>
+												<td valign="middle"><p>-</p></td>
 												<td valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W9.2m×5.0m</p></td>
 											</tr>
 
 											<tr>
 												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/kitajima/fig3.gif" data-fancybox-group="gallery" title="シネマ3" rel="theater">シネマ3</a></p></td>
-												<td valign="middle"><p>199</p></td>
+												<td valign="middle"><p>197</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W9.7m×5.2m</p></td>
@@ -61,7 +61,7 @@ include("../../../lib/require.php");
 
 											<tr>
 												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/kitajima/fig4.gif" data-fancybox-group="gallery" title="シネマ4" rel="theater">シネマ4</a></p></td>
-												<td valign="middle"><p>271</p></td>
+												<td valign="middle"><p>269</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W10.9m×4.6m</p></td>
@@ -69,7 +69,7 @@ include("../../../lib/require.php");
 
 											<tr>
 												<td valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/kitajima/fig5.gif" data-fancybox-group="gallery" title="シネマ5" rel="theater">シネマ5</a></p></td>
-												<td valign="middle"><p>300</p></td>
+												<td valign="middle"><p>298</p></td>
 												<td valign="middle"><p>2</p></td>
 												<td valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W11.5m×4.8m</p></td>
@@ -77,29 +77,39 @@ include("../../../lib/require.php");
 
 											<tr>
 												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/kitajima/fig6.gif" data-fancybox-group="gallery" title="シネマ6" rel="theater">シネマ6</a></p></td>
-												<td class="middle" valign="middle"><p>145</p></td>
+												<td class="middle" valign="middle"><p>143</p></td>
 												<td class="middle" valign="middle"><p>2</p></td>
 												<td class="middle" valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W8.7m×4.7m</p></td>
 											</tr>
 																						<tr>
 												<td class="middle" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/kitajima/fig7.gif" data-fancybox-group="gallery" title="シネマ7" rel="theater">シネマ7</a></p></td>
-												<td class="middle" valign="middle"><p>85</p></td>
+												<td class="middle" valign="middle"><p>84</p></td>
 												<td class="middle" valign="middle"><p>1</p></td>
 												<td class="middle" valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn" valign="middle"><p>W7.1m×3.8m</p></td>
 											</tr>
 																						<tr>
 												<td class="bottomColumn" valign="middle" bgcolor="#f0f0f0"><p><a class="fancybox" href="../../../images/common/kitajima/fig8.gif" data-fancybox-group="gallery" title="シネマ8" rel="theater">シネマ8</a></p></td>
-												<td class="bottomColumn" valign="middle"><p>85</p></td>
+												<td class="bottomColumn" valign="middle"><p>84</p></td>
 												<td class="bottomColumn" valign="middle"><p>1</p></td>
 												<td class="bottomColumn" valign="middle"><p>デジタル6ch</p></td>
 												<td class="rightColumn bottomColumn" valign="middle"><p>W7.1m×3.8m</p></td>
 											</tr>
 										</table>
 
+										<!--4DX上映-->
+										<p class="title">4DX<sup>&reg;</sup>シアター</p>
+										<div class="floorBox clearfix">
+											<div class="left"><a href="../../../4dx/"><img src="../../../images/common/fig_4dx.jpg"  alt="4DX&reg;" ></a></div>
+											<div class="right">
+												<p class="subTitle" >4DX<sup>&reg;</sup>シアター</p>
+												<p class="txt" >3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの19のエフェクトにより、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</p>
+											</div>
+										</div>
+                                        <!--/4DX上映-->
+										<!--3D上映-->
 										<p class="title">3D上映</p>
-										
 										<div class="floorBox clearfix">
 											<div class="left"><a href="../../../3d/xpand.html"><img src="../../../images/common/fig_xpand.gif"  alt="XPAND" ></a></div>
 											<div class="right">
@@ -110,6 +120,7 @@ include("../../../lib/require.php");
 												</p>
 											</div>
 										</div>
+										<!--/3D上映-->
 									</div>
 
 									<h3 class="lightBlueTitle bottomLine">シネマサンシャイン北島の劇場サービス</h3>
