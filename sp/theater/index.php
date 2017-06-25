@@ -39,7 +39,7 @@ include("../../lib/require.php");
 		<li class="theatre_area"><a href="./shigenobu">重信</a></li>
 		<li class="theatre_area"><a href="./masaki">エミフルMASAKI<span class="area_icon"><img src="../images/theater/icon_4dx.png" width="65" alt="4dx"></span></a></li>
 		<li class="theatre_area"><a href="./ozu">大洲</a></li>
-		<li class="theatre_area"><a href="./kitajima">北島</a></li>
+		<li class="theatre_area"><a href="./kitajima">北島<span class="area_icon"><img src="../images/theater/icon_4dx.png" width="65" alt="4dx"></span></a></li>
 	</ul>
     <ul class="theatre_list">
 		<li class="theatre_category"><h3>九州地区</h3></li>

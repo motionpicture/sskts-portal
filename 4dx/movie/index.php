@@ -7,8 +7,8 @@
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <title>作品紹介 | シネマサンシャイン&nbsp;cinema&nbsp;sunshine×4DX</title>
-<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,東京,沼津,静岡,松前,愛媛,姶良,鹿児島" />
-<meta name="description" content="シネマサンシャイン平和島、シネマサンシャイン沼津、シネマサンシャインエミフルMASAKI、シネマサンシャイン大和郡山、シネマサンシャイン姶良の4DX®シアターで上映中、上映予定の映画作品をご紹介。" />
+<meta name="keywords" content="4DX,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間,平和島,東京,沼津,静岡,松前,愛媛,北島,徳島,姶良,鹿児島" />
+<meta name="description" content="シネマサンシャイン平和島、シネマサンシャイン沼津、シネマサンシャインエミフルMASAKI、シネマサンシャイン大和郡山、シネマサンシャイン北島、シネマサンシャイン姶良の4DX®シアターで上映中、上映予定の映画作品をご紹介。" />
 <script type='text/javascript' src='/js/gtm_tag.js'></script>
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script src="../js/fullscreen.js" type="text/javascript"></script>
@@ -193,11 +193,14 @@ P {
                 // 沼津
                 "6" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/numazu/\" target=\"_blank\"><img src=\"../img/4dx_theater_numazu.gif\" width=\"84\" height=\"22\" alt=\"沼津\" ></a></li>",
 
+                // 大和郡山 (※本来"16"のはずだったがIMAXサイトでの表示フラグとして使われていたので4DXサイト用IDが作られた(CMSには「特設サイト表示フラグ」しか無く、IMAXと4DX両方ある劇場の登場が想定されていなかった))
+                "yamatokoriyama4dx" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/yamatokoriyama/\" target=\"_blank\"><img src=\"../img/4dx_theater_yamato.gif\" width=\"84\" height=\"22\" alt=\"大和郡山\" ></a></li>",
+
                 // MASAKI
                 "15" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/masaki/\" target=\"_blank\"><img src=\"../img/4dx_theater_masaki.gif\" width=\"84\" height=\"22\" alt=\"エミフルMASAKI\" ></a></li>",
 
-                // 大和郡山 (※本来"16"のはずだったがIMAXサイトでの表示フラグとして使われていたので4DXサイト用IDが作られた(CMSには「特設サイト表示フラグ」しか無く、IMAXと4DX両方ある劇場の登場が想定されていなかった))
-                "yamatokoriyama4dx" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/yamatokoriyama/\" target=\"_blank\"><img src=\"../img/4dx_theater_yamato.gif\" width=\"84\" height=\"22\" alt=\"大和郡山\" ></a></li>",
+                // 北島
+                "7" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/kitajima/\" target=\"_blank\"><img src=\"../img/4dx_theater_kitajima.gif\" width=\"84\" height=\"22\" alt=\"北島\" ></a></li>",
 
                 // 姶良
                 "18" => "<li class=\"theater_btn\"><a href=\"http://www.cinemasunshine.co.jp/theater/aira/\" target=\"_blank\"><img src=\"../img/4dx_theater_aira.gif\" width=\"84\" height=\"22\" alt=\"姶良\" ></a></li>"
