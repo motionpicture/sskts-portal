@@ -11,7 +11,6 @@ if (empty($p_date)) {
 }
 
 $theaters = getTheaterList();
-unset($theaters[13]); // SSKTS-455
 
 if (empty($p_theater)) {
 	$p_theater=$theaters[0]["ename"];
