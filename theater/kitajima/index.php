@@ -115,7 +115,6 @@ $theater = $arr["ename"];
 									<p class="exception"> <a rel="popup" title="アイコン説明" data-fancybox-group="popup" href="../../images/common/fig_pop.jpg"  class="fancybox"><img src="../../images/common/btn_icon.gif"
 												alt="アイコンの詳しい説明はこちら"> </a> </p>
 									<?php
-                                    /* SSKTS-455
 										$isPreExistCode = getDates2($theater,true,true);
 										if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
 											echo '<p class="senkouclass">チケットの先行販売はこちらからお進み下さい。<br><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
@@ -125,8 +124,7 @@ $theater = $arr["ename"];
 												echo '<p><a href="./"><img src="../../images/common/btn_sche.gif" alt="通常スケジュール"></a></p>';
 											}
 										}
-                                    */
-									?>
+										?>
 								</div>
 								<?php
 //予約可能な日付取得
@@ -203,7 +201,6 @@ if (count($dates) <7) {
 									<div id="cal_left"></div>
 									<ul>
 										<?php
-                                        /* SSKTS-455
 										$cal_cnt = 0;
 										foreach($calender_dates as $cal_date) {
 
@@ -256,8 +253,7 @@ if (count($dates) <7) {
 
 											$cal_cnt++;
 										}
-                                        */
-                                        ?>
+?>
 									</ul>
 									<div id="cal_right"> </div>
 								</div>
