@@ -93,7 +93,7 @@ include("../../../lib/require.php");
 										</tr>
 									</table>
 									<!--4DX料金-->
-									<h3 class="lightBlueTitle">4DX<sup>&reg;</sup>鑑賞料金<span style="color:red;">[7/28(金)より]</span></h3>
+									<h3 class="lightBlueTitle">4DX<sup>&reg;</sup>鑑賞料金<span style="color:red;">&nbsp;[7/28(金)より]</span></h3>
 									<table class="priceTable">
 										<tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>

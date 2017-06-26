@@ -103,7 +103,7 @@ include("../../../lib/require.php");
 										<div class="floorBox clearfix">
 											<div class="left"><a href="../../../4dx/"><img src="../../../images/common/fig_4dx.jpg"  alt="4DX&reg;" ></a></div>
 											<div class="right">
-												<p class="subTitle" >4DX<sup>&reg;</sup>シアター<span style="color:red;">[7/28(金)より]</span></p>
+												<p class="subTitle" >4DX<sup>&reg;</sup>シアター<span style="color:red;">&nbsp;[7/28(金)より]</span></p>
 												<p class="txt" >3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの19のエフェクトにより、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</p>
 											</div>
 										</div>
