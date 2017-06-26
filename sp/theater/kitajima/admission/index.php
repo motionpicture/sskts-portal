@@ -197,7 +197,7 @@ include("../../../../lib/require.php");
     <table cellpadding="0" cellspacing="0" class="theater_t">
 		<tbody>
 			<tr class="first-child">
-				<td colspan="2" class="table_top_01">4DX<sup>&reg;</sup>鑑賞料金</td>
+				<td colspan="2" class="table_top_01">4DX<sup>&reg;</sup>鑑賞料金<span style="color:red;">7/28（金）より</span></td>
 			</tr>
 		</tbody>
 	</table>

@@ -117,7 +117,7 @@ include("../../../../lib/require.php");
 					</tr>
 					<tr>
 						<td class="admission_icon2" rowspan="2"><a href="/4dx/"><img src="../../../images/theater/icon_4dx.gif" width="50" alt="4DX"></a></td>
-						<td class="admission_tl_name">4DX<sup>&reg;</sup>シアター</td>
+						<td class="admission_tl_name">4DX<sup>&reg;</sup>シアター<span style="color:red;">7/28（金）より</span></td>
 					</tr>
 					<tr>
 						<td class="admission_tl">3Dの先の次元の4D技術の概念に則り多様な機能を搭載した最新上映システム。上映作品の様々なシーン・シチュエーションと連動した座席可動・ミスト・香り・フラッシュ・バブル・煙などの19のエフェクトにより、劇中の登場人物になったような一体感を得ることができます。通常の鑑賞料金プラス1,000円で4DX作品をご鑑賞頂けます。</td>
