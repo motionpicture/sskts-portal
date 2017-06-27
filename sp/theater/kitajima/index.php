@@ -8,6 +8,9 @@ $theater = $arr["ename"];
 $p_date= date('Ymd');
 if(!empty($_GET['date'])) {
 	$p_date=date('Ymd',strtotime($_GET['date']));
+} else if (time() < strtotime('20170702')) {
+    // SSKTS-459
+    $p_date= '20170701'; // 6月のスケジュールはもうないので、7/2より前は7/1固定
 }
 
 if(!empty($_GET["pre"])) {
