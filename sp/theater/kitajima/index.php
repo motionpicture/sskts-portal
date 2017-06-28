@@ -77,6 +77,13 @@ if(!empty($_GET["pre"])) {
 	<?php getSmartSlideBnr(); ?>
 	<h2><div class="category_bar_p">上映スケジュール</div></h2>
 	<div class="section">
+		<!--チケット照会バナー-->
+		<div class="bnr_ticket_inquiry">
+			<a href="<?php echo TICKETING_BASE_URL ?>/inquiry/login?theater=012">
+				<img src="../../images/common/bnr_ticket_inquiry_sp.jpg" alt="オンラインチケット照会はこちら" width="100%">
+			</a>
+		</div>
+		<!--/チケット照会バナー-->
 		<div class="topNotes">
 			<p class="ptblr10">
 				<?php
