@@ -48,6 +48,8 @@ if(!empty($_GET["result"])) {
 //エラーチェックもする
 function targetTheater($theater,$pre = null) {
 
+    $dataDir = dirname(__DIR__) . '/data';
+
 	if ($pre!=null){
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
@@ -61,7 +63,7 @@ function targetTheater($theater,$pre = null) {
             "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/preSchedule.xml",
             "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/preSchedule.xml",
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
-            "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml",
+            "kitajima" => $dataDir . '/kitajima/preSchedule.xml',
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
             'aira' => PRE_SCHEDULE_AIRA,
 		);
@@ -79,7 +81,7 @@ function targetTheater($theater,$pre = null) {
             "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/schedule.xml",
             "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/schedule.xml",
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
-            "kitajima"=>"http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml",
+            "kitajima" => $dataDir . '/kitajima/schedule.xml',
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
             'aira' => SCHEDULE_AIRA,
 		);
