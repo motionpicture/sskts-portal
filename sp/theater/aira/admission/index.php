@@ -148,7 +148,7 @@ include("../../../../lib/require.php");
 							</span>
 							<span class="notice" style="color:red;">
 								【オープン記念】<br />
-								期間限定で追加料金無料<br />
+								6/30日(金)まで期間限定で追加料金無料<br />
 								<br />
 							</span>
 						</td>
