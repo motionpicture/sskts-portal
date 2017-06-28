@@ -170,15 +170,16 @@ if($val != $data){
 											<?php
 											//theater一覧取得
 											$theaters = getTheaterList();
-                                            unset($theaters[13]); // SSKTS-455
 
 											foreach ($theaters as $theater) {
 												//もし劇場が選択されている場合
 												if (!empty($_GET['theater']) && $theater['ename'] == $_GET['theater']) {
-                                                    $option_tag = sprintf('<option value="%s" selected>%s</option>'."\r\n",$theater['ename'],$theater['name']);
-                                                } else {
-                                                    $option_tag = sprintf('<option value="%s">%s</option>'."\r\n",$theater['ename'],$theater['name']);
-                                                }
+														$option_tag = sprintf('<option value="%s" selected>%s</option>'."\r\n",$theater['ename'],$theater['name']);
+													} else {
+														$option_tag = sprintf('<option value="%s">%s</option>'."\r\n",$theater['ename'],$theater['name']);
+													}
+													//var_dump($_GET['theater']);
+
 
 												echo $option_tag;
 											}

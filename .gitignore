@@ -42,6 +42,9 @@ env.php
 # vendor
 /vendor/*
 
+# data
+/data/kitajima
+
 # composer
 composer.phar
 composer.bat
