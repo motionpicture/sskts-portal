@@ -36,9 +36,6 @@ env.php
 # log（php error_log）
 /cine_cms/app/webroot/log/*
 
-# cache
-/cache/*
-
 # vendor
 /vendor/*
 
