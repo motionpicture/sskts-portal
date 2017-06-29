@@ -37,7 +37,7 @@ $script_str=substr($script_str, 0, -1);
 		<?php getHeadInclude(); ?>
 	<script type="text/javascript" src="./js/util.js"></script>
 	<script type="text/javascript" src="./js/sunshine_ajax.js"></script>
-	<script type="text/javascript" src="./js/result_ajax.js"></script>
+	<script type="text/javascript" src="./js/result_ajax.js?20170615"></script>
 	<script type="text/javascript" src="./js/jquery.blockUI.js"></script>
 
 <script type="text/javascript">

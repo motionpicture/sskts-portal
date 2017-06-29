@@ -11,6 +11,17 @@ define('APP_ENV', $env);
  * ひとまずここで設定
  * TODO: 他の劇場もここに移すか、分散しているスケジュール取得処理の改修も含めて設定場所を検討
  */
+if (APP_ENV == 'prod') {
+    // 北島
+    define('SCHEDULE_KITAJIMA', 'http://www1.cinemasunshine.jp/kitajima/schedule/xml/schedule.xml');
+    define('PRE_SCHEDULE_KITAJIMA', 'http://www1.cinemasunshine.jp/kitajima/schedule/xml/preSchedule.xml');
+} else {
+    // 北島
+    define('SCHEDULE_KITAJIMA', 'http://cinema.coasystems.net/kitajima/schedule/xml/schedule.xml');
+    define('PRE_SCHEDULE_KITAJIMA', 'http://cinema.coasystems.net/kitajima/schedule/xml/preSchedule.xml');
+}
+
+// 姶良
 define('SCHEDULE_AIRA', 'http://www1.cinemasunshine.jp/aira/schedule/xml/schedule.xml');
 define('PRE_SCHEDULE_AIRA', 'http://www1.cinemasunshine.jp/aira/schedule/xml/preSchedule.xml');
 
