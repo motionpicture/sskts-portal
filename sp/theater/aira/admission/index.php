@@ -146,11 +146,7 @@ include("../../../../lib/require.php");
 								サービスデーの場合<br />
 								〈サービスデー料金〉+〈BESTIA鑑賞料金200円〉<br /><br />
 							</span>
-							<span class="notice" style="color:red;">
-								【オープン記念】<br />
-								6/30日(金)まで期間限定で追加料金無料<br />
-								<br />
-							</span>
+							<span class="notice" style="color:red;"></span>
 						</td>
 					</tr>
 				</tbody>
