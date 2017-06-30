@@ -11,7 +11,7 @@ $theater = $arr["ename"];
 <script type="text/javascript" src="../../js/jquery.blockUI.js"></script>
 <script type="text/javascript" src="../../js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="../../js/util.js"></script>
-<script type="text/javascript" src="../../js/theater_ajax.js?20170330"></script>
+<script type="text/javascript" src="../../js/theater_ajax.js?20170615"></script>
 <script type="text/javascript">
 
 
@@ -37,9 +37,9 @@ $theater = $arr["ename"];
 			if ($_GET['pre']) {
 				$value = reset(getDates2($theater,true));
 				echo $value['val'];
-			} else if (time() < strtotime('20170702')) {
-                // SSKTS-459
-                echo '20170701'; // 6月のスケジュールはもうないので、7/2より前は7/1固定
+			} else if (time() < strtotime('20170701')) {
+                // SSKTS-496
+                echo '20170701'; // リニューアル後のスケジュールは7/1から
             } else {
 				echo date('Ymd');
 			}

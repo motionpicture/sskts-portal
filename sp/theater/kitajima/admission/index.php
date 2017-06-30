@@ -112,7 +112,7 @@ include("../../../../lib/require.php");
 						<span class="notice">※毎週水曜日</span></td>
 					<td class="admission_tr">女性 1,100円</td>
 				</tr>
-                
+
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
@@ -180,7 +180,7 @@ include("../../../../lib/require.php");
 				<tr>
 					<td colspan="2" class="table_line_02"></td>
 				</tr>
-				
+
 			</tbody>
 		</table>
 	</div>
@@ -223,7 +223,7 @@ include("../../../../lib/require.php");
 		</table>
 	</div>
     <!-- /4DX料金 -->
-    
+
 	<!-- 3D料金 -->
 	<table cellpadding="0" cellspacing="0" class="theater_u">
 		<thead>
@@ -253,9 +253,9 @@ include("../../../../lib/require.php");
 	</div>
     <!-- /3D料金 -->
 
-    
-    
-    
+
+
+
 </div><!-- / .basebox2_ptrl -->
 <?php getSmartFooter(); ?>
 </body>

@@ -134,7 +134,7 @@ include("../../../lib/require.php");
 												</p>
 											</div>
 										</div>
-                                        
+
                                         <div class="floorBox clearfix">
 											<div class="left"><a href="../../../members_card/"><img src="../../../images/common/fig_menber.gif"  alt="メンバーズカード" ></a></div>
 											<div class="right">
