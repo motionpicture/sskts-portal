@@ -140,7 +140,6 @@ include("../../../lib/require.php");
 													サービスデーの場合<br /></p>
 													<p>〈サービスデー料金〉+〈BESTIA鑑賞料金200円〉<br /><br />
 												</p>
-												<p style="color:red;">【オープン記念】<br />6/30日(金)まで期間限定で追加料金無料</p>
 											</td>
 											<td class="priceAdd" >通常料金+200円</td>
 										</tr>
