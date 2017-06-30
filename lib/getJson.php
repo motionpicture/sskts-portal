@@ -60,8 +60,6 @@ function targetTheater($theater) {
 	global $schedules;
 	global $result;
 
-    $dataDir = dirname(__DIR__) . '/data';
-
 	if (isset($_GET['pre']) && $_GET['pre']) {
 		$theaterUrls= array(
             "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
@@ -75,7 +73,7 @@ function targetTheater($theater) {
             "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/preSchedule.xml",
             "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/preSchedule.xml",
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
-            "kitajima" => $dataDir . '/kitajima/preSchedule.xml',
+            'kitajima' => PRE_SCHEDULE_KITAJIMA,
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
             'aira' => PRE_SCHEDULE_AIRA,
 		);
@@ -93,7 +91,7 @@ function targetTheater($theater) {
             "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/schedule.xml",
             "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/schedule.xml",
             "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
-            "kitajima" => $dataDir . '/kitajima/schedule.xml',
+            'kitajima' => SCHEDULE_KITAJIMA,
             "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
             'aira' => SCHEDULE_AIRA,
 		);
@@ -196,7 +194,7 @@ function getSchedule($date, $theater) {
 		}
 	}
 
-    if ($theater === 'aira') {
+    if ($theater === 'aira' || $theater === 'kitajima') {
         $data = $result['data'];
 
         foreach ($data->movie as $movie) {
@@ -224,7 +222,7 @@ function getScheduleMovie($date, $movie_code, $theater) {
 					$r_schedule['date'] ="$schedule->date";
 					$r_schedule['usable'] ="$schedule->usable";
 
-                    if ($theater === 'aira') {
+                    if ($theater === 'aira' || $theater === 'kitajima') {
                         convertTicketingURL($movie, $r_schedule['date']);
                     }
 
@@ -266,7 +264,9 @@ function convertTicketingURL(\SimpleXMLElement $movie, $date) {
         throw new \LogicException('required "theater_code"');
     }
 
-    $theaterCode = $result['theater_code'];
+    // @see SSKTS-453
+    $theaterCode = sprintf('%03d', $result['theater_code']);
+
     $movieCode = (string) $movie->movie_short_code;
     $movieBranchCode = (string) $movie->movie_branch_code;
 
@@ -275,7 +275,7 @@ function convertTicketingURL(\SimpleXMLElement $movie, $date) {
 
         foreach ($screen->time as $time) {
             // 施設コード + 上映日 + 作品コード + 作品枝番 + スクリーンコード + 上映開始時刻
-            $param = '0' . $theaterCode . $date . $movieCode . $movieBranchCode . $screenCode . (string) $time->start_time;
+            $param = $theaterCode . $date . $movieCode . $movieBranchCode . $screenCode . (string) $time->start_time;
             $time->url = TICKETING_BASE_URL . '/purchase?id=' . $param;
         }
     }

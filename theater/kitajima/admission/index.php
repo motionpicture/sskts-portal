@@ -145,7 +145,7 @@ include("../../../lib/require.php");
 											<td class="priceAdd" >女性&nbsp;&nbsp;￥1,100</td>
 										</tr>
 
-									
+
       <tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>
@@ -199,7 +199,7 @@ include("../../../lib/require.php");
 										<tr class="line">
 											<td colspan="3" valign="middle"><p><img src="../../../images/common/img_line.gif"></p></td>
 										</tr>-->
-                                        
+
 										<tr>
 											<td class="priceSubject"><p>メンバーズカード </p></td>
 											<td class="priceNotes" >
