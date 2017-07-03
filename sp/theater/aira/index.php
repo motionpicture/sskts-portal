@@ -84,7 +84,7 @@ if(!empty($_GET["pre"])) {
 		</div>
 	   <!--/チケット照会バナー-->
 		<div class="topNotes">
-			<p class="ptblr10">
+			<p>
 				<?php
 					$theaterId=getTheaterId($theater);
 					$open = getImportants($theaterId['id']);

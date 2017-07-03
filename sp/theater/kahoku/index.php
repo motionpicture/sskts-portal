@@ -78,7 +78,7 @@ if(!empty($_GET["pre"])) {
 	<h2><div class="category_bar_p">上映スケジュール</div></h2>
 	<div class="section">
 		<div class="topNotes">
-			<p class="ptblr10">
+			<p>
 				<?php
 					$theaterId=getTheaterId($theater);
 					$open = getImportants($theaterId['id']);
