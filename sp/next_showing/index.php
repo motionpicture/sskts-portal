@@ -34,7 +34,7 @@ include("../../lib/require.php");
 				}
 				?>
 			</select>
-			<input class="submit" type="image" src="../images/showing/btn_submit.gif" width="101" alt="検索する">
+			<input class="submit" type="image" src="../images/showing/btn_submit.gif" width="30%" alt="検索する">
 		</form>
 	</div>
 
@@ -44,7 +44,7 @@ include("../../lib/require.php");
 
 
 	<!-- ↓adsense上部↓ -->
-	<div class="section ptb10">
+	<div class="g_Ad_sp_content ptb10">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- シネサン（SP上映予定上部） -->
 		<ins class="adsbygoogle"
