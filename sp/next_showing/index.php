@@ -17,27 +17,28 @@ include("../../lib/require.php");
 
 	<div class="category_bar_p">上映予定作品</div>
 	<div class="section schedule ptb10"> 
-		
-		<img src="../images/next_showing/public_next_showing.gif" width="320" alt="劇場ごとの上映予定作品を見る">
-		<form name="SearchLisBoxForm" enctype="multipart/form-data" method="get" action="./">
-			<select name="theaterSelect">
-				<?php
-				//theater一覧取得
-				$theaters = getTheaterList();
-				foreach ($theaters as $theater) {
-					//もし劇場が選択されている場合
-					if (!empty($_GET['theaterSelect']) && $theater['id'] == $_GET['theaterSelect']) {
-							$option_tag = sprintf('<option value="%s" selected>%s</option>'."\r\n",$theater['id'],$theater['name']);
-						} else {
-							$option_tag = sprintf('<option value="%s">%s</option>'."\r\n",$theater['id'],$theater['name']);
-						}
-						//var_dump($_GET['theater']);
-					echo $option_tag;
-				}
-				?>
-			</select>
-			<input class="submit" type="image" src="../images/showing/btn_submit.gif" width="100" alt="検索する">
-		</form>
+		<div class="w_90per">
+			<img src="../images/next_showing/public_next_showing.gif" width="320" alt="劇場ごとの上映予定作品を見る">
+			<form name="SearchLisBoxForm" enctype="multipart/form-data" method="get" action="./">
+				<select name="theaterSelect">
+					<?php
+					//theater一覧取得
+					$theaters = getTheaterList();
+					foreach ($theaters as $theater) {
+						//もし劇場が選択されている場合
+						if (!empty($_GET['theaterSelect']) && $theater['id'] == $_GET['theaterSelect']) {
+								$option_tag = sprintf('<option value="%s" selected>%s</option>'."\r\n",$theater['id'],$theater['name']);
+							} else {
+								$option_tag = sprintf('<option value="%s">%s</option>'."\r\n",$theater['id'],$theater['name']);
+							}
+							//var_dump($_GET['theater']);
+						echo $option_tag;
+					}
+					?>
+				</select>
+				<input class="submit" type="image" src="../images/showing/btn_submit.gif" width="100" alt="検索する">
+			</form>
+		</div>
 	</div>
 
 	<!--ライン-->
