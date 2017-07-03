@@ -94,23 +94,23 @@ if(!empty($_GET["pre"])) {
 				※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br>
 				※購入マークがない時間はインターネットでのチケット購入対象外となります。<br>
 			</p>
-			<!-- ↓adsense上部↓ -->
-			<div class="section ptb10">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- シネサン(SP 姶良上部) -->
-				<ins class="adsbygoogle"
+　　　   </div>
+		<!-- ↓adsense上部↓ -->
+		<div class="section ptb10">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- シネサン(SP 姶良上部) -->
+			<ins class="adsbygoogle"
              style="display:inline-block;width:320px;height:50px"
              data-ad-client="ca-pub-3891476404601512"
              data-ad-slot="6783687364"></ins>
              <script>
              (adsbygoogle = window.adsbygoogle || []).push({});
              </script>
-         　　</div>
-         　　<!-- ↑adsense上部↑ -->
-	       　<?php
-	       　echo getSmartTrailer();
-	       　?>
-   </div>
+        </div>
+        <!-- ↑adsense上部↑ -->
+	    <?php 
+	    echo getSmartTrailer();
+	    ?>
 
 		<?php
 			$isPreExistCode = getDates($theater,true,true);
