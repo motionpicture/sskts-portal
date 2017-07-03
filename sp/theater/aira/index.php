@@ -105,11 +105,11 @@ if(!empty($_GET["pre"])) {
              <script>
              (adsbygoogle = window.adsbygoogle || []).push({});
              </script>
-        </div>
-       <!-- ↑adsense上部↑ -->
-       <?php
-       echo getSmartTrailer();
-       ?>
+         　　</div>
+         　　<!-- ↑adsense上部↑ -->
+	       　<?php
+	       　echo getSmartTrailer();
+	       　?>
    </div>
 
 		<?php
