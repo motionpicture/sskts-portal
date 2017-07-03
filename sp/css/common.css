@@ -396,3 +396,6 @@ body {
 .schedulebox .mark img{
     max-height: 1.5em;
 }
+.mb_10per{
+	margin-bottom: 10%;
+}

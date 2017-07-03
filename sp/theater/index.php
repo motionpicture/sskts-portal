@@ -41,7 +41,7 @@ include("../../lib/require.php");
 		<li class="theatre_area"><a href="./ozu">大洲</a></li>
 		<li class="theatre_area"><a href="./kitajima">北島<span class="area_icon"><img src="../images/theater/icon_4dx.png" width="65" alt="4dx"></span></a></li>
 	</ul>
-    <ul class="theatre_list">
+    <ul class="theatre_list mb_10per">
 		<li class="theatre_category"><h3>九州地区</h3></li>
 		<li class="theatre_area"><a href="./aira">姶良<span class="area_icon"><img src="../images/theater/icon_4dx.png" width="65" alt="4dx"></span></a></li>
 	</ul>
