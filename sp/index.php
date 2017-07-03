@@ -41,8 +41,6 @@ include("../lib/require.php");
 					</select>
 				</div>
 			</div>
-
-			<br>
 			<div class="schedule_box">
 				<img class="schedule_txt" src="./images/top/img_search02.gif" width="37" alt="">
 				<div class="disable_class">
