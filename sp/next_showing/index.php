@@ -16,7 +16,9 @@ include("../../lib/require.php");
 	<!--/ライン-->
 
 	<div class="category_bar_p">上映予定作品</div>
-	<div class="section schedule ptb10"> <img src="../images/next_showing/public_next_showing.gif" width="320" alt="劇場ごとの上映予定作品を見る">
+	<div class="section schedule ptb10"> 
+		
+		<img src="../images/next_showing/public_next_showing.gif" width="320" alt="劇場ごとの上映予定作品を見る">
 		<form name="SearchLisBoxForm" enctype="multipart/form-data" method="get" action="./">
 			<select name="theaterSelect">
 				<?php
@@ -34,7 +36,7 @@ include("../../lib/require.php");
 				}
 				?>
 			</select>
-			<input class="submit" type="image" src="../images/showing/btn_submit.gif" width="30%" alt="検索する">
+			<input class="submit" type="image" src="../images/showing/btn_submit.gif" width="100" alt="検索する">
 		</form>
 	</div>
 
