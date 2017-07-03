@@ -59,7 +59,7 @@ include("../lib/require.php");
 				</div>
 			</div>
 
-			<div class="disable_class">
+			<div>
 			<p class="btn_submit"><input type="image" src="./images/top/btn_submit.gif" width="161" alt="検索する"></p>
 			</div>
 		</form>
