@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</p>
 		</div>
 		<!-- ↓Adsense/TMN↓ -->
-		<div class="section ptb10">
+		<div class="g_Ad_sp_content ptb10">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- シネサン（SP沼津上部） -->
 			<ins class="adsbygoogle"

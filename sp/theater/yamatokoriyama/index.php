@@ -98,7 +98,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</p>
 		</div>
 		<!-- ↓Adsense/TMN↓ -->
-		<div class="section ptb10">
+		<div class="g_Ad_sp_content ptb10">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- シネサン（SP大和郡山上部） -->
 			<ins class="adsbygoogle"

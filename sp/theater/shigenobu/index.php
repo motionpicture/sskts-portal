@@ -87,7 +87,7 @@ if(!empty($_GET["pre"])) {
 			</p>
 		</div>
 		<!-- ↓Adsense/TMN↓ -->
-		<div class="section ptb10">
+		<div class="g_Ad_sp_content ptb10">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- シネサン（SP重信上部） -->
 			<ins class="adsbygoogle"

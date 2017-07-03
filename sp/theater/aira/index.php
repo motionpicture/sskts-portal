@@ -90,12 +90,9 @@ if(!empty($_GET["pre"])) {
 					$open = getImportants($theaterId['id']);
 					echo $open['open_txt'];
 				?>
-				インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br>
-				※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br>
-				※購入マークがない時間はインターネットでのチケット購入対象外となります。<br>
 			</p>
 　　　   </div>
-		<!-- ↓adsense上部↓ -->
+		<!-- ↓Adsense/TMN↓ -->
 		<div class="g_Ad_sp_content ptb10">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- シネサン(SP 姶良上部) -->
