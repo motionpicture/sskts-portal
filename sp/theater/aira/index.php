@@ -107,10 +107,10 @@ if(!empty($_GET["pre"])) {
              (adsbygoogle = window.adsbygoogle || []).push({});
              </script>
         </div>
-        <!-- ↑adsense上部↑ -->
 	    <?php 
 	    echo getSmartTrailer();
 	    ?>
+	    <!-- ↑Adsense/TMN↑ -->
 
 		<?php
 			$isPreExistCode = getDates($theater,true,true);

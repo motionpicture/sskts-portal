@@ -96,6 +96,23 @@ if(!empty($_GET["pre"])) {
 				?>
 			</p>
 		</div>
+		<!-- ↓Adsense/TMN↓ -->
+		<div class="section ptb10">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- シネサン（SP北島上部） -->
+			<ins class="adsbygoogle"
+			style="display:inline-block;width:320px;height:50px"
+			data-ad-client="ca-pub-3891476404601512"
+			data-ad-slot="7617267363"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+
+		<?php
+		echo getSmartTrailer();
+		?>
+		<!-- ↑Adsense/TMN↑ -->
 
 		<?php
 			$isPreExistCode = getDates($theater,true,true);
@@ -265,25 +282,6 @@ if(!empty($_GET["pre"])) {
 	<!--ライン-->
 	<div class="line_01"></div>
 	<!--/ライン-->
-
-
-	<!-- ↓adsense上部↓ -->
-	<div class="section ptb10">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- シネサン（SP北島上部） -->
-		<ins class="adsbygoogle"
-		style="display:inline-block;width:320px;height:50px"
-		data-ad-client="ca-pub-3891476404601512"
-		data-ad-slot="7617267363"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-	</div>
-	<!-- ↑adsense上部↑ -->
-
-	<?php
-	echo getSmartTrailer();
-	?>
 
 	<div class="section ptb10">
 		<?php

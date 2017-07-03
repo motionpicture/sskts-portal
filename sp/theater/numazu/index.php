@@ -101,6 +101,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				?>
 			</p>
 		</div>
+		<!-- ↓Adsense/TMN↓ -->
+		<div class="section ptb10">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- シネサン（SP沼津上部） -->
+			<ins class="adsbygoogle"
+			style="display:inline-block;width:320px;height:50px"
+			data-ad-client="ca-pub-3891476404601512"
+			data-ad-slot="1989536163"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+
+		<?php
+		echo getSmartTrailer();
+		?>
+		<!-- ↑Adsense/TMN↑ -->
 
 		<?php
 			$isPreExistCode = getDates($theater,true,true);
@@ -270,25 +287,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!--ライン-->
 	<div class="line_01"></div>
 	<!--/ライン-->
-
-
-	<!-- ↓adsense上部↓ -->
-	<div class="section ptb10">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- シネサン（SP沼津上部） -->
-		<ins class="adsbygoogle"
-		style="display:inline-block;width:320px;height:50px"
-		data-ad-client="ca-pub-3891476404601512"
-		data-ad-slot="1989536163"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-	</div>
-	<!-- ↑adsense上部↑ -->
-
-	<?php
-	echo getSmartTrailer();
-	?>
 
 	<div class="section ptb10">
 		<?php
