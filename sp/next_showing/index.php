@@ -36,7 +36,7 @@ include("../../lib/require.php");
 					}
 					?>
 				</select>
-				<input class="submit" type="image" src="../images/showing/btn_submit.gif" width="100" alt="検索する">
+				<input class="submit" type="image" src="../images/showing/btn_submit.gif" width="100%" alt="検索する">
 			</form>
 		</div>
 	</div>

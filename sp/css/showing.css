@@ -76,16 +76,17 @@
 	float:left;
 	}		
 .schedule select {
-    width: 68%;
+    width: 65%;
 }
 .schedule .submit{
 	margin:0px 0 0 3px;
 	vertical-align: middle;
 	float: right;
+	max-width: 30%;
 }
 /*  追加  ーーーーーーーーーーーーーーーーーーーー*/
 .w_90per{
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 }
 
