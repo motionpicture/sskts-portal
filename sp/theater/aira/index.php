@@ -274,7 +274,7 @@ if(!empty($_GET["pre"])) {
 				echo '<div class="basebox_lineblue"></div>';
 					echo '<div class="schedulebox">';
 					echo '<div class="title_bar">';
-						echo '<table width="280">';
+						echo '<table width="100%">';
 						echo '<tr>';
 						echo '<td colspan="2"><span class="txt_bold"><a href="'.$movie->official_site.'">'.$movie->name.'</a></span></td>';
 						echo '</tr>';
@@ -287,7 +287,8 @@ if(!empty($_GET["pre"])) {
 						echo '</tr>';
 						echo '</table>';
 						echo '</div>';
-						echo '<table width="280" class="movie_schedule">';
+						echo '<div class="pfm_inner">';
+						echo '<table width="100%" class="movie_schedule">';
 				foreach ($movie->screen as $screen) {
 
 					foreach ($screen->time as $time) {
@@ -321,6 +322,7 @@ if(!empty($_GET["pre"])) {
 					}
 				}
 				echo '</table>';
+				echo '</div>';
 				echo '</div>';
 			}
 		?>

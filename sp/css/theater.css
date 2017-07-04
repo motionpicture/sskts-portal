@@ -86,7 +86,6 @@
   position: relative;
   text-align: center;
   margin-right:2px;
-  wwidth: 62px;
 }
 .dayListBox ul li p.corner,
 .dayListBox ul li p.cornerWhite{
@@ -149,18 +148,21 @@
 	 border-right:solid 1px #c8c8c8;
 	 border-bottom:solid 1px #c8c8c8;
 	/* padding:0 10px 0 10px;*/
-	 width:300px;
+	 width:95%;
 	 margin:0 auto;
 	}
 .movie_schedule{
-	margin:10px 10px;
+	width: 100%;
 	}
+.pfm_inner{
+	padding: 10px;
+}
 .movie_schedule tr{
 
 }
 .title_bar{
 	background-color:#f0f0f0;
-	padding:5px 0 5px 10px;
+	padding:5px;
 	}
 
 
@@ -202,7 +204,7 @@
 	margin:10px 0;
 }
 .section p.date{
-	padding:0 10px;
+	padding:5px;
 }
 
 /* pickup
