@@ -62,8 +62,6 @@
   border: 2px solid #323232;
   padding: 0 12px;
   position: relative;
-  width: 100%;
-  margin:0 0px;
 }
 .dayListBox ul li.notAvailable {
 	background: none repeat scroll 0 0 #CCCCCC;
@@ -84,11 +82,11 @@
   border-left: 1px solid #E3E3E3;
   border-right: 1px solid #E3E3E3;
   float: left;
-  height: 50px;
+  height: 80px;
   position: relative;
   text-align: center;
   margin-right:2px;
-  width: 62px;
+  wwidth: 62px;
 }
 .dayListBox ul li p.corner,
 .dayListBox ul li p.cornerWhite{
