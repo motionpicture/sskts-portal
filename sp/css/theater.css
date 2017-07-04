@@ -154,9 +154,6 @@
 .movie_schedule{
 	width: 100%;
 	}
-.pfm_inner{
-	padding: 10px;
-}
 .movie_schedule tr{
 
 }
@@ -181,7 +178,8 @@
 	font-size:15px;
 	}
 .time_bold{
-	font-size:20px;
+	font-size:1.6em;
+	font-weight: bold;
 	}
 .screen_time{
 	text-align:right;
@@ -191,11 +189,19 @@
     line-height: 13px;
 	padding:10px
 }
+.pfm_inner{
+	padding: 10px;
+}
+.pfm_inner table tr td{
+	padding: 0.3em 0;
+}
 .pfm_time{
 	width: 40%;
+	font-size: 1.1em;
 }
 .pfm_screen{
 	width: 30%;
+	font-size: 1.1em;
 }
 .pfm_btn{
 	width: 30%;
