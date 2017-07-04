@@ -191,6 +191,15 @@
     line-height: 13px;
 	padding:10px
 }
+.pfm_time{
+	width: 40%;
+}
+.pfm_screen{
+	width: 30%;
+}
+.pfm_btn{
+	width: 30%;
+}
 
 
 /* notice!
