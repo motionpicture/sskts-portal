@@ -333,7 +333,6 @@ if(!empty($_GET["pre"])) {
 				echo '</div>';
 			}
 		?>
-		?>
 	</div>
 	<div class="section">
 		<p class="notice">
