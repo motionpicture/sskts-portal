@@ -196,15 +196,18 @@
 	padding: 0.6em 0;
 }
 .pfm_time{
-	width: 40%;
+	width: 45%;
 	font-size: 1.1em;
 }
 .pfm_screen{
-	width: 30%;
+	width: 25%;
 	font-size: 1.1em;
 }
 .pfm_btn{
 	width: 30%;
+}
+.pfm_btn a img{
+	max-width: 100px;
 }
 
 
