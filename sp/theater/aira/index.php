@@ -297,9 +297,9 @@ if(!empty($_GET["pre"])) {
 						if ($time->late==2) {
 							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'&nbsp;&#9733;★</td>';
 						} elseif($time->late==1) {
-							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'<img src="../../images/common/icon_morning2_sp.png"></td>';
+							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'&nbsp;<img src="../../images/common/icon_morning2_sp.png"></td>';
 						}else {
-							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'</td>';
+							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'</td>';
 						}
 
 						echo '<td class="pfm_screen">'.$screen->name.'</td>';
