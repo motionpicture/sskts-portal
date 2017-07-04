@@ -297,7 +297,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				echo '<div class="basebox_lineblue"></div>';
 					echo '<div class="schedulebox">';
 					echo '<div class="title_bar">';
-						echo '<table width="280">';
+						echo '<table width="100%">';
 						echo '<tr>';
 						echo '<td colspan="2"><span class="txt_bold"><a href="'.$movie->official_site.'">'.$movie->name.'</a></span></td>';
 						echo '</tr>';
@@ -310,30 +310,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						echo '</tr>';
 						echo '</table>';
 						echo '</div>';
-						echo '<table width="280" class="movie_schedule">';
+						echo '<div class="pfm_inner">';
+						echo '<table width="100%" class="movie_schedule">';
 				foreach ($movie->screen as $screen) {
 
 					foreach ($screen->time as $time) {
 						echo '<tr>';
 						//var_dump($time);
 						if ($time->late==2) {
-							echo '<td width="150"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'★</td>';
+							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'&#9733;</td>';
 						} elseif($time->late==1) {
-							echo '<td width="150"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'<img src="../../images/common/icon_morning2_sp.png"></td>';
+							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'<img src="../../images/common/icon_morning2_sp.png"></td>';
 						}else {
-							echo '<td width="150"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'</td>';
+							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'</td>';
 						}
 
-						echo '<td width="49">'.$screen->name.'</td>';
+						echo '<td class="pfm_screen">'.$screen->name.'</td>';
 
 						if($time->available==6) {
-							echo '<td width="81"></td>';
+							echo '<td class="pfm_btn"></td>';
 						}else if ($time->available==1 || $time->available==4){
-							echo '<td width="81"><img src="../../images/theater/btn_buyPtn1.gif" width="81" alt="窓口"></td>';
+							echo '<td class="pfm_btn"><img src="../../images/theater/btn_buyPtn1.gif" height="30" alt="窓口"></td>';
 						}else if ($time->available==5) {
-							echo '<td width="81"><img src="../../images/theater/btn_buyPtn5.gif" width="81" alt="満席"></td>';
+							echo '<td class="pfm_btn"><img src="../../images/theater/btn_buyPtn5.gif" height="30" alt="満席"></td>';
 						}else {
-							echo '<td width="81"><a href="'.$time->url.'" target="_blank"><img src="../../images/theater/btn_buyPtn'.$time->available.'.gif" width="81" alt="購入"></a></td>';
+							echo '<td class="pfm_btn"><a href="'.$time->url.'"><img src="../../images/theater/btn_buyPtn'.$time->available.'.gif" height="30" alt="購入"></a></td>';
 						}
 
 						echo '</tr>';
@@ -344,6 +345,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					}
 				}
 				echo '</table>';
+				echo '</div>';
 				echo '</div>';
 			}
 		?>
