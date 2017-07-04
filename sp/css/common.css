@@ -57,6 +57,9 @@ body {
 	margin:0 auto 10px;
 	max-width: 300px;
 }
+.section ul.pickupArea li img{
+	width: 100% !important;
+}
 /* カテゴリーバーの指定
 -----------------------------------------------------------------------------------------------------------*/
 .category_bar_p {

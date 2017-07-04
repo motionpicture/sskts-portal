@@ -398,9 +398,9 @@ function getSmartCampaign(){
 		}
 
 		if($val["url"] == null){
-			$campaign .= "<li><img src='$define[GROBAL_TOP_URL]theaters_image/campaign/$val[pic_path]' width='100%' alt='" . htmlspecialchars($val["midasi"], ENT_QUOTES) . "' ></li>";
+			$campaign .= "<li><img src='$define[GROBAL_TOP_URL]theaters_image/campaign/$val[pic_path]' width='226' alt='" . htmlspecialchars($val["midasi"], ENT_QUOTES) . "' ></li>";
 		}else{
-			$campaign .= "<li><a href='$val[url]' $blank><img src='$define[GROBAL_TOP_URL]theaters_image/campaign/$val[pic_path]' width='100%' alt='" . htmlspecialchars($val["midasi"], ENT_QUOTES) . "' ></a></li>";
+			$campaign .= "<li><a href='$val[url]' $blank><img src='$define[GROBAL_TOP_URL]theaters_image/campaign/$val[pic_path]' width='226' alt='" . htmlspecialchars($val["midasi"], ENT_QUOTES) . "' ></a></li>";
 		}
 	}
 
