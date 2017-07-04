@@ -47,7 +47,7 @@ if(!empty($_GET["pre"])) {
 				prevSelector:'#cal_left',
 				prevText:'<img src="../../images/common/btn_prev.gif" alt="前へ" width="10">',
 				nextText:'<img src="../../images/common/btn_next.gif" alt="次へ" width="10">',
-				slideWidth: 64,
+				slideWidth: 80,
 				slideMargin: 2,
 				infiniteLoop:false,
 				pager: false
