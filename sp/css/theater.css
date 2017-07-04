@@ -206,8 +206,8 @@
 .pfm_btn{
 	width: 30%;
 }
-.pfm_btn a img{
-	max-width: 100px;
+.pfm_btn img{
+	height: 45px;
 }
 
 
