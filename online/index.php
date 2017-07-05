@@ -262,7 +262,7 @@ include("../lib/require.php");
 								</div>
 							</div>
 						</div>
-					</div>
+					
 					<!-- ↑修正する部分はここまで↑ -->
 
 					<?php getRightMenu(); ?>
