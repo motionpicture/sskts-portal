@@ -21,7 +21,7 @@
 
 p {
     font-size: 12px;
-    line-height: 150%;
+    line-height: 180%;
 }
 
 
@@ -32,7 +32,7 @@ p {
     margin-left: -15px;
 }
 
-.process h4 {
+.admission h4 {
     color: #fff;
     background-color: #8e8e8e;
     margin-right: -15px;
@@ -70,11 +70,16 @@ p {
 }
 
 .redzone {
-    border: solid red;
+    padding: 10px;
+    border: 2px solid red;
     color: red;
 
 }
 
 .redtext{
     color: red; 
+}
+
+.admission span{
+    color: #00a0e9;
 }

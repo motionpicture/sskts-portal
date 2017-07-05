@@ -99,7 +99,7 @@ include("../lib/require.php");
 										<img src="../images/online/online_pc_04.gif" width="100%" alt="スマートフォンをお持ちの方">
 										<div>
 											<p>
-												1. オンラインでチケットを購入
+												<span>1. </span>オンラインでチケットを購入
 											</p>
 											<div class="process">
 												<p>
@@ -109,12 +109,12 @@ include("../lib/require.php");
 										</div>
 										<div>
 											<p>
-												２. 鑑賞する劇場へご来場ください
+												<span>２. </span>鑑賞する劇場へご来場ください
 											</p>
 										</div>
 										<div>
 											<p>
-												3. 入場の際に入場口スタッフにQRコードをご提示してご入場ください
+												<span>3. </span>入場の際に入場口スタッフにQRコードをご提示してご入場ください
 											</p>
 											<p>
 												※QRコードは、鑑賞時間の24時間前からチケット情報ページに表示されます。
@@ -149,7 +149,7 @@ include("../lib/require.php");
 										<img src="../images/online/online_pc_05.gif" width="100%" alt="スマートフォンをお持ちでない方">
 										<div>
 											<p>
-												1. オンラインでチケットを購入
+												<span>1.</span> オンラインでチケットを購入
 											</p>
 											<div class="process">
 												<p>
@@ -159,7 +159,7 @@ include("../lib/require.php");
 										</div>
 										<div>
 											<p>
-												2. QRコードをご自宅で印刷
+												<span>2.</span> QRコードをご自宅で印刷
 											</p>
 											<p>
 												オンラインチケット購入の流れに沿ってチケットを購入。
@@ -181,7 +181,7 @@ include("../lib/require.php");
 											</p>
 										</div>
 										<p>
-											3. 鑑賞する劇場へご来場ください
+											<span>3.</span> 鑑賞する劇場へご来場ください
 										</p>
 										<div class="process">
 											<p>
@@ -193,7 +193,7 @@ include("../lib/require.php");
 										</p>
 										<div>
 											<p>
-												4. 印刷したQRコード、または発券したチケットを入場時にご提示してご入場ください
+												<span>4.</span> 印刷したQRコード、または発券したチケットを入場時にご提示してご入場ください
 											</p>
 											<div class="process">
 												<p>
