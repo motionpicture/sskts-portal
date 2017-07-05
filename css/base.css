@@ -1041,7 +1041,7 @@ a:hover{
 
 #container #contents #mainColumn .leftColumn .movieListBox div.bottom ul li p.buyBtn img{
 	vertical-align:middle;
-	margin:0 0 0 10px;
+	height: 25px;
 }
 
 #container #contents #mainColumn .leftColumn .movieListBox div.bottom ul li p.corner{
