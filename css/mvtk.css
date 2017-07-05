@@ -42,7 +42,13 @@ color: #000000;
 }
 
 .step_title {
-width: 90px;
-height: 30px;
+font-size: 14px;
+color: #ffffff;
+padding: 10px 20px;
+text-align: center;
 background-color: #39b1e8;
+}
+
+.step_title span {
+font-size: 16px;
 }

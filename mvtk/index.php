@@ -43,45 +43,45 @@ include("../lib/require.php");
 										<p class="Lead_text">オンラインチケット購入でのムビチケ券のご利用手順は下記になります。</p>
 
 									<div class="step">
-										<p class="step_title">STEP 1</p>
+										<p class="step_title">STEP <span>1</span></p>
 										<p class="content_text">上映スケジュールから鑑賞したい作品を選択してください。</p>
 										<img src="../images/mvtk/mvtk_pc_1.gif" width="600" height="180" alt="">
 									</div>
 									
 									<div class="step">
-										<p class="step_title">STEP 2</p>
+										<p class="step_title">STEP <span>2</span></p>
 										<p class="content_text">鑑賞したい座席を選択し、利用規約の同意にチェックし「次へ」ボタンを押してください。</p>
 										<img src="../images/mvtk/mvtk_pc_2.gif" width="600" height="180" alt="">
 									</div>
 
 									<div class="step">
-										<p class="step_title">STEP 3</p>
+										<p class="step_title">STEP <span>3</span></p>
 										<p class="content_text">券種選択画面の上部にある、「ムビチケを利用する」ボタンを押してください。</p>
 										<p class="Lead_text">※ムビチケを利用される方は、事前に「ムビチケ購入番号」と「ムビチケ暗証番号」をご用意ください。</p>
 										<img src="../images/mvtk/mvtk_pc_3.gif" width="600" height="180" alt="">
 									</div>
 
 									<div class="step">
-										<p class="step_title">STEP 4</p>
+										<p class="step_title">STEP <span>4</span></p>
 										<p class="content_text">利用するムビチケ券の「ムビチケ購入番号」と「ムビチケ暗証番号」を入力し、「認証する」を押してください。</p>
 										<p class="Lead_text">※ムビチケ券によっては別途追加料金が発生する場合があります、差額が発生した場合は別途クレジットカードにて差額分をお支払いいただきます。</p>
 										<img src="../images/mvtk/mvtk_pc_4.gif" width="600" height="180" alt="">
 									</div>
 
 									<div class="step">
-										<p class="step_title">STEP 5</p>
+										<p class="step_title">STEP <span>5</span></p>
 										<p class="content_text">認証完了後、ムビチケ券の内容確認が表示されるので、問題なければ「券種選択へ戻る」ボタンを押してください。</p>
 										<img src="../images/mvtk/mvtk_pc_5.gif" width="600" height="180" alt="">
 									</div>
 
 									<div class="step">
-										<p class="step_title">STEP 6</p>
+										<p class="step_title">STEP <span>6</span></p>
 										<p class="content_text">再度、券種選択画面に戻ります。ムビチケ券は券種選択一覧に追加されていますので「券種を選択してください」ボタンを押して追加されたムビチケ券を選択し「次へ」ボタンを押してください。</p>
 										<img src="../images/mvtk/mvtk_pc_6.gif" width="600" height="180" alt="">
 									</div>
 
 									<div class="step">
-										<p class="step_title">STEP 7</p>
+										<p class="step_title">STEP <span>7</span></p>
 										<p class="content_text">後の手順は、画面に沿って手続きを進めていただきムビチケ券を利用してのオンラインチケット購入は完了となります。</p>
 										<img src="../images/mvtk/mvtk_pc_7.gif" width="600" height="180" alt="">
 									</div>
