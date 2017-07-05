@@ -47,7 +47,7 @@ include("../../lib/require.php");
 
 
 	<!-- ↓adsense上部↓ -->
-	<div class="section ptb10">
+	<div class="g_Ad_sp_content ptb10">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- シネサン（SP上映中上部） -->
 		<ins class="adsbygoogle"
