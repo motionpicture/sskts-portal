@@ -94,9 +94,7 @@ include("../lib/require.php");
 	<div class="section ptb10">
 	<div class="basebox_lineblue"></div>
 		<div class="rankingbox">
-			<ul class="clearfix">
-				<?php  getSmartRank(); ?>
-			</ul>
+			<?php  getSmartRank(); ?>
 		</div>
 	</div>
 	<div class="category_bar_p">ピックアップ</div>

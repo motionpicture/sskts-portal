@@ -280,7 +280,8 @@ function getSmartRank(){
 	$html = "";
 
 	$html .= "<div class='between'><p>" . $start_date . "(" . $start_week . ")" . "～" . $end_date . "(" . $end_week . ")" . "</p></div>";
-
+	$html .= "<div class='ranking_list'>";
+    $html .= "<ul>";
 	foreach($RankID as $key => $val){
 		unset($MovieSet);
 		if($loop < 1){
@@ -298,19 +299,20 @@ function getSmartRank(){
 		if($MovieSet["picture"]){
 			$html .= "<li class='num0$loop clearfix'>";
 			$html .= "<p class='num'><img class='number' src='./images/top/ranking_0$loop.png' width='33' alt='$loop位'></p>";
-			$html .= "<p class='photo'><img src='$define[GROBAL_TOP_URL]theaters_image/movie/$MovieSet[picture]' width='85' alt='" . htmlspecialchars($MovieSet["name"], ENT_QUOTES) . "' ></p>";
+			$html .= "<p class='photo'><img src='$define[GROBAL_TOP_URL]theaters_image/movie/$MovieSet[picture]' width='100%' alt='" . htmlspecialchars($MovieSet["name"], ENT_QUOTES) . "' ></p>";
 			$html .= "<p class='movie'>$MovieSet[name]</p>";
 			$html .= "</li>";
 		}else{
 			$html .= "<li class='num0$loop clearfix'>";
 			$html .= "<p class='num'><img class='number' src='./images/top/ranking_0$loop.png' width='33' alt='$loop位'></p>";
-			$html .= "<p class='photo'><img src='$define[Images_URL]common/image_none.gif' width='85' alt='NoImage' ></p>";
+			$html .= "<p class='photo'><img src='$define[Images_URL]common/image_none.gif' width='100%' alt='NoImage' ></p>";
 			$html .= "<p class='movie'>$MovieSet[name]</p>";
 			$html .= "</li>";
 		}
 		$loop++;
 	}
-
+	$html .= "</ul>";
+	$html .= "</div>";
 	echo $html;
 }
 
