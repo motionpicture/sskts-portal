@@ -29,13 +29,12 @@ include("../lib/require.php");
 							<div class="whiteCanvas">
 									<h3>オンラインチケット購入のメリット</h3>
 								<div class="merit">
-									<div class="merit-inner1">
+									<div class="merit-inner01">
 										<h4>メリット１</h4>
-										<p　class="title">
-											スマートフォンでスマート入場!
-										</p>
+										<p class="title">スマートフォンでスマート入場!</p>
 										<p class="text01">
-											オンライン購入であれば、鑑賞日当日に発券機へ並ぶことなく入場用QRコードを スマートフォンでご提示するだけでスムーズに入場可能です。
+											オンライン購入であれば、鑑賞日当日に発券機へ並ぶことなく入場用QRコードを<br>
+											スマートフォンでご提示するだけでスムーズに入場可能です。
 										</p>
 										<img src="../images/online/online_pc_01.gif" width="100%" alt="スマートフォンでスマート入場!">
 										<p>
