@@ -8,7 +8,7 @@
 .leftColumn h3 {
     font-size: 20px;
     text-align: center;
-    padding: 20px 0px 30px;
+    padding: 10px 0px 30px;
     color: #00a0e9;
 }
 
@@ -27,7 +27,15 @@ p {
 .merit h4 {
     color: #fff;
     background-color: #00a0e9;
+    margin: 0 -15px;
 }
+
+.merit h4 {
+    color: #fff;
+    background-color: #8e8e8e;
+    margin: 0 -15px;
+}
+
 
 .leftColumn .title {
     font-size: 20px;
@@ -45,5 +53,13 @@ p {
     padding: 10px;
     margin-bottom: 10px;
     background-color: #ededed;
-    border-radius: 2px;
+    border-radius: 4px;
+}
+
+.leftColumn img {
+    margin-bottom: 20px;
+}
+
+.purchase {
+    background-color: #ececec;  
 }
