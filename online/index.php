@@ -68,6 +68,8 @@ include("../lib/require.php");
 										<img src="../images/online/online_pc_02.gif" width="100%" alt="上映日の2日前から予約可能！">
 									</div>
 								</div>
+
+								<!-- オンラインチケット購入の流れ -->
 								<div class="purchase">
 									<h3>オンラインチケット購入の流れ</h3>
 									<div class="purchase-inner01">
@@ -82,6 +84,8 @@ include("../lib/require.php");
 										</p>
 									</div>
 								</div>
+
+								<!-- 入場までの流れ -->
 								<div class="admission">
 									<h3>
 										入場までの流れ
@@ -129,7 +133,7 @@ include("../lib/require.php");
 												</p>
 											</div>
 										</div>
-										<div>
+										<div class="redzone">
 											<p>
 												オススメ<br> 入場用QRコードは鑑賞日時の24時間前から表示されるため、事前にチケット情報ページを「ホーム画面に 追加」していただくとスムーズにQRコードがご提示できるためオススメです。
 											</p>
@@ -169,7 +173,7 @@ include("../lib/require.php");
 												</p>
 											</div>
 										</div>
-										<div>
+										<div class="redzone">
 											<p>
 												オススメ<br> 入場用QRコードは鑑賞日時の24時間前から表示されるため、事前にチケット情報ページを印刷していただ くとスムーズに入場していただけます。
 											</p>

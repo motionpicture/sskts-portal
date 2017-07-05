@@ -21,6 +21,7 @@
 
 p {
     font-size: 12px;
+    line-height: 120%;
 }
 
 
@@ -30,7 +31,7 @@ p {
     margin: 0 -15px;
 }
 
-.merit h4 {
+.process h4 {
     color: #fff;
     background-color: #8e8e8e;
     margin: 0 -15px;
@@ -61,5 +62,6 @@ p {
 }
 
 .purchase {
-    background-color: #ececec;  
+    background-color: #ececec;
+    margin: 0 -15px;  
 }
