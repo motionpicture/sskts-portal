@@ -5,15 +5,18 @@
     margin: 0;
 }
 
-.h3{
-    color: #00a0e9;
+h3 {
     font-size: 20px;
-    margin: 40 center;
+    text-align:center;
+    padding: 40px 0px;
+    color: #00a0e9;
+    
 }
 
-.merit h4{
-   font-size: 16px;
-    padding: 10px center;
+.merit h4 {
+    font-size: 16px;
+    text-align:center;
+    padding: 10px 0px;
     margin-bottom: 20px;
     background-color: #00a0e9;
 }
