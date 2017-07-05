@@ -69,6 +69,22 @@ function getNowPage(){
 	//top_flag:TOPのスライダーを表示させるか。0:なし,1:あり
 	//side_flag:サイドメニューに表示するものの制御 0:なし,1:ランキング,2:劇場一覧
 	$path = array(
+		"mvtk" =>
+			array(
+				"pattern" => "!/mvtk/!",
+				"name" => "ムビチケ券ご利用方法",
+				"ename" => "mvtk",
+				"top_flag" => "0",
+				"side_flag" => 2
+			),
+		"online" =>
+			array(
+				"pattern" => "!/online/!",
+				"name" => "オンラインチケット購入のメリット",
+				"ename" => "online",
+				"top_flag" => "0",
+				"side_flag" => 2
+			),
 		"company" =>
 			array(
 				"pattern" => "!/company/!",
