@@ -280,7 +280,8 @@ function getSmartRank(){
 	$html = "";
 
 	$html .= "<div class='between'><p>" . $start_date . "(" . $start_week . ")" . "～" . $end_date . "(" . $end_week . ")" . "</p></div>";
-    $html .= "<ul class='clearfix'>";
+	$html .= "<div class='ranking_list'>";
+    $html .= "<ul>";
 	foreach($RankID as $key => $val){
 		unset($MovieSet);
 		if($loop < 1){
@@ -311,6 +312,7 @@ function getSmartRank(){
 		$loop++;
 	}
 	$html .= "</ul>";
+	$html .= "</div>";
 	echo $html;
 }
 

@@ -38,14 +38,14 @@
 	}
 
 .rankingbox .between{
-	margin-bottom:10px;
+	padding:10px;
 	color:#0265FF;
 	font-weight:bold;
 	font-size: 14px;
 }
 
 .rankingbox ul{
-	padding:10px;
+	display: inline-block;
 }
 
 .rankingbox ul li{
@@ -72,10 +72,11 @@
 	padding:0 35px 5px 35px;
 	}		
 .rankingbox .number2{
-	
 	padding:0 40px 10px 35px;
 	}	
-
+.ranking_list{
+	padding: 10px;
+}
 /* news
 -----------------------------------------------------------------------------------------------------------*/	
 
