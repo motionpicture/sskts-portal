@@ -248,18 +248,19 @@ include("../lib/require.php");
 								</div>
 							</div>
 						</div>
-
-						<!-- ↑修正する部分はここまで↑ -->
-
-						<?php getRightMenu(); ?>
 					</div>
+
+					<!-- ↑修正する部分はここまで↑ -->
+
+					<?php getRightMenu(); ?>
 				</div>
 			</div>
-			<!-- #container end -->
-
-			<?php getFooter(); ?>
 		</div>
-		<!-- #wrapper end -->
+		<!-- #container end -->
+
+		<?php getFooter(); ?>
+	</div>
+	<!-- #wrapper end -->
 </body>
 
 </html>
