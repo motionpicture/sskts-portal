@@ -31,7 +31,7 @@ include("../lib/require.php");
 								<div class="about_mvtk1">
 									<h3>ムビチケについて</h3>
 									<div>
-										<img src="../images/mvtk/mvtk_pc_logo.gif" width="244" height="54" alt="ムビチケロゴ">
+										<img class="mvtk_pg_logo" src="../images/mvtk/mvtk_pc_logo.gif" width="244" height="54" alt="ムビチケロゴ">
 										<p class="content_text">ムビチケとは?</p>
 										<p class="Lead_text">ムビチケとは、ネットで座席指定ができる映画前売券になります。シネマサンシャインでのムビチケのご利用に関しましては下記よりご確認ください。</p>
 										<a href="飛ばしたいページのＵＲＬ">> ムビチケ券のご利用についてはこちら</a>
