@@ -65,6 +65,8 @@
 }
 .dayListBox ul li.notAvailable {
 	background: none repeat scroll 0 0 #CCCCCC;
+}
+.dayListBox ul li.notAvailable .day {
 	font-size: 1em;
 	font-weight: normal;
 }
