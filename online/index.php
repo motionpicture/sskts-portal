@@ -54,8 +54,12 @@ include("../lib/require.php");
 										</div>
 									</div>
 									<div class="merit-inner02">
-										<h4>メリット2</h4>
-										<h3>上映日の2日前から予約可能！</h3>
+										<h4>
+											メリット2
+										</h4>
+										<h3>
+											上映日の2日前から予約可能！
+										</h3>
 										<p>
 											オンライン購入は観たい作品を上映日前に座席指定で予約可能です。
 										</p>
@@ -77,9 +81,13 @@ include("../lib/require.php");
 									</div>
 								</div>
 								<div class="admission">
-									<h3>入場までの流れ</h3>
+									<h3>
+										入場までの流れ
+									</h3>
 									<div class="admission-inner01">
-										<h4>スマートフォンをお持ちの方</h4>
+										<h4>
+											スマートフォンをお持ちの方
+										</h4>
 										<img src="../images/online/online_pc_04.gif" width="100%" alt="スマートフォンをお持ちの方">
 										<div>
 											<p>
@@ -134,7 +142,9 @@ include("../lib/require.php");
 										
 									</div>
 									<div class="admission-inner02">
-										<h4>スマートフォンをお持ちでない方</h4>
+										<h4>
+											スマートフォンをお持ちでない方
+										</h4>
 										<img src="../images/online/online_pc_05.gif" width="100%" alt="スマートフォンをお持ちでない方">
 										<div>
 											<p>
@@ -202,7 +212,9 @@ include("../lib/require.php");
 										</div>
 									</div>
 									<div class="admission-inner03">
-										<h4>スマートフォン・プリンタをお持ちでない方</h4>
+										<h4>
+											スマートフォン・プリンタをお持ちでない方
+										</h4>
 										<img src="../images/online/online_pc_06.gif" width="100%" alt="スマートフォン・プリンタをお持ちでない方">
 										<div>
 											<p>
