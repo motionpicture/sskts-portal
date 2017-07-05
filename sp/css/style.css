@@ -38,10 +38,10 @@
 	}
 
 .rankingbox .between{
-	margin:0 0 5px 0;
+	margin-bottom:10px;
 	color:#0265FF;
 	font-weight:bold;
-	color:;
+	font-size: 14px;
 }
 
 .rankingbox ul{
@@ -51,7 +51,6 @@
 .rankingbox ul li{
 	width:30%;
 	float:left;
-	margin:5px 10px 0 0;
 }
 
 .rankingbox ul li.num02{
