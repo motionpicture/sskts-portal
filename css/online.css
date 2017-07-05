@@ -15,11 +15,35 @@ h3 {
 h4 {
     font-size: 16px;
     text-align:center;
-    padding: 40px 0px;
-    ;
+    padding: 10px 0px;
+    margin-bottom: 20px;
 }
+
+p {
+    font-size: 12px;
+}
+
 
 .merit h4 {
     color: #fff;
     background-color: #00a0e9;
+}
+
+.title {
+    font-size: 20px;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.text01 {
+    font-size: 14px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+.process {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ededed;
+    border-radius: 2px;
 }

@@ -31,10 +31,10 @@ include("../lib/require.php");
 								<div class="merit">
 									<div class="merit-inner1">
 										<h4>メリット１</h4>
-										<p>
+										<p　class="title">
 											スマートフォンでスマート入場!
 										</p>
-										<p>
+										<p class="text01">
 											オンライン購入であれば、鑑賞日当日に発券機へ並ぶことなく入場用QRコードを スマートフォンでご提示するだけでスムーズに入場可能です。
 										</p>
 										<img src="../images/online/online_pc_01.gif" width="100%" alt="スマートフォンでスマート入場!">
@@ -49,18 +49,20 @@ include("../lib/require.php");
 										<p>
 											スマート入場対応劇場
 										</p>
-										<div>
-											・シネマサンシャイン姶良
+										<div　class="process">
+											<a fref="http://www.cinemasunshine.co.jp/theater/aira/">
+												・シネマサンシャイン姶良
+											</a>	
 										</div>
 									</div>
 									<div class="merit-inner02">
 										<h4>
 											メリット2
 										</h4>
-										<p>
+										<p　class="title">
 											上映日の2日前から予約可能！
 										</p>
-										<p>
+										<p class="text01">
 											オンライン購入は観たい作品を上映日前に座席指定で予約可能です。
 										</p>
 										<img src="../images/online/online_pc_02.gif" width="100%" alt="上映日の2日前から予約可能！">
