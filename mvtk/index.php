@@ -7,7 +7,7 @@ include("../lib/require.php");
 
 <head>
 	<?php getHeadInclude(); ?>
-	<link rel="stylesheet" href="/css/online.css">
+	<link rel="stylesheet" href="/css/mvtk.css">
 
 </head>
 
@@ -25,7 +25,7 @@ include("../lib/require.php");
 					<!-- ↓修正する部分はここから↓ -->
 					<div class="leftColumn">
 						<div class="MainArea">
-							<h2 class="headlineImg"><img src="../images/online/headline_online.png" alt="ムビチケ券ご利用方法"></h2>
+							<h2 class="headlineImg"><img src="../images/mvtk/headline_mvtk.png" alt="ムビチケ券ご利用方法"></h2>
 							<div class="whiteCanvas">
 								<h3>ムビチケについて</h3>
 								<div>
