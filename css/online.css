@@ -1,2 +1,19 @@
 @charset "utf-8";
 /* online */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.h3{
+    color: #00a0e9;
+    font-size: 20px;
+    margin: 40 center;
+}
+
+.merit h4{
+   font-size: 16px;
+    padding: 10px center;
+    margin-bottom: 20px;
+    background-color: #00a0e9;
+}
