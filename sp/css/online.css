@@ -1,4 +1,10 @@
+.basebox2{
+    padding:-10px;
+}
+
+
 .basebox2 h3 {
+text-align: center;
 font-size: 20px;
 font-weight: bold;
 color: #00a0e9;
@@ -42,7 +48,7 @@ padding: 20px 0;
 }
 
 
-.leftColumn .title {
+.basebox2 .title {
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -71,7 +77,7 @@ padding: 20px 0;
     border-radius: 4px;
 }
 
-.whiteCanvas img {
+.basebox2 img {
     margin-bottom: 20px;
 }
 
@@ -101,7 +107,7 @@ padding: 20px 0;
     color: #00a0e9;
 }
 
-.leftColumn .title02{
+.basebox2 .title02{
     border-bottom: 1px solid #cdcdcd;
     padding-bottom: 10px;
 }

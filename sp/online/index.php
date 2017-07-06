@@ -45,7 +45,7 @@ include("../../lib/require.php");
 						<p class="text01 thick">
 							オンライン購入であれば、鑑賞日当日に発券機へ並ぶことなく入場用QRコードをスマートフォンでご提示するだけでスムーズに入場可能です。
 						</p>
-						<img src="../../sp/images/online/online_SP_01" width="100%" alt="スマートフォンでスマート入場!">
+						<img src="../../sp/images/online/online_SP_01.gif" width="100%" alt="スマートフォンでスマート入場!">
 						<p class="thick">
 							スマート入場とは?
 						</p>
@@ -72,7 +72,7 @@ include("../../lib/require.php");
 						<p class="text01 thick">
 							オンライン購入は観たい作品を上映日前に座席指定で予約可能です。
 						</p>
-						<img src="../../sp/images/online/online_SP_02" width="100%" alt="上映日の2日前から予約可能！">
+						<img src="../../sp/images/online/online_SP_02.gif" width="100%" alt="上映日の2日前から予約可能！">
 					</div>
 				</div>
 
@@ -85,7 +85,7 @@ include("../../lib/require.php");
 								各劇場の上映スケジュールから購入する作品を選択し、上記オンラインチケット購入の流れに沿ってチケットを購入してください。
 							</p>
 						</div>
-						<img src="../../sp/images/online/online_SP_03" width="100%" alt="オンラインチケット購入の流れ">
+						<img src="../../sp/images/online/online_SP_03.gif" width="100%" alt="オンラインチケット購入の流れ">
 						<p class="redtext">
 							※チケット照会時に予約番号と購入時に入力した電話番号が必要となりますので必ずお控えください。
 						</p>
@@ -98,9 +98,9 @@ include("../../lib/require.php");
 						入場までの流れ
 					</h3>
 					<div class="admission-inner01">
-						<img src="../../sp/images/online/online_SP_04" width="100%" alt="オンラインチケット購入の流れ">
-						<img src="../../sp/images/online/online_SP_05" width="100%" alt="オンラインチケット購入の流れ">
-						<img src="../../sp/images/online/online_SP_06" width="100%" alt="オンラインチケット購入の流れ">
+						<img src="../../sp/images/online/online_SP_04.gif" width="100%" alt="オンラインチケット購入の流れ">
+						<img src="../../sp/images/online/online_SP_05.gif" width="100%" alt="オンラインチケット購入の流れ">
+						<img src="../../sp/images/online/online_SP_06.gif" width="100%" alt="オンラインチケット購入の流れ">
 						<h4>
 							スマートフォンをお持ちの方
 						</h4>
