@@ -61,9 +61,15 @@ p {
     margin-bottom: 30px;
 }
 
+.text02 {
+    font-size: 16px;
+    font-weight: bold; 
+}
+
 .process {
     padding: 10px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     background-color: #ededed;
     border-radius: 4px;
 }
@@ -89,6 +95,7 @@ p {
 
 .redtext{
     color: red; 
+    margin-bottom: 10px;
 }
 
 .admission span{
@@ -99,3 +106,4 @@ p {
     border-bottom: 1px solid #cdcdcd;
     margin-bottom: 10px;
 }
+
