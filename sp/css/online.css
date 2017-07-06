@@ -109,8 +109,8 @@
     border-bottom: 1px solid #cdcdcd;
 }
 
-.ather {
-    margin-bottom: 10px;
+.other {
+    margin-bottom: 30px;
 }
 
 .admission-inner01 ul li {
@@ -128,4 +128,8 @@
 
 .link_area {
     display: inline-block;
+}
+
+.process_last{
+    border-bottom: none;
 }

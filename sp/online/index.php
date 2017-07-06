@@ -142,7 +142,7 @@ include("../../lib/require.php");
 								</p>
 							</div>
 						</div>
-						<div class=" bluezone">
+						<div class="bluezone other">
 							<p>
 								オススメ<br> 入場用QRコードは鑑賞日時の24時間前から表示されるため、事前にチケット情報ページを「ホーム画面に 追加」していただくとスムーズにQRコードがご提示できるためオススメです。
 							</p>
@@ -207,7 +207,7 @@ include("../../lib/require.php");
 							<p class="text02">
 								<span>4.</span> 印刷したQRコード、または発券したチケットを入場時にご提示してご入場ください
 							</p>
-							<div class="process ather">
+							<div class="process other">
 								<p>
 									ご自宅で印刷していただいたQRコード、または劇場の発券機から発券したチケットを入場時間になりました ら入場口スタッフにご提示していただきますとご入場いただけます。
 								</p>
@@ -257,7 +257,7 @@ include("../../lib/require.php");
 							<p class="text02">
 								<span>4.</span> 発券したチケットを入場口スタッフにご提示してご入場ください
 							</p>
-							<div class="process">
+							<div class="process other process_last">
 								<p>
 									劇場で発券したチケットを入場口スタッフにご提示していただきますとご入場いただけます。
 								</p>
