@@ -5,7 +5,7 @@ include("../../lib/require.php");
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<?php getSmartHeadInclude(); ?>
-	<link rel="stylesheet" type="text/css" href="../css/sitemap.css">
+	<link rel="stylesheet" type="text/css" href="../sp/css/mvtk.css">
 	<script type="text/javascript">
 		$(document).ready(function(){
 		$(".flip").click(function(){
