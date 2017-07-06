@@ -32,6 +32,8 @@
 .merit h4 {
     color: #fff;
     background-color: #00a0e9;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .merit {
@@ -41,6 +43,8 @@
 .admission h4 {
     color: #fff;
     background-color: #8e8e8e;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 
@@ -95,7 +99,7 @@
 }
 
 .admission {
-    padding: 10px;
+    padding: 20px　10px;
 }
 .admission span{
     color: #00a0e9;
