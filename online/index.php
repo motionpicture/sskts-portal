@@ -133,7 +133,7 @@ include("../lib/require.php");
 												</p>
 											</div>
 										</div>
-										<div class="redzone">
+										<div class=" bluezone">
 											<p>
 												オススメ<br> 入場用QRコードは鑑賞日時の24時間前から表示されるため、事前にチケット情報ページを「ホーム画面に 追加」していただくとスムーズにQRコードがご提示できるためオススメです。
 											</p>
@@ -173,7 +173,7 @@ include("../lib/require.php");
 												</p>
 											</div>
 										</div>
-										<div class="redzone">
+										<div class=" bluezone">
 											<p>
 												オススメ<br> 入場用QRコードは鑑賞日時の24時間前から表示されるため、事前にチケット情報ページを印刷していただ くとスムーズに入場していただけます。
 											</p>
