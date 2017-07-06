@@ -12,7 +12,7 @@ padding: 20px 0;
 }
 
 .basebox2 h4 {
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     padding: 5px 0px;
     margin-bottom: 20px;
@@ -32,8 +32,8 @@ padding: 20px 0;
 .merit h4 {
     color: #fff;
     background-color: #00a0e9;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .merit {
@@ -43,8 +43,8 @@ padding: 20px 0;
 .admission h4 {
     color: #fff;
     background-color: #8e8e8e;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 

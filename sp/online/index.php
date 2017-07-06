@@ -72,7 +72,7 @@ include("../../lib/require.php");
 						<p class="text01 thick">
 							オンライン購入は観たい作品を上映日前に座席指定で予約可能です。
 						</p>
-						<img src="../../sp/images/online/online_SP_02.gif" width="100%" alt="上映日の2日前から予約可能！">
+						<img src="../../sp/images/online/online_SP_02.gif" alt="上映日の2日前から予約可能！">
 					</div>
 				</div>
 
