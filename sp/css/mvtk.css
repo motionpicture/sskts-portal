@@ -1,18 +1,18 @@
 
 
 h3 {
-font-size: 16px;
+font-size: 30px;
 font-weight: bold;
 color: #000000;
 width: 100%;
-padding: 12px 0;
+padding: 15px 0;
 margin-bottom: 30px;
 text-align: center;
 background-color: #e6e6e6;
 }
 
 h4 {
-font-size: 16px;
+font-size: 28px;
 font-weight: bold;
 color: #39b1e8;
 margin: 0 0 3px 0;
@@ -35,31 +35,31 @@ margin-bottom: 10px;
 }
 
 .content_text {
-font-size: 14px;
+font-size: 28px;
 font-weight: bold;
 margin-bottom: 10px;
 color: #000000;
 }
 
 .Lead_text {
-font-size: 12px;
+font-size: 24px;
 line-height: 1.5em;
 margin-bottom: 12px;
 color: #000000;
 }
 
 .step_title {
-font-size: 14px;
+font-size: 28px;
 color: #ffffff;
 padding: 5px 0px;
-width: 90px;
+width: 138px;
 text-align: center;
 margin-bottom: 10px;
 background-color: #39b1e8;
 }
 
 .step_title span {
-font-size: 16px;
+font-size: 28px;
 }
 
 .mvtk_pg_logo {
@@ -76,7 +76,7 @@ text-align: center;
 }
 
 .about_mvtk1 a {
-font-size: 14px;
+font-size: 28px;
 font-weight: bold;
 color: #00a8ff;
 }
