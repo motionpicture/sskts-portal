@@ -27,20 +27,20 @@ include("../lib/require.php");
 						<div class="MainArea">
 							<h2 class="headlineImg"><img src="../images/online/headline_online.png" alt="オンラインチケット購入のメリット"></h2>
 							<div class="whiteCanvas">
-								<h3><strong>オンラインチケット購入のメリット</strong></h3>
+								<h3>オンラインチケット購入のメリット</h3>
 								<div class="merit">
 									<div class="merit-inner01">
 										<h4>
 											メリット１
 										</h4>
-										<p class="title">
-											<strong>スマートフォンでスマート入場!</strong>
+										<p class="title thick">
+											スマートフォンでスマート入場!
 										</p>
-										<p class="text01">
+										<p class="text01 thick">
 											オンライン購入であれば、鑑賞日当日に発券機へ並ぶことなく入場用QRコードを<br> スマートフォンでご提示するだけでスムーズに入場可能です。
 										</p>
 										<img src="../images/online/online_pc_01.gif" width="100%" alt="スマートフォンでスマート入場!">
-										<p>
+										<p class="thick">
 											スマート入場とは?
 										</p>
 										<p>
@@ -51,7 +51,7 @@ include("../lib/require.php");
 											スマート入場対応劇場
 										</p>
 										<div class="process">
-											<a fref="http://www.cinemasunshine.co.jp/theater/aira/">
+											<a href="http://www.cinemasunshine.co.jp/theater/aira/">
 												・シネマサンシャイン姶良
 											</a>
 										</div>
@@ -185,15 +185,15 @@ include("../lib/require.php");
 											<p>
 												<span>3.</span> 鑑賞する劇場へご来場ください
 											</p>
-										</div>
-										<div class="process">
-											<p>
-												ご自宅で印刷したQRコードを忘れずにご持参ください。<br> ※劇場内に設置されている発券機からもチケットを発券していただけます。
+											<div class="process">
+												<p>
+													ご自宅で印刷したQRコードを忘れずにご持参ください。<br> ※劇場内に設置されている発券機からもチケットを発券していただけます。
+												</p>
+											</div>
+											<p class="redtext">
+												※発券機から発券する際は、予約番号と購入時に入力した電話番号が必要となります。
 											</p>
 										</div>
-										<p class="redtext">
-											※発券機から発券する際は、予約番号と購入時に入力した電話番号が必要となります。
-										</p>
 										<div>
 											<p>
 												<span>4.</span> 印刷したQRコード、または発券したチケットを入場時にご提示してご入場ください
@@ -239,7 +239,7 @@ include("../lib/require.php");
 													予約番号と購入時に入力した電話番号をご用意の上、画面の指示に従って発券してください。
 												</p>
 											</div>
-											<p>
+											<p class="redtext">
 												※発券機から発券する際は、予約番号と購入時に入力した電話番号が必要となります。
 											</p>
 										</div>
