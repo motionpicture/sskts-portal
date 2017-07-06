@@ -1,0 +1,86 @@
+
+
+h3 {
+font-size: 15px;
+font-weight: bold;
+color: #000000;
+width: 100%;
+padding: 15px 0;
+margin-bottom: 30px;
+text-align: center;
+background-color: #e6e6e6;
+}
+
+h4 {
+font-size: 14px;
+font-weight: bold;
+color: #39b1e8;
+margin: 0 0 3px 0;
+}
+
+.step {
+margin: 40px 0px;	
+}
+
+.about_mvtk1 {
+margin-bottom: 10px;
+}
+
+.about_mvtk3 {
+margin-bottom: 10px;
+}
+
+.content_text {
+font-size: 14px;
+font-weight: bold;
+margin-bottom: 10px;
+color: #000000;
+}
+
+.Lead_text {
+font-size: 12px;
+line-height: 1.5em;
+margin-bottom: 12px;
+color: #000000;
+}
+
+.step_title {
+font-size: 14px;
+color: #ffffff;
+padding: 5px 0px;
+width: 70px;
+text-align: center;
+margin-bottom: 10px;
+background-color: #39b1e8;
+}
+
+.step_title span {
+font-size: 14px;
+}
+
+.mvtk_pg_logo {
+margin: 25px auto;
+display: block;
+}
+
+.Lead_text.red {
+color: #e70000;    
+}
+
+.Lead_text.center {
+text-align: center;    
+}
+
+.about_mvtk1 a {
+font-size: 14px;
+font-weight: bold;
+color: #00a8ff;
+}
+
+.about_mvtk3 img {
+margin-bottom: 10px;
+}
+
+.pd10 {
+padding: 10px;    
+}

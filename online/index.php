@@ -160,7 +160,7 @@ include("../lib/require.php");
 												<span>2.</span> QRコードをご自宅で印刷
 											</p>
 											<p>
-												オンラインチケット購入の流れに沿ってチケットを購入。
+												※劇場内に設置されている発券機からも発券可能です
 											</p>
 											<div class="process">
 												<p>
@@ -197,7 +197,7 @@ include("../lib/require.php");
 											<p class="text02">
 												<span>4.</span> 印刷したQRコード、または発券したチケットを入場時にご提示してご入場ください
 											</p>
-											<div class="process">
+											<div class="process ather">
 												<p>
 													ご自宅で印刷していただいたQRコード、または劇場の発券機から発券したチケットを入場時間になりました ら入場口スタッフにご提示していただきますとご入場いただけます。
 												</p>
