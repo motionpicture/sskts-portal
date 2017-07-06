@@ -29,6 +29,10 @@ p {
     font-weight: bold; 
 }
 
+.thick01 {
+    font-weight: bold; 
+}
+
 
 .merit h4 {
     color: #fff;
@@ -64,7 +68,7 @@ p {
 .text02 {
     font-size: 16px;
     font-weight: bold; 
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .text03 {
@@ -99,7 +103,7 @@ p {
 
 .redtext{
     color: red; 
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .admission {

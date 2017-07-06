@@ -43,18 +43,18 @@ include("../lib/require.php");
 										<p class="thick">
 											スマート入場とは?
 										</p>
-										<p　class="text03">
+										<p class="text03">
 											スマート入場とは、オンラインでチケットを購入していただきお手持ちのスマートフォンを使いQRコードで<br> 入場するペーパーレスな入場方法です。鑑賞日当日は劇場内発券機でのチケット発券が不要なため発券に掛かる
 											<br> 時間を気にすることなくスムーズに入場して頂けます。
-											</p>
-											<p class="thick">
-												スマート入場対応劇場
-											</p>
-											<div class="process">
-												<a href="http://www.cinemasunshine.co.jp/theater/aira/">
+										</p>
+										<p class="thick">
+											スマート入場対応劇場
+										</p>
+										<div class="process">
+											<a href="http://www.cinemasunshine.co.jp/theater/aira/">
 												・シネマサンシャイン姶良
 											</a>
-											</div>
+										</div>
 									</div>
 									<div class="merit-inner02">
 										<h4>
@@ -117,21 +117,21 @@ include("../lib/require.php");
 											</p>
 											<p class="text03">
 												※QRコードは、鑑賞時間の24時間前からチケット情報ページに表示されます。</p>
-												<div class="process">
-													<p>
-														手順 1<br> 購入完了メールに記載されているリンクもしくは、劇場ページにあるチケット照会バナーを押して チケット照会ページにアクセス。
-													</p>
-												</div>
-												<div class="process">
-													<p>
-														手順 2<br> チケット情報照会画面にて予約番号と購入時に入力した電話番号を入力してチケット情報ページにアクセス。 掲載されているQRコードをスマートフォンの画面に表示してください。
-													</p>
-												</div>
-												<div class="process">
-													<p>
-														手順 3<br> スマートフォンの画面で表示したQRコードを入場口スタッフにご提示していただくとご入場いただけます。
-													</p>
-												</div>
+											<div class="process">
+												<p>
+													<span class="thick01">手順 1</span><br> 購入完了メールに記載されているリンクもしくは、劇場ページにあるチケット照会バナーを押して チケット照会ページにアクセス。
+												</p>
+											</div>
+											<div class="process">
+												<p>
+													<span class="thick01">手順 2</span><br> チケット情報照会画面にて予約番号と購入時に入力した電話番号を入力してチケット情報ページにアクセス。 掲載されているQRコードをスマートフォンの画面に表示してください。
+												</p>
+											</div>
+											<div class="process">
+												<p>
+													<span class="thick01">手順 3</span><br> スマートフォンの画面で表示したQRコードを入場口スタッフにご提示していただくとご入場いただけます。
+												</p>
+											</div>
 										</div>
 										<div class="redzone">
 											<p>
@@ -164,12 +164,12 @@ include("../lib/require.php");
 											</p>
 											<div class="process">
 												<p>
-													手順 1<br> 購入完了メールに記載されているリンクもしくは、劇場ページにあるチケット照会バナーを押して チケット照会ページにアクセス。
+													<span class="thick01">手順 1</span><br> 購入完了メールに記載されているリンクもしくは、劇場ページにあるチケット照会バナーを押して チケット照会ページにアクセス。
 												</p>
 											</div>
 											<div class="process">
 												<p>
-													手順 2<br> チケット情報照会画面にて予約番号と購入時に入力した電話番号を入力し、チケット情報ページにアクセス。 掲載されているQRコードをご自宅のプリンターで印刷しご持参ください。
+													<span class="thick01">手順 2</span><br> チケット情報照会画面にて予約番号と購入時に入力した電話番号を入力し、チケット情報ページにアクセス。 掲載されているQRコードをご自宅のプリンターで印刷しご持参ください。
 												</p>
 											</div>
 										</div>
@@ -230,17 +230,17 @@ include("../lib/require.php");
 											<p class="text02">
 												<span>3.</span> 劇場の発券機にてチケットを発券
 											</p>
-											<p　class="text03">
+											<p class="text03">
 												※発券機から発券する場合、予約番号と購入時に入力した電話番号が必要となります。
+											</p>
+											<div class="process">
+												<p>
+													予約番号と購入時に入力した電話番号をご用意の上、画面の指示に従って発券してください。
 												</p>
-												<div class="process">
-													<p>
-														予約番号と購入時に入力した電話番号をご用意の上、画面の指示に従って発券してください。
-													</p>
-												</div>
-												<p class="redtext">
-													※発券機から発券する際は、予約番号と購入時に入力した電話番号が必要となります。
-												</p>
+											</div>
+											<p class="redtext">
+												※発券機から発券する際は、予約番号と購入時に入力した電話番号が必要となります。
+											</p>
 										</div>
 										<div class="title02">
 											<p class="text02">
