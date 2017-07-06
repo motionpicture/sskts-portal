@@ -94,7 +94,7 @@ include("../../lib/require.php");
 					
 					<div>
 						<p class="content_text">【追加料金参考】</p>
-						<h4>| ムビチケ2D券をお持ちの方</h4>
+						<h4 class="mvtk_sp_h4">| ムビチケ2D券をお持ちの方</h4>
 						<p class="content_text">3D上映を鑑賞する場合</p>
 						<p class="Lead_text">※3Dメガネを既にお持ちでご持参いただける方は、3Dメガネなしの追加料金でご購入いただけます。</p>
 						<img src="../../sp/images/mvtk/mvtk_sp_8.gif" width="100%" alt="追加料金合計400円">
