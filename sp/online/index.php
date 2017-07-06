@@ -47,14 +47,15 @@ include("../../lib/require.php");
 							<br> ご提示するだけでスムーズに入場可能です。
 						</p>
 						<img src="../../sp/images/online/online_SP_01.gif" width="100%" alt="スマートフォンでスマート入場!">
-						<p class="thick">スマート入場とは?</p>
+						<p class="merit01_thick">スマート入場とは?</p>
 						<p class="text03">スマート入場とは、オンラインでチケットを購入していただ<br> きお手持ちのスマートフォンを使いQRコードで入場するペー
 							<br> パーレスな入場方法です。鑑賞日当日は劇場内発券機でのチケット発券が不要なため発券に掛かる時間を気にすることな
 							<br> くスムーズに入場して頂けます。
 						</p>
-						<p class="thick">スマート入場対応劇場</p>
-						<div class="process">
+						<p class="merit01_thick">スマート入場対応劇場</p>
+						<div class="process other">
 							<a href="../theater/aira/">・シネマサンシャイン姶良</a>
+							<a href="../theater/kitajima/">・シネマサンシャイン北島</a>
 						</div>
 					</div>
 					<div class="merit-inner02">
@@ -253,11 +254,11 @@ include("../../lib/require.php");
 								※発券機から発券する際は、予約番号と購入時に入力した電話番号が必要となります。
 							</p>
 						</div>
-						<div class="title02">
+						<div class="title02 process_last">
 							<p class="text02">
 								<span>4.</span> 発券したチケットを入場口スタッフにご提示してご入場ください
 							</p>
-							<div class="process other process_last">
+							<div class="process other">
 								<p>
 									劇場で発券したチケットを入場口スタッフにご提示していただきますとご入場いただけます。
 								</p>
