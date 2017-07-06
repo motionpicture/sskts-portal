@@ -115,7 +115,7 @@ include("../lib/require.php");
 											<p class="text02">
 												<span>3. </span>入場の際に入場口スタッフにQRコードをご提示してご入場ください
 											</p>
-											<p>
+											<p　class="text03">
 												※QRコードは、鑑賞時間の24時間前からチケット情報ページに表示されます。
 											</p>
 											<div class="process">
@@ -231,7 +231,7 @@ include("../lib/require.php");
 											<p class="text02">
 												<span>3.</span> 劇場の発券機にてチケットを発券
 											</p>
-											<p>
+											<p　class="text03">
 												※発券機から発券する場合、予約番号と購入時に入力した電話番号が必要となります。
 											</p>
 											<div class="process">
