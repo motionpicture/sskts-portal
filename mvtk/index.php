@@ -33,14 +33,14 @@ include("../lib/require.php");
 									<div>
 										<img class="mvtk_pg_logo" src="../images/mvtk/mvtk_pc_logo.gif" width="244" height="54" alt="ムビチケロゴ">
 										<p class="content_text">ムビチケとは?</p>
-										<p class="Lead_text">ムビチケとは、ネットで座席指定ができる映画前売券になります。シネマサンシャインでのムビチケのご利用に関しましては下記よりご確認ください。</p>
-										<a href="飛ばしたいページのＵＲＬ">> ムビチケ券のご利用についてはこちら</a>
+										<p class="Lead_text">ムビチケとは、ネットで座席指定ができる映画前売券になります。<br>シネマサンシャインでのムビチケのご利用に関しましては下記よりご確認ください。</p>
+										<a href="#howto">> ムビチケ券のご利用についてはこちら</a>
 									</div>
 								</div>
 							
 								<div class="about_mvtk2">
 									<h3>オンラインチケット購入でのムビチケ券ご利用手順</h3>
-										<p class="Lead_text">オンラインチケット購入でのムビチケ券のご利用手順は下記になります。</p>
+										<p class="Lead_text center">オンラインチケット購入でのムビチケ券のご利用手順は下記になります。</p>
 
 									<div class="step">
 										<p class="step_title">STEP <span>1</span></p>
@@ -57,14 +57,14 @@ include("../lib/require.php");
 									<div class="step">
 										<p class="step_title">STEP <span>3</span></p>
 										<p class="content_text">券種選択画面の上部にある、「ムビチケを利用する」ボタンを押してください。</p>
-										<p class="Lead_text">※ムビチケを利用される方は、事前に「ムビチケ購入番号」と「ムビチケ暗証番号」をご用意ください。</p>
+										<p class="Lead_text red">※ムビチケを利用される方は、事前に「ムビチケ購入番号」と「ムビチケ暗証番号」をご用意ください。</p>
 										<img src="../images/mvtk/mvtk_pc_3.gif" width="600" height="180" alt="">
 									</div>
 
 									<div class="step">
 										<p class="step_title">STEP <span>4</span></p>
 										<p class="content_text">利用するムビチケ券の「ムビチケ購入番号」と「ムビチケ暗証番号」を入力し、「認証する」を押してください。</p>
-										<p class="Lead_text">※ムビチケ券によっては別途追加料金が発生する場合があります、差額が発生した場合は別途クレジットカードにて差額分をお支払いいただきます。</p>
+										<p class="Lead_text red">※ムビチケ券によっては別途追加料金が発生する場合があります、差額が発生した場合は別途クレジットカードにて差額分をお支払いいただきます。</p>
 										<img src="../images/mvtk/mvtk_pc_4.gif" width="600" height="180" alt="">
 									</div>
 
@@ -87,9 +87,10 @@ include("../lib/require.php");
 									</div>
 								</div>
 
+								<a name="howto"></a> 
 								<div class="about_mvtk3">
 									<h3>ムビチケ券のご利用について</h3>
-										<p class="Lead_text">シネマサンシャインでは、オンラインチケット購入でムビチケ券をご使用いただけます。また、差額料金を追加でお支払い頂くことで、ムビチケ２Ｄ券を３Ｄ上映、4ＤX上映にご使用頂けます。差額のお支払いは、オンラインチケット購入手続きの流れの中で追加料金分をお支払い頂きます。（クレジット決済のみ）</p>
+										<p class="Lead_text">シネマサンシャインでは、オンラインチケット購入でムビチケ券をご使用いただけます。<br>また、差額料金を追加でお支払い頂くことで、ムビチケ２Ｄ券を３Ｄ上映、4ＤX上映にご使用頂けます。<br>差額のお支払いは、オンラインチケット購入手続きの流れの中で追加料金分をお支払い頂きます。<br>（クレジット決済のみ）</p>
 									
 									<div>
 										<p class="content_text">【追加料金参考】</p>
@@ -104,7 +105,7 @@ include("../lib/require.php");
 										<h4>| ムビチケ3D券をお持ちの方</h4>
 										<p class="content_text">4DX上映を鑑賞する場合</p>
 										<img src="../images/mvtk/mvtk_pc_10.gif" width="401" height="83" alt="">
-										<p class="Lead_text">※ムビチケ3D券で2D上映の作品を鑑賞される場合、ムビチケ券のご利用は可能ですが差額分のご返金はございませんのでご注意ください。</p>
+										<p class="Lead_text red">※ムビチケ3D券で2D上映の作品を鑑賞される場合、ムビチケ券のご利用は可能ですが差額分のご返金はございませんのでご注意ください。</p>
 									</div>
 								</div>
 								
