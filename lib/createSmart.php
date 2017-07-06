@@ -468,12 +468,12 @@ function getSmartFooter(){
 		if($facebook[$arr["ename"]] && $twitter[$arr["ename"]]){
 			$social = "";
 			$social .= "<div class='section ptb10'>";
-			$social .= "<p class=''>";
+			$social .= "<p class='sp_foot_sns_links'>";
 			if($facebook[$arr["ename"]]){
-			    $social .= "<a href='" . $facebook[$arr["ename"]] . "'><img class='pickup2' src='$define[Images_SP_URL]bnr/btn_facebook.gif' width='100' alt='CHINEMA SUNSHINE facebook'></a>";
+			    $social .= "<a href='" . $facebook[$arr["ename"]] . "'><img class='pickup2' src='$define[Images_SP_URL]bnr/btn_facebook.gif' alt='CHINEMA SUNSHINE facebook'></a>";
 			}
 			if($twitter[$arr["ename"]]){
-			     $social .= "<a href='" . $twitter[$arr["ename"]] . "'><img class='pickup3' src='$define[Images_SP_URL]bnr/btn_twitter.gif' width='100' alt='CHINEMA SUNSHINE ｔwitter'></a></p>";
+			     $social .= "<a href='" . $twitter[$arr["ename"]] . "'><img class='pickup3' src='$define[Images_SP_URL]bnr/btn_twitter.gif' alt='CHINEMA SUNSHINE ｔwitter'></a></p>";
 			}
 			if(!$facebook[$arr["ename"]] && !$twitter[$arr["ename"]]){
 			    echo "<div style='margin:0 0 20px;'></div>";
