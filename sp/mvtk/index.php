@@ -96,15 +96,15 @@ include("../../lib/require.php");
 						<p class="content_text">【追加料金参考】</p>
 						<h4>| ムビチケ2D券をお持ちの方</h4>
 						<p class="content_text">3D上映を鑑賞する場合</p>
-						<img src="../../sp/images/mvtk/mvtk_sp_8.gif" width="360" height="267" alt="">
+						<img src="../../sp/images/mvtk/mvtk_sp_8.gif" width="360" alt="追加料金合計400円">
 						<p class="content_text">4DX上映を鑑賞する場合</p>
-						<img src="../../sp/images/mvtk/mvtk_sp_9.gif" width="360" height="267" alt="">
+						<img src="../../sp/images/mvtk/mvtk_sp_9.gif" width="360" alt="追加料金合計1000円">
 					</div>
 
 					<div>
 						<h4>| ムビチケ3D券をお持ちの方</h4>
 						<p class="content_text">4DX上映を鑑賞する場合</p>
-						<img src="../../sp/images/mvtk/mvtk_sp_10.gif" width="360" height="267" alt="">
+						<img src="../../sp/images/mvtk/mvtk_sp_10.gif" width="360" alt="追加料金合計1000円">
 						<p class="Lead_text red">※ムビチケ3D券で2D上映の作品を鑑賞される場合、ムビチケ券のご利用は可能ですが差額分のご返金はございませんのでご注意ください。</p>
 					</div>
 				</div>
