@@ -26,10 +26,10 @@ include("../../lib/require.php");
 	<h2 class="category_bar_p">ムビチケ券ご利用方法</h2>
 	<div class="basebox2_ptrl">
 		<div class="basebox2_lineblue"></div>
-		<div class="basebox2 pd10">
+		<div class="basebox2">
 		<!--ここから-->		
 
-			<div class="about_mvtk1">
+			<div class="about_mvtk1 pd10">
 				<h3>ムビチケについて</h3>
 				<div>
 					<img class="mvtk_pg_logo" src="../../sp/images/mvtk/mvtk_SP_logo.gif" width="239" alt="ムビチケロゴ">
@@ -39,7 +39,7 @@ include("../../lib/require.php");
 				</div>
 			</div>
 
-			<div class="about_mvtk2">
+			<div class="about_mvtk2 pd10">
 				<h3>オンラインチケット購入での<br>ムビチケ券ご利用手順</h3>
 
 				<div class="step">
@@ -88,7 +88,7 @@ include("../../lib/require.php");
 			</div>
 
 			<a name="howto"></a>
-			<div class="about_mvtk3">
+			<div class="about_mvtk3 pd10">
 					<h3>ムビチケ券のご利用について</h3>
 						<p class="Lead_text">シネマサンシャインでは、オンラインチケット購入でムビチケ券をご使用いただけます。また、差額料金を追加でお支払い頂くことで、ムビチケ２Ｄ券を３Ｄ上映、4ＤX上映にご使用頂けます。差額のお支払いは、オンラインチケット購入手続きの流れの中で追加料金分をお支払い頂きます。<br>（クレジット決済のみ）</p>
 					
