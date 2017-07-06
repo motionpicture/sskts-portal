@@ -97,9 +97,8 @@ p {
 .bluezone {
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid red;
-    color: border-left: ;d;
-
+    border: 1px solid #00a0e9;
+    color: #00a0e9;
 }
 
 .redtext{
