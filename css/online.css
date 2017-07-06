@@ -83,10 +83,9 @@ p {
 
 .purchase {
     background-color: #ececec;
-    margin-top: 20px;
     margin-right: -15px;
     margin-left: -15px;
-    padding: 0 15px;
+    padding: 20px 15px ;
 }
 
 .redzone {
@@ -99,11 +98,11 @@ p {
 
 .redtext{
     color: red; 
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .admission {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .admission span{
     color: #00a0e9;
@@ -111,6 +110,6 @@ p {
 
 .leftColumn .title02{
     border-bottom: 1px solid #cdcdcd;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
