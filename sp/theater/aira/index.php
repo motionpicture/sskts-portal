@@ -79,7 +79,14 @@ if(!empty($_GET["pre"])) {
 		<!--チケット照会バナー-->
 		<div class="bnr_ticket_inquiry">
 			<a href="<?php echo TICKETING_BASE_URL ?>/inquiry/login?theater=018">
-				<img src="../../images/common/bnr_ticket_inquiry_sp.jpg" alt="オンラインチケット照会はこちら" width="100%">
+				<img src="../../images/common/bnr_ticket_inquiry_sp.png" alt="オンラインチケット照会はこちら" width="100%">
+			</a>
+		</div>
+	   <!--/チケット照会バナー-->
+	   <!--オンライン説明バナー-->
+		<div class="bnr_ticket_inquiry">
+			<a href="../../online/">
+				<img src="../../images/common/cs_online_sp_bnr.png" alt="オンライン購入でスマート入場" width="100%">
 			</a>
 		</div>
 	   <!--/チケット照会バナー-->
