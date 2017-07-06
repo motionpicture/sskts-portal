@@ -93,11 +93,14 @@ include("../../lib/require.php");
 						入場までの流れ
 					</h3>
 					<div class="admission-inner01">
-						<ul>
-							<li><img src="../../sp/images/online/online_SP_04.gif" width="100%" alt="オンラインチケット購入の流れ"></li>
-							<li class="online_link_center"><img src="../../sp/images/online/online_SP_05.gif" width="100%" alt="オンラインチケット購入の流れ"></li>
-							<li><img src="../../sp/images/online/online_SP_06.gif" width="100%" alt="オンラインチケット購入の流れ"></li>
-						</ul>
+						<div class="link_area">
+							<ul>
+								<li><a href="#sp_have"><img src="../../sp/images/online/online_SP_04.gif" width="100%" alt="オンラインチケット購入の流れ"></a></li>
+								<li class="online_link_center"><a href="#sp_not_have"><img src="../../sp/images/online/online_SP_05.gif" width="100%" alt="オンラインチケット購入の流れ"></a></li>
+								<li><a href="#not_have"><img src="../../sp/images/online/online_SP_06.gif" width="100%" alt="オンラインチケット購入の流れ"></a></li>
+							</ul>
+						</div>
+						<a id="sp_have"></a>
 						<h4>
 							スマートフォンをお持ちの方
 						</h4>
@@ -147,6 +150,7 @@ include("../../lib/require.php");
 
 					</div>
 					<div class="admission-inner02">
+						<a id="sp_not_have"></a>
 						<h4>
 							スマートフォンをお持ちでない方
 						</h4>
@@ -213,6 +217,7 @@ include("../../lib/require.php");
 						</div>
 					</div>
 					<div class="admission-inner03">
+						<a id="not_have"></a>
 						<h4>
 							スマートフォン・プリンタをお持ちでない方
 						</h4>
