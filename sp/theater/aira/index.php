@@ -84,7 +84,7 @@ if(!empty($_GET["pre"])) {
 		</div>
 	   <!--/チケット照会バナー-->
 	   <!--オンライン説明バナー-->
-		<div class="bnr_ticket_inquiry">
+		<div class="bnr_online_link">
 			<a href="../../online/">
 				<img src="../../images/common/cs_online_sp_bnr.png" alt="オンライン購入でスマート入場" width="100%">
 			</a>

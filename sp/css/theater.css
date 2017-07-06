@@ -247,10 +247,14 @@
 	padding:5px 0 5px 0;
 	margin-left:10px;
 	}
-/* チケット照会バナー
+/* チケット照会バナー・オンライン説明リンクバナー
 -----------------------------------------------------------------------------------------------------------*/
 .bnr_ticket_inquiry{
 	margin:20px auto 0px;
+	width: 90%;
+}
+.bnr_online_link{
+	margin:20px auto;
 	width: 90%;
 }
 /* Google Adsense

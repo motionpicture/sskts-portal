@@ -102,11 +102,13 @@ $theater = $arr["ename"];
 									alt="上映スケジュール"> </h2>
 						<div class="whiteCanvas clearfix">
 							<div class="scheduleBox">
-								<!--<div class="topNotesBox">
-									<p> インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br />
-										※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br />
-										※購入マークがない時間はインターネットでのチケット購入対象外となります。 </p>
-								</div>-->
+								<div class="topNotesBox">
+									<!-- オンライン説明ページバナー -->
+									<a href="../../online/" class="online_link_bnr">
+										<img src="../../images/common/cs_online_bnr.png" alt="オンライン購入でスマート入場" width="600"/>
+									</a>
+									<!-- /オンライン説明ページバナー -->
+								</div>
 								<div class="topTimeBox">
 									<p>
 										<?php
