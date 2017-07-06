@@ -32,6 +32,10 @@ p {
     margin-left: -15px;
 }
 
+.merit {
+    margin-bottom: 20px;
+}
+
 .admission h4 {
     color: #fff;
     background-color: #8e8e8e;
@@ -67,11 +71,13 @@ p {
     background-color: #ececec;
     margin-right: -15px;
     margin-left: -15px;
+    padding: 0 15px;
 }
 
 .redzone {
     padding: 10px;
-    border: 2px solid red;
+    margin-bottom: 20px;
+    border: 1px solid red;
     color: red;
 
 }
@@ -82,4 +88,9 @@ p {
 
 .admission span{
     color: #00a0e9;
+}
+
+.leftColumn .title02{
+    border-bottom: 1px solid #cdcdcd;
+    margin-bottom: 10px;
 }

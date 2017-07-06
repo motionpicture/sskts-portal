@@ -27,14 +27,14 @@ include("../lib/require.php");
 						<div class="MainArea">
 							<h2 class="headlineImg"><img src="../images/online/headline_online.png" alt="オンラインチケット購入のメリット"></h2>
 							<div class="whiteCanvas">
-								<h3>オンラインチケット購入のメリット</h3>
+								<h3><strong>オンラインチケット購入のメリット</strong></h3>
 								<div class="merit">
 									<div class="merit-inner01">
 										<h4>
 											メリット１
 										</h4>
 										<p class="title">
-											スマートフォンでスマート入場!
+											<strong>スマートフォンでスマート入場!</strong>
 										</p>
 										<p class="text01">
 											オンライン購入であれば、鑑賞日当日に発券機へ並ぶことなく入場用QRコードを<br> スマートフォンでご提示するだけでスムーズに入場可能です。
@@ -44,9 +44,8 @@ include("../lib/require.php");
 											スマート入場とは?
 										</p>
 										<p>
-											スマート入場とは、オンラインでチケットを購入していただきお手持ちのスマートフォンを使いQRコードで<br>
-											入場するペーパーレスな入場方法です。鑑賞日当日は劇場内発券機でのチケット発券が不要なため発券に掛かる<br>
-											時間を気にすることなくスムーズに入場して頂けます。
+											スマート入場とは、オンラインでチケットを購入していただきお手持ちのスマートフォンを使いQRコードで<br> 入場するペーパーレスな入場方法です。鑑賞日当日は劇場内発券機でのチケット発券が不要なため発券に掛かる
+											<br> 時間を気にすることなくスムーズに入場して頂けます。
 										</p>
 										<p>
 											スマート入場対応劇場
@@ -97,7 +96,7 @@ include("../lib/require.php");
 											スマートフォンをお持ちの方
 										</h4>
 										<img src="../images/online/online_pc_04.gif" width="100%" alt="スマートフォンをお持ちの方">
-										<div>
+										<div class="title02">
 											<p>
 												<span>1. </span>オンラインでチケットを購入
 											</p>
@@ -107,9 +106,9 @@ include("../lib/require.php");
 												</p>
 											</div>
 										</div>
-										<div>
+										<div class="title02">
 											<p>
-												<span>２. </span>鑑賞する劇場へご来場ください
+												<span>2. </span>鑑賞する劇場へご来場ください
 											</p>
 										</div>
 										<div>
@@ -147,7 +146,7 @@ include("../lib/require.php");
 											スマートフォンをお持ちでない方
 										</h4>
 										<img src="../images/online/online_pc_05.gif" width="100%" alt="スマートフォンをお持ちでない方">
-										<div>
+										<div class="title02">
 											<p>
 												<span>1.</span> オンラインでチケットを購入
 											</p>
@@ -180,9 +179,13 @@ include("../lib/require.php");
 												オススメ<br> 入場用QRコードは鑑賞日時の24時間前から表示されるため、事前にチケット情報ページを印刷していただ くとスムーズに入場していただけます。
 											</p>
 										</div>
-										<p>
-											<span>3.</span> 鑑賞する劇場へご来場ください
-										</p>
+										<div class="title02">
+										</div>
+										<div class="title02">
+											<p>
+												<span>3.</span> 鑑賞する劇場へご来場ください
+											</p>
+										</div>
 										<div class="process">
 											<p>
 												ご自宅で印刷したQRコードを忘れずにご持参ください。<br> ※劇場内に設置されている発券機からもチケットを発券していただけます。
@@ -209,9 +212,9 @@ include("../lib/require.php");
 											スマートフォン・プリンタをお持ちでない方
 										</h4>
 										<img src="../images/online/online_pc_06.gif" width="100%" alt="スマートフォン・プリンタをお持ちでない方">
-										<div>
+										<div class="title02">
 											<p>
-												1. オンラインでチケットを購入
+												<span>1.</span> オンラインでチケットを購入
 											</p>
 											<div class="process">
 												<p>
@@ -219,14 +222,14 @@ include("../lib/require.php");
 												</p>
 											</div>
 										</div>
-										<div>
+										<div class="title02">
 											<p>
-												２. 鑑賞する劇場へご来場ください
+												<span>2.</span> 鑑賞する劇場へご来場ください
 											</p>
 										</div>
-										<div>
+										<div class="title02">
 											<p>
-												3. 劇場の発券機にてチケットを発券
+												<span>3.</span> 劇場の発券機にてチケットを発券
 											</p>
 											<p>
 												※発券機から発券する場合、予約番号と購入時に入力した電話番号が必要となります。
@@ -240,9 +243,9 @@ include("../lib/require.php");
 												※発券機から発券する際は、予約番号と購入時に入力した電話番号が必要となります。
 											</p>
 										</div>
-										<div>
+										<div class="title02">
 											<p>
-												4. 発券したチケットを入場口スタッフにご提示してご入場ください
+												<span>4.</span> 発券したチケットを入場口スタッフにご提示してご入場ください
 											</p>
 											<div class="process">
 												<p>
