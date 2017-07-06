@@ -1,6 +1,6 @@
 
 
-.leftColumn h3 {
+h3 {
 font-size: 16px;
 font-weight: bold;
 color: #000000;
@@ -11,7 +11,7 @@ text-align: center;
 background-color: #e6e6e6;
 }
 
-.leftColumn h4 {
+h4 {
 font-size: 16px;
 font-weight: bold;
 color: #39b1e8;
