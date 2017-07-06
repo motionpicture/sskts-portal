@@ -127,20 +127,6 @@ td.admission_tl{
 .border_n{
 	border:none;
 }
-/* pickup
------------------------------------------------------------------------------------------------------------*/	
-.section .pickup{
-	padding:5px 0 5px 0;
-	margin-left:35px;
-	}
-.section .pickup2{
-	padding:5px 0 5px 0;
-	margin-left:55px;
-	}	
-.section .pickup3{
-	padding:5px 0 5px 0;
-	margin-left:10px;
-	}		
 
 /* 調整
 -----------------------------------------------------------------------------------------------------------*/	
