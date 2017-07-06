@@ -414,3 +414,17 @@ body {
 	width: 320px;
 	margin: 0 auto;
 }
+/* フッターSNSリンク 
+-----------------------------------------------------------------------------------------------------------*/
+.section .pickup2{
+	padding:5px 0 5px 0;
+	height: 45px;
+	}
+.section .pickup3{
+	padding:5px 0 5px 0;
+	margin-left:10px;
+	height: 45px;
+	}
+.sp_foot_sns_links{
+	text-align: center;
+}
