@@ -65,7 +65,7 @@ include("../../lib/require.php");
 							上映日の2日前から予約可能！
 						</p>
 						<p class="text01 thick">
-							オンライン購入は観たい作品を上映日前に座席指定で予約可能です。
+							オンライン購入は観たい作品を<br>上映日前に座席指定で予約可能です。
 						</p>
 						<img src="../../sp/images/online/online_SP_02.gif" width="100%" alt="上映日の2日前から予約可能！">
 					</div>
@@ -77,7 +77,7 @@ include("../../lib/require.php");
 					<div class="purchase-inner01">
 						<div>
 							<p class="text01">
-								各劇場の上映スケジュールから購入する作品を選択し、上記オンラインチケット購入の流れに沿ってチケットを購入してください。
+								各劇場の上映スケジュールから購入する作品を選択し、<br>上記オンラインチケット購入の流れに沿って<br>チケットを購入してください。
 							</p>
 						</div>
 						<img src="../../sp/images/online/online_SP_03.gif" width="100%" alt="オンラインチケット購入の流れ">

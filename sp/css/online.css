@@ -4,11 +4,11 @@
 
 
 .basebox2 h3 {
-text-align: center;
-font-size: 20px;
-font-weight: bold;
-color: #00a0e9;
-padding: 20px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00a0e9;
+    padding: 20px 0;
 }
 
 .basebox2 h4 {
@@ -23,7 +23,11 @@ padding: 20px 0;
     font-weight: bold; 
 }
 
-.thick01 {
+.thick {
+    font-weight: bold;
+}
+
+.process .thick01 {
     font-weight: bold;
     color: black;
 }
@@ -49,13 +53,13 @@ padding: 20px 0;
 
 
 .basebox2 .title {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .text01 {
-    font-size: 14px;
+    font-size: 12px;
     text-align:center;
     margin-bottom: 30px;
 }
@@ -71,7 +75,7 @@ padding: 20px 0;
 }
 
 .process {
-    padding: 10px;
+    padding: 8px;
     margin-bottom: 10px;
     background-color: #ededed;
     border-radius: 4px;
@@ -126,7 +130,6 @@ padding: 20px 0;
 }
 
 .admission-inner01 ul {
-    width: 90%;
     margin: 0 auto;
 }
 
