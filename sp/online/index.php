@@ -43,23 +43,18 @@ include("../../lib/require.php");
 							スマートフォンでスマート入場!
 						</p>
 						<p class="text01 thick">
-							オンライン購入であれば、鑑賞日当日に発券機へ並ぶことなく入場用QRコードをスマートフォンでご提示するだけでスムーズに入場可能です。
+							オンライン購入であれば、鑑賞日当日に発券機へ<br> 並ぶことなく入場用QRコードをスマートフォンで
+							<br> ご提示するだけでスムーズに入場可能です。
 						</p>
 						<img src="../../sp/images/online/online_SP_01.gif" width="100%" alt="スマートフォンでスマート入場!">
-						<p class="thick">
-							スマート入場とは?
+						<p class="thick">スマート入場とは?</p>
+						<p class="text03">スマート入場とは、オンラインでチケットを購入していただ<br> きお手持ちのスマートフォンを使いQRコードで入場するペー
+							<br> パーレスな入場方法です。鑑賞日当日は劇場内発券機でのチケット発券が不要なため発券に掛かる時間を気にすることな
+							<br> くスムーズに入場して頂けます。
 						</p>
-						<p class="text03">
-							スマート入場とは、オンラインでチケットを購入していただきお手持ちのスマートフォンを使いQRコードで入場するペーパーレスな入場方法です。鑑賞日当日は劇場内発券機でのチケット発券が不要なため発券に掛かる
-							<br> 時間を気にすることなくスムーズに入場して頂けます。
-						</p>
-						<p class="thick">
-							スマート入場対応劇場
-						</p>
+						<p class="thick">スマート入場対応劇場</p>
 						<div class="process">
-							<a href="http://www.cinemasunshine.co.jp/theater/aira/">
-												・シネマサンシャイン姶良
-							</a>
+							<a href="../theater/aira/">・シネマサンシャイン姶良</a>
 						</div>
 					</div>
 					<div class="merit-inner02">
@@ -72,7 +67,7 @@ include("../../lib/require.php");
 						<p class="text01 thick">
 							オンライン購入は観たい作品を上映日前に座席指定で予約可能です。
 						</p>
-						<img src="../../sp/images/online/online_SP_02.gif" alt="上映日の2日前から予約可能！">
+						<img src="../../sp/images/online/online_SP_02.gif" width="100%" alt="上映日の2日前から予約可能！">
 					</div>
 				</div>
 
@@ -98,9 +93,11 @@ include("../../lib/require.php");
 						入場までの流れ
 					</h3>
 					<div class="admission-inner01">
-						<img src="../../sp/images/online/online_SP_04.gif" width="100%" alt="オンラインチケット購入の流れ">
-						<img src="../../sp/images/online/online_SP_05.gif" width="100%" alt="オンラインチケット購入の流れ">
-						<img src="../../sp/images/online/online_SP_06.gif" width="100%" alt="オンラインチケット購入の流れ">
+						<ul>
+							<li><img src="../../sp/images/online/online_SP_04.gif" width="100%" alt="オンラインチケット購入の流れ"></li>
+							<li class="online_link_center"><img src="../../sp/images/online/online_SP_05.gif" width="100%" alt="オンラインチケット購入の流れ"></li>
+							<li><img src="../../sp/images/online/online_SP_06.gif" width="100%" alt="オンラインチケット購入の流れ"></li>
+						</ul>
 						<h4>
 							スマートフォンをお持ちの方
 						</h4>
