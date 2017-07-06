@@ -1,86 +1,111 @@
-
-
-h3 {
-font-size: 15px;
+.basebox2 h3 {
+font-size: 20px;
 font-weight: bold;
-color: #000000;
-width: 100%;
-padding: 15px 0;
-margin-bottom: 30px;
-text-align: center;
-background-color: #e6e6e6;
+color: #00a0e9;
+padding: 20px 0;
 }
 
-h4 {
-font-size: 14px;
-font-weight: bold;
-color: #39b1e8;
-margin: 0 0 3px 0;
+.basebox2 h4 {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 0px;
+    margin-bottom: 20px;
 }
 
-.step {
-margin: 40px 0px;	
+
+.admission .thick {
+    font-weight: bold; 
 }
 
-.about_mvtk1 {
-margin-bottom: 10px;
+.thick01 {
+    font-weight: bold;
+    color: black;
 }
 
-.about_mvtk3 {
-margin-bottom: 10px;
+
+.merit h4 {
+    color: #fff;
+    background-color: #00a0e9;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
-.content_text {
-font-size: 14px;
-font-weight: bold;
-margin-bottom: 10px;
-color: #000000;
+.merit {
+    margin-bottom: 20px;
 }
 
-.Lead_text {
-font-size: 12px;
-line-height: 1.5em;
-margin-bottom: 12px;
-color: #000000;
+.admission h4 {
+    color: #fff;
+    background-color: #8e8e8e;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
-.step_title {
-font-size: 14px;
-color: #ffffff;
-padding: 5px 0px;
-width: 70px;
-text-align: center;
-margin-bottom: 10px;
-background-color: #39b1e8;
+
+.leftColumn .title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.step_title span {
-font-size: 14px;
+.text01 {
+    font-size: 14px;
+    text-align:center;
+    margin-bottom: 30px;
 }
 
-.mvtk_pg_logo {
-margin: 25px auto;
-display: block;
+.text02 {
+    font-size: 16px;
+    font-weight: bold; 
+    padding-top: 10px;
 }
 
-.Lead_text.red {
-color: #e70000;    
+.text03 {
+    padding-bottom: 10px;
 }
 
-.Lead_text.center {
-text-align: center;    
+.process {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ededed;
+    border-radius: 4px;
 }
 
-.about_mvtk1 a {
-font-size: 14px;
-font-weight: bold;
-color: #00a8ff;
+.whiteCanvas img {
+    margin-bottom: 20px;
 }
 
-.about_mvtk3 img {
-margin-bottom: 10px;
+.purchase {
+    background-color: #ececec;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 20px 15px ;
 }
 
-.pd10 {
-padding: 10px;    
+.bluezone {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00a0e9;
+    color: #00a0e9;
+}
+
+.redtext{
+    color: red; 
+    padding: 5px 0;
+}
+
+.admission {
+    padding-top: 20px;
+}
+.admission span{
+    color: #00a0e9;
+}
+
+.leftColumn .title02{
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 10px;
+}
+
+.ather {
+    margin-bottom: 10px;
 }
