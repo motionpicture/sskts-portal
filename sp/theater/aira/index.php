@@ -314,11 +314,11 @@ if(!empty($_GET["pre"])) {
 						if($time->available==6) {
 							echo '<td class="pfm_btn"></td>';
 						}else if ($time->available==1 || $time->available==4){
-							echo '<td class="pfm_btn"><img src="../../images/theater/btn_buyPtn1.gif" height="30" alt="窓口"></td>';
+							echo '<td class="pfm_btn"><img src="../../images/theater/btn_buyPtn1.png" height="30" alt="窓口"></td>';
 						}else if ($time->available==5) {
-							echo '<td class="pfm_btn"><img src="../../images/theater/btn_buyPtn5.gif" height="30" alt="満席"></td>';
+							echo '<td class="pfm_btn"><img src="../../images/theater/btn_buyPtn5.png" height="30" alt="満席"></td>';
 						}else {
-							echo '<td class="pfm_btn"><a href="'.$time->url.'"><img src="../../images/theater/btn_buyPtn'.$time->available.'.gif" height="30" alt="購入"></a></td>';
+							echo '<td class="pfm_btn"><a href="'.$time->url.'"><img src="../../images/theater/btn_buyPtn'.$time->available.'.png" height="30" alt="購入"></a></td>';
 						}
 
 						echo '</tr>';
