@@ -52,7 +52,7 @@ color: #000000;
 font-size: 14px;
 color: #ffffff;
 padding: 5px 0px;
-width: 138px;
+width: 70px;
 text-align: center;
 margin-bottom: 10px;
 background-color: #39b1e8;
@@ -83,4 +83,8 @@ color: #00a8ff;
 
 .about_mvtk3 img {
 margin-bottom: 10px;
+}
+
+.pd10 {
+padding: 10px;    
 }

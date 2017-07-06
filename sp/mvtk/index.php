@@ -26,7 +26,7 @@ include("../../lib/require.php");
 	<h2 class="category_bar_p">ムビチケ券ご利用方法</h2>
 	<div class="basebox2_ptrl">
 		<div class="basebox2_lineblue"></div>
-		<div class="basebox2">
+		<div class="basebox2 pd10">
 		<!--ここから-->		
 
 			<div class="about_mvtk1">
