@@ -1,7 +1,3 @@
-.basebox2{
-    padding:10px;
-}
-
 
 .basebox2 h3 {
     text-align: center;
@@ -36,19 +32,15 @@
 .merit h4 {
     color: #fff;
     background-color: #00a0e9;
-    margin-right: -10px;
-    margin-left: -10px;
 }
 
 .merit {
-    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .admission h4 {
     color: #fff;
     background-color: #8e8e8e;
-    margin-right: -10px;
-    margin-left: -10px;
 }
 
 
@@ -87,9 +79,7 @@
 
 .purchase {
     background-color: #ececec;
-    margin-right: -15px;
-    margin-left: -15px;
-    padding: 20px 15px ;
+    padding: 20px 10px ;
 }
 
 .bluezone {
@@ -105,7 +95,7 @@
 }
 
 .admission {
-    padding-top: 20px;
+    padding: 10px;
 }
 .admission span{
     color: #00a0e9;
