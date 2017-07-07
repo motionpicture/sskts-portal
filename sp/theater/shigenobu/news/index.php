@@ -5,7 +5,6 @@ include("../../../../lib/require.php");
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<?php getSmartHeadInclude(); ?>
-	<link rel="stylesheet" type="text/css" href="../../../css/concession.css">
 	<link rel="stylesheet" type="text/css" href="../../../css/news.css">
 </head>
 <body>
@@ -35,7 +34,7 @@ include("../../../../lib/require.php");
 		</table>
 	</div>
 </div>
-<p class="ptblr10">
+<div class="topNotes">
 	<?php
 		$arr = getNowPage();
 		$theater = $arr["ename"];
@@ -43,7 +42,7 @@ include("../../../../lib/require.php");
 		$open = getImportants($theaterId['id']);
 		echo $open['open_txt'];
 	?>
-</p>
+</div>
 <a id="theatre_news"></a>
 <!--/ページ内リンク-->
 <h2 class="category_bar_p">劇場ニュース</h2>

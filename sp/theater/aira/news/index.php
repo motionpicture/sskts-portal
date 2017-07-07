@@ -5,7 +5,6 @@ include("../../../../lib/require.php");
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<?php getSmartHeadInclude(); ?>
-	<link rel="stylesheet" type="text/css" href="../../../css/concession.css">
 	<link rel="stylesheet" type="text/css" href="../../../css/news.css">
 </head>
 <body>
