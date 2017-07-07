@@ -90,3 +90,7 @@ float:left;
 .campaignArea img{
 	width: 100%;
 }
+.topNotes {
+    width: 90%;
+    margin: 0 auto;
+}
