@@ -91,17 +91,14 @@ include("../../lib/require.php");
 				}else{
 					echo '<td rowspan="2" class="movie_info_img><img src="../../images/common/image_none.gif"/></td>';
 				}
-				echo "<td width='11' height='31'></td>";
-				echo "<td width='200' height='31' class='copyright'>$showing[credit]</td>";
+				echo "<td class='copyright'>$showing[credit]</td>";
 				echo "</tr>";
 				if($showing['site'] !="" ) {
 					echo "<tr>";
-					echo "<td width='11'></td>";
 					echo "<td width='211' height='21'><a href='$showing[site]'><img src='../images/showing/btn_official.gif' width='112' alt='公式サイト'></a></td>";
 					echo "</tr>";
 				}else{
 					echo "<tr>";
-					echo "<td width='11'></td>";
 					echo "<td width='211' height='21'></td>";
 					echo "</tr>";
 				}
