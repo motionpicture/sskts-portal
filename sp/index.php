@@ -20,7 +20,7 @@ include("../lib/require.php");
 		<form name="searchForm" enctype="multipart/form-data" method="post" action="./result.php">
 			<img class="top_schedule" src="./images/top/top_schedule.gif" width="320" alt="上映スケジュールを調べる">
 			<div class="schedule_box">
-				<img class="schedule_txt" src="./images/top/img_search01.gif" height="15" alt="">
+				<img class="schedule_txt" src="./images/top/img_search01.gif" height="15" alt="劇場">
 				<div class="disable_class">
 					<select id="theaterSelect" name="theater">
 					<?php
@@ -42,7 +42,7 @@ include("../lib/require.php");
 				</div>
 			</div>
 			<div class="schedule_box">
-				<img class="schedule_txt" src="./images/top/img_search02.gif" height="15" alt="">
+				<img class="schedule_txt" src="./images/top/img_search02.gif" height="15" alt="日付">
 				<div class="disable_class">
 					<select name="date" id="daySelect">
 						<option value=""></option>
@@ -51,7 +51,7 @@ include("../lib/require.php");
 			</div>
 
 			<div class="schedule_box">
-				<img class="schedule_txt" src="./images/top/img_search03.gif" height="15" alt="">
+				<img class="schedule_txt" src="./images/top/img_search03.gif" height="15" alt="作品">
 				<div class="disable_class">
 					<select name="movie" id="movieSelect">
 						<option value=""></option>
