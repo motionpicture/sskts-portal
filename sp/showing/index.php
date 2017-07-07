@@ -99,12 +99,9 @@ include("../../lib/require.php");
 					echo "</tr>";
 				}else{
 					echo "<tr>";
-					echo "<td width='211' height='21'></td>";
+					echo "<td class='official_link_btn_no'></td>";
 					echo "</tr>";
 				}
-				echo "<tr>";
-				echo "<td colspan='3' height='10'></td>";
-				echo "</tr>";
 				echo "</tbody></table>";
 				if($showing['grade']){
 					if($showing['grade'] == 1){
