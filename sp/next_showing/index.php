@@ -89,8 +89,7 @@ include("../../lib/require.php");
 				}else{
 					echo '<td rowspan="2" class="movie_info_img"><img src="../../images/common/image_none.gif"/></td>';
 				}
-				echo "<td width='11' height='31'></td>";
-				echo "<td width='200' height='31' class='copyright'>" . date('Y/m/d',strtotime($showing['start_date'])) . "&nbsp;&nbsp;公開予定<br><br>$showing[credit]</td>";
+				echo "<td class='copyright'>" . date('Y/m/d',strtotime($showing['start_date'])) . "&nbsp;&nbsp;公開予定<br><br>$showing[credit]</td>";
 				echo "</tr>";
 				if($showing['site'] !="" ) {
 					echo "<tr>";
