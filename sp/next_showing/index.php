@@ -94,8 +94,7 @@ include("../../lib/require.php");
 				echo "</tr>";
 				if($showing['site'] !="" ) {
 					echo "<tr>";
-					echo "<td width='11'></td>";
-					echo "<td width='211' height='21'><a href='$showing[site]'><img src='../images/showing/btn_official.gif' width='112' alt='公式サイト'></a></td>";
+					echo "<td class='official_link_btn'><a href='$showing[site]'><img src='../images/showing/btn_official.gif' width='112' alt='公式サイト'></a></td>";
 					echo "</tr>";
 				}else{
 					echo "<tr>";
