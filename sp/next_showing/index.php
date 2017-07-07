@@ -82,12 +82,12 @@ include("../../lib/require.php");
 				}								
 				echo "</div>";
 				echo "<div class='basebox2_line'>";
-				echo "<table width='280'><tbody>";
+				echo "<table width='100%'><tbody>";
 				echo "<tr>";
 				if ($showing['picture'] != null){
-					echo '<td rowspan="2" width="69" height="52"><img src="'. movie_picture . '/' . $showing['picture'] . '" width="69" /></td>';
+					echo '<td rowspan="2" class="official_link_btn"><img src="'. movie_picture . '/' . $showing['picture'] . '"/></td>';
 				}else{
-					echo '<td rowspan="2" width="69" height="52"><img src="../../images/common/image_none.gif" width="69" /></td>';
+					echo '<td rowspan="2" class="official_link_btn"><img src="../../images/common/image_none.gif"/></td>';
 				}
 				echo "<td width='11' height='31'></td>";
 				echo "<td width='200' height='31' class='copyright'>" . date('Y/m/d',strtotime($showing['start_date'])) . "&nbsp;&nbsp;公開予定<br><br>$showing[credit]</td>";
