@@ -19,9 +19,9 @@ $arr = getNowPage();
 
 	<p class="section">
 		<?php if(!is_int($_GET["p"])){?>
-			<img src="<?php echo $define["Images_URL"] . "common/$arr[ename]/fig$_GET[p].gif"; ?>" width="320" alt="<?php echo "$_GET[p]番館"; ?>">
+			<img src="<?php echo $define["Images_URL"] . "common/$arr[ename]/fig$_GET[p].gif"; ?>" width="100%" alt="<?php echo "$_GET[p]番館"; ?>">
 		<?php }else{ ?>
-			<img src="<?php echo $define["Images_URL"] . "common/$arr[ename]/fig1.gif"; ?>" width="320" alt="<?php echo "1番館"; ?>">
+			<img src="<?php echo $define["Images_URL"] . "common/$arr[ename]/fig1.gif"; ?>" width="100%" alt="<?php echo "1番館"; ?>">
 		<?php } ?>
 	</p>
 
