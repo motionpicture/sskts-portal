@@ -80,14 +80,13 @@ $theater = $arr["ename"];
 
 							<!-- ↓adsense上部↓ -->
 							<div class="adArea">
-								<script type="text/javascript"><!--
-								google_ad_client = "ca-pub-3891476404601512";
-								/* シネサン（大和郡山上部） */
-								google_ad_slot = "4722676567";
-								google_ad_width = 468;
-								google_ad_height = 60;
-								//-->
+								<script type="text/javascript">
+								    google_ad_client = "ca-pub-3891476404601512";
+								    google_ad_slot = "3998439367";
+								    google_ad_width = 468;
+								    google_ad_height = 60;
 								</script>
+								<!-- シネサン（下関上部） -->
 								<script type="text/javascript"
 								src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 								</script>
