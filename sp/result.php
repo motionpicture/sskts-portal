@@ -110,29 +110,35 @@ jQuery(function($){
 
 <div class="section schedule pt10">
 <form name="searchForm" enctype="multipart/form-data" method="post" action="./result.php">
-	<img class="top_schedule" src="./images/top/top_schedule.gif" width="320" alt="上映スケジュールを調べる"> <img class="schedule_txt" src="./images/top/img_search01.gif" width="37" alt="">
-	<div class="disable_class">
-	<select id="theaterSelect" name="theater">
-	<?php
-	//theater一覧取得
-	echo $option_tag;
-
-	?>
-	</select>
+	<img class="top_schedule" src="./images/top/top_schedule.gif" width="320" alt="上映スケジュールを調べる">
+	<div class="schedule_box">
+		<img class="schedule_txt" src="./images/top/img_search01.gif" width="37" alt="">
+		<div class="disable_class">
+			<select id="theaterSelect" name="theater">
+				<?php
+				//theater一覧取得
+				echo $option_tag;
+				?>
+			</select>
+		</div>
 	</div>
 	<br>
-	<img class="schedule_txt" src="./images/top/img_search02.gif" width="37" alt="">
-	<div class="disable_class">
-	<select id="daySelect" name="date">
-		<option value=""></option>
-	</select>
+	<div class="schedule_box">
+		<img class="schedule_txt" src="./images/top/img_search02.gif" width="37" alt="">
+		<div class="disable_class">
+			<select id="daySelect" name="date">
+				<option value=""></option>
+			</select>
+		</div>
 	</div>
 	<br>
-	<img class="schedule_txt" src="./images/top/img_search03.gif" width="37" alt="">
-	<div class="disable_class">
-	<select id="movieSelect" name=movie>
-		<option value=""></option>
-	</select>
+	<div class="schedule_box">
+		<img class="schedule_txt" src="./images/top/img_search03.gif" width="37" alt="">
+		<div class="disable_class">
+			<select id="movieSelect" name=movie>
+				<option value=""></option>
+			</select>
+		</div>
 	</div>
 	<div class="disable_class">
 			<p class="btn_submit"><input width="161"  type="image" src="./images/top/btn_submit.gif" alt="検索する"></p>
