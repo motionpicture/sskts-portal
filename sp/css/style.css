@@ -5,9 +5,9 @@
 /* スケジュール	
 -----------------------------------------------------------------------------------------------------------*/	
 .schedule select {
-  width: 260px;
-  font-size:12px;
-  height:35px;
+  width: 100%;
+  font-size:14px;
+  height:45px;
 }		
 .top_schedule{
 	padding:0 0 5px 0;
@@ -20,12 +20,16 @@
 	}		
 .schedule_txt{
 	padding:15px 0px 15px;
+	max-width: 10%;
 	}	
 .schedule_box{
 	padding: 5px 0px;
 	width: 95%;
 	margin: 0 auto;
-}		
+}
+.schedule_box .disable_class{
+	width: 85%;
+}
 /* ranking
 -----------------------------------------------------------------------------------------------------------*/	
 .rankingbox{
