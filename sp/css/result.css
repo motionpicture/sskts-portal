@@ -7,10 +7,13 @@
 /* スケジュール	
 -----------------------------------------------------------------------------------------------------------*/	
 .schedule select {
-  width: 260px;
+  width: 100%;
   font-size:12px;
-  height:35px;
-}		
+  height:45px;
+}
+.schedule .disable_class{
+  width: 90%;
+}			
 .top_schedule{
 	padding:0 0 5px 0;
 	}
@@ -22,6 +25,7 @@
 	}		
 .schedule_txt{
 	padding:15px 0px 15px;
+	max-width: 10%;
 	}	
 .schedule_box{
 	padding: 5px 0px;

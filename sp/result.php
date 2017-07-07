@@ -112,7 +112,7 @@ jQuery(function($){
 <form name="searchForm" enctype="multipart/form-data" method="post" action="./result.php">
 	<img class="top_schedule" src="./images/top/top_schedule.gif" width="320" alt="上映スケジュールを調べる">
 	<div class="schedule_box">
-		<img class="schedule_txt" src="./images/top/img_search01.gif" width="37" alt="">
+		<img class="schedule_txt" src="./images/top/img_search01.gif" height="15" alt="劇場">
 		<div class="disable_class">
 			<select id="theaterSelect" name="theater">
 				<?php
@@ -124,7 +124,7 @@ jQuery(function($){
 	</div>
 	<br>
 	<div class="schedule_box">
-		<img class="schedule_txt" src="./images/top/img_search02.gif" width="37" alt="">
+		<img class="schedule_txt" src="./images/top/img_search02.gif" height="15" alt="日付">
 		<div class="disable_class">
 			<select id="daySelect" name="date">
 				<option value=""></option>
@@ -133,7 +133,7 @@ jQuery(function($){
 	</div>
 	<br>
 	<div class="schedule_box">
-		<img class="schedule_txt" src="./images/top/img_search03.gif" width="37" alt="">
+		<img class="schedule_txt" src="./images/top/img_search03.gif" height="15" alt="作品">
 		<div class="disable_class">
 			<select id="movieSelect" name=movie>
 				<option value=""></option>
