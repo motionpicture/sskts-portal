@@ -18,11 +18,16 @@
 	text-align:center;
 	padding:16px 0 18px 0;
 	width:280px;
+	margin: 0 auto;
 	}		
 .schedule_txt{
 	padding:15px 0px 15px;
 	}	
-		
+.schedule_box{
+	padding: 5px 0px;
+    width: 95%;
+    margin: 0 auto;
+}
 
 
 /* 上映スケジュール
@@ -46,8 +51,7 @@
 	font-size:15px;
 	padding:5px 10px;
 
-	}
-	
+	}	
  .state01{
 	 width:175px;
 	 float:left;

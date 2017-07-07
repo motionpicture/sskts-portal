@@ -140,7 +140,7 @@ jQuery(function($){
 			</select>
 		</div>
 	</div>
-	<div class="disable_class">
+	<div>
 			<p class="btn_submit"><input width="161"  type="image" src="./images/top/btn_submit.gif" alt="検索する"></p>
 	</div>
 </form>
