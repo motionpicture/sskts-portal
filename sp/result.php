@@ -122,7 +122,6 @@ jQuery(function($){
 			</select>
 		</div>
 	</div>
-	<br>
 	<div class="schedule_box">
 		<img class="schedule_txt" src="./images/top/img_search02.gif" height="15" alt="日付">
 		<div class="disable_class">
@@ -131,7 +130,6 @@ jQuery(function($){
 			</select>
 		</div>
 	</div>
-	<br>
 	<div class="schedule_box">
 		<img class="schedule_txt" src="./images/top/img_search03.gif" height="15" alt="作品">
 		<div class="disable_class">
