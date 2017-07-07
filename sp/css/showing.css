@@ -94,9 +94,12 @@
 	margin: 0 auto;
 }
 .movie_info_img{
-	width: 40%;
+	width: 30%;
 }
 .movie_info_img img{
 	width: 100%;
+}
+.official_link_btn{
+	padding: 10px 0;
 }
 /*-----------------------------------------------------------------------------------------------------------*/	

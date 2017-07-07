@@ -89,13 +89,13 @@ include("../../lib/require.php");
 				if ($showing['picture'] != null){
 					echo '<td rowspan="2" class="movie_info_img"><img src="'. movie_picture . '/' . $showing['picture'] . '"/></td>';
 				}else{
-					echo '<td rowspan="2" class="movie_info_img><img src="../../images/common/image_none.gif"/></td>';
+					echo "<td rowspan='2' class='movie_info_img'><img src='../../images/common/image_none.gif'/></td>";
 				}
 				echo "<td class='copyright'>$showing[credit]</td>";
 				echo "</tr>";
 				if($showing['site'] !="" ) {
 					echo "<tr>";
-					echo "<td width='211' height='21'><a href='$showing[site]'><img src='../images/showing/btn_official.gif' width='112' alt='公式サイト'></a></td>";
+					echo "<td class='official_link_btn'><a href='$showing[site]'><img src='../images/showing/btn_official.gif' width='112' alt='公式サイト'></a></td>";
 					echo "</tr>";
 				}else{
 					echo "<tr>";
@@ -133,17 +133,17 @@ include("../../lib/require.php");
 						foreach ($vals as $val ) {
 							if ($theater['id'] == $val ) {
 								$theater_judge = true;
-								echo '<li><a href="../theater/'.$theater['ename'].'/"><img src="../images/showing/link_'.$theater['ename'].'_on.gif" width="40" alt="'.$theater['name'].'"></a></li>';
+								echo '<li><a href="../theater/'.$theater['ename'].'/"><img src="../images/showing/link_'.$theater['ename'].'_on.gif" alt="'.$theater['name'].'"></a></li>';
 							}
 						}
 
 						if(!$theater_judge) {
-							echo '<li><img src="../images/showing/link_'.$theater['ename'].'_off.gif"  width="40" alt="'.$theater['name'].'"></li>';
+							echo '<li><img src="../images/showing/link_'.$theater['ename'].'_off.gif" alt="'.$theater['name'].'"></li>';
 						}
 
 					//基本ここは絶対来ないコード
 					}else {
-						echo '<li><img src="../images/showing/link_'.$theater['ename'].'_off.gif"  width="40" alt="'.$theater['name'].'"></li>';
+						echo '<li><img src="../images/showing/link_'.$theater['ename'].'_off.gif" alt="'.$theater['name'].'"></li>';
 					}
 				}
 				echo "</ul>";
