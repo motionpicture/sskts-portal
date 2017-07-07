@@ -87,9 +87,9 @@ include("../../lib/require.php");
 				echo "<table width='100%'><tbody>";
 				echo "<tr>";
 				if ($showing['picture'] != null){
-					echo '<td rowspan="2"><img src="'. movie_picture . '/' . $showing['picture'] . '"/></td>';
+					echo '<td rowspan="2" class="movie_info_img"><img src="'. movie_picture . '/' . $showing['picture'] . '"/></td>';
 				}else{
-					echo '<td rowspan="2"><img src="../../images/common/image_none.gif"/></td>';
+					echo '<td rowspan="2" class="movie_info_img><img src="../../images/common/image_none.gif"/></td>';
 				}
 				echo "<td width='11' height='31'></td>";
 				echo "<td width='200' height='31' class='copyright'>$showing[credit]</td>";
