@@ -18,7 +18,7 @@ include("../../lib/require.php");
 	<div class="category_bar_p">上映予定作品</div>
 	<div class="section schedule ptb10"> 
 		<div class="w_90per">
-			<img src="../images/next_showing/public_next_showing.gif" width="320" alt="劇場ごとの上映予定作品を見る" class="search_tit">
+			<img src="../images/next_showing/public_next_showing.gif" width="320" alt="劇場ごとの上映予定作品を見る">
 			<form name="SearchLisBoxForm" enctype="multipart/form-data" method="get" action="./">
 				<select name="theaterSelect">
 					<?php
@@ -82,24 +82,30 @@ include("../../lib/require.php");
 				}								
 				echo "</div>";
 				echo "<div class='basebox2_line'>";
-				echo "<table width='100%' class='movie_info'><tbody>";
+				echo "<table width='280'><tbody>";
 				echo "<tr>";
 				if ($showing['picture'] != null){
-					echo '<td rowspan="2" class="movie_info_img"><img src="'. movie_picture . '/' . $showing['picture'] . '/></td>';
+					echo '<td rowspan="2" width="69" height="52"><img src="'. movie_picture . '/' . $showing['picture'] . '" width="69" /></td>';
 				}else{
-					echo '<td rowspan="2" class="movie_info_img"><img src="../../images/common/image_none.gif"/></td>';
+					echo '<td rowspan="2" width="69" height="52"><img src="../../images/common/image_none.gif" width="69" /></td>';
 				}
-				echo "<td class='copyright'>" . date('Y/m/d',strtotime($showing['start_date'])) . "&nbsp;&nbsp;公開予定<br><br>$showing[credit]</td>";
+				echo "<td width='11' height='31'></td>";
+				echo "<td width='200' height='31' class='copyright'>" . date('Y/m/d',strtotime($showing['start_date'])) . "&nbsp;&nbsp;公開予定<br><br>$showing[credit]</td>";
 				echo "</tr>";
 				if($showing['site'] !="" ) {
 					echo "<tr>";
-					echo "<td class='official_link_btn'><a href='$showing[site]'><img src='../images/showing/btn_official.gif' width='112' alt='公式サイト'></a></td>";
+					echo "<td width='11'></td>";
+					echo "<td width='211' height='21'><a href='$showing[site]'><img src='../images/showing/btn_official.gif' width='112' alt='公式サイト'></a></td>";
 					echo "</tr>";
 				}else{
 					echo "<tr>";
-					echo "<td class='official_link_btn'></td>";
+					echo "<td width='11'></td>";
+					echo "<td width='211' height='21'></td>";
 					echo "</tr>";
 				}
+				echo "<tr>";
+				echo "<td colspan='3' height='10'></td>";
+				echo "</tr>";
 				echo "</tbody></table>";
 				if($showing['grade']){
 					if($showing['grade'] == 1){
@@ -128,17 +134,17 @@ include("../../lib/require.php");
 						foreach ($vals as $val ) {
 							if ($theater['id'] == $val ) {
 								$theater_judge = true;
-								echo '<li><a href="../theater/'.$theater['ename'].'/"><img src="../images/showing/link_'.$theater['ename'].'_on.gif" alt="'.$theater['name'].'"></a></li>';
+								echo '<li><a href="../theater/'.$theater['ename'].'/"><img src="../images/showing/link_'.$theater['ename'].'_on.gif" width="40" alt="'.$theater['name'].'"></a></li>';
 							}
 						}
 
 						if(!$theater_judge) {
-							echo '<li><img src="../images/showing/link_'.$theater['ename'].'_off.gif" alt="'.$theater['name'].'"></li>';
+							echo '<li><img src="../images/showing/link_'.$theater['ename'].'_off.gif"  width="40" alt="'.$theater['name'].'"></li>';
 						}
 
 					//基本ここは絶対来ないコード
 					}else {
-						echo '<li><img src="../images/showing/link_'.$theater['ename'].'_off.gif" alt="'.$theater['name'].'"></li>';
+						echo '<li><img src="../images/showing/link_'.$theater['ename'].'_off.gif"  width="40" alt="'.$theater['name'].'"></li>';
 					}
 				}
 				echo "</ul>";
