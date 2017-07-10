@@ -219,12 +219,15 @@
 	text-align: right;
 }
 
+.sche_btn img{
+	height: 30px;
+}
 
 /* notice!
 -----------------------------------------------------------------------------------------------------------*/
 .topNotes{
 	width: 90%;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
 #sche_btn{
