@@ -51,8 +51,11 @@ include("../lib/require.php");
 											スマート入場対応劇場
 										</p>
 										<div class="process">
-											<a href="http://www.cinemasunshine.co.jp/theater/aira/">
+											<a href="../theater/aira/">
 												・シネマサンシャイン姶良
+											</a>
+												<a href="../theater/kitajima/">
+												・シネマサンシャイン北島
 											</a>
 										</div>
 									</div>
