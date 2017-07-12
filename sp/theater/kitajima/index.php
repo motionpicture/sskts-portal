@@ -125,10 +125,10 @@ if(!empty($_GET["pre"])) {
 			$isPreExistCode = getDates($theater,true,true);
 			if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
 				//echo '<p><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
-				echo '<p id="sche_btn"><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
+				echo '<p id="sche_btn"><a href="./?pre=ari"><img src="../../images/common/btn_res.png" alt="先行予約あり"></a></p>';
 			} else {
 				if($isPreExistCode['error']=="000000") {
-					echo '<p id="sche_btn"><a href="./"><img src="../../images/common/btn_sche.gif" alt="通常スケジュール"></a></p>';
+					echo '<p id="sche_btn"><a href="./"><img src="../../images/common/btn_sche.png" alt="通常スケジュール"></a></p>';
 					//echo '<p><a href="./">通常</a></p>';
 				}
 			}
