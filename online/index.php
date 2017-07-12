@@ -75,14 +75,10 @@ include("../lib/require.php");
 									<h3>オンラインチケット購入の流れ</h3>
 									<div class="purchase-inner01">
 										<div>
-											<p class="text01">
-												オンラインチケット購入の流れは下記になります。
-											</p>
+											<p class="text01 online_read_txt_center">オンラインチケット購入の流れは下記になります。</p>
 										</div>
-										<img src="../images/online/online_pc_03.gif" width="100%" alt="オンラインチケット購入の流れ">
-										<p class="redtext">
-											※チケット照会時に予約番号と購入時に入力した電話番号が必要となりますので必ずお控えください。
-										</p>
+										<img src="../images/online/online_pc_03.gif" width="100%" alt="作品選択＞座席選択＞券種選択＞購入者情報入力＞購入内容確認＞完了">
+										<p class="redtext">※チケット照会時に予約番号と購入時に入力した電話番号が必要となりますので必ずお控えください。</p>
 									</div>
 								</div>
 

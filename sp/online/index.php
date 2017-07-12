@@ -77,9 +77,7 @@ include("../../lib/require.php");
 					<h3>オンラインチケット購入の流れ</h3>
 					<div class="purchase-inner01">
 						<div>
-							<p class="text01">
-								各劇場の上映スケジュールから購入する作品を選択し、<br>上記オンラインチケット購入の流れに沿って<br>チケットを購入してください。
-							</p>
+							<p class="text01">オンラインチケット購入の流れは下記になります。</p>
 						</div>
 						<img src="../../sp/images/online/online_SP_03.gif" width="100%" alt="オンラインチケット購入の流れ">
 						<p class="redtext">
