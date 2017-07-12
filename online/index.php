@@ -36,7 +36,7 @@ include("../lib/require.php");
 										<p class="title thick">
 											スマートフォンでスマート入場!
 										</p>
-										<p class="text01 thick">
+										<p class="text01 thick online_read_txt_center">
 											オンライン購入であれば、鑑賞日当日に発券機へ並ぶことなく入場用QRコードを<br> スマートフォンでご提示するだけでスムーズに入場可能です。
 										</p>
 										<img src="../images/online/online_pc_01.gif" width="100%" alt="スマートフォンでスマート入場!">
@@ -63,7 +63,7 @@ include("../lib/require.php");
 										<p class="title thick">
 											上映日の2日前から予約可能！
 										</p>
-										<p class="text01 thick">
+										<p class="text01 thick online_read_txt_center">
 											オンライン購入は観たい作品を上映日前に座席指定で予約可能です。
 										</p>
 										<img src="../images/online/online_pc_02.gif" width="100%" alt="上映日の2日前から予約可能！">
