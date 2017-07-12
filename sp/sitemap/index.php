@@ -239,8 +239,8 @@ include("../../lib/require.php");
 			<ul class="LinkList">
 				<li><a href="../../members_card/">メンバーズカードのご案内</a></li>
 				<li><a href="../../special_ticket/">シネマサンシャイン特別鑑賞券</a></li>
-				<li><a href="../../online/">オンラインチケット購入のメリット</a></li>
-				<li><a href="../../mvtk/">ムビチケ券ご利用方法</a></li>
+				<li><a href="../online/">オンラインチケット購入のメリット</a></li>
+				<li><a href="../mvtk/">ムビチケ券ご利用方法</a></li>
 			</ul>
 		</div>
 	</div>
