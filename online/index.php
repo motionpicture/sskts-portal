@@ -54,7 +54,8 @@ include("../lib/require.php");
 											<a href="../theater/aira/">
 												・シネマサンシャイン姶良
 											</a>
-												<a href="../theater/kitajima/">
+											&nbsp;
+											<a href="../theater/kitajima/">
 												・シネマサンシャイン北島
 											</a>
 										</div>
