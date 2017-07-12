@@ -237,7 +237,9 @@ include("../lib/require.php");
 									<h3 class="borderHeadline">その他</h3>
 									<ul class="sitemapLink end">
 										<li><a href="../members_card/">メンバーズカードのご案内</a></li>
-										<li class="end"><a href="../special_ticket/">シネマサンシャイン特別鑑賞券</a></li>
+										<li><a href="../special_ticket/">シネマサンシャイン特別鑑賞券</a></li>
+										<li><a href="../online/">オンラインチケット購入のメリット</a></li>
+										<li class="end"><a href="../mvtk/">ムビチケ券ご利用方法</a></li>
 									</ul>
 
 								</div>
