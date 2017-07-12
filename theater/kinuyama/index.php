@@ -128,11 +128,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									<?php
 										$isPreExistCode = getDates2($theater,true,true);
 										if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
-											echo '<p class="senkouclass">チケットの先行販売はこちらからお進み下さい。<br><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
+											echo '<p class="senkouclass">チケットの先行販売はこちらからお進み下さい。<br><a href="./?pre=ari"><img src="../../images/common/btn_res.png" alt="チケット先行販売スケジュール"></a></p>';
 
 										} else {
 											if($isPreExistCode['error']=="000000") {
-												echo '<p><a href="./"><img src="../../images/common/btn_sche.gif" alt="通常スケジュール"></a></p>';
+												echo '<p><a href="./"><img src="../../images/common/btn_sche.png" alt="通常スケジュール"></a></p>';
 											}
 										}
 										?>
