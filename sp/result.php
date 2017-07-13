@@ -60,9 +60,9 @@ $script_str=substr($script_str, 0, -1);
 <meta content="池袋、平和島、茨城、千葉、徳島、愛媛、鹿児島、金沢で映画を見るならシネマサンシャイン" name="description">
 <meta content="検索結果,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間" name="keywords">
 <link rel="stylesheet" type="text/css" href="./css/reset.css">
-<link rel="stylesheet" type="text/css" href="./css/common.css">
-<link rel="stylesheet" type="text/css" href="./css/result.css">
-<link rel="stylesheet" type="text/css" href="./css/theater.css">
+<link rel="stylesheet" type="text/css" href="./css/common.css?20170713">
+<link rel="stylesheet" type="text/css" href="./css/result.css?20170713">
+<link rel="stylesheet" type="text/css" href="./css/theater.css?20170713">
 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="../js/jquery.blockUI.js"></script>
 <script type="text/javascript" src="../js/util.js"></script>

@@ -5,7 +5,7 @@ include("../../lib/require.php");
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<?php getSmartHeadInclude(); ?>
-	<link href="../css/showing.css" type="text/css" rel="stylesheet">
+	<link href="../css/showing.css?20170713" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<?php getSmartHeader(); ?>

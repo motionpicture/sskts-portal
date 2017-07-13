@@ -21,8 +21,8 @@ echo <<<EOL
 	<title>{$meta["title"]}</title>
 	<link rel="apple-touch-icon" href="{$define['Images_SP_URL']}siteicon.png" >
 	<link rel="stylesheet" type="text/css" href="{$define['Css_SP_URL']}reset.css">
-	<link rel="stylesheet" type="text/css" href="{$define['Css_SP_URL']}common.css">
-	<link rel="stylesheet" type="text/css" href="{$define['Css_SP_URL']}style.css">
+	<link rel="stylesheet" type="text/css" href="{$define['Css_SP_URL']}common.css?20170713">
+	<link rel="stylesheet" type="text/css" href="{$define['Css_SP_URL']}style.css?20170713">
 	<link rel="stylesheet" type="text/css" href="{$define['Css_SP_URL']}flickslide.css">
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}gtm_tag.js"></script>
 	<script type="text/javascript" src="{$define['SCRIPT_URL']}jquery-1.8.3.min.js"></script>

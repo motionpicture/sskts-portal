@@ -342,7 +342,7 @@ echo <<<EOL
 	<![endif]-->
 
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}reset.css" />
-	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}base.css" />
+	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}base.css?20170713" />
 
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-core.css" media="screen, projection" />

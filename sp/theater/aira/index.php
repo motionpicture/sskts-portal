@@ -21,7 +21,7 @@ if(!empty($_GET["pre"])) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<?php getSmartHeadInclude(); ?>
-	<link rel="stylesheet" type="text/css" href="../../css/theater.css">
+	<link rel="stylesheet" type="text/css" href="../../css/theater.css?20170713">
 	<script type="text/javascript" src="../../../js/jquery.bxslider.js"></script>
 	<script type="application/javascript" charset="UTF-8">//a:hoverの設定
 		$(function(){
