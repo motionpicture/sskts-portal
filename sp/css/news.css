@@ -95,3 +95,7 @@ float:left;
     margin: 0 auto;
     padding: 10px 0;
 }
+.tableRec{
+	padding: 10px;
+	display: inline-block;
+}
