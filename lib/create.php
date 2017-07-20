@@ -1095,6 +1095,27 @@ var google_conversion_label = "pEYJCNittQQQqMn22QM"; var google_custom_params = 
 EOL;
 }
 
+//北島TOPのみのタグ
+if($arr["ename"] == "kitajima" && $arr["ename2"] == "schedule"){
+echo <<<EOL
+<!-- リマーケティング タグの Google コード -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 845037251;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/845037251/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+EOL;
+}
+
 //土浦、大和郡山、衣山　TOPのみのタグ
 if($arr["ename"] == "tsuchiura" || $arr["ename"] == "kinuyama" || $arr["ename"] == "yamatokoriyama"){
     if($arr["ename2"] == "schedule"){
