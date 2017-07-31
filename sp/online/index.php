@@ -36,14 +36,9 @@ include("../../lib/require.php");
 
 				<div class="merit">
 					<div class="merit-inner01">
-						<h4>
-							メリット１
-						</h4>
-						<p class="title thick">
-							スマートフォンでスマート入場!
-						</p>
-						<p class="text01 thick">オンライン購入であれば、鑑賞日当日に発券機へ<br>並ぶことなく入場用QRコードをスマートフォンで<br>ご提示するだけでスムーズに入場可能です。
-						</p>
+						<h4>メリット1</h4>
+						<p class="title thick">スマートフォンでスマート入場!</p>
+						<p class="text01 thick">オンライン購入であれば、鑑賞日当日に発券機へ<br>並ぶことなく入場用QRコードをスマートフォンで<br>ご提示するだけでスムーズに入場可能です。</p>
 						<img src="../../sp/images/online/online_SP_01.gif" width="100%" alt="スマートフォンでスマート入場!">
 						<p class="merit01_thick">スマート入場とは?</p>
 						<p class="text03">スマート入場とは、オンラインでチケットを購入していただ<br>きお手持ちのスマートフォンを使いQRコードで入場するペー<br>
@@ -58,7 +53,7 @@ include("../../lib/require.php");
 					<div class="merit-inner02">
 						<h4>メリット2</h4>
 						<p class="title thick">上映日の2日前から予約可能！</p>
-						<p class="text01 thick">オンライン購入は観たい作品を<br>上映日前に座席指定で予約可能です。<br>※作品によって、予約開始日が異なる場合がございます。</p>
+						<p class="text01 thick">オンライン購入は観たい作品を<br>上映日前に座席指定で予約可能です。<br><span class="fw_no">※作品によって、予約開始日が異なる場合がございます。<span></p>
 						<img src="../../sp/images/online/online_SP_02.gif" width="100%" alt="上映日の2日前から予約可能！">
 					</div>
 				</div>

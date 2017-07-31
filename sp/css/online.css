@@ -139,3 +139,6 @@
 .basebox2 .process_last{
     border-bottom: none;
 }
+.fw_no{
+    font-weight: normal!important;
+}
