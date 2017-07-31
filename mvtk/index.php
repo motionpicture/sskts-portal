@@ -90,22 +90,23 @@ include("../lib/require.php");
 								<a name="howto"></a> 
 								<div class="about_mvtk3">
 									<h3>ムビチケ券のご利用について</h3>
-										<p class="Lead_text">シネマサンシャインでは、オンラインチケット購入でムビチケ券をご使用いただけます。<br>また、差額料金を追加でお支払い頂くことで、ムビチケ２Ｄ券を３Ｄ上映、4ＤX上映にご使用頂けます。<br>差額のお支払いは、オンラインチケット購入手続きの流れの中で追加料金分をお支払い頂きます。<br>（クレジット決済のみ）</p>
+										<p class="Lead_text">シネマサンシャインでは、オンラインチケット購入でムビチケ券をご使用いただけます。<br>また、差額料金を追加でお支払い頂くことで、ムビチケ2D券を3D上映、4DX上映にご使用頂けます。<br>差額のお支払いは、オンラインチケット購入手続きの流れの中で追加料金分をお支払い頂きます。<br>(クレジット決済のみ)</p>
 									
 									<div>
 										<p class="content_text">【追加料金参考】</p>
 										<h4>| ムビチケ2D券をお持ちの方</h4>
 										<p class="content_text">3D上映を鑑賞する場合</p>
-										<p class="Lead_text">※3Dメガネを既にお持ちでご持参いただける方は、3Dメガネなしの追加料金でご購入いただけます。</p>
-										<img src="../images/mvtk/mvtk_pc_8.gif" width="541" height="83" alt="">
-										<p class="content_text">4DX上映を鑑賞する場合</p>
-										<img src="../images/mvtk/mvtk_pc_9.gif" width="401" height="83" alt="">
+										<p class="Lead_text">姶良では3Dメガネ(MASTER IMAGE用)はお持ち帰り頂けます。次回鑑賞時にお持ち頂ければ、3D鑑賞料金を100円引き(3D鑑賞料金400円→300円)させて頂きます。</p>
+										<img src="../images/mvtk/mvtk_pc_8.gif" width="541" height="83" alt="追加料金合計400円">
+										<p class="content_text">4DX(2D)上映を鑑賞する場合</p>
+										<img src="../images/mvtk/mvtk_pc_9.gif" width="401" height="83" alt="追加料金合計1000円">
+										<p class="Lead_text red">※4DX(3D)上映を鑑賞する場合は4DX鑑賞料金(+1000円)に3D鑑賞料金(+400円)を加算した金額となります。</p>
 									</div>
 
 									<div>
 										<h4>| ムビチケ3D券をお持ちの方</h4>
 										<p class="content_text">4DX上映を鑑賞する場合</p>
-										<img src="../images/mvtk/mvtk_pc_10.gif" width="401" height="83" alt="">
+										<img src="../images/mvtk/mvtk_pc_10.gif" width="401" height="83" alt="追加料金合計1000円">
 										<p class="Lead_text red">※ムビチケ3D券で2D上映の作品を鑑賞される場合、ムビチケ券のご利用は可能ですが差額分のご返金はございませんのでご注意ください。</p>
 									</div>
 								</div>

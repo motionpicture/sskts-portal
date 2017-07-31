@@ -96,10 +96,11 @@ include("../../lib/require.php");
 						<p class="content_text">【追加料金参考】</p>
 						<h4 class="mvtk_sp_h4">| ムビチケ2D券をお持ちの方</h4>
 						<p class="content_text">3D上映を鑑賞する場合</p>
-						<p class="Lead_text">※3Dメガネを既にお持ちでご持参いただける方は、3Dメガネなしの追加料金でご購入いただけます。</p>
+						<p class="Lead_text">姶良では3Dメガネ(MASTER IMAGE用)はお持ち帰り頂けます。次回鑑賞時にお持ち頂ければ、3D鑑賞料金を100円引き(3D鑑賞料金400円→300円)させて頂きます。</p>
 						<img src="../../sp/images/mvtk/mvtk_sp_8.gif" width="100%" alt="追加料金合計400円">
-						<p class="content_text">4DX上映を鑑賞する場合</p>
+						<p class="content_text">4DX(2D)上映を鑑賞する場合</p>
 						<img src="../../sp/images/mvtk/mvtk_sp_9.gif" width="100%" alt="追加料金合計1000円">
+						<p class="Lead_text red">※4DX(3D)上映を鑑賞する場合は4DX鑑賞料金(+1000円)に3D鑑賞料金(+400円)を加算した金額となります。</p>
 					</div>
 
 					<div>
