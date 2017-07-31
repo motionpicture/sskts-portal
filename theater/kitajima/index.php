@@ -103,11 +103,12 @@ $theater = $arr["ename"];
 						<div class="whiteCanvas clearfix">
 							<div class="scheduleBox">
 								<div class="topNotesBox">
-									<!-- オンライン説明ページバナー -->
-									<a href="../../online/" class="online_link_bnr">
-										<img src="../../images/common/cs_online_bnr.png" alt="オンライン購入でスマート入場" width="600"/>
-									</a>
-									<!-- /オンライン説明ページバナー -->
+									<!-- オンライン説明・ムビチケ説明ページ_リンクボタン -->
+									<ul class="ticket_relation_link">
+										<li><a href="../../online/" class="online_des_btn">オンライン購入でスマート入場！<br>詳細はこちら</a></li>
+										<li><a href="../../mvtk/" class="mvtk_des_btn">ムビチケを利用して予約する場合の<br>手順はこちら</a></li>
+									</ul>
+									<!-- / オンライン説明・ムビチケ説明ページ_リンクボタン -->
 								</div>
 								<div class="topTimeBox">
 									<p>

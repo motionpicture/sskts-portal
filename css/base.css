@@ -1319,3 +1319,26 @@ a:hover{
 	font-size: 12px;
 	margin-bottom: 5px;
 }
+/* theater */
+.ticket_relation_link li{
+	float: left;
+	margin:0px 10px;
+}
+.ticket_relation_link .online_des_btn{
+	text-align: center;
+	font-size: 14px;
+	padding:20px 0px;
+	width: 280px;
+	border: solid 2px #39b1e8;
+	color: #39b1e8;
+	border-radius: 4px;
+}
+.ticket_relation_link .mvtk_des_btn{
+	text-align: center;
+	font-size: 14px;
+	padding:20px 0px;
+	width: 280px;
+	border: solid 2px #707070;
+	color: #707070;
+	border-radius: 4px;
+}
