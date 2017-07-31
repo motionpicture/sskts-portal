@@ -244,10 +244,34 @@
 	margin:20px auto 0px;
 	width: 90%;
 }
-.bnr_online_link{
-	margin:20px auto;
-	width: 90%;
+.online_btn_set{
+	margin: 20px 0;
+	display: inline-block;
 }
+.online_des_btn{
+	text-align: center;
+	font-size: 13px;
+	padding:10px 0px;
+	width: 90%;
+	border: solid 2px #39b1e8;
+	color: #39b1e8;
+	border-radius: 6px;
+	display: block;
+	text-decoration: none;
+}
+.mvtk_des_btn{
+	text-align: center;
+	font-size: 13px;
+	padding:10px 0px;
+	margin-top: 10px;
+	width: 90%;
+	border: solid 2px #707070;
+	color: #707070;
+	border-radius: 6px;
+	display: block;
+	text-decoration: none;
+}
+
 /* Google Adsense
 -----------------------------------------------------------------------------------------------------------*/
 .g_Ad_sp_content{
