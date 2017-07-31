@@ -1324,7 +1324,7 @@ a:hover{
 	float: left;
 	margin:0px 10px;
 }
-.ticket_relation_link li .online_des_btn{
+.online_des_btn{
 	text-align: center;
 	font-size: 14px;
 	padding:20px 0px;
@@ -1333,7 +1333,7 @@ a:hover{
 	color: #39b1e8;
 	border-radius: 4px;
 }
-.ticket_relation_link li .mvtk_des_btn{
+.mvtk_des_btn{
 	text-align: center;
 	font-size: 14px;
 	padding:20px 0px;
