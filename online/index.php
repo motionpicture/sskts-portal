@@ -46,7 +46,7 @@ include("../lib/require.php");
 									<div class="merit-inner02">
 										<h4>メリット2</h4>
 										<p class="title thick">上映日の2日前から予約可能！</p>
-										<p class="text01 thick online_read_txt_center">オンライン購入は観たい作品を上映日前に座席指定で予約可能です。<br><span class="redtext ">※作品によって、予約開始日が異なる場合がございます。<span></p>
+										<p class="text01 thick online_read_txt_center">オンライン購入は観たい作品を上映日前に座席指定で予約可能です。<br><span class="redtext fw_no">※作品によって、予約開始日が異なる場合がございます。<span></p>
 										<img src="../images/online/online_pc_02.gif" width="100%" alt="上映日の2日前から予約可能！">
 									</div>
 								</div>
