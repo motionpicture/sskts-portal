@@ -102,7 +102,7 @@ $theater = $arr["ename"];
 									alt="上映スケジュール"> </h2>
 						<div class="whiteCanvas clearfix">
 							<div class="scheduleBox">
-								<div class="topNotesBox">
+								<div class="online_btn_set">
 									<!-- オンライン説明・ムビチケ説明ページ_リンクボタン -->
 									<ul class="ticket_relation_link">
 										<li><a href="../../online/" class="online_des_btn">オンライン購入でスマート入場！<br>詳細はこちら</a></li>

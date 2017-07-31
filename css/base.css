@@ -1320,6 +1320,10 @@ a:hover{
 	margin-bottom: 5px;
 }
 /* theater */
+.online_btn_set{
+	margin-bottom: 20px;
+	display: inline-block;
+}
 .ticket_relation_link li{
 	float: left;
 	margin:0px 10px;
