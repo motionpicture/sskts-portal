@@ -1328,17 +1328,21 @@ a:hover{
 	text-align: center;
 	font-size: 14px;
 	padding:20px 0px;
-	width: 280px;
+	width: 275px;
 	border: solid 2px #39b1e8;
 	color: #39b1e8;
 	border-radius: 4px;
+	display: block;
+	text-decoration: none;
 }
 .mvtk_des_btn{
 	text-align: center;
 	font-size: 14px;
 	padding:20px 0px;
-	width: 280px;
+	width: 275px;
 	border: solid 2px #707070;
 	color: #707070;
 	border-radius: 4px;
+	display: block;
+	text-decoration: none;
 }
