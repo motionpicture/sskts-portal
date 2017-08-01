@@ -83,13 +83,14 @@ if(!empty($_GET["pre"])) {
 			</a>
 		</div>
 	   <!--/チケット照会バナー-->
-	   <!--オンライン説明バナー-->
-		<div class="bnr_online_link">
-			<a href="../../online/">
-				<img src="../../images/common/cs_online_sp_bnr.png" alt="オンライン購入でスマート入場" width="100%">
-			</a>
+	   <!-- オンライン説明・ムビチケ説明ページ_リンクボタン -->
+		<div class="online_btn_set">	
+			<ul class="ticket_relation_link">
+				<li class="btn_set_mr10"><a href="../../online/" class="online_des_btn">オンライン購入で<br>スマート入場！<br>詳細はこちら</a></li>
+				<li><a href="../../mvtk/" class="mvtk_des_btn">ムビチケを利用して<br>予約する場合の<br>手順はこちら</a></li>
+			</ul>
 		</div>
-	   <!--/チケット照会バナー-->
+		<!-- / オンライン説明・ムビチケ説明ページ_リンクボタン -->
 		<div class="topNotes">
 			<p>
 				<?php
