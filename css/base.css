@@ -1339,6 +1339,9 @@ a:hover{
 	display: block;
 	text-decoration: none;
 }
+.online_des_btn:hover{
+	opacity: 0.8;
+}
 .mvtk_des_btn{
 	text-align: center;
 	font-size: 14px;
@@ -1349,4 +1352,7 @@ a:hover{
 	border-radius: 4px;
 	display: block;
 	text-decoration: none;
+}
+.mvtk_des_btn:hover{
+	opacity: 0.8;
 }
