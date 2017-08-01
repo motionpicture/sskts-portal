@@ -249,8 +249,21 @@
 	display:block;
 	width: 90%;
 }
+.online_btn_set li{
+	width: 45%;
+	float: left;
+}
+.online_btn_set:after{
+	content: "";
+	display:block;
+	clear: both;
+}
+.btn_set_mr10{
+	margin-right: 10%;
+}
 .online_des_btn{
 	text-align: center;
+	width: 100%;
 	font-size: 13px;
 	padding:10px 0px;
 	border: solid 2px #39b1e8;
@@ -261,6 +274,7 @@
 }
 .mvtk_des_btn{
 	text-align: center;
+	width: 100%;
 	font-size: 13px;
 	padding:10px 0px;
 	margin-top: 20px;
