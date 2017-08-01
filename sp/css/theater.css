@@ -271,6 +271,7 @@
 	display: block;
 	text-decoration: none;
 	box-shadow: 0 0 0 2px #39b1e8 inset;
+	font-weight: bold;
 }
 .mvtk_des_btn{
 	text-align: center;
@@ -282,6 +283,7 @@
 	display: block;
 	text-decoration: none;
 	box-shadow: 0 0 0 2px #707070 inset;
+	font-weight: bold;
 }
 
 /* Google Adsense
