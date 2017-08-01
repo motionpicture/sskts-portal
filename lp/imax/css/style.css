@@ -172,10 +172,15 @@ body{
     margin: 0 0 5px;
 }
 
-.lineup li .logo{
+.lineup ul li .logo{
     margin: 0 0 10px;
+    width: 94px;
 }
 
+.lineup ul li .logo_3d{
+    margin: 0 0 10px;
+    width: 144px;
+}
 
 .lineup li .left{
     float: left;
