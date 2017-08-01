@@ -90,8 +90,8 @@ if(!empty($_GET["pre"])) {
 		<!-- オンライン説明・ムビチケ説明ページ_リンクボタン -->
 		<div class="online_btn_set">	
 			<ul class="ticket_relation_link">
-				<li class="btn_set_mr10"><a href="../../online/" class="online_des_btn">オンライン購入でスマート入場！<br>詳細はこちら</a></li>
-				<li><a href="../../mvtk/" class="mvtk_des_btn">ムビチケを利用して予約する場合の<br>手順はこちら</a></li>
+				<li class="btn_set_mr10"><a href="../../online/" class="online_des_btn">オンライン購入で<br>スマート入場！<br>詳細はこちら</a></li>
+				<li><a href="../../mvtk/" class="mvtk_des_btn">ムビチケを利用して<br>予約する場合の<br>手順はこちら</a></li>
 			</ul>
 		</div>
 		<!-- / オンライン説明・ムビチケ説明ページ_リンクボタン -->

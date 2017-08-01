@@ -250,7 +250,7 @@
 	width: 90%;
 }
 .online_btn_set li{
-	width: 45%;
+	width: 47.5%;
 	float: left;
 }
 .online_btn_set:after{
@@ -259,7 +259,7 @@
 	clear: both;
 }
 .btn_set_mr10{
-	margin-right: 10%;
+	margin-right: 5%;
 }
 .online_des_btn{
 	text-align: center;
@@ -277,7 +277,6 @@
 	width: 100%;
 	font-size: 13px;
 	padding:10px 0px;
-	margin-top: 20px;
 	border: solid 2px #707070;
 	color: #707070;
 	border-radius: 6px;
