@@ -1340,7 +1340,7 @@ a:hover{
 	text-decoration: none;
 }
 .online_des_btn:hover{
-	opacity: 0.8;
+	opacity: 0.5;
 }
 .mvtk_des_btn{
 	text-align: center;
@@ -1354,5 +1354,5 @@ a:hover{
 	text-decoration: none;
 }
 .mvtk_des_btn:hover{
-	opacity: 0.8;
+	opacity: 0.5;
 }
