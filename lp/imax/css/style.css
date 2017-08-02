@@ -176,10 +176,18 @@ body{
     margin: 0 0 10px;
     width: 94px;
 }
+.lineup ul li .logo img{
+    width: 94px;
+    height: 18px;
+}
 
 .lineup ul li .logo_3d{
     margin: 0 0 10px;
     width: 144px;
+}
+.lineup ul li .logo_3d img{
+    width: 144px;
+    height: 18px;
 }
 
 .lineup li .left{
