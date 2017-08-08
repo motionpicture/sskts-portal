@@ -10,7 +10,7 @@ $theater = $arr["ename"];
 <script type="text/javascript" src="../../js/jquery.blockUI.js"></script>
 <script type="text/javascript" src="../../js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="../../js/util.js"></script>
-<script type="text/javascript" src="../../js/theater_ajax.js?20170615"></script>
+<script type="text/javascript" src="../../js/theater_ajax.js?20170713"></script>
 <script type="text/javascript">
 
 
@@ -95,11 +95,14 @@ $theater = $arr["ename"];
 									alt="上映スケジュール"> </h2>
 						<div class="whiteCanvas clearfix">
 							<div class="scheduleBox">
-								<div class="topNotesBox">
-									<p> インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br />
-										※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br />
-										※購入マークがない時間はインターネットでのチケット購入対象外となります。 </p>
+								<!-- オンライン説明・ムビチケ説明ページ_リンクボタン -->
+								<div class="online_btn_set">	
+									<ul class="ticket_relation_link">
+										<li><a href="../../online/" class="online_des_btn">オンライン購入でスマート入場！<br>詳細はこちら</a></li>
+										<li><a href="../../mvtk/" class="mvtk_des_btn">ムビチケを利用して予約する場合の<br>手順はこちら</a></li>
+									</ul>
 								</div>
+								<!-- / オンライン説明・ムビチケ説明ページ_リンクボタン -->
 								<div class="topTimeBox">
 									<p>
 										<?php
@@ -113,11 +116,11 @@ $theater = $arr["ename"];
 									<?php
 										$isPreExistCode = getDates2($theater,true,true);
 										if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
-											echo '<p class="senkouclass">チケットの先行販売はこちらからお進み下さい。<br><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
+											echo '<p class="senkouclass">チケットの先行販売はこちらからお進み下さい。<br><a href="./?pre=ari"><img src="../../images/common/btn_res.png" alt="チケット先行販売スケジュール"></a></p>';
 
 										} else {
 											if($isPreExistCode['error']=="000000") {
-												echo '<p><a href="./"><img src="../../images/common/btn_sche.gif" alt="通常スケジュール"></a></p>';
+												echo '<p><a href="./"><img src="../../images/common/btn_sche.png" alt="通常スケジュール"></a></p>';
 											}
 										}
 										?>

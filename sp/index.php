@@ -19,47 +19,47 @@ include("../lib/require.php");
 	<div class="section schedule pt10">
 		<form name="searchForm" enctype="multipart/form-data" method="post" action="./result.php">
 			<img class="top_schedule" src="./images/top/top_schedule.gif" width="320" alt="上映スケジュールを調べる">
-			<img class="schedule_txt" src="./images/top/img_search01.gif" width="37" alt="">
-			<div class="disable_class">
-			<select id="theaterSelect" name="theater">
-			<?php
-			//theater一覧取得
-			$theaters = getTheaterList();
+			<div class="schedule_box">
+				<img class="schedule_txt" src="./images/top/img_search01.gif" height="15" alt="劇場">
+				<div class="disable_class">
+					<select id="theaterSelect" name="theater">
+					<?php
+					//theater一覧取得
+					$theaters = getTheaterList();
 
-			foreach ($theaters as $theater) {
-				//もし劇場が選択されている場合
-				if (!empty($_GET['theater']) && $theater['ename'] == $_GET['theater']) {
-						$option_tag = sprintf('<option value="%s" selected>%s</option>'."\r\n",$theater['ename'],$theater['name']);
-					} else {
-						$option_tag = sprintf('<option value="%s">%s</option>'."\r\n",$theater['ename'],$theater['name']);
+					foreach ($theaters as $theater) {
+						//もし劇場が選択されている場合
+						if (!empty($_GET['theater']) && $theater['ename'] == $_GET['theater']) {
+								$option_tag = sprintf('<option value="%s" selected>%s</option>'."\r\n",$theater['ename'],$theater['name']);
+							} else {
+								$option_tag = sprintf('<option value="%s">%s</option>'."\r\n",$theater['ename'],$theater['name']);
+							}
+
+						echo $option_tag;
 					}
-
-				echo $option_tag;
-			}
-			?>
-			</select>
+					?>
+					</select>
+				</div>
 			</div>
-
-			<br>
 			<div class="schedule_box">
-				<img class="schedule_txt" src="./images/top/img_search02.gif" width="37" alt="">
+				<img class="schedule_txt" src="./images/top/img_search02.gif" height="15" alt="日付">
 				<div class="disable_class">
-				<select name="date" id="daySelect">
-					<option value=""></option>
-				</select>
+					<select name="date" id="daySelect">
+						<option value=""></option>
+					</select>
 				</div>
 			</div>
 
 			<div class="schedule_box">
-				<img class="schedule_txt" src="./images/top/img_search03.gif" width="37" alt="">
+				<img class="schedule_txt" src="./images/top/img_search03.gif" height="15" alt="作品">
 				<div class="disable_class">
-				<select name="movie" id="movieSelect">
-					<option value=""></option>
-				</select>
+					<select name="movie" id="movieSelect">
+						<option value=""></option>
+					</select>
 				</div>
 			</div>
 
-			<div class="disable_class">
+			<div>
 			<p class="btn_submit"><input type="image" src="./images/top/btn_submit.gif" width="161" alt="検索する"></p>
 			</div>
 		</form>
@@ -67,7 +67,7 @@ include("../lib/require.php");
 
 
 	<!-- ↓adsense上部↓ -->
-	<div class="section ptb10">
+	<div class="g_Ad_sp_content ptb10">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- シネサン（SPポータル上部） -->
 		<ins class="adsbygoogle"
@@ -94,9 +94,7 @@ include("../lib/require.php");
 	<div class="section ptb10">
 	<div class="basebox_lineblue"></div>
 		<div class="rankingbox">
-			<ul class="clearfix">
-				<?php  getSmartRank(); ?>
-			</ul>
+			<?php  getSmartRank(); ?>
 		</div>
 	</div>
 	<div class="category_bar_p">ピックアップ</div>

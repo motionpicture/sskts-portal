@@ -69,6 +69,22 @@ function getNowPage(){
 	//top_flag:TOPのスライダーを表示させるか。0:なし,1:あり
 	//side_flag:サイドメニューに表示するものの制御 0:なし,1:ランキング,2:劇場一覧
 	$path = array(
+		"mvtk" =>
+			array(
+				"pattern" => "!/mvtk/!",
+				"name" => "ムビチケ券ご利用方法",
+				"ename" => "mvtk",
+				"top_flag" => "0",
+				"side_flag" => 2
+			),
+		"online" =>
+			array(
+				"pattern" => "!/online/!",
+				"name" => "オンラインチケット購入のメリット",
+				"ename" => "online",
+				"top_flag" => "0",
+				"side_flag" => 2
+			),
 		"company" =>
 			array(
 				"pattern" => "!/company/!",
@@ -326,7 +342,7 @@ echo <<<EOL
 	<![endif]-->
 
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}reset.css" />
-	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}base.css" />
+	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}base.css?20170713" />
 
 	<link type="text/css" rel="stylesheet" href="{$define['Css_URL']}jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="{$define['Css_URL']}sliderkit-core.css" media="screen, projection" />

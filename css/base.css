@@ -888,7 +888,7 @@ a:hover{
 }
 
 #container #contents #mainColumn .leftColumn p.exception{
-	margin:0 0 10px;
+	margin:20px 0 10px;
 }
 
 #container #contents #mainColumn .leftColumn .dayListBox{
@@ -1018,20 +1018,20 @@ a:hover{
 }
 
 #container #contents #mainColumn .leftColumn .movieListBox div.bottom ul{
-	height:80px;
+	height:95px;
 }
 
 #container #contents #mainColumn .leftColumn .movieListBox div.bottom ul li{
 	background:url("../images/common/bg_dotLine.gif") no-repeat left;
 	width:119px;
-	height:80px;
+	height:95px;
 	float:left;
 	text-align:center;
 	position:relative;
 }
 
 #container #contents #mainColumn .leftColumn .movieListBox div.bottom ul li p.timeTxt{
-	margin:10px 0 5px;
+	margin:10px 0 0px;
 }
 
 #container #contents #mainColumn .leftColumn .movieListBox div.bottom ul li p.timeTxt span{
@@ -1041,7 +1041,7 @@ a:hover{
 
 #container #contents #mainColumn .leftColumn .movieListBox div.bottom ul li p.buyBtn img{
 	vertical-align:middle;
-	margin:0 0 0 10px;
+	height: 25px;
 }
 
 #container #contents #mainColumn .leftColumn .movieListBox div.bottom ul li p.corner{
@@ -1316,4 +1316,43 @@ a:hover{
 /* Schedule */
 .movieRepeattBox li .buyBtn span{
 	display: block;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+/* theater */
+.online_btn_set{
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.ticket_relation_link li{
+	float: left;
+	margin:0px 10px;
+}
+.online_des_btn{
+	text-align: center;
+	font-size: 14px;
+	padding:10px 0px;
+	width: 275px;
+	border: solid 2px #39b1e8;
+	color: #39b1e8;
+	border-radius: 4px;
+	display: block;
+	text-decoration: none;
+}
+.online_des_btn:hover{
+	opacity: 0.5;
+}
+.mvtk_des_btn{
+	text-align: center;
+	font-size: 14px;
+	padding:10px 0px;
+	width: 275px;
+	border: solid 2px #707070;
+	color: #707070;
+	border-radius: 4px;
+	display: block;
+	text-decoration: none;
+}
+.mvtk_des_btn:hover{
+	opacity: 0.5;
 }

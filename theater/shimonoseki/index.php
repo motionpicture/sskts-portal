@@ -11,7 +11,7 @@ $theater = $arr["ename"];
 <script type="text/javascript" src="../../js/jquery.blockUI.js"></script>
 <script type="text/javascript" src="../../js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="../../js/util.js"></script>
-<script type="text/javascript" src="../../js/theater_ajax.js?20170615"></script>
+<script type="text/javascript" src="../../js/theater_ajax.js?20170713"></script>
 <script type="text/javascript">
 
 
@@ -80,14 +80,13 @@ $theater = $arr["ename"];
 
 							<!-- ↓adsense上部↓ -->
 							<div class="adArea">
-								<script type="text/javascript"><!--
-								google_ad_client = "ca-pub-3891476404601512";
-								/* シネサン（大和郡山上部） */
-								google_ad_slot = "4722676567";
-								google_ad_width = 468;
-								google_ad_height = 60;
-								//-->
+								<script type="text/javascript">
+								    google_ad_client = "ca-pub-3891476404601512";
+								    google_ad_slot = "3998439367";
+								    google_ad_width = 468;
+								    google_ad_height = 60;
 								</script>
+								<!-- シネサン（下関上部） -->
 								<script type="text/javascript"
 								src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 								</script>
@@ -117,11 +116,11 @@ $theater = $arr["ename"];
 									<?php
 										$isPreExistCode = getDates2($theater,true,true);
 										if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
-											echo '<p class="senkouclass">チケットの先行販売はこちらからお進み下さい。<br><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
+											echo '<p class="senkouclass">チケットの先行販売はこちらからお進み下さい。<br><a href="./?pre=ari"><img src="../../images/common/btn_res.png" alt="チケット先行販売スケジュール"></a></p>';
 
 										} else {
 											if($isPreExistCode['error']=="000000") {
-												echo '<p><a href="./"><img src="../../images/common/btn_sche.gif" alt="通常スケジュール"></a></p>';
+												echo '<p><a href="./"><img src="../../images/common/btn_sche.png" alt="通常スケジュール"></a></p>';
 											}
 										}
 										?>

@@ -57,12 +57,12 @@ $script_str=substr($script_str, 0, -1);
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <title>検索結果&nbsp;|&nbsp;シネマサンシャイン</title>
-<meta content="池袋、平和島、茨城、千葉、徳島、愛媛で映画を見るならシネマサンシャイン" name="description">
+<meta content="池袋、平和島、茨城、千葉、徳島、愛媛、鹿児島、金沢で映画を見るならシネマサンシャイン" name="description">
 <meta content="検索結果,シネマサンシャイン,映画,シネマ,映画検索,映画館,上映,シネコン,上映時間" name="keywords">
 <link rel="stylesheet" type="text/css" href="./css/reset.css">
-<link rel="stylesheet" type="text/css" href="./css/common.css">
-<link rel="stylesheet" type="text/css" href="./css/result.css">
-<link rel="stylesheet" type="text/css" href="./css/theater.css">
+<link rel="stylesheet" type="text/css" href="./css/common.css?20170713">
+<link rel="stylesheet" type="text/css" href="./css/result.css?20170713">
+<link rel="stylesheet" type="text/css" href="./css/theater.css?20170713">
 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <script type="text/javascript" src="../js/jquery.blockUI.js"></script>
 <script type="text/javascript" src="../js/util.js"></script>
@@ -110,31 +110,35 @@ jQuery(function($){
 
 <div class="section schedule pt10">
 <form name="searchForm" enctype="multipart/form-data" method="post" action="./result.php">
-	<img class="top_schedule" src="./images/top/top_schedule.gif" width="320" alt="上映スケジュールを調べる"> <img class="schedule_txt" src="./images/top/img_search01.gif" width="37" alt="">
-	<div class="disable_class">
-	<select id="theaterSelect" name="theater">
-	<?php
-	//theater一覧取得
-	echo $option_tag;
-
-	?>
-	</select>
+	<img class="top_schedule" src="./images/top/top_schedule.gif" width="320" alt="上映スケジュールを調べる">
+	<div class="schedule_box">
+		<img class="schedule_txt" src="./images/top/img_search01.gif" height="15" alt="劇場">
+		<div class="disable_class">
+			<select id="theaterSelect" name="theater">
+				<?php
+				//theater一覧取得
+				echo $option_tag;
+				?>
+			</select>
+		</div>
 	</div>
-	<br>
-	<img class="schedule_txt" src="./images/top/img_search02.gif" width="37" alt="">
-	<div class="disable_class">
-	<select id="daySelect" name="date">
-		<option value=""></option>
-	</select>
+	<div class="schedule_box">
+		<img class="schedule_txt" src="./images/top/img_search02.gif" height="15" alt="日付">
+		<div class="disable_class">
+			<select id="daySelect" name="date">
+				<option value=""></option>
+			</select>
+		</div>
 	</div>
-	<br>
-	<img class="schedule_txt" src="./images/top/img_search03.gif" width="37" alt="">
-	<div class="disable_class">
-	<select id="movieSelect" name=movie>
-		<option value=""></option>
-	</select>
+	<div class="schedule_box">
+		<img class="schedule_txt" src="./images/top/img_search03.gif" height="15" alt="作品">
+		<div class="disable_class">
+			<select id="movieSelect" name=movie>
+				<option value=""></option>
+			</select>
+		</div>
 	</div>
-	<div class="disable_class">
+	<div>
 			<p class="btn_submit"><input width="161"  type="image" src="./images/top/btn_submit.gif" alt="検索する"></p>
 	</div>
 </form>
@@ -154,7 +158,7 @@ jQuery(function($){
 		echo '<div class="basebox_lineblue"></div>';
 			echo '<div class="schedulebox">';
 			echo '<div class="title_bar">';
-				echo '<table width="280">';
+				echo '<table width="100%">';
 				echo '<tr>';
 				echo '<td colspan="2"><span class="txt_bold"><a href="'.$movie->official_site.'">'.$movie->name.'</a></span></td>';
 				echo '</tr>';
@@ -167,7 +171,8 @@ jQuery(function($){
 				echo '</tr>';
 				echo '</table>';
 				echo '</div>';
-				echo '<table width="280" class="movie_schedule">';
+				echo '<div class="pfm_inner">';
+				echo '<table width="100%" class="movie_schedule">';
 				echo '';
 				echo '';
 				echo '';
@@ -181,24 +186,24 @@ jQuery(function($){
 				echo '<tr>';
 				//var_dump($time);
 				if ($time->late==2) {
-					echo '<td width="150"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'★</td>';
+					echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'&#9733;</td>';
 				}elseif($time->late==1) {
-					echo '<td width="150"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'<img src="./images/common/icon_morning2_sp.png"></td>';
+					echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'<img src="./images/common/icon_morning2_sp.png"></td>';
 				} else {
-					echo '<td width="150"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'</td>';
+					echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'</td>';
 				}
 
-				echo '<td width="49">'.$screen->name.'</td>';
+				echo '<td class="pfm_screen">'.$screen->name.'</td>';
 
 
 				if($time->available==6) {
-					echo '<td width="81"></td>';
+					echo '<td class="pfm_btn"></td>';
 				}else if ($time->available==1 || $time->available==4){
-					echo '<td width="81"><img src="./images/theater/btn_buyPtn1.gif" width="81" alt="窓口"></td>';
+					echo '<td class="pfm_btn"><img src="./images/theater/btn_buyPtn1.png" height="30" alt="窓口"></td>';
 				}else if ($time->available==5) {
-					echo '<td width="81"><img src="./images/theater/btn_buyPtn5.gif" width="81" alt="満席"></td>';
+					echo '<td class="pfm_btn"><img src="./images/theater/btn_buyPtn5.png" height="30" alt="満席"></td>';
 				}else {
-                    echo '<td width="81">';
+                    echo '<td class="pfm_btn">';
 
                     if ($p_theater === 'aira' || $p_theater === 'kitajima') {
                         echo '<a href="'.$time->url.'">';
@@ -206,7 +211,7 @@ jQuery(function($){
                         echo '<a href="'.$time->url.'" target="_blank">';
                     }
 
-                    echo '<img src="./images/theater/btn_buyPtn'.$time->available.'.gif" width="81" alt="購入"></a></td>';
+                    echo '<img src="./images/theater/btn_buyPtn'.$time->available.'.png" height="30" alt="購入"></a></td>';
 				}
 
 				echo '</tr>';
@@ -220,6 +225,7 @@ jQuery(function($){
 		}
 
 		echo '</table>';
+		echo '</div>';
 		echo '</div>';
 
 	}
