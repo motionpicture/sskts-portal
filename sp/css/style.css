@@ -50,6 +50,7 @@
 
 .rankingbox ul{
 	display: inline-block;
+	width:100%;
 }
 
 .rankingbox ul li{
