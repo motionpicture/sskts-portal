@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* online */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.leftColumn h3 {
+    font-size: 20px;
+    font-weight: bold; 
+    text-align: center;
+    padding: 10px 0px 30px;
+    color: #00a0e9;
+}
+
+.leftColumn h4 {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+}
+
+.leftColumn p {
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.thick {
+    font-weight: bold; 
+}
+
+.process .thick01 {
+    font-weight: bold;
+    color: black;
+}
+
+
+.merit h4 {
+    color: #fff;
+    background-color: #00a0e9;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.merit {
+    margin-bottom: 20px;
+}
+
+.admission h4 {
+    color: #fff;
+    background-color: #8e8e8e;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.leftColumn .title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admission .text01 {
+    font-size: 14px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+.text02 {
+    font-size: 16px;
+    font-weight: bold; 
+    padding-top: 10px;
+}
+
+.text03 {
+    padding-bottom: 10px;
+}
+
+.process {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ededed;
+    border-radius: 4px;
+}
+
+.whiteCanvas img {
+    margin-bottom: 20px;
+}
+
+.purchase {
+    background-color: #ececec;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 20px 15px ;
+}
+
+.bluezone {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #00a0e9;
+    color: #00a0e9;
+}
+
+.redtext{
+    color: red; 
+    padding: 5px 0;
+}
+
+.admission {
+    padding-top: 20px;
+}
+.admission span{
+    color: #00a0e9;
+}
+
+.leftColumn .title02{
+    border-bottom: 1px solid #cdcdcd;
+    padding-bottom: 10px;
+}
+
+.ather {
+    margin-bottom: 10px;
+}
+.online_read_txt_center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fw_no{
+    font-weight: normal!important;
+}

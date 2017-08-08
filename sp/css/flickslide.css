@@ -142,7 +142,7 @@ div.flickSlideBottom div.bottomRight:after {
 	display:table-cell;
 }*/
 div.flickSlideBottom ul.slidePager {
-	display:table-cell;
+	display:list-item;
 	width:100%;
 	text-align:center;
 	margin:0;

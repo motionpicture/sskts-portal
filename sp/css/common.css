@@ -45,7 +45,7 @@ body {
 	text-align:center;
 }
 .section {
-	width:320px;
+	width:100%;
 	margin:0 auto;
 }
 
@@ -54,7 +54,12 @@ body {
 }
 
 .section ul.pickupArea li{
-	margin:0 0 10px;
+	margin:0 auto 10px;
+	max-width: 300px;
+}
+.section ul.pickupArea li img{
+	width: 100% !important;
+	height: auto;
 }
 /* カテゴリーバーの指定
 -----------------------------------------------------------------------------------------------------------*/
@@ -342,7 +347,7 @@ body {
 .basebox_lineblue {
 	background-color:#0096dc;
 	height:5px;
-	width:300px;
+	width:95%;
 	margin:0 auto;
 	padding:0 1px 0 1px;
 }
@@ -378,6 +383,10 @@ body {
 
 /* 追加分
 -----------------------------------------------------------------------------------------------------------*/
+.linkList{
+	width: 320px;
+	margin: 0 auto;
+}
 .linkList ul{
 	clear:both;
 }
@@ -394,5 +403,36 @@ body {
     margin-right:1px;
 }
 .schedulebox .mark img{
-    max-height: 1.5em;
+    max-height: 1.8em;
+    margin:0 0 10px;
+}
+.mb_10per{
+	margin-bottom: 10%;
+}
+.search_tit{
+	margin-bottom: 5px;
+}
+/* Google Adsense
+-----------------------------------------------------------------------------------------------------------*/
+.g_Ad_sp_content{
+	width: 320px;
+	margin: 0 auto;
+}
+/* pickup
+-----------------------------------------------------------------------------------------------------------*/
+.section .pickup{
+	padding:5px 0 5px 0;
+	margin-left:35px;
+	}
+.section .pickup2{
+	padding:5px 0 5px 0;
+	height: 45px;
+	}
+.section .pickup3{
+	padding:5px 0 5px 0;
+	margin-left:10px;
+	height: 45px;
+	}
+.sp_foot_sns_links{
+	text-align: center;
 }

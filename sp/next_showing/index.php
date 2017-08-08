@@ -5,7 +5,7 @@ include("../../lib/require.php");
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<?php getSmartHeadInclude(); ?>
-	<link href="../css/showing.css" type="text/css" rel="stylesheet">
+	<link href="../css/showing.css?20170713" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<?php getSmartHeader(); ?>
@@ -16,26 +16,29 @@ include("../../lib/require.php");
 	<!--/ライン-->
 
 	<div class="category_bar_p">上映予定作品</div>
-	<div class="section schedule ptb10"> <img src="../images/next_showing/public_next_showing.gif" width="320" alt="劇場ごとの上映予定作品を見る">
-		<form name="SearchLisBoxForm" enctype="multipart/form-data" method="get" action="./">
-			<select name="theaterSelect">
-				<?php
-				//theater一覧取得
-				$theaters = getTheaterList();
-				foreach ($theaters as $theater) {
-					//もし劇場が選択されている場合
-					if (!empty($_GET['theaterSelect']) && $theater['id'] == $_GET['theaterSelect']) {
-							$option_tag = sprintf('<option value="%s" selected>%s</option>'."\r\n",$theater['id'],$theater['name']);
-						} else {
-							$option_tag = sprintf('<option value="%s">%s</option>'."\r\n",$theater['id'],$theater['name']);
-						}
-						//var_dump($_GET['theater']);
-					echo $option_tag;
-				}
-				?>
-			</select>
-			<input class="submit" type="image" src="../images/showing/btn_submit.gif" width="101" alt="検索する">
-		</form>
+	<div class="section schedule ptb10"> 
+		<div class="w_90per">
+			<img src="../images/next_showing/public_next_showing.gif" width="320" alt="劇場ごとの上映予定作品を見る">
+			<form name="SearchLisBoxForm" enctype="multipart/form-data" method="get" action="./">
+				<select name="theaterSelect">
+					<?php
+					//theater一覧取得
+					$theaters = getTheaterList();
+					foreach ($theaters as $theater) {
+						//もし劇場が選択されている場合
+						if (!empty($_GET['theaterSelect']) && $theater['id'] == $_GET['theaterSelect']) {
+								$option_tag = sprintf('<option value="%s" selected>%s</option>'."\r\n",$theater['id'],$theater['name']);
+							} else {
+								$option_tag = sprintf('<option value="%s">%s</option>'."\r\n",$theater['id'],$theater['name']);
+							}
+							//var_dump($_GET['theater']);
+						echo $option_tag;
+					}
+					?>
+				</select>
+				<input class="submit" type="image" src="../images/showing/btn_submit.gif" height="42" alt="検索する">
+			</form>
+		</div>
 	</div>
 
 	<!--ライン-->
@@ -44,7 +47,7 @@ include("../../lib/require.php");
 
 
 	<!-- ↓adsense上部↓ -->
-	<div class="section ptb10">
+	<div class="g_Ad_sp_content ptb10">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- シネサン（SP上映予定上部） -->
 		<ins class="adsbygoogle"
@@ -79,30 +82,24 @@ include("../../lib/require.php");
 				}								
 				echo "</div>";
 				echo "<div class='basebox2_line'>";
-				echo "<table width='280'><tbody>";
+				echo "<table width='100%' class='movie_info'><tbody>";
 				echo "<tr>";
 				if ($showing['picture'] != null){
-					echo '<td rowspan="2" width="69" height="52"><img src="'. movie_picture . '/' . $showing['picture'] . '" width="69" /></td>';
+					echo '<td rowspan="2" class="movie_info_img"><img src="'. movie_picture . '/' . $showing['picture'] . '"/></td>';
 				}else{
-					echo '<td rowspan="2" width="69" height="52"><img src="../../images/common/image_none.gif" width="69" /></td>';
+					echo '<td rowspan="2" class="movie_info_img"><img src="../../images/common/image_none.gif"/></td>';
 				}
-				echo "<td width='11' height='31'></td>";
-				echo "<td width='200' height='31' class='copyright'>" . date('Y/m/d',strtotime($showing['start_date'])) . "&nbsp;&nbsp;公開予定<br><br>$showing[credit]</td>";
+				echo "<td class='copyright'>" . date('Y/m/d',strtotime($showing['start_date'])) . "&nbsp;&nbsp;公開予定<br><br>$showing[credit]</td>";
 				echo "</tr>";
 				if($showing['site'] !="" ) {
 					echo "<tr>";
-					echo "<td width='11'></td>";
-					echo "<td width='211' height='21'><a href='$showing[site]'><img src='../images/showing/btn_official.gif' width='112' alt='公式サイト'></a></td>";
+					echo "<td class='official_link_btn'><a href='$showing[site]'><img src='../images/showing/btn_official.gif' width='112' alt='公式サイト'></a></td>";
 					echo "</tr>";
 				}else{
 					echo "<tr>";
-					echo "<td width='11'></td>";
-					echo "<td width='211' height='21'></td>";
+					echo "<td class='official_link_btn_no'></td>";
 					echo "</tr>";
 				}
-				echo "<tr>";
-				echo "<td colspan='3' height='10'></td>";
-				echo "</tr>";
 				echo "</tbody></table>";
 				if($showing['grade']){
 					if($showing['grade'] == 1){

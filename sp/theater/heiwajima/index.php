@@ -22,7 +22,7 @@ if(!empty($_GET["pre"])) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<?php getSmartHeadInclude(); ?>
-	<link rel="stylesheet" type="text/css" href="../../css/theater.css">
+	<link rel="stylesheet" type="text/css" href="../../css/theater.css?20170713">
 	<script type="text/javascript" src="../../../js/jquery.bxslider.js"></script>
 	<script type="application/javascript" charset="UTF-8">//a:hoverの設定
 		$(function(){
@@ -46,9 +46,9 @@ if(!empty($_GET["pre"])) {
 				maxSlides: 4,
 				nextSelector:'#cal_right',
 				prevSelector:'#cal_left',
-				prevText:'<img src="../../images/common/btn_prev.gif" alt="前へ" width="10">',
-				nextText:'<img src="../../images/common/btn_next.gif" alt="次へ" width="10">',
-				slideWidth: 64,
+				prevText:'<img src="../../images/common/btn_prev.gif" alt="前へ" width="10" height="81">',
+				nextText:'<img src="../../images/common/btn_next.gif" alt="次へ" width="10" height="81">',
+				slideWidth: 80,
 				slideMargin: 2,
 				infiniteLoop:false,
 				pager: false
@@ -93,7 +93,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<h2><div class="category_bar_p">上映スケジュール</div></h2>
 	<div class="section">
 		<div class="topNotes">
-			<p class="ptblr10">
+			<p>
 				<?php
 					$theaterId=getTheaterId($theater);
 					$open = getImportants($theaterId['id']);
@@ -101,15 +101,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				?>
 			</p>
 		</div>
+		<!-- ↓Adsense/TMN↓ -->
+			<div class="g_Ad_sp_content ptb10">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- シネサン（SP平和島上部） -->
+				<ins class="adsbygoogle"
+				style="display:inline-block;width:320px;height:50px"
+				data-ad-client="ca-pub-3891476404601512"
+				data-ad-slot="5082603361"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+			
+
+			<?php
+			echo getSmartTrailer();
+			?>
+		<!-- ↑Adsense/TMN↑ -->
 
 		<?php
 			$isPreExistCode = getDates($theater,true,true);
 			if($isPreExistCode['error']=="000000" && !$_GET['pre']) {
 				//echo '<p><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
-				echo '<p id="sche_btn"><a href="./?pre=ari"><img src="../../images/common/btn_res.gif" alt="先行予約あり"></a></p>';
+				echo '<p id="sche_btn"><a href="./?pre=ari"><img src="../../images/common/btn_res.png" alt="先行予約あり"></a></p>';
 			} else {
 				if($isPreExistCode['error']=="000000") {
-					echo '<p id="sche_btn"><a href="./"><img src="../../images/common/btn_sche.gif" alt="通常スケジュール"></a></p>';
+					echo '<p id="sche_btn"><a href="./"><img src="../../images/common/btn_sche.png" alt="通常スケジュール"></a></p>';
 					//echo '<p><a href="./">通常</a></p>';
 				}
 			}
@@ -251,10 +269,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<?php
 					//echo $open['open_txt'];
 				?>
-
-				<!-- インターネットでチケットを購入される方は、上映スケジュール内の購入ボタンをクリックして下さい。<br>
-				※インターネットでチケットが売り切れの場合でも、当劇場チケット窓口にて当日券を販売しております。<br>
-				※購入マークがない時間はインターネットでのチケット購入対象外となります。 -->
 			</p>
 		</div>
 
@@ -271,25 +285,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="line_01"></div>
 	<!--/ライン-->
 
-
-	<!-- ↓adsense上部↓ -->
-	<div class="section ptb10">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- シネサン（SP平和島上部） -->
-		<ins class="adsbygoogle"
-		style="display:inline-block;width:320px;height:50px"
-		data-ad-client="ca-pub-3891476404601512"
-		data-ad-slot="5082603361"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-	</div>
-	<!-- ↑adsense上部↑ -->
-
-	<?php
-	echo getSmartTrailer();
-	?>
-
 	<div class="section ptb10">
 		<?php
 			foreach($result["data"]->movie as $movie) {
@@ -298,7 +293,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				echo '<div class="basebox_lineblue"></div>';
 					echo '<div class="schedulebox">';
 					echo '<div class="title_bar">';
-						echo '<table width="280">';
+						echo '<table width="100%">';
 						echo '<tr>';
 						echo '<td colspan="2"><span class="txt_bold"><a href="'.$movie->official_site.'">'.$movie->name.'</a></span></td>';
 						echo '</tr>';
@@ -311,30 +306,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						echo '</tr>';
 						echo '</table>';
 						echo '</div>';
-						echo '<table width="280" class="movie_schedule">';
+						echo '<div class="pfm_inner">';
+						echo '<table width="100%" class="movie_schedule">';
 				foreach ($movie->screen as $screen) {
 
 					foreach ($screen->time as $time) {
 						echo '<tr>';
 						//var_dump($time);
 						if ($time->late==2) {
-							echo '<td width="150"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'★</td>';
+							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'&#9733;</td>';
 						} elseif($time->late==1) {
-							echo '<td width="150"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'<img src="../../images/common/icon_morning2_sp.png"></td>';
+							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'<img src="../../images/common/icon_morning2_sp.png"></td>';
 						}else {
-							echo '<td width="150"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&#xFF5E;'.getTimeFormat($time->end_time).'</td>';
+							echo '<td class="pfm_time"><span class="time_bold">'.getTimeFormat($time->start_time).'</span>&nbsp;&#xFF5E;'.getTimeFormat($time->end_time).'</td>';
 						}
 
-						echo '<td width="49">'.$screen->name.'</td>';
+						echo '<td class="pfm_screen">'.$screen->name.'</td>';
 
 						if($time->available==6) {
-							echo '<td width="81"></td>';
+							echo '<td class="pfm_btn"></td>';
 						}else if ($time->available==1 || $time->available==4){
-							echo '<td width="81"><img src="../../images/theater/btn_buyPtn1.gif" width="81" alt="窓口"></td>';
+							echo '<td class="pfm_btn"><img src="../../images/theater/btn_buyPtn1.png" height="30" alt="窓口"></td>';
 						}else if ($time->available==5) {
-							echo '<td width="81"><img src="../../images/theater/btn_buyPtn5.gif" width="81" alt="満席"></td>';
+							echo '<td class="pfm_btn"><img src="../../images/theater/btn_buyPtn5.png" height="30" alt="満席"></td>';
 						}else {
-							echo '<td width="81"><a href="'.$time->url.'" target="_blank"><img src="../../images/theater/btn_buyPtn'.$time->available.'.gif" width="81" alt="購入"></a></td>';
+							echo '<td class="pfm_btn"><a href="'.$time->url.'"><img src="../../images/theater/btn_buyPtn'.$time->available.'.png" height="30" alt="購入"></a></td>';
 						}
 
 						echo '</tr>';
@@ -345,6 +341,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					}
 				}
 				echo '</table>';
+				echo '</div>';
 				echo '</div>';
 			}
 		?>
