@@ -61,7 +61,7 @@ include("../../../lib/require.php");
 											<td class="accessLeft" valign="top"><p>駐車場</p></td>
 											<td class="accessRight">
 												<p>有り</p>
-											 	<p class="notes">※約2,000台の大駐車場完備（映画をご鑑賞いただいた方4時間無料）</p>
+											 	<p class="notes">※約800台の大駐車場完備（映画をご鑑賞いただいた方4時間無料）</p>
 											</td>
 										</tr>
 
