@@ -1,58 +1,54 @@
 <?php
-require_once 'const.php';
+/**
+ * PC、SPサイトで使用されている
+ *
+ * @todo スケジュール取得関係をひとつにまとめたい（getJson.php、getJsonSp.php、getSchedule.php）
+ */
 
-//
-//劇場のxmlを取得
-//エラーチェックもする
-function getDates($theater,$preTicket=false,$preIsExist=false) {
+require_once 'const.php';
+require_once APP_ROOT_DIR . '/vendor/autoload.php';
+
+use Cinemasunshine\Schedule\Theater;
+
+/**
+ * 日付の一覧を取得
+ *
+ * といいつつ$isExistがtrueだとerror要素だけの配列になる。
+ * SPサイトで使用している。
+ *
+ * @param string  $theaterName 劇場名
+ * @param boolean $isPre       先行スケジュールフラグ
+ * @param boolean $isExist     trueにすると配列にerror要素だけを入れて返す
+ * @return array $isExistによって変わる
+ * @todo $isExistの部分だけ別の関数として実装する
+ * @todo getDates2()とまとめる
+ */
+function getDates($theaterName ,$isPre = false, $isExist = false) {
 	$schedules;
 	$result;
 
-	$theaterUrls;
+    // @todo ライブラリで判断したい
+    $hasTestApiTheaterList = array(
+        'kitajima', 'aira',
+    );
+    $useTestApi = (APP_ENV !== 'prod' && in_array($theaterName, $hasTestApiTheaterList));
 
-	if ($preTicket){
-		$theaterUrls= array(
-            "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
-            "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
-            "tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/preSchedule.xml",
-            "kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/preSchedule.xml",
-            "numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/preSchedule.xml",
-            "yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/preSchedule.xml",
-            "shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/preSchedule.xml",
-            "okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/preSchedule.xml",
-            "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/preSchedule.xml",
-            "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/preSchedule.xml",
-            "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
-            'kitajima' => PRE_SCHEDULE_KITAJIMA,
-            "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
-            'aira' => PRE_SCHEDULE_AIRA,
-		);
+    try {
+        $theater = new Theater($theaterName, $useTestApi);
 
-	} else {
-		$theaterUrls= array(
-            "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
-            "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
-            "tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/schedule.xml",
-            "kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/schedule.xml",
-            "numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/schedule.xml",
-            "yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/schedule.xml",
-            "shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/schedule.xml",
-            "okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/schedule.xml",
-            "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/schedule.xml",
-            "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/schedule.xml",
-            "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
-            'kitajima' => SCHEDULE_KITAJIMA,
-            "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
-            'aira' => SCHEDULE_AIRA,
-		);
-	}
+        $response = $isPre
+                  ? $theater->fetchPreSchedule()
+                  : $theater->fetchSchedule();
 
-    $url = $theaterUrls[$theater];
+        /** @var \SimpleXMLElement */
+        $schedules = $response->getContents();
 
-    $data = file_get_contents($url);
-    $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+    } catch (Exception $e) {
+        // もともとエラー処理していなかったのでとりあえずthrow
+        throw $e;
+    }
 
-	if ($preIsExist) {
+	if ($isExist) {
 		$dateArr;
 		//foreach ($schedules->schedule as $schedules) {
 			//var_dump($schedules);
@@ -69,58 +65,45 @@ function getDates($theater,$preTicket=false,$preIsExist=false) {
 	return $dateArr;
 }
 
-//劇場のxmlを取得
-//エラーチェックもする
-//改修版
-function getDates2($theater,$preTicket=false,$preIsExist=false) {
+/**
+ * 日付の一覧を取得
+ *
+ * といいつつ$isExistがtrueだとerror要素だけの配列になる。
+ * PCサイトで使用している。
+ *
+ * @param string  $theaterName 劇場名
+ * @param boolean $isPre       先行スケジュールフラグ
+ * @param boolean $isExist     trueにすると配列にerror要素だけを入れて返す
+ * @return array $isExistによって変わる
+ * @todo $isExistの部分だけ別の関数として実装する
+ * @todo getDates()とまとめる
+ */
+function getDates2($theaterName, $isPre = false, $isExist = false) {
     $schedules;
 	$result;
 
-	$theaterUrls;
+	// @todo ライブラリで判断したい
+    $hasTestApiTheaterList = array(
+        'kitajima', 'aira',
+    );
+    $useTestApi = (APP_ENV !== 'prod' && in_array($theaterName, $hasTestApiTheaterList));
 
-	if ($preTicket){
-		$theaterUrls= array(
-            "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
-            "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
-            "tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/preSchedule.xml",
-            "kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/preSchedule.xml",
-            "numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/preSchedule.xml",
-            "yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/preSchedule.xml",
-            "shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/preSchedule.xml",
-            "okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/preSchedule.xml",
-            "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/preSchedule.xml",
-            "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/preSchedule.xml",
-            "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
-            'kitajima' => PRE_SCHEDULE_KITAJIMA,
-            "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
-            'aira' => PRE_SCHEDULE_AIRA,
-		);
+    try {
+        $theater = new Theater($theaterName, $useTestApi);
 
-	} else {
-		$theaterUrls= array(
-            "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
-            "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
-            "tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/schedule.xml",
-            "kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/schedule.xml",
-            "numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/schedule.xml",
-            "yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/schedule.xml",
-            "shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/schedule.xml",
-            "okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/schedule.xml",
-            "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/schedule.xml",
-            "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/schedule.xml",
-            "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
-            'kitajima' => SCHEDULE_KITAJIMA,
-            "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
-            'aira' => SCHEDULE_AIRA,
-		);
-	}
+        $response = $isPre
+                  ? $theater->fetchPreSchedule()
+                  : $theater->fetchSchedule();
 
-    $url = $theaterUrls[$theater];
-    $data = file_get_contents($url);
-    $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
+        /** @var \SimpleXMLElement */
+        $schedules = $response->getContents();
 
+    } catch (Exception $e) {
+        // もともとエラー処理していなかったのでとりあえずthrow
+        throw $e;
+    }
 
-	if ($preIsExist) {
+	if ($isExist) {
 		$dateArr;
 		//foreach ($schedules->schedule as $schedules) {
 			//var_dump($schedules);

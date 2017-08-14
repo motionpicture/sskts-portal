@@ -1,6 +1,13 @@
 {
+    "repositories": [
+        {
+            "type": "git",
+            "url":  "https://composer:M0P!Xmopix@m-p.backlog.jp/git/SASAKI/schedule.git"
+        }
+    ],
     "require": {
         "php": ">=5.6,<7.0",
+        "cinemasunshine/schedule": "dev-master",
         "monolog/monolog": "^1.22",
         "microsoft/azure-storage": "*"
     }

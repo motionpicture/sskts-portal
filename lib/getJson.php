@@ -1,11 +1,21 @@
 <?php
+/**
+ * PCサイトのjsからajaxされている
+ *
+ * @todo スケジュール取得関係をひとつにまとめたい（getJson.php、getJsonSp.php、getSchedule.php）
+ * @todo ajaxされるものは別のディレクトリにしたい（/apiとか）
+ */
+
 require_once 'const.php';
+require_once APP_ROOT_DIR . '/vendor/autoload.php';
+
+use Cinemasunshine\Schedule\Theater;
 
 /*if (PHP_VERSION <"5.2.0") {
 	include("upgrade.php");
 }*/
 
-//xmlパーシング格納
+/** @var \SimpleXMLElement */
 $schedules;
 
 //結果格納
@@ -53,64 +63,41 @@ if(!empty($_GET["result"])) {
 
 
 
-//
-//劇場のxmlを取得
-//エラーチェックもする
-function targetTheater($theater) {
+/**
+ * 劇場のxmlを取得
+ *
+ * @global \SimpleXMLElement $schedules
+ * @global array             $result
+ * @param string $name 劇場名
+ * @return boolean
+ */
+function targetTheater($name) {
 	global $schedules;
 	global $result;
 
-	if (isset($_GET['pre']) && $_GET['pre']) {
-		$theaterUrls= array(
-            "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/preSchedule.xml",
-            "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/preSchedule.xml",
-            "tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/preSchedule.xml",
-            "kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/preSchedule.xml",
-            "numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/preSchedule.xml",
-            "yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/preSchedule.xml",
-            "shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/preSchedule.xml",
-            "okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/preSchedule.xml",
-            "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/preSchedule.xml",
-            "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/preSchedule.xml",
-            "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/preSchedule.xml",
-            'kitajima' => PRE_SCHEDULE_KITAJIMA,
-            "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/preSchedule.xml",
-            'aira' => PRE_SCHEDULE_AIRA,
-		);
+    // @todo ライブラリで判断したい
+    $hasTestApiTheaterList = array(
+        'kitajima', 'aira',
+    );
+    $useTestApi = (APP_ENV !== 'prod' && in_array($name, $hasTestApiTheaterList));
+    
+    $isPre = (isset($_GET['pre']) && $_GET['pre']);
 
-	} else {
-		$theaterUrls= array(
-            "ikebukuro"=>"http://www2.cinemasunshine.jp/ikebukuro/schedule/xml/schedule.xml",
-            "heiwajima"=>"http://www1.cinemasunshine.jp/heiwajima/schedule/xml/schedule.xml",
-            "tsuchiura"=>"http://www1.cinemasunshine.jp/tsuchiura/schedule/xml/schedule.xml",
-            "kahoku"=>"http://www1.cinemasunshine.jp/kahoku/schedule/xml/schedule.xml",
-            "numazu"=>"http://www1.cinemasunshine.jp/numazu/schedule/xml/schedule.xml",
-            "yamatokoriyama"=>"http://www1.cinemasunshine.jp/yamatokoriyama/schedule/xml/schedule.xml",
-            "shimonoseki"=>"http://www1.cinemasunshine.jp/shimonoseki/schedule/xml/schedule.xml",
-            "okaido"=>"http://www1.cinemasunshine.jp/okaido/schedule/xml/schedule.xml",
-            "kinuyama"=>"http://www1.cinemasunshine.jp/kinuyama/schedule/xml/schedule.xml",
-            "shigenobu"=>"http://www1.cinemasunshine.jp/shigenobu/schedule/xml/schedule.xml",
-            "ozu"=>"http://www1.cinemasunshine.jp/ozu/schedule/xml/schedule.xml",
-            'kitajima' => SCHEDULE_KITAJIMA,
-            "masaki"=>"http://www1.cinemasunshine.jp/masaki/schedule/xml/schedule.xml",
-            'aira' => SCHEDULE_AIRA,
-		);
-	}
+    try {
+        $theater = new Theater($name, $useTestApi);
 
-    if(isset($theaterUrls[$theater]) === false) {
-		$result["error"] ="222222";
+        $response = $isPre
+                  ? $theater->fetchPreSchedule()
+                  : $theater->fetchSchedule();
+
+        /** @var \SimpleXMLElement */
+        $schedules = $response->getContents();
+
+    } catch (Exception $e) {
+        // @todo ログを出すなり、エラーコードを細かく設定するなり
+        $result["error"] = '222222';
 		output($result);
 		return false;
-	}
-
-    $url = $theaterUrls[$theater];
-    $data = file_get_contents($url);
-    $schedules = @simplexml_load_string($data, 'SimpleXMLElement', LIBXML_NOCDATA);
-
-    if(!$schedules) {
-        $result["error"] ="222222";
-        output($result);
-        return false;
     }
 
     if ($schedules->error!= "000000"){
@@ -121,9 +108,13 @@ function targetTheater($theater) {
     }
 
     // 正常終了
-    $result["error"] ="$schedules->error";
-    $result["attention"] ="$schedules->attention";
-    $result['theater_code'] = isset($schedules->theater_code) ? (string) $schedules->theater_code : null; // SSKTS-60
+    $result["error"]     = "$schedules->error";
+    $result["attention"] = "$schedules->attention";
+
+    // SSKTS-60
+    $result['theater_code'] = isset($schedules->theater_code)
+                            ? (string) $schedules->theater_code
+                            : null;
 
     return true;
 }
