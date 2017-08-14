@@ -44,8 +44,9 @@ function getDates($theaterName ,$isPre = false, $isExist = false) {
         $schedules = $response->getContents();
 
     } catch (Exception $e) {
-        // もともとエラー処理していなかったのでとりあえずthrow
-        throw $e;
+        // もともとエラー処理していなかったので、エラーコードを返しておく
+        // @todo ログを出すなり、エラーコードを細かく設定するなり
+        return array('error' => '222222');
     }
 
 	if ($isExist) {
@@ -99,8 +100,9 @@ function getDates2($theaterName, $isPre = false, $isExist = false) {
         $schedules = $response->getContents();
 
     } catch (Exception $e) {
-        // もともとエラー処理していなかったのでとりあえずthrow
-        throw $e;
+        // もともとエラー処理していなかったので、エラーコードを返しておく
+        // @todo ログを出すなり、エラーコードを細かく設定するなり
+        return array('error' => '222222');
     }
 
 	if ($isExist) {
