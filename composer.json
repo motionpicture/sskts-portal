@@ -7,7 +7,7 @@
     ],
     "require": {
         "php": ">=5.6,<7.0",
-        "cinemasunshine/schedule": "dev-master",
+        "cinemasunshine/schedule": "1.0.*",
         "monolog/monolog": "^1.22",
         "microsoft/azure-storage": "*"
     }

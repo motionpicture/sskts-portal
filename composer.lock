@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f8bcdf9a768c01ec1336b7c01b0771e",
+    "content-hash": "b6423275b70445b0e362ffc2b7d6bfe3",
     "packages": [
         {
             "name": "cinemasunshine/schedule",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://composer:M0P!Xmopix@m-p.backlog.jp/git/SASAKI/schedule.git",
-                "reference": "217b80f360c38070101ca137ae3bb5bee203327e"
+                "reference": "2de7d6b5628ea4cfa6736f3ee5a4fccd5efa38b1"
             },
             "require": {
                 "guzzlehttp/guzzle": "6.3.*",
@@ -35,7 +35,7 @@
                 ]
             },
             "description": "Cinemasunshine schedule client",
-            "time": "2017-08-14T09:15:38+00:00"
+            "time": "2017-08-15T08:00:52+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -456,9 +456,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "cinemasunshine/schedule": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
