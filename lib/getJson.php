@@ -254,9 +254,8 @@ function convertTicketingURL($theaterCode, \SimpleXMLElement $movie, $date) {
         throw new \InvalidArgumentException('required "theater_code"');
     }
 
-    $theaterCode    = sprintf('%03d', $theaterCode);
     $titleCode      = (string) $movie->movie_short_code;
-    $titleBranchNum = sprintf('%02d', (string) $movie->movie_branch_code);
+    $titleBranchNum = (string) $movie->movie_branch_code;
     $dateJouei      = $date;
 
     foreach ($movie->screen as $screen) {
