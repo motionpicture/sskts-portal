@@ -135,30 +135,31 @@ function getScheduleMovieSp($theater,$date,$movie_code) {
  * 必要に応じて渡す前にcloneなどする。
  *
  * @link https://m-p.backlog.jp/view/SSKTS-60
- * @param string $theaterCode
+ * @link https://m-p.backlog.jp/view/SSKTS-635
+ * @param string            $theaterCode
  * @param \SimpleXMLElement $movie
- * @param string $date 日付（YYYYMMDD）
- * @throws \LogicException
+ * @param string            $date 日付（YYYYMMDD）
+ * @throws \InvalidArgumentException
  */
 function convertTicketingURL($theaterCode, \SimpleXMLElement $movie, $date) {
 
     if (isset($theaterCode) === false) {
-        throw new \LogicException('required "theater_code"');
+        throw new \InvalidArgumentException('required "theater_code"');
     }
 
-    // @see SSKTS-453
-    $theaterCode = sprintf('%03d', $theaterCode);
-
-    $movieCode = (string) $movie->movie_short_code;
-    $movieBranchCode = (string) $movie->movie_branch_code;
+    $theaterCode    = sprintf('%03d', $theaterCode);
+    $titleCode      = (string) $movie->movie_short_code;
+    $titleBranchNum = sprintf('%02d', (string) $movie->movie_branch_code);
+    $dateJouei      = $date;
 
     foreach ($movie->screen as $screen) {
         $screenCode = (string) $screen->screen_code;
 
         foreach ($screen->time as $time) {
-            // 施設コード + 上映日 + 作品コード + 作品枝番 + スクリーンコード + 上映開始時刻
-            $param = $theaterCode . $date . $movieCode . $movieBranchCode . $screenCode . (string) $time->start_time;
-            $time->url = TICKETING_BASE_URL . '/purchase?id=' . $param;
+            $timeBegin = (string) $time->start_time;
+
+            $id = $theaterCode . $titleCode . $titleBranchNum . $dateJouei . $screenCode . $timeBegin;
+            $time->url = TICKETING_BASE_URL . '/purchase?id=' . $id;
         }
     }
 }
