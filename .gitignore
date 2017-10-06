@@ -50,6 +50,7 @@ composer.bat
 /nbproject
 .project
 .settings
+.vscode/
 
 # git
 !.gitkeep
