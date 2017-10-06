@@ -239,9 +239,11 @@ define ("SiteMap_SP_URL", GROBAL_SP_TOP_URL . "sitemap/");
 if (APP_ENV === 'prod') {
     define('TICKETING_BASE_URL', 'https://ticket-cinemasunshine.com');
 } else if (APP_ENV === 'stg') {
-    define('TICKETING_BASE_URL', 'https://sskts-frontend-test.azurewebsites.net');
+    define('TICKETING_BASE_URL', 'https://sskts-frontend-development-preview.azurewebsites.net'); // 一時的に変更 SSKTS-635
+//    define('TICKETING_BASE_URL', 'https://sskts-frontend-test.azurewebsites.net');
 } else {
-    define('TICKETING_BASE_URL', 'https://sskts-frontend-development.azurewebsites.net');
+    define('TICKETING_BASE_URL', 'https://sskts-frontend-development-preview.azurewebsites.net'); // 一時的に変更 SSKTS-635
+//    define('TICKETING_BASE_URL', 'https://sskts-frontend-development.azurewebsites.net');
 }
 
 ?>
