@@ -1,0 +1,94 @@
+     
+version: 2
+jobs:
+  # build:
+  #   docker:
+  #     # specify the version you desire here
+  #     - image: circleci/php:7.1.5-browsers
+      
+  #     # Specify service dependencies here if necessary
+  #     # CircleCI maintains a library of pre-built images
+  #     # documented at https://circleci.com/docs/2.0/circleci-images/
+  #     # - image: circleci/mysql:9.4
+
+  #   working_directory: ~/repo
+
+  #   steps:
+  #     - checkout
+
+  #     # Download and cache dependencies
+  #     - restore_cache:
+  #         keys:
+  #         - v1-dependencies-{{ checksum "composer.json" }}
+  #         # fallback to using the latest cache if no exact match is found
+  #         - v1-dependencies-
+
+  #     - run: composer install -n --prefer-dist
+
+  #     - save_cache:
+  #         paths:
+  #           - ./vendor
+  #         key: v1-dependencies-{{ checksum "composer.json" }}
+        
+  #     # run tests!
+  #     - run: phpunit
+  # test:
+  #   docker:
+  #     - image: circleci/node:latest
+  #     - image: circleci/mongo:3.2
+  #   steps:
+  #     - checkout
+  #     - restore_cache:
+  #         key: dependency-cache-{{ checksum "package.json" }}
+  #     - run:
+  #         name: run npm test
+  #         command: npm test
+  # doc:
+  #   docker:
+  #     - image: circleci/node:latest
+  #   steps:
+  #     - checkout
+  #     - restore_cache:
+  #         key: dependency-cache-{{ checksum "package.json" }}
+  #     - run:
+  #         name: Generate docs
+  #         command: |
+  #           npm run build
+  #           npm run doc
+  prerelease:
+    # docker:
+    #   - image: circleci/node:8.4
+    steps:
+      - checkout
+      - run:
+          name: deploy to GCP app engine
+          command: |
+            echo $GCLOUD_SERVICE_KEY | base64 --decode --ignore-garbage > ${HOME}/gcloud-service-key.json
+            sudo /opt/google-cloud-sdk/bin/gcloud --quiet components update
+            sudo /opt/google-cloud-sdk/bin/gcloud auth activate-service-account --key-file ${HOME}/gcloud-service-key.json
+            sudo /opt/google-cloud-sdk/bin/gcloud config set project $GCLOUD_PROJECT
+            /opt/google-cloud-sdk/bin/gcloud -q app deploy app-development.yaml
+workflows:
+  version: 2
+
+  build-test-doc-and-deploy:
+    jobs:
+      # - build
+      # - test:
+      #     requires:
+      #       - build
+      # - doc:
+      #     requires:
+      #       - test
+      - prerelease:
+          # requires:
+          #   - doc
+          filters:
+            branches:
+              only: feature/SASAKI-177
+      # - deploy:
+      #     requires:
+      #       - doc
+      #     filters:
+      #       branches:
+      #         only: master
