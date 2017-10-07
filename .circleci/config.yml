@@ -56,8 +56,8 @@ jobs:
   #           npm run build
   #           npm run doc
   prerelease:
-    # docker:
-    #   - image: circleci/node:8.4
+    docker:
+      - image: circleci/php:7.1.5-browsers
     steps:
       - checkout
       - run:
