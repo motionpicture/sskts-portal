@@ -57,6 +57,7 @@ jobs:
   #           npm run doc
   prerelease:
     docker:
+      - image: google/cloud-sdk
       - image: circleci/php:7.1.5-browsers
     steps:
       - checkout
@@ -64,10 +65,10 @@ jobs:
           name: deploy to GCP app engine
           command: |
             echo $GCLOUD_SERVICE_KEY | base64 --decode --ignore-garbage > ${HOME}/gcloud-service-key.json
-            sudo /opt/google-cloud-sdk/bin/gcloud --quiet components update
-            sudo /opt/google-cloud-sdk/bin/gcloud auth activate-service-account --key-file ${HOME}/gcloud-service-key.json
-            sudo /opt/google-cloud-sdk/bin/gcloud config set project $GCLOUD_PROJECT
-            /opt/google-cloud-sdk/bin/gcloud -q app deploy app-development.yaml
+            # gcloud --quiet components update
+            gcloud auth activate-service-account --key-file ${HOME}/gcloud-service-key.json
+            gcloud config set project $GCLOUD_PROJECT
+            gcloud -q app deploy app-development.yaml
 workflows:
   version: 2
 
