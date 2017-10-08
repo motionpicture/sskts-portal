@@ -35,18 +35,18 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Dump Google Cloud Credentials to file
-        # command: echo $GCLOUD_SERVICE_KEY | base64 --decode --ignore-garbage > ${HOME}/gcloud-service-key.json
-        command: echo ${GOOGLE_AUTH} > ${HOME}/gcp-key.json
+          name: Dump Google Cloud Credentials to file
+          # command: echo $GCLOUD_SERVICE_KEY | base64 --decode --ignore-garbage > ${HOME}/gcloud-service-key.json
+          command: echo ${GOOGLE_AUTH} > ${HOME}/gcp-key.json
       - run:
-        name: Deploy to GCP app engine
-        command: |
-          # gcloud --quiet components update
-          # gcloud auth activate-service-account --key-file
-          ${HOME}/gcloud-service-key.json
-          gcloud auth activate-service-account --key-file ${HOME}/gcp-key.json
-          gcloud config set project ${GOOGLE_PROJECT_ID}
-          gcloud --quiet app deploy app-development.yaml
+          name: Deploy to GCP app engine
+          command: |
+            # gcloud --quiet components update
+            # gcloud auth activate-service-account --key-file
+            ${HOME}/gcloud-service-key.json
+            gcloud auth activate-service-account --key-file ${HOME}/gcp-key.json
+            gcloud config set project ${GOOGLE_PROJECT_ID}
+            gcloud --quiet app deploy app-development.yaml
 workflows:
   version: 2
   build-test-doc-and-deploy:
